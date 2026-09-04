@@ -109,4 +109,33 @@ python3 scripts/guard-inbox-latency.py /home/agents/ecosystem/knowledge/guard-re
 ```
 
 ---
+
+## Верифікований корпус першоджерел, синтез та реліз Volnost License v1.0 (2026-09-05)
+
+У вересні 2026 року репозиторій пройшов повний цикл епістемічного та правового аудиту (Фази 1–5):
+1. **Збір та деконструкція першоджерел (Фаза 1)**:
+   - Придбано повний автентичний текст Сеймової конституції 1659 року (Kommissya Hadziacka) з *Volumina Legum* (т. IV, с. 297–308, 2298 рядків).
+   - Деконструйовано комплекс Зборова 1649 року на 4 окремі одиниці: Королівська декларація Яна Казимира, Чолобитна Війська, Договір з Кримом, Реєстр 40 480 козаків у 16 полках.
+   - Запроваджено дворівневу модель ризиків: `SOURCE-INTERPRETATION-RISK` у [WITNESS-ACQUISITION-REGISTER.md](file:///home/agents/GitHub/pravda/WITNESS-ACQUISITION-REGISTER.md).
+2. **Коляція L2 та аудит (Фаза 2)**:
+   - Створено [L2-COLLATION-CROSSWALK.md](file:///home/agents/GitHub/pravda/L2-COLLATION-CROSSWALK.md) із посторінковою звіркою проти друкованих академічних видань (*Volumina Legum*, ЧОИДР, Джерела Грушевського, АН УРСР/СРСР).
+   - Доповнено [HISTORICAL-CLAIMS-REGISTER.md](file:///home/agents/GitHub/pravda/HISTORICAL-CLAIMS-REGISTER.md) 12 атомарними твердженнями з `CLAIM-INTERPRETATION-RISK`.
+3. **Історія понять (Begriffsgeschichte Matrix) (Фаза 3)**:
+   - [BEGRIFFSGESCHICHTE-MATRIX.md](file:///home/agents/GitHub/pravda/BEGRIFFSGESCHICHTE-MATRIX.md): семантичний аналіз 7 ключових понять (*право*, *вольность*, *послушенство*, *статті*, *рада*, *присяга*, *отчизна*).
+   - Зафіксовано станову дихотомію XVII ст.: вольність як закритий ресурс реєстру (40 000) проти кріпосного послушенства нереєстрових селян.
+4. **Історичний синтез та 4 етичні аксіоми (Фаза 4)**:
+   - [HISTORICAL-SYNTHESIS.md](file:///home/agents/GitHub/pravda/HISTORICAL-SYNTHESIS.md): деконструкція 4 епох (Русь → ВКЛ → Гетьманщина → Бендери).
+   - Виведено 4 аксіоми для технологічного ліцензування:
+     1. Право як процес і захист особи (Руська Правда);
+     2. Заборона деспотизму та свавілля *«так хочу»* (Орлик 1710);
+     3. Подолання станового кастового егоїзму (урок Зборова);
+     4. Захист слабшої сторони від посадового свавілля (Березневі статті 1654).
+5. **Реліз Volnost Ethical Public License v1.0 (Фаза 5)**:
+   - [VOLNOST-LICENSE-FRAMEWORK.md](file:///home/agents/GitHub/pravda/license/VOLNOST-LICENSE-FRAMEWORK.md): юридична концепція ліцензії.
+   - [VOLNOST-LICENSE-1.0.md](file:///home/agents/GitHub/pravda/license/VOLNOST-LICENSE-1.0.md) (офіційний англійський текст).
+   - [VOLNOST-LICENSE-1.0.uk.md](file:///home/agents/GitHub/pravda/license/VOLNOST-LICENSE-1.0.uk.md) (повний український текст).
+   - [volnost_lint.py](file:///home/agents/GitHub/pravda/scripts/volnost_lint.py): валідатор та лінтер для кодових баз.
+   - [LEGAL-COUNSEL-BRIEFING-PACKET.md](file:///home/agents/GitHub/pravda/docs/LEGAL-COUNSEL-BRIEFING-PACKET.md): пакет для зовнішніх юридичних радників з IP та міжнародного публічного права.
+
+---
 *Створено з любов'ю до правди, волі та людини. 2026 рік.*
