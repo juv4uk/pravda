@@ -1,0 +1,195 @@
+import os
+
+license_en = """# VOLNOST ETHICAL PUBLIC LICENSE
+## Version 1.0, September 2026
+
+Copyright (c) 2026 The Authors and Contributors.
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+---
+
+### PREAMBLE
+
+The Volnost Ethical Public License (VEPL) is grounded in the historical jurisprudence of liberties (*volnosti*) and the principle of the supremacy of law over arbitrary power (*custos legum* vs *licentia*). 
+
+This License establishes a covenant between authors and recipients: it guarantees the fullest technological freedom to use, study, modify, and distribute software, while establishing an inviolable boundary against using technology as an instrument of aggressive warfare, state terror, extrajudicial repression, and digital subjugation.
+
+---
+
+### SECTION 1. DEFINITIONS
+
+1.1. **"Software"** means the copyrighted work of authorship (including source code, object code, documentation, data models, configuration, and build scripts) made available under this License.
+
+1.2. **"You"** (or **"Recipient"**) means any natural person, legal entity, unincorporated association, collective, public authority, sovereign state, or armed force exercising rights granted under this License.
+
+1.3. **"Derivative Work"** means any work based upon the Software, or any modification, translation, adaptation, or enhancement thereof, that constitutes a copyrightable work of authorship.
+
+1.4. **"Distribute"** means to convey, publish, sell, license, provide access to, or make available copies of the Software or Derivative Works to third parties.
+
+1.5. **"Crime of Aggression"** means any act or war of aggression as defined under Article 8 bis of the Rome Statute of the International Criminal Court and United Nations General Assembly Resolution 3314 (XXIX), characterized by the planning, preparation, initiation, or execution of an act of armed force by a state against the sovereignty, territorial integrity, or political independence of another state.
+
+1.6. **"War Crimes and Crimes Against Humanity"** means conduct defined under Articles 7 and 8 of the Rome Statute of the International Criminal Court, and breaches of the Geneva Conventions of 12 August 1949 and their Additional Protocols.
+
+1.7. **"Gross Human Rights Violations"** means acts of torture, cruel, inhuman, or degrading treatment (as defined in the UN Convention Against Torture), extrajudicial executions, enforced disappearances, or arbitrary mass electronic surveillance violating Articles 12 and 19 of the Universal Declaration of Human Rights.
+
+---
+
+### SECTION 2. GRANT OF LIBERTIES
+
+2.1. **Grant of Copyright License.** Subject to the terms and invariant covenants of this License, the Author hereby grants You a perpetual, worldwide, non-exclusive, royalty-free, irrevocable (except as provided in Section 5) copyright license to:
+(a) Run and execute the Software for any purpose not prohibited by Section 3;
+(b) Access, inspect, and study the source code and internal architecture of the Software;
+(c) Modify, adapt, translate, and create Derivative Works of the Software;
+(d) Distribute, reproduce, publish, and sublicense the Software and Derivative Works.
+
+2.2. **Universal Symmetry.** The liberties granted under Section 2.1 apply symmetrically to all natural persons and legal entities, regardless of nationality, country of origin, residence, or legal status.
+
+---
+
+### SECTION 3. THE COVENANT OF LIBERTIES (INVARIANT LIMITATIONS)
+
+The grant of liberties under Section 2 is strictly conditioned upon Your ongoing compliance with each of the following negative covenants:
+
+3.1. **Prohibition of Aggressive Warfare.** You shall not use, execute, integrate, or deploy the Software or Derivative Works, directly or indirectly, in furtherance of, preparation for, execution of, or logistical support for any Crime of Aggression or unlawful armed invasion against any sovereign state.
+
+3.2. **Prohibition of War Crimes and Repression.** You shall not use the Software or Derivative Works, directly or indirectly, to commit, facilitate, automate, analyze, or support:
+(a) War Crimes or Crimes Against Humanity;
+(b) Acts of torture, political persecution, or arbitrary detention;
+(c) Systematic, non-consensual biometric mass surveillance or unlawful mass interception of civilian communications.
+
+3.3. **Anti-Enclosure and Non-Revocation (Copyleft Integrity).** 
+(a) Any distribution of the Software or Derivative Works must be licensed under the terms of this License or a compatible license that preserves these identical covenants.
+(b) You shall not impose digital rights management (DRM), proprietary encryption, hardware lock-in, or contractual terms that restrict recipients from exercising the liberties guaranteed in Section 2.
+(c) You shall not introduce malicious telemetry, backdoor surveillance mechanisms, or remote kill switches into the Software.
+
+---
+
+### SECTION 4. LEGITIMATE SELF-DEFENSE (SAFE HARBOR)
+
+4.1. **Inherent Right of Self-Defense.** Nothing in Section 3 shall be construed to prohibit, limit, or restrict the use of the Software or Derivative Works by any party for:
+(a) The legitimate exercise of individual or collective self-defense against unlawful armed invasion or armed attack, in strict conformity with Article 51 of the Charter of the United Nations;
+(b) The defense and protection of civilian populations, critical life-support infrastructure, public healthcare, and maritime/aerial navigational safety;
+(c) Defensive cybersecurity, vulnerability research, and incident mitigation undertaken to protect information systems against unauthorized intrusions and cyberwarfare.
+
+---
+
+### SECTION 5. TERMINATION AND DUE PROCESS
+
+5.1. **Automatic Suspension.** Any material breach of the covenants set forth in Section 3 shall immediately and automatically suspend all licenses and liberties granted to You under this License.
+
+5.2. **Cure Period.** If Your license is suspended under Section 5.1, it shall be permanently revoked unless You:
+(a) Completely cease the prohibited use and mitigate all consequences thereof within thirty (30) calendar days of receiving formal notice of violation; or
+(b) Establish through a conclusive determination by an independent judicial or international arbitral forum (such as the International Court of Justice, the International Criminal Court, or an ad-hoc tribunal under UNCITRAL rules) that Your use did not constitute a breach of Section 3.
+
+5.3. **Rights of Downstream Recipients.** The suspension or termination of Your license under this Section shall not terminate or impair the licenses of any downstream recipients who obtained the Software or Derivative Works from You in good faith and remain in compliance with this License.
+
+---
+
+### SECTION 6. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+
+6.1. **Disclaimer.** TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+6.2. **Limitation of Liability.** IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+"""
+
+license_uk = """# ПУБЛІЧНА ЕТИЧНА ЛІЦЕНЗІЯ «ВОЛЬНОСТЬ» (ВЕПЛ)
+## Версія 1.0, вересень 2026 року
+
+Copyright (c) 2026 Автори та контрибутори проєкту.
+
+Кожен має право копіювати та поширювати дослівні копії цього ліцензійного документа, проте змінювати його текст заборонено.
+
+---
+
+### ПРЕАМБУЛА
+
+Публічна етична ліцензія «Вольность» (VEPL) спирається на історико-правову традицію інституційних прав і вольностей та принцип верховенства закону над сваволею володаря (*custos legum* проти *licentia*).
+
+Ця Ліцензія встановлює непорушний пакт між автором та користувачем: вона гарантує найширшу технологічну свободу використання, дослідження, зміни та поширення програмного забезпечення, водночас встановлюючи непорушну межу проти перетворення коду на знаряддя агресивної війни, репресій, катувань та цифрового закріпачення.
+
+---
+
+### РОЗДІЛ 1. ВИЗНАЧЕННЯ ТЕРМІНІВ
+
+1.1. **«Програмне забезпечення»** означає об'єкт авторського права (включно з вихідним кодом, об'єктним кодом, документацією, моделями даних, конфігураціями та складальними скриптами), що надається за цією Ліцензією.
+
+1.2. **«Ви»** (або **«Одержувач»**) означає будь-яку фізичну або юридичну особу, некорпоративне об'єднання, колектив, орган влади, суверенну державу або збройні сили, які реалізують права за цією Ліцензією.
+
+1.3. **«Похідний твір»** означає будь-який твір, створений на основі Програмного забезпечення, або його модифікацію, переклад чи адаптацію, що утворює самостійний об'єкт авторського права.
+
+1.4. **«Розповсюдження»** означає передачу, публікацію, продаж, субліцензування або надання доступу до копій Програмного забезпечення чи Похідних творів третім особам.
+
+1.5. **«Злочин агресії»** означає будь-який акт або війну агресії згідно зі статтею 8 bis Римського статуту Міжнародного кримінального суду та Резолюцією Генеральної Асамблеї ООН 3314 (XXIX), що характеризується плануванням, підготовкою, ініціюванням або здійсненням державою акта збройної сили проти суверенітету, територіальної цілісності або політичної незалежності іншої держави.
+
+1.6. **«Воєнні злочини та злочини проти людяності»** означає діяння, визначені статтями 7 та 8 Римського статуту МКС, а також порушення Женевських конвенцій від 12 серпня 1949 року та Додаткових протоколів до них.
+
+1.7. **«Грубі порушення прав людини»** означає катування, нелюдське чи таке, що принижує гідність, поводження (Конвенція ООН проти катувань), позасудові страти, насильницькі зникнення людей або довільне масове електронне стеження, що порушує статті 12 та 19 Загальної декларації прав людини.
+
+---
+
+### РОЗДІЛ 2. НАДАННЯ ВОЛЬНОСТЕЙ (ПРАВ)
+
+2.1. **Обсяг авторських прав.** За умови дотримання положень цієї Ліцензії Автор надає Вам безвідкличну (крім випадків, передбачених Розділом 5), безстрокову, безоплатну, невиключну ліцензію на території всього світу на:
+(a) Виконання та запуск Програмного забезпечення для будь-яких цілей, не заборонених Розділом 3;
+(b) Доступ, ознайомлення та вивчення вихідного коду й внутрішньої архітектури;
+(c) Модифікацію, адаптацію, створення Похідних творів;
+(d) Розповсюдження, публікацію, відтворення та субліцензування Програмного забезпечення та Похідних творів.
+
+2.2. **Універсальна симетрія.** Права, надані за цією Ліцензією, застосовуються симетрично та рівноправно до будь-яких осіб, незалежно від їхньої національності, громадянства, країни перебування чи форми власності.
+
+---
+
+### РОЗДІЛ 3. ПАКТ ВОЛЬНОСТЕЙ (НЕПОРУШНІ ОБМЕЖЕННЯ)
+
+Надання прав за Розділом 2 є строго зумовленим Вашим безперервним дотриманням таких негативних зобов'язань:
+
+3.1. **Заборона ведення агресивної війни.** Забороняється використовувати, запускати або інтегрувати Програмне забезпечення чи Похідні твори, прямо чи опосередковано, для планування, підготовки, ведення або логістичного забезпечення Злочину агресії або збройного вторгнення на територію суверенної держави.
+
+3.2. **Заборона воєнних злочинів та репресій.** Забороняється використовувати Програмне забезпечення чи Похідні твори для здійснення чи підтримки:
+(a) Воєнних злочинів чи злочинів проти людяності;
+(b) Катувань, політичних переслідувань або свавільного позбавлення волі;
+(c) Систематичного масового стеження за цивільним населенням без згоди осіб або незаконного перехоплення приватних комунікацій.
+
+3.3. **Захист від цифрового закріпачення (Anti-Enclosure).**
+(a) Будь-яке розповсюдження Програмного забезпечення або Похідних творів повинно здійснюватися на умовах цієї Ліцензії або сумісної ліцензії, яка зберігає ці самі обмеження.
+(b) Забороняється накладати цифрові замки (DRM), примусове пропрієтарне шифрування чи кабальні договори, які позбавляють одержувачів можливості реалізувати вольності, гарантовані Розділом 2.
+(c) Забороняється вбудовувати шкідливу телеметрію, механізми несанкціонованого стеження чи дистанційного блокування (kill switches).
+
+---
+
+### РОЗДІЛ 4. ЛЕГІТИМНА САМООБОРОНА (SAFE HARBOR)
+
+4.1. **Невіддільне право на самооборону.** Жодне положення Розділу 3 не може тлумачитися як заборона або обмеження використання Програмного забезпечення чи Похідних творів для:
+(a) Легітимної індивідуальної чи колективної самооборони від збройного вторгнення або збройного нападу в суворій відповідності зі статтею 51 Статуту ООН;
+(b) Захисту цивільного населення, критичної інфраструктури, системи охорони здоров'я та безпеки судноплавства/авіації;
+(c) Захисної кібербезпеки та усунення вразливостей від несанкціонованих атак.
+
+---
+
+### РОЗДІЛ 5. ПРОЦЕДУРА ПРИПИНЕННЯ ДІЇ ТА ДУХ ПРАВА
+
+5.1. **Автоматичне зупинення прав.** Будь-яке порушення зобов'язань Розділу 3 негайно та автоматично зупиняє дію всіх ліцензійних прав, наданих Вам за цією Ліцензією.
+
+5.2. **Термін на усунення (Cure Period).** Зупинені права припиняються остаточно, якщо тільки Ви:
+(a) Повністю не припините заборонене використання протягом 30 календарних днів з моменту отримання повідомлення про порушення; або
+(b) Не встановите через незалежний міжнародний суд або арбітраж (Міжнародний суд ООН, МКС або трибунал за регламентом UNCITRAL), що використання не становило порушення Розділу 3.
+
+5.3. **Права добросовісних третіх сторін.** Припинення дії Вашої ліцензії не скасовує прав добросовісних користувачів, які отримали твір від Вас раніше та неухильно дотримуються умов Ліцензії.
+
+---
+
+### РОЗДІЛ 6. ВІДМОВА ВІД ГАРАНТІЙ ТА ОБМЕЖЕННЯ ВІДПОВІДАЛЬНОСТІ
+
+6.1. **Відмова від гарантій.** ПРОГРАМНЕ ЗАБЕЗПЕЧЕННЯ НАДАЄТЬСЯ НА УМОВАХ «ЯК Є» (AS IS), БЕЗ БУДЬ-ЯКИХ ЯВНИХ ЧИ НЕЯВНИХ ГАРАНТІЙ, ВКЛЮЧНО З ПРИДАТНІСТЮ ДЛЯ КОНКРЕТНОЇ МЕТИ.
+
+6.2. **Обмеження відповідальності.** АВТОРИ ТА КОНТРИБУТОРИ ЗА ЖОДНИХ ОБСТАВИН НЕ НЕСУТЬ ВІДПОВІДАЛЬНОСТІ ЗА БУДЬ-ЯКІ ПРЯМІ ЧИ НЕПРЯМІ ЗБИТКИ, ЩО ВИНИКЛИ ВНАСЛІДОК ВИКОРИСТАННЯ ЦЬОГО ПРОГРАМНОГО ЗАБЕЗПЕЧЕННЯ.
+"""
+
+with open("/home/agents/GitHub/pravda/license/VOLNOST-LICENSE-1.0.md", "w", encoding="utf-8") as f:
+    f.write(license_en)
+
+with open("/home/agents/GitHub/pravda/license/VOLNOST-LICENSE-1.0.uk.md", "w", encoding="utf-8") as f:
+    f.write(license_uk)
+
+print("Created VOLNOST-LICENSE-1.0.md and VOLNOST-LICENSE-1.0.uk.md successfully!")
