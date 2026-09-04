@@ -1,4 +1,11 @@
 # ІСТОРИЧНИЙ СИНТЕЗ: ЩО ОЗНАЧАЛО МАТИ «ПРАВА І ВОЛЬНОСТІ» У РІЗНІ ЕПОХИ?
+
+> [!WARNING]
+> **STATUS: EXPERIMENTAL / NON-AUTHORITATIVE DRAFT — NOT ADOPTED**
+> This document represents an exploratory research draft and has **NOT** been approved, ratified, or adopted by the Project Owner as policy or licensing for any repository in the ecosystem.
+> **DO NOT PROPAGATE. DO NOT ENFORCE. LINTER SHALL NOT DEFINE NORMATIVE CONTENT.**
+> Methodology in effect: `SOURCE → EXTRACTION → RESEARCH → NORMATIVE`. We are currently at .
+
 ## Дослідницький звіт Фази 4 за результатами верифікації першоджерел
 
 **Status:** ACTIVE / CANONICAL HISTORICAL SYNTHESIS (PHASE 4)  

@@ -1,4 +1,11 @@
 # LEGAL COUNSEL BRIEFING PACKET: VOLNOST ETHICAL PUBLIC LICENSE (VEPL v1.0)
+
+> [!WARNING]
+> **STATUS: EXPERIMENTAL / NON-AUTHORITATIVE DRAFT — NOT ADOPTED**
+> This document represents an exploratory research draft and has **NOT** been approved, ratified, or adopted by the Project Owner as policy or licensing for any repository in the ecosystem.
+> **DO NOT PROPAGATE. DO NOT ENFORCE. LINTER SHALL NOT DEFINE NORMATIVE CONTENT.**
+> Methodology in effect: `SOURCE → EXTRACTION → RESEARCH → NORMATIVE`. We are currently at .
+
 ## Практичний меморандум для юридичного радника та спеціалістів з міжнародного права й IP
 ### Status: READY FOR EXTERNAL LEGAL REVIEW · Date: 2026-09-05 · Target: Enforceability & Cross-Jurisdictional Validity
 

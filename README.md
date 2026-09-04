@@ -110,7 +110,14 @@ python3 scripts/guard-inbox-latency.py /home/agents/ecosystem/knowledge/guard-re
 
 ---
 
-## Верифікований корпус першоджерел, синтез та реліз Volnost License v1.0 (2026-09-05)
+## Верифікований корпус першоджерел та статус дослідницьких чернеток (2026-09-05)
+
+> [!WARNING]
+> **STOP NORMATIVE EXPANSION: ДОСЛІДНИЦЬКІ ЧЕРНЕТКИ НЕ Є ПРИЙНЯТОЮ ПОЛІТИКОЮ**
+> Створені документи (`VOLNOST-LICENSE-1.0.md`, `VOLNOST-LICENSE-FRAMEWORK.md`, `LEGAL-COUNSEL-BRIEFING-PACKET.md`, `volnost_lint.py`, `HISTORICAL-SYNTHESIS.md`, `BEGRIFFSGESCHICHTE-MATRIX.md`) мають статус **EXPERIMENTAL / NON-AUTHORITATIVE RESEARCH DRAFTS**. Вони **НЕ** є офіційно прийнятою ліцензією чи обов'язковими аксіомами екосистеми.
+> Чинна методологія: `SOURCE → EXTRACTION → RESEARCH → NORMATIVE`.
+> Поточний активний етап: **SOURCE → EXTRACTION (Wave 1: буквальне вилучення історичних фактів без інтерпретацій у `HISTORICAL-CLAIMS-REGISTER.md`)**.
+> Принцип: **LINTER SHALL NOT DEFINE NORMATIVE CONTENT**.
 
 У вересні 2026 року репозиторій пройшов повний цикл епістемічного та правового аудиту (Фази 1–5):
 1. **Збір та деконструкція першоджерел (Фаза 1)**:
