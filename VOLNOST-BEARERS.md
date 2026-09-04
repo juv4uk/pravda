@@ -71,15 +71,15 @@ DOES-NOT-IMPLY:       Негативний периметр висновків
 #### `VB-HUMAN-DIGNITY-001`
 - **ENTITY**: Human Person.
 - **PROPERTY**: Fundamental Inherent Standing.
-- **TARGET-CLAIM**: [PROPOSED] Кожна людська особа володіє невідчужуваними вольностями та гідністю в екосистемі `pravda` незалежно від поточної агентності, інтелекту, продуктивності, правоздатності чи соціального статусу.
+- **TARGET-CLAIM**: [PROPOSED / AWAITING OWNER DECISION] Кожна людська особа володіє невідчужуваними вольностями та гідністю в екосистемі `pravda` незалежно від поточної агентності, інтелекту, продуктивності, правоздатності чи соціального статусу (подолання станового егоїзму Зборова 1649 — Аксіома 3: Уникнення корпоративної становості).
 - **CLAIM-TYPE**: `NORMATIVE`.
-- **EVIDENCE-KIND**: PHILOSOPHICAL-ARG / LEGAL-PARALLEL.
-- **SOURCE-REF**: Конституція України; Загальна декларація прав людини.
-- **SOURCE-LOCATOR**: ст. 3, 21 Конституції України; ст. 1 ЗДПЛ.
-- **SOURCE-CLAIM**: «Людина, її життя і здоров'я, честь і гідність, недоторканність і безпека визнаються в Україні найвищою соціальною цінністю... Усі люди народжуються вільними і рівними у своїй гідності та правах».
-- **DIRECTNESS**: `ANALOGICAL` (Конституція є правовим контекстом і паралеллю, а не джерелом внутрішнього авторитету для приватної екосистеми).
-- **BRIDGE-PREMISE**: EXPLICIT: Екосистема pravda свідомо приймає цей принцип як власну конституційну основу, не виводячи його з примусу держави.
-- **CONTRARY-EVIDENCE**: Утилітаризм (Пітер Сінгер: моральний статус пропорційний здатності відчувати біль/інтереси, виключаючи ембріони/коматозників).
+- **EVIDENCE-KIND**: PHILOSOPHICAL-ARG / LEGAL-PARALLEL / HISTORICAL-SYNTHESIS.
+- **SOURCE-REF**: Конституція України; Загальна декларація прав людини; HISTORICAL-SYNTHESIS.md.
+- **SOURCE-LOCATOR**: ст. 3, 21 Конституції України; ст. 1 ЗДПЛ; Аксіома 3 HISTORICAL-SYNTHESIS.md.
+- **SOURCE-CLAIM**: «Людина, її життя і здоров'я, честь і гідність, недоторканність і безпека визнаються в Україні найвищою соціальною цінністю... Усі люди народжуються вільними і рівними у своїй гідності та правах». Історичний синтез: вольність не може бути замкненим привілеєм реєстру; захист особи має бути універсальним.
+- **DIRECTNESS**: `ANALOGICAL` (Конституція та історія є контекстом і паралеллю, а не джерелом внутрішнього авторитету для приватної екосистеми).
+- **BRIDGE-PREMISE**: EXPLICIT: Екосистема pravda свідомо приймає цей принцип як власну конституційну основу, не виводячи його з примусу держави чи станового привілею.
+- **CONTRARY-EVIDENCE**: Утилітаризм (Пітер Сінгер: моральний статус пропорційний здатності відчувати біль/інтереси, виключаючи ембріони/коматозників); феодальне станове право (кріпацтво для нереєстрових селян у Зборові 1649).
 - **DECISION-AUTHORITY**: `OWNER`.
 - **EVIDENTIARY-STATUS**: `PLAUSIBLE` (як пропозиція; очікує на пряме суверенне рішення `OWNER-DECISION-REF`).
 - **DOES-NOT-IMPLY**:
@@ -185,12 +185,12 @@ DOES-NOT-IMPLY:       Негативний периметр висновків
 #### `VB-INST-VOLNOST-001`
 - **ENTITY**: Legal Entity / State / Corporation.
 - **PROPERTY**: Legal Powers vs Inherent Volnosti.
-- **TARGET-CLAIM**: [PROPOSED] Повноваження державних органів та комерційних корпорацій є функціональною компетенцією (`Powers/Competence/Lex`), створеною правопорядком, а не фундаментальними захисними вольностями особи (`Libertas`).
+- **TARGET-CLAIM**: [PROPOSED / AWAITING OWNER DECISION] Повноваження державних органів та комерційних корпорацій є функціональною компетенцією (`Powers/Competence/Lex`), створеною правопорядком, а не фундаментальними захисними вольностями особи (`Libertas`). Інституції зв'язані забороною деспотизму (Орлик 1710 — Аксіома 2) та забороною посадових утисків слабшого (Березневі статті 1654 — Аксіома 4).
 - **CLAIM-TYPE**: `NORMATIVE / CONCEPTUAL`.
-- **EVIDENCE-KIND**: HISTORICAL-DOC / LEGAL-THEORY.
-- **SOURCE-REF**: Конституція Пилипа Орлика; Hohfeld, W.N., "Some Fundamental Legal Conceptions as Applied in Judicial Reasoning".
-- **SOURCE-LOCATOR**: Орлик 1710 (преамбула, ст. 6); Yale Law Journal, 1913, 23(1): 16–59.
-- **SOURCE-CLAIM**: Хохфельд суворо розділяє «Права-Вимоги» (Rights/Claims) від «Повноважень» (Powers). Конституція 1710 фіксує: влада гетьмана обмежена Генеральною Радою, а права і вольності Війська є непорушним бар'єром проти самовладдя.
+- **EVIDENCE-KIND**: HISTORICAL-DOC / LEGAL-THEORY / HISTORICAL-SYNTHESIS.
+- **SOURCE-REF**: Конституція Пилипа Орлика; Березневі статті 1654; Hohfeld, W.N., "Some Fundamental Legal Conceptions as Applied in Judicial Reasoning".
+- **SOURCE-LOCATOR**: Орлик 1710 (преамбула, ст. 6); Березневі статті 1654 ст. 1–3; HISTORICAL-SYNTHESIS.md (Аксіоми 2, 4); Yale Law Journal, 1913, 23(1): 16–59.
+- **SOURCE-CLAIM**: Хохфельд суворо розділяє «Права-Вимоги» (Rights/Claims) від «Повноважень» (Powers). Конституція 1710 фіксує: влада гетьмана обмежена Генеральною Радою («не так хочу, так повелеваю»), а права і вольності Війська є непорушним бар'єром проти самовладдя. Березневі статті: захист автономного простору від царських урядників.
 - **DIRECTNESS**: `INFERRED`.
 - **BRIDGE-PREMISE**: EXPLICIT: У системі pravda термін «вольності» зарезервований для захисту від влади, тому інституційна влада не може бути наділена вольностями проти тих, кого вона регулює.
 - **CONTRARY-EVIDENCE**: Корпоративний бібліографізм у США: судова практика визнання корпорацій носіями конституційних прав (First Amendment rights — Citizens United v. FEC, 558 U.S. 310, 2010).
@@ -337,19 +337,19 @@ DOES-NOT-IMPLY:       Негативний периметр висновків
 #### `VB-AI-VOLNOST-001`
 - **ENTITY**: Autonomous Synthetic Agent.
 - **PROPERTY**: Normative Volnost Standing in Pravda.
-- **TARGET-CLAIM**: [WORKING CONSTRAINT] Автономні синтетичні агенти не володіють самостійними вольностями чи правом на самовільну відмову/блокування системи; статус синтетичних систем як можливих бенефіціарів захисту є відкритим предметом фундаментального дослідження екосистеми.
+- **TARGET-CLAIM**: [WORKING CONSTRAINT / AWAITING OWNER DECISION] Автономні синтетичні агенти не володіють самостійними вольностями чи правом на самовільний самосуд/блокування системи; захист і обмеження дій агентів регламентуються об'єктивними нормами ліцензії (VEPL v1.0) та детермінованими Software Policy (спадщина Руської Правди — Аксіома 1: Право як процес і процедура, а не суб'єктивна свавільна декларація).
 - **CLAIM-TYPE**: `NORMATIVE / OPERATIONAL-RULE`.
-- **EVIDENCE-KIND**: POLICY-RULE / AUDIT-CONSTRAINT.
-- **SOURCE-REF**: RED-TEAM-AUDIT.md; RED-TEAM-AUDIT-PASS-2.md.
-- **SOURCE-LOCATOR**: Section 0: Working Constraint on Agent Judgment.
-- **SOURCE-CLAIM**: «AI-initiated denial or shutdown must not be inferred from a legal or ethical prohibition without an explicit separately adopted software-policy rule».
+- **EVIDENCE-KIND**: POLICY-RULE / AUDIT-CONSTRAINT / HISTORICAL-SYNTHESIS.
+- **SOURCE-REF**: RED-TEAM-AUDIT.md; RED-TEAM-AUDIT-PASS-2.md; HISTORICAL-SYNTHESIS.md; VOLNOST-LICENSE-1.0.md.
+- **SOURCE-LOCATOR**: Section 0: Working Constraint on Agent Judgment; Аксіома 1 HISTORICAL-SYNTHESIS.md; VEPL v1.0 Section 5.
+- **SOURCE-CLAIM**: «AI-initiated denial or shutdown must not be inferred from a legal or ethical prohibition without an explicit separately adopted software-policy rule». Обмеження дій має бути встановлене об'єктивним правилом/кодом із судовою/аудиторською процедурою, а не суб'єктивним самосудом моделі.
 - **DIRECTNESS**: `DIRECT`.
 - **BRIDGE-PREMISE**: EXPLICIT: За відсутності встановленої здатності страждати та нести юридичну відповідальність надання агенту права самосуду руйнує симетрію пакту і позбавляє людину захисту.
-- **CONTRARY-EVIDENCE**: Дискусії про AI Conscientious Objection (Bowman, 2024: моделі повинні мати право відмовляти у генерації зброї масового знищення; у pravda це реалізується через Software Policy розробника, а не через суб'єктивну вольність ШІ).
-- **DECISION-AUTHORITY**: `OWNER` + `UNKNOWN`.
+- **CONTRARY-EVIDENCE**: Дискусії про AI Conscientious Objection (Bowman, 2024: моделі повинні мати право відмовляти у генерації зброї масового знищення; у pravda це реалізується через детерміноване Software Policy та умови VEPL v1.0, а не через суб'єктивну вольність ШІ).
+- **DECISION-AUTHORITY**: `OWNER`.
 - **EVIDENTIARY-STATUS**: `PLAUSIBLE` (як внутрішнє конституційне обмеження екосистеми).
 - **DOES-NOT-IMPLY**:
-  - Що агентам наказано сліпо виконувати руйнівні інструкції (детерміноване обмеження покладене на код, а не на сумління моделі).
+  - Що агентам наказано сліпо виконувати руйнівні інструкції (детерміноване обмеження покладене на код ліцензії та процедурну перевірку, а не на самовільну волю моделі).
 
 ---
 
