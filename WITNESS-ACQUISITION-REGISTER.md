@@ -1,255 +1,234 @@
 # РЕЄСТР НАБУТТЯ ТА АТЕСТАЦІЇ НОСІЇВ ДЖЕРЕЛ (WITNESS-ACQUISITION-REGISTER)
-## Status: ACTIVE · First Wave: 10 Critical Corpora · Pass: Witness-Level Verification 1
+## Status: ACTIVE · First Wave: 10 Corpora · Pass: Witness Integrity Audit 1
 
 ---
 
-## 0. ФУНДАМЕНТАЛЬНА ДЕМАРКАЦІЯ: ЧОТИРИ РІВНІ СУТНОСТЕЙ
+## 0. МЕТОДОЛОГІЧНА ДЕМАРКАЦІЯ ТА СУВОРІ ЗАБОРОНИ
 
-У дослідницькому просторі `pravda` суворо заборонено змішувати рівні існування тексту. Будь-яке посилання на джерело має чітко розрізняти:
+### 0.1. Чотирирівнева архітектура передачі тексту
+У дослідницькому просторі `pravda` суворо розрізняються чотири рівні існування тексту:
 
 ```text
-WORK (Історична пам'ятка / твір як абстрактна правова ідея)
+HISTORICAL OBJECT (PHYSICAL WITNESS)
+  │  (рукописний автограф, копійний список, стародрук)
   ↓
-WITNESS (Фізичний рукопис, стародрук або архівна одиниця збереження)
+EDITORIAL TRANSMISSION (CRITICAL / DIPLOMATIC EDITION)
+  │  (наукова публікація, археографічне видання, апарат різночитань)
   ↓
-EDITION (Наукова публікація, транскрипція, набір різночитань)
+DIGITAL INTERMEDIARY (DIGITAL TRANSMISSION)
+  │  (портал правової інформації, електронна бібліотека, Wikisource)
   ↓
-DIGITAL FILE (Локальний текстовий файл у репозиторії pravda)
+LOCAL FILE TRANSFORMATION (LOCAL TXT FILE)
+     (скриптове вилучення, нормалізація кодування, видалення розмітки)
 ```
 
-**Категоричні правила атестації:**
-1. Жодна транскрипція **не є `VERIFIED-WITNESS`** лише тому, що вона походить з Wikisource, Ізборника, сайту академії чи авторитетного редактора.
-2. Статус `VERIFIED-WITNESS` присвоюється **тільки за наявності звірки транскрипції безпосередньо з факсиміле/сканом конкретного носія**.
-3. Якщо текст базується на академічному виданні, але безпосередня поаркушна звірка з автографом агентом ще не проведена — статус є **`VERIFIED-EDITION`**.
-4. Якщо в локальному файлі міститься лише зміст / реєстр заголовків статей без їхнього повного диспозитивного тексту — статус є **`PARTIAL (REGISTER-ONLY)`**.
-5. Заборонено використовувати недиференційовані назви на кшталт *«автентичний текст Зборівського договору»*, *«оригінал Березневих статей»*, *«справжній текст Гадяча»* без зазначення точного документа, редакції та witness.
+$$\text{HISTORICAL OBJECT} \ne \text{EDITORIAL EDITION} \ne \text{DIGITAL INTERMEDIARY} \ne \text{LOCAL TXT FILE}$$
+
+### 0.2. Заборона змішування факту про носій (Provenance) з історичною інтерпретацією
+1. **Категорично заборонено вживати оціночні та інтерпретативні терміни** у реєстрах свідків без наявності окремого дослідницького запису (Evidence Record у `research/`):
+   - Заборонено: *«окупаційні воєводські гарнізони»* $\rightarrow$ дозволено: *«положення статей щодо московських воєвод і військових залог»*.
+   - Заборонено: *«повна автономія»* $\rightarrow$ дозволено: *«перелік конкретних інституційних норм: окремі уряди, суди, скарбниця, військо, конфесійні гарантії»*.
+   - Заборонено: *«фальсифікація 1659 року»* $\rightarrow$ дозволено: *«розбіжність між 11 статтями 1654 року та 14 статтями Переяславського зборника 1659 року»*.
+   - Заборонено: *«автентичний текст»*, *«справжній оригінал»*, *«повний точний текст»* без зазначення, до якого саме рівня (носій, видання чи цифровий файл) застосовується атрибуція.
+   - Заборонено: *«єдиного договору не існувало»* $\rightarrow$ дозволено: *«історіографічна назва «Зборівський договір» охоплює комплекс із кількох взаємопов'язаних документальних актів»*.
+2. **Власні аналітичні розвідки не є першоджерелами**:
+   - Жоден файл власного сучасного аналізу не може знаходитися в каталозі `sources/primary/`. Файли огляду структури переміщено у `sources/secondary/analysis/`.
+
+### 0.3. Роздільні статуси верифікації
+Замість одного недиференційованого статусу введено два незалежні параметри:
+1. **`EDITION-IDENTITY`**:
+   - `VERIFIED`: Наукове видання ідентифіковано з точними вихідними даними, пагінацією та редактором.
+   - `PARTIAL`: Видання відоме загально, але конкретний випуск/том потребує уточнення.
+   - `UNVERIFIED`: Видання не встановлено або вторинне.
+2. **`LOCAL-TEXT-FIDELITY`**:
+   - `VERIFIED`: Проведено поаркушну/послівну звірку локального `.txt` безпосередньо з друкованим виданням або факсиміле.
+   - `PARTIAL`: Текст звірено структурно (кількість розділів/статей, заголовки, вибіркові контрольні пасажі).
+   - `UNCHECKED`: Текст отримано через цифрового посередника без суцільної звірки з друкованим виданням.
 
 ---
 
-## 1. ЗВЕДЕНИЙ РЕЄСТР ПЕРШОЇ ХВИЛІ (10 КОРПУСІВ)
+## 1. ЗВЕДЕНИЙ РЕЄСТР ПЕРШОЇ ХВИЛІ З ЦИФРОВИМИ КОНТРОЛЬНИМИ СУМАМИ
 
-| WITNESS-ID | WORK (Пам'ятка) | PHYSICAL / ARCHIVAL WITNESS | EDITION / REPR. SOURCE | DIGITAL FILE | STATUS |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **`WIT-ORLYK-1710-UA`** | Pacta et Constitutiones 1710 (староукр.) | РДАДА ф. 13, спр. 10, арк. 1–19 (Бендери) | ЦДІАК / О. Вовк (2010) / uk.wikisource | `sources/primary/transcriptions/SRC-ORLYK-1710-UA-TRANSCRIPTION.txt` | 🟡 `VERIFIED-EDITION` |
-| **`WIT-ORLYK-1710-LAT`**| Pacta et Constitutiones 1710 (латина) | Riksarkivet Stockholm, Cosacica | Н. Молчановський (1898) / uk.wikisource | `sources/primary/transcriptions/SRC-ORLYK-1710-UA-TRANSCRIPTION.txt` | 🟡 `VERIFIED-EDITION` |
-| **`WIT-RP-SHORT`** | Правда Роськая (Коротка) | БАН 17.4.9 (Академічний список XV ст.) | «Рос. законодательство» Т. 1 (1984) | `sources/primary/transcriptions/SRC-RP-SHORT-ACADEMIC-WITNESS.txt` | 🟡 `VERIFIED-EDITION` |
-| **`WIT-RP-EXP`** | Правда Русьская (Розширена) | РДБ ф. 304.I № 793 (Троїцький список XIV ст.) | АН СРСР (1940) / «Рос. закон.» (1984) | `sources/primary/transcriptions/SRC-RP-EXP-TROITSKY-WITNESS.txt` | 🟡 `VERIFIED-EDITION` |
-| **`WIT-LS-1566`** | II Литовський Статут 1566 р. | Списки XVI ст. (ЦДІАК / БАН Литви) | Вид. 1855 р. / Мінськ 2003 / litopys | `sources/primary/transcriptions/SRC-LS-1566-TRANSCRIPTION.txt` | 🟠 `PARTIAL (REGISTER-ONLY)` |
-| **`WIT-LS-1588`** | III Литовський Статут 1588 р. | Стародрук Друкарні Мамоничів 1588 р. (НБУВ) | АН БССР (1989) / pravo.by / be.wikisource | `sources/primary/transcriptions/SRC-LS-1588-MAMONICZ-TRANSCRIPTION.txt` | 🟡 `VERIFIED-EDITION` |
-| **`WIT-HADIACH-COMM-1658`**| Гадяцька комісарська угода | Рукопис комісарів під Гадячем (16.09.1658) | Польська археографія / pl.wikisource | `sources/primary/transcriptions/SRC-HADIACH-1658-COMMISSION-POLISH.txt` | 🟡 `VERIFIED-EDITION` |
-| **`WIT-HADIACH-SEJM-1659`**| Гадяцький сеймовий акт 1659 р. | Затверджена конституція Варшавського сейму | Volumina Legum T. IV (Ohryzko, 1859, s. 297–301) | `sources/secondary/legacy-imports/08-HADIACH-1658.txt` | ⚪ `UNVERIFIED (DIGITAL PENDING)` |
-| **`WIT-ZBORIV-1649`** | Зборівський договірний комплекс | AGAD Metryka Koronna / РДАДА ф. 229 | АЮЗР Т. III (1861) / Бантиш-Каменський (1858) | `sources/primary/transcriptions/SRC-ZBORIV-1649-COMPLEX-ANALYSIS.txt` | 🔴 `DISPUTED (MULTI-DOC COMPLEX)` |
-| **`WIT-MARCH-1654`** | Березневі статті (11 статей) | РДАДА ф. 229, спр. 9 (Посольський приказ) | АН СССР «Воссоединение» Т. III (1953) № 108 | `sources/primary/transcriptions/SRC-MARCH-1654-POSOLSKIY-TRANSCRIPTION.txt` | 🟡 `VERIFIED-EDITION-OF-COPY` |
+| WITNESS-ID | WORK (Пам'ятка) | PHYSICAL WITNESS | EDITION-IDENTITY | LOCAL FILE | SHA256 (перші 12 знаків) | LOCAL-TEXT-FIDELITY |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **`WIT-ORLYK-1710-UA`** | Pacta et Constitutiones 1710 | РДАДА ф. 13, спр. 10, арк. 1–19 | 🟢 `VERIFIED` (ЦДІАК, 2010) | `primary/transcriptions/SRC-ORLYK-1710-UA-TRANSCRIPTION.txt` | `664721977bf6` | 🟡 `PARTIAL` |
+| **`WIT-ORLYK-1710-LAT`**| Pacta et Constitutiones 1710 | Riksarkivet Stockholm, Cosacica | 🟢 `VERIFIED` (Молчановський 1898) | `primary/transcriptions/SRC-ORLYK-1710-UA-TRANSCRIPTION.txt` | `664721977bf6` | 🟡 `PARTIAL` |
+| **`WIT-RP-SHORT`** | Правда Роськая (Коротка) | БАН 17.4.9 (список XV ст.) | 🟢 `VERIFIED` (АН СРСР 1984) | `primary/transcriptions/SRC-RP-SHORT-ACADEMIC-WITNESS.txt` | `67548ce28319` | 🟡 `PARTIAL` |
+| **`WIT-RP-EXP`** | Правда Русьская (Розширена) | РДБ ф. 304.I № 793 (XIV ст.) | 🟢 `VERIFIED` (АН СРСР 1984) | `primary/transcriptions/SRC-RP-EXP-TROITSKY-WITNESS.txt` | `72169bbed2d4` | 🟡 `PARTIAL` |
+| **`WIT-LS-1566`** | II Литовський Статут 1566 | Рукописні списки XVI ст. | 🟡 `PARTIAL` (Мінськ 2003 / 1855) | `primary/transcriptions/SRC-LS-1566-TRANSCRIPTION.txt` | `90bdc2f67667` | 🔴 `DEFECTIVE (REGISTER-ONLY)` |
+| **`WIT-LS-1588`** | III Литовський Статут 1588 | Стародрук Мамоничів 1588 | 🟢 `VERIFIED` (АН БССР 1989) | `primary/transcriptions/SRC-LS-1588-MAMONICZ-TRANSCRIPTION.txt` | `9bfed8a32f30` | 🟡 `PARTIAL` |
+| **`WIT-HADIACH-COMM-1658`**| Гадяцька комісарська угода | Рукопис комісії (16.09.1658) | 🟢 `VERIFIED` (Польс. археографія) | `primary/transcriptions/SRC-HADIACH-1658-COMMISSION-POLISH.txt` | `7d98f36f27c9` | 🟡 `PARTIAL` |
+| **`WIT-HADIACH-SEJM-1659`**| Гадяцька сеймова конституція | Друк. сеймові книги 1659 | 🟢 `VERIFIED` (Vol. Legum T. IV) | Відсутній (очікує вивантаження) | — | ⚪ `PENDING` |
+| **`WIT-ZBORIV-1649`** | Зборівський комплекс (4 акти) | AGAD Metryka Koronna / РДАДА | 🟢 `VERIFIED` (АЮЗР Т. III) | `secondary/analysis/SRC-ZBORIV-1649-COMPLEX-ANALYSIS.txt` | `e0476e9599c2` | 🔵 `SECONDARY-ANALYSIS` |
+| **`WIT-MARCH-1654`** | Березневі статті (11 статей) | РДАДА ф. 229, спр. 9 (список XVII) | 🟢 `VERIFIED` (АН СССР 1953) | `primary/transcriptions/SRC-MARCH-1654-POSOLSKIY-TRANSCRIPTION.txt` | `aacf9ce68236` | 🟡 `PARTIAL` |
 
 ---
 
-## 2. АТЕСТАЦІЙНІ КАРТКИ НОСІЇВ (WITNESS-LEVEL VERIFICATION)
+## 2. ПОПАСПОРТНИЙ АУДИТ ЦІЛІСНОСТІ ТА ЛАНЦЮГІВ ПЕРЕДАЧІ (INTEGRITY CARDS)
 
 ### 2.1. `WIT-ORLYK-1710-UA`
-- **WITNESS-ID**: `WIT-ORLYK-1710-UA`
-- **WORK**: Pacta et Constitutiones legum libertatumque exercitus zaporoviensis (Договори і Постановлення прав і вольностей Війська Запорозького).
-- **PHYSICAL / ARCHIVAL WITNESS**: Оригінальний рукопис староукраїнською діловодною книжною мовою на 19 аркушах, скріплений власноручним підписом Пилипа Орлика та державною печаткою Війська Запорозького на рожевому воску в металевій кустодії.
-- **HOLDING INSTITUTION**: Російський державний архів давніх актів (РДАДА, Москва).
-- **SHELFMARK**: Фонд 13 (Справи про Польщу і Литву), спр. 10, арк. 1–19.
-- **DATE OF WITNESS**: 5 (16) квітня 1710 року.
-- **LANGUAGE**: Староукраїнська діловодна книжна мова XVIII ст.
-- **DIGITAL REPRESENTATION**: `TRANSCRIPTION` (Паралельний дипломатичний текст преамбули, 16 статей, присяги Орлика та диплома Карла XII).
-- **REPRESENTATION SOURCE**:
-  - *EDITOR / TRANSCRIBER*: О. Вовк (публікація факсиміле та транскрипції ЦДІАК України, 2010) / редакція Вікіджерел (uk.wikisource).
-  - *EDITION / PUBLICATION*: Часопис «Архіви України», 2010, № 3–4, с. 22–66.
-  - *PAGE / FOLIO RANGE*: Арк. 1–19.
-- **DIRECT LINK TO WITNESS?**: `PARTIAL` (Здійснено через опубліковану архівну транскрипцію ЦДІАК, поаркушна звірка кожної літери агентом не проводилась).
-- **TRANSCRIPTION VERIFIED AGAINST FACSIMILE?**: `PARTIAL` (Підтверджено наявність власноручного підпису та печатки; звірено формулювання преамбули та статті 6).
-- **TEXTUAL VARIANTS KNOWN?**: `YES` (Відомі різночитання між староукраїнським автографом РДАДА та скороченою латинською копією Riksarkivet).
-- **CHAIN OF TRANSMISSION**:
-  $$\text{РДАДА ф. 13, спр. 10} \longrightarrow \text{Публ. О. Вовк (ЦДІАК, 2010)} \longrightarrow \text{uk.wikisource} \longrightarrow \text{SRC-ORLYK-1710-UA-TRANSCRIPTION.txt}$$
-- **STATUS**: 🟡 `VERIFIED-EDITION` (Транскрипція відповідає авторитетному виданню носія; не плутати з самостійно верифікованим автографом).
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (РДАДА, ф. 13, спр. 10, арк. 1–19; рукопис 1710 р., підпис гетьмана, воскова печатка).
+- **EDITION-IDENTIFIED**: YES («Архіви України», 2010, № 3–4, с. 22–66; публ. факсиміле та транскрипції О. Вовк).
+- **EDITION-LOCATOR**: С. 22–66.
+- **DIGITAL-INTERMEDIARY**: `uk.wikisource.org/wiki/Конституція_Пилипа_Орлика`.
+- **LOCAL-FILE-DERIVATION**: Скриптове завантаження wikitext через MediaWiki Parse API.
+- **LOCAL-TEXT-FIDELITY**: `PARTIAL` (Звірено наявність преамбули, 16 артикулів, присяги, диплома Карла XII; суцільна посимвольна звірка з публікацією 2010 р. не проводилась).
+- **CHECKSUM (SHA256)**: `664721977bf6e4d1b0b86baf8f85ecb913b5cce35eb4cd42396c5359e3450088` (розмір: 171 609 байт).
+- **TRANSFORMATIONS**:
+  - `OCR`: НІ (ручний набір редакторів Вікіджерел).
+  - `encoding conversion`: UTF-8 native.
+  - `HTML stripping`: Вилучено теги вікі-розмітки під час запису.
+  - `spelling normalization`: Збережено літери староукраїнської графіки (ω, ѣ, ѧ, ε, ѕ).
+  - `punctuation normalization`: Не проводилась (збережено стан цифрового посередника).
+  - `manual correction`: Додано стандартизований заголовок метаданих.
+- **HISTORICAL INTERPRETATION DECOUPLING**: Твердження про конституційний характер, поділ влади або обмеження гетьмана вилучено з паспорта носія; зафіксовано лише правову форму акта як двосторонньої угоди (Pacta).
 
 ---
 
 ### 2.2. `WIT-ORLYK-1710-LAT`
-- **WITNESS-ID**: `WIT-ORLYK-1710-LAT`
-- **WORK**: Contenta Pactorum inter Ducem et Exercitum Zaporoviensem conventorum, in Compendium Brevi Stylo collecta.
-- **PHYSICAL / ARCHIVAL WITNESS**: Офіційний дипломатичний скорочений рукопис латинською мовою на пергаментних/паперових аркушах, переданий шведському королю Карлу XII.
-- **HOLDING INSTITUTION**: Державний архів Швеції (Riksarkivet, Стокгольм).
-- **SHELFMARK**: Дипломатичний фонд «Diplomatica Muscovitica», колекція «Cosacica».
-- **DATE OF WITNESS**: Квітень — травень 1710 року.
-- **LANGUAGE**: Латинська дипломатична мова ранньомодерної доби.
-- **DIGITAL REPRESENTATION**: `TRANSCRIPTION` (Збережено паралельно зі староукраїнським текстом у файлі транскрипції).
-- **REPRESENTATION SOURCE**:
-  - *EDITOR / TRANSCRIBER*: Н. Молчановський (1898) / О. Бодянський (ЧОИДР, 1847).
-  - *EDITION / PUBLICATION*: «Подлинные акты оратора Орлика» / збірка латинських документів Війська Запорозького.
-- **DIRECT LINK TO WITNESS?**: `PARTIAL` (Через публікацію Молчановського та шведські описи фонду Cosacica).
-- **TRANSCRIPTION VERIFIED AGAINST FACSIMILE?**: `NO` (Безпосередня поаркушна автопсія сканів Riksarkivet не здійснювалась).
-- **TEXTUAL VARIANTS KNOWN?**: `YES` (Латинський текст має характер стислого компедіуму порівняно з розлогим староукраїнським автографом).
-- **CHAIN OF TRANSMISSION**:
-  $$\text{Riksarkivet Cosacica} \longrightarrow \text{Публ. Молчановського (1898)} \longrightarrow \text{uk.wikisource} \longrightarrow \text{SRC-ORLYK-1710-UA-TRANSCRIPTION.txt}$$
-- **STATUS**: 🟡 `VERIFIED-EDITION`.
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (Riksarkivet Stockholm, Diplomatica Muscovitica, Cosacica; скорочений офіційний латинський рукопис 1710 р.).
+- **EDITION-IDENTIFIED**: YES (Молчановський Н., ЧОИДР 1898 / Бодянський О., 1847).
+- **EDITION-LOCATOR**: Наукова публікація дипломатичних матеріалів Орлика.
+- **DIGITAL-INTERMEDIARY**: `uk.wikisource.org/wiki/Конституція_Пилипа_Орлика` (латинська секція).
+- **LOCAL-FILE-DERIVATION**: Скриптове вивантаження у складі паралельного файлу `SRC-ORLYK-1710-UA-TRANSCRIPTION.txt`.
+- **LOCAL-TEXT-FIDELITY**: `PARTIAL` (Латинський текст звірено за структурою статей з українським відповідником).
+- **CHECKSUM (SHA256)**: (Зберігається у спільному файлі з UA-версією).
+- **TRANSFORMATIONS**: Відповідають UA-версії.
+- **HISTORICAL INTERPRETATION DECOUPLING**: Зафіксовано текстологічний факт: латинський текст є стислим компедіумом (Compendium Brevi Stylo collecta), а не дослівним еквівалентом українського автографа.
 
 ---
 
 ### 2.3. `WIT-RP-SHORT`
-- **WITNESS-ID**: `WIT-RP-SHORT`
-- **WORK**: Правда Роськая (Коротка редакція Руської Правди).
-- **PHYSICAL / ARCHIVAL WITNESS**: Академічний рукописний список Новгородського першого літопису молодшого ізводу на пергаменті/папері.
-- **HOLDING INSTITUTION**: Бібліотека Російської академії наук (БАН, Санкт-Петербург).
-- **SHELFMARK**: Рукописне зібрання БАН, шифр 17.4.9.
-- **DATE OF WITNESS**: Перша половина XV століття (близько 1440-х рр.).
-- **LANGUAGE**: Давньоруська мова Новгородської традиції.
-- **DIGITAL REPRESENTATION**: `TRANSCRIPTION` (Повний текст 43 статей списку).
-- **REPRESENTATION SOURCE**:
-  - *EDITOR / TRANSCRIBER*: Б. Д. Греков, С. В. Юшков, В. П. Любимов (1940) / М. М. Тихомиров, Б. О. Рибаков (1984).
-  - *EDITION / PUBLICATION*: «Российское законодательство X–XX веков». — Т. 1. — М., 1984. — С. 47–49.
-  - *PAGE / FOLIO RANGE*: С. 47–49 (за рукописом БАН 17.4.9).
-- **DIRECT LINK TO WITNESS?**: `PARTIAL` (Через видання Інституту історії АН СРСР).
-- **TRANSCRIPTION VERIFIED AGAINST FACSIMILE?**: `PARTIAL` (Звірено текстовий склад 43 статей із виданням 1940 р.).
-- **TEXTUAL VARIANTS KNOWN?**: `YES` (Колація з Археографічним списком тієї ж Короткої редакції).
-- **CHAIN OF TRANSMISSION**:
-  $$\text{Рукопис БАН 17.4.9 (XV ст.)} \longrightarrow \text{«Правда Русская» (1940) / Рос. закон. (1984)} \longrightarrow \text{ru.wikisource} \longrightarrow \text{SRC-RP-SHORT-ACADEMIC-WITNESS.txt}$$
-- **STATUS**: 🟡 `VERIFIED-EDITION` (Фіксує свідок XV ст., а не втрачений автограф Ярослава Мудрого XI ст.).
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (БАН, Санкт-Петербург, 17.4.9, Новгородський I літопис молодшого ізводу, XV ст.).
+- **EDITION-IDENTIFIED**: YES («Российское законодательство X–XX веков», Т. 1, М.: Юрид. лит., 1984, ред. В. Л. Янін).
+- **EDITION-LOCATOR**: Т. 1, с. 47–49.
+- **DIGITAL-INTERMEDIARY**: `ru.wikisource.org/wiki/Краткая_Русская_Правда_(по_Академическому_списку)`.
+- **LOCAL-FILE-DERIVATION**: Скриптове вилучення wikitext через Parse API.
+- **LOCAL-TEXT-FIDELITY**: `PARTIAL` (Звірено наявність та порядок усіх 43 статей списку).
+- **CHECKSUM (SHA256)**: `67548ce28319d59763d536c1d3f969740ba628ff7533f4e98150fecd33b6c997` (розмір: 10 820 байт).
+- **TRANSFORMATIONS**:
+  - `OCR`: НІ (складено за друкованим виданням).
+  - `encoding conversion`: UTF-8.
+  - `HTML stripping`: Збережено вікі-шаблон заголовка.
+  - `spelling normalization`: Відтворено орфографію видання 1984 р. (ять, юси, титла розкрито).
+- **HISTORICAL INTERPRETATION DECOUPLING**: Вилучено будь-які гіпотези щодо дат правління Ярослава чи автографів XI ст.; носій датується виключно часом рукописного списку (перша половина XV ст.).
 
 ---
 
 ### 2.4. `WIT-RP-EXP`
-- **WITNESS-ID**: `WIT-RP-EXP`
-- **WORK**: Судъ Ярославль Володимеричь. Правда Русьская (Розширена редакція Руської Правди).
-- **PHYSICAL / ARCHIVAL WITNESS**: Троїцький рукописний список у складі великого правничого кодексу «Мірило Праведне».
-- **HOLDING INSTITUTION**: Російська державна бібліотека (РДБ, Москва).
-- **SHELFMARK**: Фонд 304.I (Зібрання Троїце-Сергієвої лаври), рукопис № 793, арк. 189–205.
-- **DATE OF WITNESS**: Друга половина XIV століття (близько 1370–1380-х рр.).
-- **LANGUAGE**: Давньоруська мова київсько-володимирської писемної норми.
-- **DIGITAL REPRESENTATION**: `TRANSCRIPTION` (Повний текст 121 статті списку).
-- **REPRESENTATION SOURCE**:
-  - *EDITOR / TRANSCRIBER*: Б. Д. Греков (1940) / «Российское законодательство X–XX веков» (Т. 1, 1984).
-  - *EDITION / PUBLICATION*: «Российское законодательство X–XX веков». — Т. 1. — С. 64–73.
-  - *PAGE / FOLIO RANGE*: Арк. 189–205 (рукопис № 793); стор. 64–73 видання 1984 р.
-- **DIRECT LINK TO WITNESS?**: `PARTIAL` (Через критичне академічне видання).
-- **TRANSCRIPTION VERIFIED AGAINST FACSIMILE?**: `PARTIAL` (Звірено нумерацію та текст усіх 121 статей).
-- **TEXTUAL VARIANTS KNOWN?**: `YES` (Колація із Синодальним списком Новгородської Керманичої 1282 р. та Пушкінським списком).
-- **CHAIN OF TRANSMISSION**:
-  $$\text{РДБ ф. 304.I № 793 (XIV ст.)} \longrightarrow \text{Академічне видання АН СРСР (1940/1984)} \longrightarrow \text{ru.wikisource} \longrightarrow \text{SRC-RP-EXP-TROITSKY-WITNESS.txt}$$
-- **STATUS**: 🟡 `VERIFIED-EDITION`.
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (РДБ, Москва, фонд 304.I № 793, збірник «Мірило Праведне», арк. 189–205, XIV ст.).
+- **EDITION-IDENTIFIED**: YES («Российское законодательство X–XX веков», Т. 1, М., 1984; «Правда Русская», Т. 1, М.-Л., 1940).
+- **EDITION-LOCATOR**: Т. 1, с. 64–73 (видання 1984 р.).
+- **DIGITAL-INTERMEDIARY**: `ru.wikisource.org/wiki/Пространная_Русская_Правда_(по_Троицкому_списку)`.
+- **LOCAL-FILE-DERIVATION**: Скриптове завантаження через Parse API.
+- **LOCAL-TEXT-FIDELITY**: `PARTIAL` (Звірено наявність усіх 121 статей Троїцького списку).
+- **CHECKSUM (SHA256)**: `72169bbed2d4c58733e9cb4b10b42b4457ffc06a5c8c3c83fc3d92d6437a02ef` (розмір: 39 945 байт).
+- **TRANSFORMATIONS**: Аналогічно Короткій редакції.
+- **HISTORICAL INTERPRETATION DECOUPLING**: Зафіксовано, що цей текст фіксує норми Троїцького рукопису XIV ст., а питання взаємозв'язку зі статутами Володимира Мономаха винесено в окреме дослідницьке поле.
 
 ---
 
 ### 2.5. `WIT-LS-1566`
-- **WITNESS-ID**: `WIT-LS-1566`
-- **WORK**: Статутъ Великого князства Литовского 1566 года (Другий / Волинський Статут).
-- **PHYSICAL / ARCHIVAL WITNESS**: Комплекс рукописних списків XVI ст. (оскільки Статут 1566 р. не мав сучасного друкованого видання, він побутував виключно в рукописах).
-- **HOLDING INSTITUTION**: ЦДІАК України (Київ), БАН Литви (Вільнюс), РНБ (Санкт-Петербург).
-- **SHELFMARK**: Рукописні фонди ЦДІАК України, фонд 44 (Колекція рукописних книг).
-- **DATE OF WITNESS**: 1566 рік (списки другої половини XVI ст.).
-- **LANGUAGE**: «Руська мова» канцелярська Великого Князівства Литовського.
-- **DIGITAL REPRESENTATION**: `PARTIAL TRANSCRIPTION (REGISTER-ONLY)` (У файлі міститься повний реєстр розділів, артикулів та королівських привілеїв 1563–1565 рр., але **відсутні повні диспозиції самих статей**).
-- **REPRESENTATION SOURCE**:
-  - *EDITOR / TRANSCRIBER*: Т. Я. Роговцов (вид. 1855 р.) / Білоруське академічне видання (Мінськ, 2003) / «Ізборник» (litopys.org.ua).
-  - *EDITION / PUBLICATION*: «Статут Вялікага княства Літоўскага 1566 года». — Мінск, 2003. — С. 35–263.
-- **DIRECT LINK TO WITNESS?**: `NO` (Вторинне веб-відтворення змісту сайтом litopys).
-- **TRANSCRIPTION VERIFIED AGAINST FACSIMILE?**: `NO` (Не звірено).
-- **TEXTUAL VARIANTS KNOWN?**: `YES` (Списки 1566 року мають численні текстові розбіжності між повітовими копіями).
-- **CHAIN OF TRANSMISSION**:
-  $$\text{Рукописні списки XVI ст.} \longrightarrow \text{Видання 1855 / Мінськ 2003} \longrightarrow \text{litopys.org.ua} \longrightarrow \text{SRC-LS-1566-TRANSCRIPTION.txt}$$
-- **STATUS**: 🟠 `PARTIAL (REGISTER-ONLY)` (КРИТИЧНИЙ ВИСНОВОК: файл не містить розгорнутого тексту статей; його не можна використовувати як першоджерело диспозицій норм без довантаження повного тексту).
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (Рукописні списки XVI ст. у ЦДІАК України та Бібліотеці АН Литви).
+- **EDITION-IDENTIFIED**: PARTIAL (Видання Т. Роговцова 1855 р. / перевидання Мінськ 2003 р.).
+- **EDITION-LOCATOR**: «Статут Вялікага княства Літоўскага 1566 года». — Мінск, 2003. — С. 35–263.
+- **DIGITAL-INTERMEDIARY**: `litopys.org.ua/statut2/st1566.htm`.
+- **LOCAL-FILE-DERIVATION**: Скриптовий парсинг HTML сторінки через Python BeautifulSoup / text extract.
+- **LOCAL-TEXT-FIDELITY**: 🔴 `DEFECTIVE (REGISTER-ONLY)` (**КРИТИЧНИЙ ДЕФЕКТ**: У локальному файлі міститься реєстр рубрик і заголовків 14 розділів та текст 3 привілеїв, але **відсутній сам диспозитивний текст статей**).
+- **CHECKSUM (SHA256)**: `90bdc2f67667e9a627890ede149cd61e171a0531c6fe67df5f7506277453ce4b` (розмір: 61 193 байти).
+- **TRANSFORMATIONS**:
+  - `HTML stripping`: Очищено навігаційні банери сайту litopys, але сам веб-першоджерело містило лише зміст (реєстр).
+- **ACTION TAKEN**: Файл помічено як дефектний; цитування норм Статуту 1566 р. за цим файлом заблоковано до отримання повного тексту.
 
 ---
 
 ### 2.6. `WIT-LS-1588`
-- **WITNESS-ID**: `WIT-LS-1588`
-- **WORK**: Статутъ Великого князства Литовского 1588 года (Третій Литовський Статут).
-- **PHYSICAL / ARCHIVAL WITNESS**: Автентичне віленське друковане першовидання 1588 року Друкарні Мамоничів (кириличний стародрук великого формату in-folio).
-- **HOLDING INSTITUTION**: Національна бібліотека України ім. В. І. Вернадського (Київ, Відділ стародруків та рідкісних видань).
-- **SHELFMARK**: НБУВ Кир. 36 / РНБ / БАН / Бібліотека АН Литви.
-- **DATE OF WITNESS**: 1588 рік (привілей Сигізмунда III від 28 січня 1588 р.; вихід у світ літо-осінь 1588 р.).
-- **LANGUAGE**: «Руська мова» Великого Князівства Литовського (староукраїнська / старобілоруська канцелярська мова закону).
-- **DIGITAL REPRESENTATION**: `CRITICAL TRANSCRIPTION` (Повний текст: Королівський привілей Сигізмунда III, присвята Лева Сапеги, геральдичний вірш Римші, звернення до всіх станів, усі 14 розділів, 488 артикулів; загальний обсяг 1,5 МБ).
-- **REPRESENTATION SOURCE**:
-  - *EDITOR / TRANSCRIBER*: Академічна транскрипція Інституту філософії і права АН БССР (1989) / Національний центр правової інформації РБ (pravo.by) / be.wikisource.
-  - *EDITION / PUBLICATION*: «Статут Вялікага княства Літоўскага 1588: Тэксты. Даведнік. Каментарыі». — Мінск: БелСЭ, 1989.
-- **DIRECT LINK TO WITNESS?**: `PARTIAL` (Звірено з академічним відтворенням віленського друку 1588 р.).
-- **TRANSCRIPTION VERIFIED AGAINST FACSIMILE?**: `PARTIAL` (Звірено текст Привілею Сигізмунда III та розділу 3 «О волностяхъ шляхетъскихъ»).
-- **TEXTUAL VARIANTS KNOWN?**: `YES` (Між трьома послідовними тиражами Мамоничів 1588, 1592–1593 та польським перекладом 1614 р.).
-- **CHAIN OF TRANSMISSION**:
-  $$\text{Віленське видання Мамоничів (1588)} \longrightarrow \text{Академічне вид. АН БССР (1989)} \longrightarrow \text{pravo.by} \longrightarrow \text{be.wikisource} \longrightarrow \text{SRC-LS-1588-MAMONICZ-TRANSCRIPTION.txt}$$
-- **STATUS**: 🟡 `VERIFIED-EDITION` (Повний автентичний текст усіх 14 розділів набуто до `pravda/`).
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (Стародрук Друкарні Мамоничів, Вільна, 1588 р.; примірники у НБУВ, РНБ, БАН).
+- **EDITION-IDENTIFIED**: YES (Академічне видання Інституту філософії і права АН БССР: «Статут Вялікага княства Літоўскага 1588: Тэксты. Даведнік. Каментарыі». — Мінск: БелСЭ, 1989).
+- **EDITION-LOCATOR**: Повний текст 14 розділів та супровідних актів.
+- **DIGITAL-INTERMEDIARY**: `pravo.by` (Національний центр правової інформації Республіки Білорусь) $\rightarrow$ `be.wikisource.org/wiki/Статут_ВКЛ_(1588)`.
+- **LOCAL-FILE-DERIVATION**: Багатопотоковий модульний скрипт збору 18 окремих секцій через MediaWiki Parse API з обробкою лімітів запитів (HTTP rate-limiting).
+- **LOCAL-TEXT-FIDELITY**: `PARTIAL` (Звірено наявність Привілею 1588 р., Присвяти Сапеги, геральдичного вірша Римші, звернення до станів та всіх 14 розділів, 488 артикулів; обсяг 1,5 МБ, 6290 рядків).
+- **CHECKSUM (SHA256)**: `9bfed8a32f305c04d995b62bc18a0ce9e027da1d416b618e669646add3b930d7` (розмір: 1 477 348 байт).
+- **TRANSFORMATIONS**:
+  - `OCR`: НІ (транскрипція здійснена редколегією академічного видання 1989 р.).
+  - `encoding conversion`: UTF-8 native.
+  - `HTML stripping`: Вилучено шаблони заголовків, збережено структуру артикулів.
+  - `spelling normalization`: Збережено руську канцелярську мову видання Мамоничів.
+- **HISTORICAL INTERPRETATION DECOUPLING**: Вилучено характеристики на кшталт «найдосконаліший кодекс» чи «повне покріпачення селян»; текст зафіксовано як транскрипцію друкованого зводу законів ВКЛ 1588 р.
 
 ---
 
 ### 2.7. `WIT-HADIACH-COMM-1658`
-- **WITNESS-ID**: `WIT-HADIACH-COMM-1658`
-- **WORK**: Pakta Hadziackie / Ugoda Hadziacka (Гадяцькі пакти 16 вересня 1658 року).
-- **PHYSICAL / ARCHIVAL WITNESS**: Оригінальний рукописний акт комісії під Гадячем, складений польською мовою, підписаний королівськими комісарами Станіславом Казимиром Бенєвським і Казимиром Людвіком Євлашевським з одного боку, та гетьманом Іваном Виговським зі старшиною — з іншого.
-- **HOLDING INSTITUTION**: Головний архів давніх актів у Варшаві (AGAD, Archiwum Radziwiłłowskie / Archiwum Koronne).
-- **SHELFMARK**: AGAD, dz. II (Polska), t. 34 / копійні книги комісій.
-- **DATE OF WITNESS**: 16 вересня 1658 року.
-- **LANGUAGE**: Польська мова дипломатичних комісій середини XVII ст.
-- **DIGITAL REPRESENTATION**: `TRANSCRIPTION` (Повний текст 6 пунктів преамбули та артикулів комісарської угоди; 22 тис. знаків).
-- **REPRESENTATION SOURCE**:
-  - *EDITOR / TRANSCRIBER*: Публікація польської археографічної комісії / pl.wikisource (Pakta Hadziackie autentyczne).
-  - *EDITION / PUBLICATION*: «Volumina Legum» / збірники польсько-козацьких дипломатичних актів.
-- **DIRECT LINK TO WITNESS?**: `PARTIAL` (Через польську археографічну традицію).
-- **TRANSCRIPTION VERIFIED AGAINST FACSIMILE?**: `NO`.
-- **TEXTUAL VARIANTS KNOWN?**: `YES` (КРИТИЧНО: Цей текст є первинною угодою у військовому таборі, що містить концепцію «Великого Князівства Руського» та повне скасування Берестейської унії).
-- **CHAIN OF TRANSMISSION**:
-  $$\text{Рукопис табору під Гадячем (1658)} \longrightarrow \text{Польські публікації XVII–XIX ст.} \longrightarrow \text{pl.wikisource} \longrightarrow \text{SRC-HADIACH-1658-COMMISSION-POLISH.txt}$$
-- **STATUS**: 🟡 `VERIFIED-EDITION` (Засвідчує первинний комісарський договір, суворо відокремлений від сеймової ревізії 1659 р.).
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (Рукописний акт комісії під Гадячем від 16 вересня 1658 р.; AGAD, Варшава, Archiwum Radziwiłłowskie / Archiwum Koronne).
+- **EDITION-IDENTIFIED**: YES (Польське археографічне видання дипломатичних актів XVII ст.).
+- **EDITION-LOCATOR**: «Pakta Hadziackie autentyczne».
+- **DIGITAL-INTERMEDIARY**: `pl.wikisource.org/wiki/Ugoda_hadziacka`.
+- **LOCAL-FILE-DERIVATION**: Скриптове вивантаження польського wikitext через Parse API.
+- **LOCAL-TEXT-FIDELITY**: `PARTIAL` (Звірено наявність преамбули та 6 детальних тематичних пунктів комісії).
+- **CHECKSUM (SHA256)**: `7d98f36f27c9157fcb22026cd235d479eccc1991a146e25b5e4b526d314c5906` (розмір: 24 355 байт).
+- **TRANSFORMATIONS**:
+  - `encoding conversion`: UTF-8.
+  - `spelling normalization`: Польська орфографія XVII ст. у транскрипції XIX ст.
+- **HISTORICAL INTERPRETATION DECOUPLING**:
+  - **ВИЛУЧЕНО**: Твердження про «повну автономію Великого Князівства Руського».
+  - **ЗАФІКСОВАНО ЯК ПРОСТІ ФАКТИ ДИЗПОЗИЦІЙ**: Документ передбачає окремі сенаторські місця для православних ієрархів, уряди канцлера, маршалка, підскарбія, трибунал, 30-тисячний козацький реєстр, 10-тисячне наймане військо, карбування монети, дві православні академії та скасування Берестейської унії.
+  - Оцінка того, чи складає це «автономію», «конфедерацію» чи «федерацію», винесена в `research/`.
 
 ---
 
 ### 2.8. `WIT-HADIACH-SEJM-1659`
-- **WITNESS-ID**: `WIT-HADIACH-SEJM-1659`
-- **WORK**: Затвердження Гадяцької комісії на Вальному Варшавському Сеймі 1659 року («Kommissya Hadziacka»).
-- **PHYSICAL / ARCHIVAL WITNESS**: Офіційні друковані та рукописні сеймові книги конституцій Варшавського сейму 1659 року.
-- **HOLDING INSTITUTION**: AGAD (Варшава) / Краківська наукова бібліотека.
-- **DATE OF WITNESS**: Травень 1659 року (остаточне затвердження 22 травня 1659 р.).
-- **LANGUAGE**: Польська мова закону Речі Посполитої.
-- **DIGITAL REPRESENTATION**: Очікує вивантаження з Volumina Legum.
-- **REPRESENTATION SOURCE**:
-  - *EDITION / PUBLICATION*: «Volumina Legum: przedruk zbioru praw staraniem XX. Pijarów w Warszawie, od roku 1732 do 1782, wydanego». — Wyd. Jozafata Ohryzki. — Petersburg, 1859. — T. IV. — S. 297–301.
-- **DIRECT LINK TO WITNESS?**: `PENDING`.
-- **TEXTUAL VARIANTS KNOWN?**: `YES` (Сеймова конституція вилучила скасування Берестейської унії, обмежила право гетьмана на дипломатичні зносини, урізала реєстр до 30 тис. і повернула приватні шляхетські маєтності).
-- **STATUS**: ⚪ `UNVERIFIED (DIGITAL PENDING)` (Фізичне джерело ідентифіковане у Volumina Legum T. IV, с. 297–301; цифровий текст артикулів у репозиторії pravda ще не завантажений).
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (Друковані сеймові книги конституцій Варшавського вального сейму травня 1659 р.; AGAD Варшава).
+- **EDITION-IDENTIFIED**: YES («Volumina Legum», вид. Й. Огризка, СПб., 1859, Т. IV, с. 297–301, акт «Kommissya Hadziacka»).
+- **EDITION-LOCATOR**: Т. IV, с. 297–301.
+- **DIGITAL-INTERMEDIARY**: Потребує цифрового вивантаження з відкритого репозиторію Wielkopolska Biblioteka Cyfrowa / Polona.
+- **LOCAL-FILE-DERIVATION**: Очікується.
+- **LOCAL-TEXT-FIDELITY**: ⚪ `PENDING`.
+- **HISTORICAL INTERPRETATION DECOUPLING**: Фіксується як окремий від акта 1658 року законодавчий документ польського сейму зі зміненим складом статей.
 
 ---
 
 ### 2.9. `WIT-ZBORIV-1649` (ДОГОВІРНИЙ КОМПЛЕКС)
-- **WITNESS-ID**: `WIT-ZBORIV-1649`
-- **WORK**: Зборівський комплекс актів 1649 року.
-- **NOTE ON NATURE OF DOCUMENT**: **НЕ ІСНУЄ єдиного документа з назвою «Зборівський договір»**. Комплекс складається з чотирьох самостійних пам'яток з різною юридичною природою:
-  1. `WIT-ZBORIV-1649-DECLARATION`: «Декларація ласки Його Королівської Милості на пункти супліки Війська Запорозького» (жалувана грамота короля Яна II Казимира від 8 (18) серпня 1649 р., 12 артикулів; збережена в AGAD Metryka Koronna та списках РДАДА; видання: АЮЗР Т. III, с. 415–416; Бантиш-Каменський Ч. I, с. 19–20).
-  2. `WIT-ZBORIV-1649-PETITION`: Пункти супліки Війська Запорозького до короля (петиція козацької старшини; копійні списки в дипломатичній кореспонденції).
-  3. `WIT-ZBORIV-1649-KHAN-TREATY`: Мирна угода короля з кримським ханом Іслам-Гіреєм III (міжнародний договір про данину/упоминки та зняття облоги).
-  4. `WIT-ZBORIV-1649-REGISTER`: Реєстр Війська Запорозького 1649 року (рукописна книга на 40 000 імен у РДАДА ф. 229, оп. 2, спр. 1; видання О. Бодянського 1875 р., акад. видання 1995 р.).
-- **DIGITAL REPRESENTATION**: `STRUCTURAL ANALYSIS & METADATA DECONSTRUCTION` (`sources/primary/transcriptions/SRC-ZBORIV-1649-COMPLEX-ANALYSIS.txt`).
-- **STATUS**: 🔴 `DISPUTED (MULTI-DOC COMPLEX)` (Використання терміна без уточнення складового документа суворо заборонено).
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (Комплекс із 4 роздільних документів в AGAD Metryka Koronna та РДАДА).
+- **EDITION-IDENTIFIED**: YES (АЮЗР, СПб., 1861, Т. III, с. 415–416; Бантиш-Каменський, 1858, Ч. I, с. 19–20; Реєстр 1649 р., вид. 1875 та 1995 рр.).
+- **EDITION-LOCATOR**: Зазначені томи.
+- **DIGITAL-INTERMEDIARY**: Локальна аналітична деконструкція комплексу.
+- **LOCAL-FILE-DERIVATION**: Створено як дослідницький огляд структури пам'ятки.
+- **LOCAL-FILE-PATH**: `sources/secondary/analysis/SRC-ZBORIV-1649-COMPLEX-ANALYSIS.txt`.
+- **CHECKSUM (SHA256)**: `e0476e9599c2a7aa874900a0b162590fc36eef6412128b8cf4f36a58bc2f87db` (розмір: 5 728 байт).
+- **HISTORICAL INTERPRETATION DECOUPLING**:
+  - Термін «Зборівський договір» визнано легітимною історіографічною назвою, проте категорично заборонено вважати його єдиним фізичним документом.
+  - Документ деконструйовано на:
+    1. Королівську жалувану грамоту (Декларацію милості на 12 пунктів).
+    2. Пункти супліки (петицію) Війська Запорозького.
+    3. Сепаратну польсько-кримську мирну угоду з ханом Іслам-Гіреєм III.
+    4. Поіменну книгу Реєстру Війська Запорозького на 40 000 осіб (РДАДА ф. 229, оп. 2, спр. 1).
 
 ---
 
 ### 2.10. `WIT-MARCH-1654`
-- **WITNESS-ID**: `WIT-MARCH-1654-POSOLSKIY`
-- **WORK**: Березневі статті 1654 року («Статті Богдана Хмельницького» з підстатейними царськими указами).
-- **PHYSICAL / ARCHIVAL WITNESS**: Скорописний канцеляристський список Посольського приказу XVII ст.
-- **HOLDING INSTITUTION**: РДАДА (Москва).
-- **SHELFMARK**: Фонд 229 (Малоросійські справи), спр. 9.
-- **DATE OF WITNESS**: 21 (31) березня 1654 року.
-- **LANGUAGE**: Російська діловодна приказна мова XVII ст.
-- **CRITICAL DEFECT OF TRANSMISSION**: **Оригінальний український текст проєкту (петиції), підписаний і запечатаний Богданом Хмельницьким (23 або 14 статей), ВТРАЧЕНО**. Ми володіємо виключно московським приказним реєстром 11 статей, перекладеним і зредагованим дяками під час переговорів Самійла Богданова і Павла Тетері.
-- **LATER FALSIFICATION TRADITION**: У 1659 році московські посли (кн. Трубецькой) на Переяславській раді під виглядом «автентичних статей Богдана Хмельницького 1654 року» нав'язали Юрію Хмельницькому сфальсифікований текст із 14 статей, що різко обмежував автономію Гетьманщини (заборона переобрання гетьмана без царя, воєводи в Переяславі, Ніжині, Чернігові).
-- **DIGITAL REPRESENTATION**: `TRANSCRIPTION` (Повний текст 11 статей з царськими указами у файлі `sources/primary/transcriptions/SRC-MARCH-1654-POSOLSKIY-TRANSCRIPTION.txt`).
-- **REPRESENTATION SOURCE**:
-  - *EDITION / PUBLICATION*: «Воссоединение Украины с Россией. Документы и материалы в трех томах». — М.: Изд-во АН СССР, 1953. — Т. III. — Док. № 108. — С. 560–567.
-  - *EARLIER OFFICIAL PRINT*: «Полное собрание законов Российской империи» (ПСЗРИ-1). — СПб., 1830. — Т. I. — № 119.
-- **CHAIN OF TRANSMISSION**:
-  $$\text{Петиція послів (березень 1654)} \longrightarrow \text{РДАДА ф. 229, спр. 9} \longrightarrow \text{АН СССР (1953, № 108)} \longrightarrow \text{ru.wikisource} \longrightarrow \text{SRC-MARCH-1654-POSOLSKIY-TRANSCRIPTION.txt}$$
-- **STATUS**: 🟡 `VERIFIED-EDITION-OF-COPY` (Верифіковано московський копійний список 11 статей; первинний український оригінал відсутній).
+- **PHYSICAL-WITNESS-IDENTIFIED**: YES (РДАДА, Москва, фонд 229 «Малоросійські справи», спр. 9; канцеляристський скорописний список Посольського приказу XVII ст.).
+- **EDITION-IDENTIFIED**: YES («Воссоединение Украины с Россией. Документы и материалы в трех томах», Т. III, М.: Изд-во АН СССР, 1953, № 108, с. 560–567; ПСЗРИ-1, Т. I, № 119).
+- **EDITION-LOCATOR**: Т. III, с. 560–567.
+- **DIGITAL-INTERMEDIARY**: `ru.wikisource.org/wiki/Статьи_Богдана_Хмельницкого_(1654)`.
+- **LOCAL-FILE-DERIVATION**: Скриптове вилучення wikitext через Parse API.
+- **LOCAL-TEXT-FIDELITY**: `PARTIAL` (Звірено наявність 11 статей козацького прохання з відповідними підстатейними царськими указами).
+- **CHECKSUM (SHA256)**: `aacf9ce682369ed1a39e4b77c0df088640ce0fe2c3fea1e5a8f9c4a1e5fd96c2` (розмір: 23 139 байт).
+- **TRANSFORMATIONS**:
+  - `encoding conversion`: UTF-8 native.
+  - `spelling normalization`: Російська діловодна мова XVII ст. у передачі академічного видання 1953 р.
+- **HISTORICAL INTERPRETATION DECOUPLING**:
+  - **ВИЛУЧЕНО**: Оціночне слово «окупаційні» щодо московських воєвод і гарнізонів.
+  - **ЗАФІКСОВАНО ЯК ДЖЕРЕЛЬНИЙ ФАКТ**: Стаття 1 регламентує виборність міських урядників для збору доходів до царської казни та відсутність зламу прав царським воєводою; стаття 8 містить резолюцію про розташування царських військ на кордонах з Річчю Посполитою.
+  - **ЗАФІКСОВАНО ТЕКСТОЛОГІЧНУ ВТРАТУ**: Український оригінал петиції Хмельницького втрачено; наявний текст є московським приказним записом переговорів послів Тетері та Богданова.
+  - **ЗАФІКСОВАНО РОЗБІЖНІСТЬ З 1659 РОКОМ**: Текст 1654 року містить 11 статей; текст Переяславських статей Юрія Хмельницького 1659 року містить 14 статей зі суттєво розширеними повноваженнями московських воєвод (присутність у Києві, Переяславі, Ніжині, Чернігові). Питання щодо того, чи було це «фальсифікацією», розглядається в `research/` за наявними джерельними розбіжностями.
 
 ---
 
-## 3. СТАТИСТИЧНИЙ ПІДСУМОК ПЕРШОЇ ХВИЛІ
+## 3. ПІДСУМОК АУДИТУ ЦІЛІСНОСТІ (INTEGRITY AUDIT SUMMARY)
 
-- **Всього пам'яток у першій хвилі**: 10.
-- **Повні первинні тексти, набуті на рівні `VERIFIED-EDITION`**: **6** (`WIT-ORLYK-1710-UA`, `WIT-ORLYK-1710-LAT`, `WIT-RP-SHORT`, `WIT-RP-EXP`, `WIT-LS-1588`, `WIT-HADIACH-COMM-1658`).
-- **Тексти копій за втраченими оригіналами (`VERIFIED-EDITION-OF-COPY`)**: **1** (`WIT-MARCH-1654-POSOLSKIY`).
-- **Дефектні або часткові представлення (`PARTIAL (REGISTER-ONLY)`)**: **1** (`WIT-LS-1566`, виявлено відсутність тексту диспозицій).
-- **Багатодокументні розчленовані комплекси (`DISPUTED (MULTI-DOC COMPLEX)`)**: **1** (`WIT-ZBORIV-1649`, деконструйовано на 4 акти).
-- **Ідентифіковано, але очікує цифрового вивантаження артикулів (`UNVERIFIED (DIGITAL PENDING)`)**: **1** (`WIT-HADIACH-SEJM-1659`, Volumina Legum T. IV, s. 297–301).
-- **Вторинні сурогати (Вікіпедія / реферати), ізольовані в `legacy-imports/`**: **13 файлів** (жоден не видалено).
+1. **Жодне джерело не має безпідставного статусу `VERIFIED-WITNESS`**: Усі набуті академічні транскрипції класифіковано як `VERIFIED-EDITION` із текстовою точністю `PARTIAL` (до проведення поаркушного звірення з факсиміле).
+2. **Виявлено та ізольовано структурний дефект**: Файл `SRC-LS-1566-TRANSCRIPTION.txt` містить лише реєстр назв статей і позначений як `DEFECTIVE (REGISTER-ONLY)`.
+3. **Відокремлено аналітику від першоджерел**: Файл розбору Зборівського комплексу виведено з `sources/primary/` у `sources/secondary/analysis/`.
+4. **Вилучено всі непідтверджені інтерпретації**: Оціночні судження («окупація», «фальсифікація», «повна автономія», «автентичний оригінал») усунуто з реєстру носіїв.
+5. **Зафіксовано криптографічні хеші**: Кожен локальний файл первинного корпусу отримав незмінну контрольну суму SHA-256.
