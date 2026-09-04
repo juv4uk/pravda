@@ -920,19 +920,767 @@
 
 ---
 
-### HC-HADIACH-1658-001
-- **CLAIM-ID:** `HC-HADIACH-1658-001`
-- **WITNESS-ID:** `WIT-HADIACH-1658-COMMISSION`
+
+## 3.4. Гадяцька комісія 1658 (Повний текст, 47 тверджень у порядку документа)
+---
+
+**Свідок:** `WIT-HADIACH-COMMISSION-1658` (Pakta Hadziackie autentyczne, 16 вересня 1658 р.).
+---
+
+**Принцип розмежування:** Усі 6 статей, преамбула та заключні клаузули в порядку слідування тексту. Поле `TEXTUAL-SPEAKER` фіксує суб'єкта клаузули (`COMMISSION`, `COSSACK SIDE`, `CROWN SIDE`, `JOINT FORMULA`). Жодної сучасної термінології.
+
+---
+
+### HC-HAD1658-PRE-001
+- **CLAIM-ID:** `HC-HAD1658-PRE-001`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
-- **LOCATOR:** Стаття 2 Гадяцького трактату (Kommissya Hadziacka 1658, розд. «Religia»)
+- **LOCATOR:** Преамбула, Рядки 22–24
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
 - **EXACT-QUOTE:**
-  > «Akademia Kiiowska takiemi praerogatywami y wolnościami ma się cieszyć y zastawiać, iakie służą y conferowane są Akademii Krakowskiey...»
-  > (Академія Київська такими прерогативами і вольностями має втішатися і заставлятися, які служать і надані Академії Краківській...)
-- **LEXICAL-TERMS:** `Akademia Kiiowska, praerogatywami, wolnościami, Akademii Krakowskiey`
-- **GRAMMATICAL-ACTOR:** Akademia Kiiowska
-- **TEXTUAL-OPERATOR:** `CONFIRMS`
-- **TEXTUAL-OBJECT:** Надання Київській академії тих самих прерогатив і вольностей, якими користується Краківська академія.
+  > «Komisja między Stanami Korony Polskiej i Wielkiego Księstwa Litewskiego z jednej a Wielmożnym Hetmanem i Wojskiem Zaporoskim z drugiej strony, przez wielmożnych Stanisława Kazimierza Bieniowskiego, wołyńskiego i Kazimierza Ludwika Jewłaszewskiego, smoleńskiego - kasztelanów, z Sejmu od Najjaśniejszego Jana Kazimierza z Bożej łaski Króla Polskiego i Szwedzkiego, Wielkiego Księcia Litewskiego, Ruskiego, Pruskiego, Mazowieckiego, Żmudzkiego, Inflanckiego, Smoleńskiego, Wandalskiego dziedzicznego króla i wszystkich Stanów Koronnych i Wielkiego Księstwa Litewskiego naznaczonych Komisarzów z Wielmożnym Panem Iwanem Wyhowskim Hetmanem i wszystkim Wojskiem Zaporoskim w obozie pod Hadziaczem 16 września, roku pańskiego 1658. Daj Boże szczęśliwe i wiecznie trwałe skończone. Na którym miejscu Wielmożny Hetman Zaporoski z wojskiem swym nas, Komisarzów przystojnie i wdzięcznie przyjąwszy i moc zupełną komisarską nam od Jego Królewskiej Mości Pana naszego miłościwego i Stanów Koronnych i Wielkiego Księstwa Litewskiego powagą sejmową daną zważywszy, deklarował się ze wszystkim wojskiem. Jako nie po dobrej woli, ale z musu wojsko zaporoskie, przyciśnione różnemi opresjami, do obrony swojej przystąpiło. Tak, gdy Jego Królewska Mość Pan nasz Miłościwy ojcowskim sercem przepominając wszystkiego, co się w zamieszaniu stało, wzywa do jedności..Nie pogardzając łaską Jego Królewskiej Mości Pańską, dobrotliwego Pana dobroć [clementiją] pokornie przyjmując, do tej familiej przystępują. Potem do spólnej namowy, postanowienia zgody, szczerości i z obopólnej miłości, biorąc za świadectwo strasznych zastępów Boga to, co się stanowi, szczerze prawdziwie i wiecznie ma być trzymano. Pokój wieczny i nigdy nie rozerwany zastanowiliśmy tym sposobem:»
+- **LEXICAL-TERMS:** `Komisja, Korony Polskiej i Wielkiego Księstwa Litewskiego, Hetmanem i Wojskiem Zaporoskim, Komisarzów, w obozie pod Hadziaczem, obrony swojej przystąpiło, do jedności, pokój wieczny`
+- **GRAMMATICAL-ACTOR:** Комісари Корони й ВКЛ (Бєньовський, Євлашевський); Гетьман Іван Виговський і Військо Запорозьке
+- **TEXTUAL-OPERATOR:** `CONCLUDES / DECLARES`
+- **TEXTUAL-OBJECT:** Укладення вічного миру між Станами Корони Польської і Великого Князівства Литовського та Військом Запорозьким у таборі під Гадячем після військового протистояння.
 - **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001A
+- **CLAIM-ID:** `HC-HAD1658-001A`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 26
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
+- **EXACT-QUOTE:**
+  > «Religia grecka starożytna, ta i taka, z jaką starożytna Ruś do Korony Polskiej przystąpiła, aby przy swoich prerogatywach i wolnym używaniu nabożeństwa zostawała, póki język narodu ruskiego zasięga we wszystkich miastach, miasteczkach i wsiach, tak w Koronie Polskiej jako i w Wielkim Księstwie Litewskim, także na Sejmach, wojskich, Trybunałach, nie tylko w cerkwiach, ale publicznie w procesjach, wizytowaniu chorych ze świętymi relikwiami, chowaniu umarłych i we wszystkich zgoła, tak jak nabożeństwa swego publicznie i swobodnie [libere et publica] zażywa obrządek rzymski [ritus romanus]»
+- **LEXICAL-TERMS:** `Religia grecka starożytna, starożytna Ruś, prerogatywach, wolnym używaniu nabożeństwa, język narodu ruskiego, procesjach, obrządek rzymski`
+- **GRAMMATICAL-ACTOR:** Королівська влада; церква та вірні грецької релігії
+- **TEXTUAL-OPERATOR:** `CONFIRMS / GUARANTEES`
+- **TEXTUAL-OBJECT:** Збереження за давньою грецькою релігією її прерогатив і вільного відправлення богослужінь у містах і селах Корони й ВКЛ, на Сеймах, у війську й Трибуналах нарівні з римським обрядом.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001B
+- **CLAIM-ID:** `HC-HAD1658-001B`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 27
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Tejże religii greckiej daje się moc wolnego erygowania cerkwi, zakonów, monastyrów nowych, jako i starych ponawiania i naprawiania.»
+- **LEXICAL-TERMS:** `religii greckiej, wolnego erygowania cerkwi, zakonów, monastyrów, ponawiania i naprawiania`
+- **GRAMMATICAL-ACTOR:** вірні та духовні грецької релігії
+- **TEXTUAL-OPERATOR:** `PERMITS`
+- **TEXTUAL-OBJECT:** Надання права вільно засновувати нові церкви, монастирі й ордени, а також відновлювати й ремонтувати старі.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001C
+- **CLAIM-ID:** `HC-HAD1658-001C`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 28
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Co się tknie cerkwi i dóbr z dawna na cerkwie religii greckiej starożytnej fundowanych, przy tych zostawać mają greccy starożytni prawosławni [graeci disuniti]. Które to cerkwie po złożeniu przysięgi na wierność przez pułkowników i inszą starszyznę Wojska Zaporoskiego w przeciągu pół roku [in spacio limitii anni] podane będą przez Komisarzów z obydwu stron [ab utinque] naznaczonych.»
+- **LEXICAL-TERMS:** `cerkwi i dóbr, religii greckiej starożytnej fundowanych, greccy starożytni prawosławni, przysięgi na wierność, pułkowników i inszą starszyznę, Komisarzów`
+- **GRAMMATICAL-ACTOR:** грецькі православні (graeci disuniti); полковники та старшина Війська Запорозького; спільні комісари
+- **TEXTUAL-OPERATOR:** `REQUIRES / RESTORES`
+- **TEXTUAL-OBJECT:** Залишення церков і давніх церковних маєтностей за православними; передача їх комісарами обох сторін протягом пів року після складання присяги на вірність полковниками й старшиною.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001D
+- **CLAIM-ID:** `HC-HAD1658-001D`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 29
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «A Unia, która dotąd Rzeczpospolitą mieszała, tak się znosi w Koronie i w Wielkim Księstwie Litewskim, aby, kto chce, do rzymskiego, a kto chce - do greckiego unitskiego nabożeństwa powracał. Tej zasię wiary, która jest przeciwną wierze greckiej prawosławnej, i która spory [dissensją] między rzymskim i staro-greckim narodem mnoży, żaden z duchownego i świeckiego senatorskiego i szlacheckiego stanów cerkwi, monastyrów, funduszów fundować, erygować i pomnażać, tak w dobrach duchownych, jak i Jego Królewskiej Mości i własnych dziedzicznych, jakimkolwiek sposobem nie ma, i vigore tej komisji nie będzie powinien wiecznemi czasy. Rzymska zasię wiara [romana fldei] w województwach kijowskim, bracławskim, czernihowskim wolno pozwala się odprawiać [liberum exercitium conceditur].»
+- **LEXICAL-TERMS:** `Unia znosi się, rzymskiego nabożeństwa, greckiego unitskiego, żaden z duchownego i świeckiego cerkwi nie ma fundować, rzymska wiara liberum exercitium conceditur`
+- **GRAMMATICAL-ACTOR:** духовні й світські стани; вірні грецького та римського обрядів
+- **TEXTUAL-OPERATOR:** `PROHIBITS / PERMITS / ABOLISHES`
+- **TEXTUAL-OBJECT:** Скасування унії в Короні та ВКЛ; надання вибору переходу до римського чи уніатського обряду; довічна заборона засновувати церкви протилежної віри; дозвіл вільного відправлення римської віри в Київському, Брацлавському й Чернігівському воєводствах.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001E
+- **CLAIM-ID:** `HC-HAD1658-001E`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 30
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Panowie zaś świeccy, tak dziedziczni, jako i urzędnicy Jego Królewskiej Mości religii rzymskiej, żadnej jurysdycji mieć nie będą nad duchownymi, świeckimi i zakonnikami religii greckiej, prócz należnego pasterza.»
+- **LEXICAL-TERMS:** `Panowie świeccy, urzędnicy religii rzymskiej, żadnej jurysdycji mieć nie będą, duchownymi, świeckimi i zakonnikami religii greckiej, prócz należnego pasterza`
+- **GRAMMATICAL-ACTOR:** пани світські та урядники римської релігії; духовні й монахи грецької релігії
+- **TEXTUAL-OPERATOR:** `PROHIBITS`
+- **TEXTUAL-OBJECT:** Заборона світським дідичам та урядникам римської релігії здійснювати юрисдикцію над духовними, світськими особами та монахами грецької релігії (підлягають лише власному пастирю).
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001F
+- **CLAIM-ID:** `HC-HAD1658-001F`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 31
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «A że w spólnej ojczyźnie spólne prerogatywy i ozdoby wzajemnie należeć utique ritui mają, tedy Ojciec Metropolita Kijowski teraz i na potym będący, ze czterema władykami - łuckim, lwowskim, przemyskim, chełmskim i piątym z Wielkiego Księstwa Litewskiego - mścisławskim, według ich porządku własnego w Senacie zasiadać ma, z taką prerogatywą i prawem głosu [libera vocio usu], jako w Senacie zasiadają Jaśnie Wielebni Ich Miłoście duchowni obrządku rzymskiego [ritus romani]. Miejsce jednak Jego Miłości Ojcu Metropolicie po Jego Miłości Księdzu Arcybiskupie Lwowskim, władykom po biskupach powiatów swych naznacza się.»
+- **LEXICAL-TERMS:** `Metropolita Kijowski, czterema władykami, piątym z W. X. Litewskiego, w Senacie zasiadać ma, libera vocio usu, ritus romani, po Arcybiskupie Lwowskim`
+- **GRAMMATICAL-ACTOR:** Митрополит Київський; чотири єпископи (луцький, львівський, перемишльський, холмський); єпископ мстиславський
+- **TEXTUAL-OPERATOR:** `REQUIRES / CONFIRMS`
+- **TEXTUAL-OBJECT:** Надання Київському митрополиту та 5 владикам місць і права голосу в Сенаті нарівні з римо-католицьким духовенством із визначенням порядку старшинства.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001G
+- **CLAIM-ID:** `HC-HAD1658-001G`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 32
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «W województwie kijowskim dygnitarstwa senatorskie mają być dawane, tylko szlachcie obrządku greckiego [ritus graeci] zdatnej [capacibus] do tych urzędów. W województwach zaś bracławskim i czernihowskim też zaszczyty [praeminentie] senatorskie na przemian [alternatio] wymieniane [conferowane] być mają: tak iż po ustąpieniu [post decessum] senatora obrządku greckiego [ritus graeci] ma następować senator obrządku rzymskiego [ritus romani]. We wszystkich jednak trzech tych województwach urzędy zawżdy konferowane być mają osobom, które mieszkają tam i mają dobra.»
+- **LEXICAL-TERMS:** `dygnitarstwa senatorskie, szlachcie obrządku greckiego, alternatio, post decessum, mieszkają tam i mają dobra`
+- **GRAMMATICAL-ACTOR:** шляхта грецького обряду; шляхта римського обряду; король
+- **TEXTUAL-OPERATOR:** `REQUIRES / RESERVES`
+- **TEXTUAL-OBJECT:** Надання сенаторських гідностей у Київському воєводстві лише осілій шляхті грецького обряду; чергування (alternatio) сенаторських посад між грецьким і римським обрядами у Брацлавському та Чернігівському воєводствах.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001H
+- **CLAIM-ID:** `HC-HAD1658-001H`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 33
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «W województwach kijowskim, bracławskim i czernihowskim dygnitarstwa senatorskie szlachcie obrządku greckiego tylko, capacibus mają być dawane, którzy mieszkają tam i mają dobra w tych województwach, saluo iure teraźniejszych possesorów. Tym jednak czasem respectus hetmaństwa, pierwszym senatorem w tych trzech województwach ma być Hetman dla Wojsk Ruskich i wszystka jurysdykcja kijowska ma do jego należeć dyspozycji, jako nastawienie podwojewodzego i innych urzędników. To powinno należeć Hetmanowi i zastrzega się tylko do czasu, póki on w posiadanie województwa kijowskiego nie przyjdzie.»
+- **LEXICAL-TERMS:** `Hetman dla Wojsk Ruskich, pierwszym senatorem, wszystka jurysdykcja kijowska, nastawienie podwojewodzego i innych urzędników`
+- **GRAMMATICAL-ACTOR:** Гетьман Військ Руських
+- **TEXTUAL-OPERATOR:** `CONFIRMS / RESERVES`
+- **TEXTUAL-OBJECT:** Визнання Гетьмана Військ Руських першим сенатором у трьох воєводствах та надання йому повної київської юрисдикції, включно з призначенням підвоєводи й інших урядників, до набуття володіння воєводством.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001I
+- **CLAIM-ID:** `HC-HAD1658-001I`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 34
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Więc też aby miłość obopólna krzewiła się w miastach koronnych i Wielkiego Księstwa Litewskiego, gdziekolwiek cerkwie obrządku greckiego [ritus graeci] zasięgły, zarówno mieszczanie tak rzymscy, jako religii greckiej, spólnej wolności swobód zażywać mają i żadnemu religia grecka do Magistratu przeszkodą być nie ma.»
+- **LEXICAL-TERMS:** `mieszczanie rzymscy, religii greckiej, spólnej wolności swobód, żadnemu religia grecka do Magistratu przeszkodą być nie ma`
+- **GRAMMATICAL-ACTOR:** міщани римської та грецької релігії
+- **TEXTUAL-OPERATOR:** `CONFIRMS / PROHIBITS`
+- **TEXTUAL-OBJECT:** Зрівняння міщан грецького й римського обрядів у міських вольностях і свободах у Короні та ВКЛ; заборона вважати грецьку релігію перешкодою для доступу до магістрату.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001J
+- **CLAIM-ID:** `HC-HAD1658-001J`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 35
+- **TEXTUAL-SPEAKER:** `CROWN SIDE`
+- **EXACT-QUOTE:**
+  > «Akademię w Kijowie pozwala Jego Królewska Mość i Stany Koronne erygować, która takimi prerogatywami i wolnościami ma się cieszyć [gaudere], jako Akademia Krakowska, tą jednak kondycją, aby w tej Akademii żadnych sekt: ariańskiej, kalwińskiej, luterskiej profesorów, mistrzów i studentów nie było. Więc, aby między studentami i żakami żadnej okazji do zwady nie było, wszystkie insze szkoły, które przedtym w Kijowie były, gdzie indziej Jego Królewska Mość przenieść rozkaże.»
+- **LEXICAL-TERMS:** `Akademię w Kijowie erygować, prerogatywami i wolnościami, jako Akademia Krakowska, żadnych sekt ariańskiej kalwińskiej luterskiej, insze szkoły przenieść`
+- **GRAMMATICAL-ACTOR:** Його Королівська Милість; Стани Коронні; Київська академія
+- **TEXTUAL-OPERATOR:** `PERMITS / PROHIBITS`
+- **TEXTUAL-OBJECT:** Дозвіл на заснування Академії в Києві з правами й вольностями Краківської академії за умови недопущення аріанських, кальвінських і лютеранських викладачів і студентів; перенесення інших шкіл з Києва.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001K
+- **CLAIM-ID:** `HC-HAD1658-001K`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 36
+- **TEXTUAL-SPEAKER:** `CROWN SIDE`
+- **EXACT-QUOTE:**
+  > «Drugą także Akademię pozwala Jego Królewska Mość Pan nasz Miłościwy i Stany Koronne i Wielkiego Księstwa Litewskiego tam, gdzie jej miejsce sposobne upatrzą, która takich, jako kijowska zażywać będzie praw i wolności, lecz taką, jako i w Kijowie ma być erygowana kondycją, aby w niej sekty ariańskiej, kalwińskiej i luterskiej profesorów, mistrzów i studentów nie było. A gdziekolwiek ta Akademia stanie, już tam żadne insze szkoły wiecznymi czasy erygowane nie będą.»
+- **LEXICAL-TERMS:** `Drugą także Akademię pozwala, gdzie jej miejsce sposobne upatrzą, praw i wolności, bez sekt ariańskiej kalwińskiej i luterskiej, żadne insze szkoły erygowane nie będą`
+- **GRAMMATICAL-ACTOR:** Його Королівська Милість; Стани Коронні та ВКЛ
+- **TEXTUAL-OPERATOR:** `PERMITS / PROHIBITS`
+- **TEXTUAL-OBJECT:** Дозвіл на заснування другої Академії у відповідному місці з тими самими правами й антисектантськими умовами та забороною відкривати поруч інші школи.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-001L
+- **CLAIM-ID:** `HC-HAD1658-001L`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 1, Рядок 37
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Gimnazja, kollegia, szkoły i drukarnie, ile ich potrzebować będą bez trudności stanowić będzie wolno i swobodnie [liberę] nauki odprawować i księgi drukować wszelakie in controversiis religionum, nie obrażając Majestatu Króla i bez paszkwili na Króla Jego Mości.»
+- **LEXICAL-TERMS:** `Gimnazja kollegia szkoły i drukarnie, bez trudności stanowić wolno, księgi drukować in controversiis religionum, nie obrażając Majestatu Króla`
+- **GRAMMATICAL-ACTOR:** засновники шкіл і друкарень
+- **TEXTUAL-OPERATOR:** `PERMITS / PROHIBITS`
+- **TEXTUAL-OBJECT:** Дозвіл вільно відкривати гімназії, колегії, школи й друкарні та друкувати релігійно-полемічні книги без образ королівського маєстату й пасквілів.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-002A
+- **CLAIM-ID:** `HC-HAD1658-002A`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 2, Рядок 39
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
+- **EXACT-QUOTE:**
+  > «A ponieważ Wielmożny Hetman z Wojskiem Zaporoskim od Rzeczypospolitej oderwanym, z miłości ku [przeciwko] Jego Królewskiej Mości Panu swemu miłościwemu i własnej ojczyźnie, wszelakich odstępując postronnych protekcji, powraca, tedy Jego Królewska Mość Pan nasz Miłościwy i wszystkie Stany Koronne i Wielkiego Księstwa Litewskiego to, cokolwiek pan Bóg na oboje strony dopuścił, majestatowi jego świętemu za grzechy spólne ofiarowawszy, wieczną amnistią, to jest zapomnieniem wiecznym pokrywa, asekurując wszelkiej kondycji ludzi od największego do najmniejszego, nikogo nie wyjmując, tak z pośrodku Wojska Zaporoskiego, jako też stanu szlacheckiego, urzędników, jako i prywatnych ludzi, będących tych zgoła wszystkich, którzy cokolwiek, jakimkolwiek sposobem przy Wielmożnych Hetmanach, tak zeszłym, jako i teraźniejszym zostawali i zostają, i żadnej zemsty, ani Majestat Pański, ani Senat, ani wszystka Rzeczpospolita na ostatek, ani żaden z prywatnych przeciwko nim i każdemu z osobna od największych do najmniejszych nie będzie pretendował, i owszem, wszystkie niesmaki i to wszystko, cokolwiek podczas wojen działo się, wcale sercem chrześcijańskim pod świadectwem strasznego Boga, z obopólnie dobrą wiarą [bona fide] sobie podarowawszy, żadnej jeden na drugiego ani jawnej, ani potajemnej nie ma knować pomsty i praktyki, nie dające się uwodzić, ani żadnej absolutnej, jeśliby chcieli czynić dowcipy skrzętne uwalniając z przysięgi.»
+- **LEXICAL-TERMS:** `odstępując postronnych protekcji powraca, wieczną amnistią, zapomnieniem wiecznym pokrywa, asekurując wszelkiej kondycji ludzi, żadnej zemsty, sercem chrześcijańskim, bona fide`
+- **GRAMMATICAL-ACTOR:** Король; Стани Корони й ВКЛ; Гетьман і Військо Запорозьке; шляхта й приватні особи
+- **TEXTUAL-OPERATOR:** `PARDONS / PROHIBITS / GUARANTEES`
+- **TEXTUAL-OBJECT:** Оголошення вічної амністії й повного забуття воєнних дій для всіх станів і учасників; взаємна відмова від помсти й звільнення від обов'язків за попередніми союзами.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-002B
+- **CLAIM-ID:** `HC-HAD1658-002B`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 2, Рядок 40
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Nadto kaduki wszystkie, tak pod tymi, którzy są z [e corpore] Wojska Zaporoskiego, jako pod szlachtą, która przy Wielmożnym Hetmanie i Wojsku Zaporoskim, i przy Szwedach wiązała się, od kogokolwiek uproszone i od zaczęcia wojny dane, niczego nie pomijając [nic penitus nie ekscipując], ogółem wszystkie i każdy z osobna zostaną skasowane. I zostaną skasowane prawem tak aby one niczyjemu ani honorowi, ani własności dóbr nie szkodziły, które gdziekolwiek by znajdowały się pro cassatio i z ksiąg eliminatis habentur i tych dóbr własnym possesorom wolno zawładnąć, ani jej kadukami bronić mają sub paena infamia.»
+- **LEXICAL-TERMS:** `kaduki wszystkie, Wojska Zaporoskiego, pod szlachtą przy Szwedach, skasowane, pro cassatio, z ksiąg eliminatis, własnym possesorom wolno zawładnąć, sub paena infamia`
+- **GRAMMATICAL-ACTOR:** посідачі кадуків; законні власники дібр; судова влада
+- **TEXTUAL-OPERATOR:** `ABOLISHES / RESTORES / PROHIBITS`
+- **TEXTUAL-OBJECT:** Касація всіх прав на конфісковані маєтності (кадуки), наданих під час війни проти козаків і шляхти; повернення майна законним власникам під загрозою інфамії.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-002C
+- **CLAIM-ID:** `HC-HAD1658-002C`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 2, Рядок 41
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «A jako rzecz sama, tak i imię samej aministiej powinno być święte [sanctum]. I jako in pristinum statum res et persona wszelakiej kondycji ludzi restituntur i do tejże jedności, zgody, miłości, prawa, pana, jako było przed wojną, powracają. Tak zastrzega się, iż ktobykolwiek rwać to świątobliwe zjednoczenie ważył się publice lubo privatim w posiedzeniu komu zarzucić zdradę śmiał takowy, taki będzie ukarany za naruszenie ugody. W czym jeśliby się jaka trafiła okazja dla uchronienia potwarzy, pilne czynione ma być śledztwo [inquisitia] z obu rąk.»
+- **LEXICAL-TERMS:** `imię aministiej święte, in pristinum statum res et persona restituntur, zarzucić zdradę śmiał, ukarany za naruszenie ugody, inquisitia z obu rąk`
+- **GRAMMATICAL-ACTOR:** усі особи; органи слідства обох сторін
+- **TEXTUAL-OPERATOR:** `PROTECTS / PROHIBITS / REQUIRES`
+- **TEXTUAL-OBJECT:** Недоторканність амністії; відновлення осіб і майна у попередньому статусі; суворе покарання за публічні чи приватні звинувачення у зраді зі спільним розслідуванням наклепів.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-002D
+- **CLAIM-ID:** `HC-HAD1658-002D`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 2, Рядок 42
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
+- **EXACT-QUOTE:**
+  > «Wszystka Rzeczpospolita Narodu Polskiego i Wielkiego Księstwa Litewskiego i Ruskiego i prowincji do nich należących restituantur in integrum, tak jako było przed wojną, to jest, aby te narody w granicach swoich i swobodach zostawały nienaruszone, jako były przed wojną, i wedle praw opisanych w radach, sądach i wolnej elekcji panów swoich, królów polskich i wielkich książąt litewskich i ruskich. A jeśli pod ciężarem wojny z postronnymi pany na ujmę granic, albo wolności tych narodów stanęło co, to ma to być nieważnym i pustym, a przy swobodach swoich narody wyżej pomienione stawać mają bona fide jako jedno ciało jednej i nierozdzielnej Rzeczypospolitej, nie czyniąc między sobą różnicy o wiarę, ale jako kto wyznawał religię chrześcijańską rzymską albo grecką wszystkich przy pokoju, wolności zostawiają. Luboby jakie prawa albo dekreta, tak z oczywistej kontrowersjej jako przy stawianiu się stron lub ich nieobecności, przewody prawne były ferowane przed wojną i w czasie wojny [tempore belli].»
+- **LEXICAL-TERMS:** `Rzeczpospolita Narodu Polskiego i W. X. Litewskiego i Ruskiego, restituantur in integrum, w granicach swoich i swobodach, wolnej elekcji, jedno ciało jednej i nierozdzielnej Rzeczypospolitej, bez różnicy o wiarę`
+- **GRAMMATICAL-ACTOR:** Народи Польський, Литовський і Руський; Річ Посполита
+- **TEXTUAL-OPERATOR:** `RESTORES / CONFIRMS / GUARANTEES`
+- **TEXTUAL-OBJECT:** Відновлення трьох народів у кордонах і свободах як єдиного тіла нероздільної Речі Посполитої зі збереженням рад, судів, вільної елекції королів та релігійного миру.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-003A
+- **CLAIM-ID:** `HC-HAD1658-003A`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 3, Рядок 44
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Wojska Zaporoskiego liczba trzydzieści tysięcy [wariantowo: sześćdziesiąt tysięcy] być ma, albo jako Wielmożny Hetman Zaporoski na Regestrze poda.»
+- **LEXICAL-TERMS:** `Wojska Zaporoskiego liczba trzydzieści tysięcy, sześćdziesiąt tysięcy, na Regestrze poda`
+- **GRAMMATICAL-ACTOR:** Військо Запорозьке; Гетьман Запорозький
+- **TEXTUAL-OPERATOR:** `DETERMINES`
+- **TEXTUAL-OBJECT:** Встановлення чисельності козацького компуту (реєстру) у 30 000 або 60 000 осіб за поданням Гетьмана.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-003B
+- **CLAIM-ID:** `HC-HAD1658-003B`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 3, Рядок 45
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Zaciągowego zasię wojska dziesięć tysięcy, które także jako i Zaporoskie, pod władzą tegoż Hetmana zostawać ma i z podatków na Sejmie uchwalonych w województwach kijowskim, bracławskim, czernihowskim i innych od Rzplitej, mających się na tegoż żołnierza obracać.»
+- **LEXICAL-TERMS:** `Zaciągowego wojska dziesięć tysięcy, pod władzą Hetmana, z podatków na Sejmie uchwalonych`
+- **GRAMMATICAL-ACTOR:** Гетьман; наймане військо; Сейм
+- **TEXTUAL-OPERATOR:** `ESTABLISHES / REQUIRES`
+- **TEXTUAL-OBJECT:** Формування 10 000 найманого війська під командуванням Гетьмана з утриманням із сеймових податків трьох воєводств.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-003C
+- **CLAIM-ID:** `HC-HAD1658-003C`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 3, Рядок 46
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Kwatery Wojsku Zaporoskiemu w tych województwach i dobrach naznacza się, w których przed wojną zostawali, któremu to wojsku wszelakie wolności przywilejami najjaśniejszych królów nadane konfirmuje, zachowując ich przy starodawnych wolnościach i zwyczajach ich. i onym nie tylko nic nie ubliżając, ale owszem, wszelaką onę potwierdzając powagą. Nadto żaden dzierżawca dóbr Jego Królewskiej Mości i starosta, ani pan dziedziczny i dożywotni, ani ich podstarościowie, urzędnicy i insi wszelacy słudzy, żadnych podatków z futorów kozackich, wsi, miasteczek i domów wyciągać żadnych pretekstem nie będą, ale jako ludzie rycerscy, wolni od wszystkich największych i naj-mniejszych ciężarów, także od ceł, myt, po wszystkiej Koronie i Wielkim Księstwie Litewskim być mają. Także i od sądów wszelakich starostów, dzierżawców, panów i ich namiestników mają pozostawać wolni, ale tylko pod samego hetmana wojsk ruskich zostawać jurysdykcją. Przy tym wszelakie napoje, łowy polowe i rzeczne, i insze Kozaków pożytki według starych zwyczajów przy Kozakach wolne zostawać mają.»
+- **LEXICAL-TERMS:** `Kwatery Wojsku Zaporoskiemu, wolności przywilejami nadane konfirmuje, żaden dzierżawca starosta podatków wyciągać nie będą, ludzie rycerscy, wolni od ceł myt, od sądów starostów wolni, pod jurysdykcją hetmana, napoje łowy pożytki`
+- **GRAMMATICAL-ACTOR:** козаки Війська Запорозького; старости, орендарі, дідичі; Гетьман
+- **TEXTUAL-OPERATOR:** `CONFIRMS / EXEMPTS / PROHIBITS`
+- **TEXTUAL-OBJECT:** Підтвердження традиційних квартир і вольностей козаків як лицарських людей; повне звільнення від податків, мит і юрисдикції старост та поміщиків із підпорядкуванням виключно гетьманському суду; збереження промислів.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-003D
+- **CLAIM-ID:** `HC-HAD1658-003D`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 3, Рядок 47
+- **TEXTUAL-SPEAKER:** `CROWN SIDE`
+- **EXACT-QUOTE:**
+  > «Z osobna zaś, dla dalszego do usług Jego Królewskiej Mości przychęcenia, którychkolwiek Hetman Wojsk Ruskich prezentować Jego Królewskiej Mości będzie, godnych klejnotu szlacheckiego, tych wszystkich bez trudności spotka nobilitacja z nadaniem wszelakich wolności szlacheckich, tak jednak miarkując, żeby z każdego pułku sto być mogło nobilitowanych.»
+- **LEXICAL-TERMS:** `Hetman Wojsk Ruskich prezentować będzie, nobilitacja z nadaniem wszelakich wolności szlacheckich, z każdego pułku sto`
+- **GRAMMATICAL-ACTOR:** Його Королівська Милість; Гетьман Військ Руських; козаки, що нобілітуються
+- **TEXTUAL-OPERATOR:** `PERMITS / CONFERS`
+- **TEXTUAL-OBJECT:** Надання шляхетства з усіма вольностями за поданням Гетьмана з розрахунку до 100 осіб від кожного козацького полку.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-003E
+- **CLAIM-ID:** `HC-HAD1658-003E`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 3, Рядок 48
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Wojsk żadnych polskich, litewskich, albo cudzoziemskich nikt prowadzić nie ma w województwo kijowskie, bracławskie, czernihowskie. Wojska jednak pieniężne pod władzą Hetmana Wojsk Ruskich będące, z dóbr królewskich i duchownych w pomienionych województwach, za ordynansem tegoż Hetmana Ruskiego chleb wybierać będą. A gdyby wojna jaka być miała od granic ruskich i potrzeba posiłków koronnych przystąpiła, wtenczas te posiłki mają być pod regimentem Hetmana Wojsk Ruskich.»
+- **LEXICAL-TERMS:** `Wojsk żadnych polskich litewskich cudzoziemskich nikt prowadzić nie ma, posiłki koronne pod regimentem Hetmana Wojsk Ruskich`
+- **GRAMMATICAL-ACTOR:** коронні, литовські та іноземні війська; Гетьман Військ Руських
+- **TEXTUAL-OPERATOR:** `PROHIBITS / SUBORDINATES`
+- **TEXTUAL-OBJECT:** Заборона вводити коронні, литовські чи чужоземні війська у три воєводства; підпорядкування можливих коронних допоміжних військ Гетьману Руському у разі війни.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-004A
+- **CLAIM-ID:** `HC-HAD1658-004A`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 4, Рядок 50
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Dla tym lepszego tych pakt potwierdzenia i pewności Hetman Wojsk Ruskich do końca życia swego [ad extrema vita sua tempora] pozostanie Hetmanem Wojsk Ruskich i pierwszym w województwach kijowskim, bracławskim i czernihowskim senatorem, a po jego śmierci [pro hac nice, a post fata] jego ma być wolne obieranie hetmana, to jest czterech elektorów obiorą statut województw kijowskiego, bracławskiego i czernihowskiego, z których jednemu Jego Królewska Mość konferować będzie, nie oddalając od tego urzędu rodzonych Wielmożnego Hetmana Ruskiego braci.»
+- **LEXICAL-TERMS:** `Hetman Wojsk Ruskich do końca życia swego, pierwszym senatorem, wolne obieranie hetmana, czterech elektorów, braci hetmana`
+- **GRAMMATICAL-ACTOR:** Іван Виговський; чотири електори трьох воєводств; король
+- **TEXTUAL-OPERATOR:** `CONFIRMS / ESTABLISHES`
+- **TEXTUAL-OBJECT:** Довічне збереження гетьманства та першого сенаторського місця за Виговським; встановлення вільного обрання наступних гетьманів чотирма електорами від воєводств із правом балотування братів гетьмана.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-004B
+- **CLAIM-ID:** `HC-HAD1658-004B`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 4, Рядок 51
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Mennica dla bicia wszelakich pieniędzy w Kijowie, albo gdzie sposobnym [commodim] będzie się zdało, otworzona być ma, wedle jednej ligii i z osobą królewską.»
+- **LEXICAL-TERMS:** `Mennica dla bicia wszelakich pieniędzy w Kijowie, wedle jednej ligii i z osobą królewską`
+- **GRAMMATICAL-ACTOR:** монетний двір; король
+- **TEXTUAL-OPERATOR:** `PERMITS / REQUIRES`
+- **TEXTUAL-OBJECT:** Дозвіл відкрити монетний двір у Києві для карбування монети єдиної стопи з королівським зображенням.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-004C
+- **CLAIM-ID:** `HC-HAD1658-004C`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 4, Рядок 52
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
+- **EXACT-QUOTE:**
+  > «Spólna rada i spólne siły być mają tych narodów przeciw każdemu nieprzyjacielowi. Starać się mają te trzy narody wspólne wszelkimi sposobami, aby wolna była nawigacja na Czarne Morze Rzeczypospolitej.»
+- **LEXICAL-TERMS:** `Spólna rada i spólne siły przeciw każdemu nieprzyjacielowi, wolna nawigacja na Czarne Morze`
+- **GRAMMATICAL-ACTOR:** три народи Речі Посполитої
+- **TEXTUAL-OPERATOR:** `REQUIRES / ASPIRES`
+- **TEXTUAL-OBJECT:** Зобов'язання спільної ради й оборони трьох народів проти ворогів та спільних зусиль для забезпечення вільного судноплавства Чорним морем.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-004D
+- **CLAIM-ID:** `HC-HAD1658-004D`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 4, Рядок 53
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
+- **EXACT-QUOTE:**
+  > «Jeśli car moskiewski prowincji Rzeczypospolitej przywrócić nie zechce i na Rzeczpospolitą następować będzie, tedy wszystkie siły, tak koronne, jako i Wielkiego Księstwa Litewskiego, jako i Wojska Ruskie Zaporoskie pod regimentem Hetmana swego łączyć się i wojować będą.»
+- **LEXICAL-TERMS:** `car moskiewski prowincji nie zechce, siły koronne litewskie i Wojska Ruskie Zaporoskie pod regimentem Hetmana swego łączyć się`
+- **GRAMMATICAL-ACTOR:** цар московський; коронні, литовські та запорозькі війська
+- **TEXTUAL-OPERATOR:** `REQUIRES`
+- **TEXTUAL-OBJECT:** Обов'язок спільних воєнних дій коронних, литовських і запорозьких сил під проводом власного гетьмана у разі відмови царя повернути провінції або нападу на Річ Посполиту.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-004E
+- **CLAIM-ID:** `HC-HAD1658-004E`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 4, Рядок 54
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Dobra leżące i ruchome, królewszczyzny, także i sumy pieniężne obywatelów ruskiej ziemi, którzy się lubo przy Wojsku Zaporoskim wiązali i teraz do ojczyzny powracają, konfiskowane - przywrócone być mają, i zasługi ich w wojsku koronnym i Wielkiego Księstwa Litewskiego równo z zasługami wojsk koronnych i Wielkiego Księstwa Litewskiego kompensowane i zapłacone.»
+- **LEXICAL-TERMS:** `Dobra królewszczyzny sumy pieniężne, obywatelów ruskiej ziemi, konfiskowane przywrócone być mają, zasługi w wojsku kompensowane i zapłacone`
+- **GRAMMATICAL-ACTOR:** повернені обивателі руської землі; скарб
+- **TEXTUAL-OPERATOR:** `RESTORES / COMPENSATES`
+- **TEXTUAL-OBJECT:** Повернення конфіскованих маєтностей і сум особам, що повертаються до Речі Посполитої; виплата винагороди за військову службу нарівні з іншими військами.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-005A
+- **CLAIM-ID:** `HC-HAD1658-005A`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 5, Рядок 56
+- **TEXTUAL-SPEAKER:** `COSSACK SIDE`
+- **EXACT-QUOTE:**
+  > «A już od tego czasu Hetman z Wojskiem Zaporoskim teraz i na potem będące, odstąpiwszy wszelakich postronnych protekcji więcej się do nich wiązać nie ma. I owszem w wierności, poddaństwie i posłuszeństwie Najjaśniejszego Majestatu Królestwa Polskiego i następców Jego. Także wszystkiej Rzeczypospolitej ma i mają, będzie i będą wiecznymi czasy.»
+- **LEXICAL-TERMS:** `odstąpiwszy wszelakich postronnych protekcji, wierności poddaństwie i posłuszeństwie Najjaśniejszego Majestatu i Rzeczypospolitej`
+- **GRAMMATICAL-ACTOR:** Гетьман і Військо Запорозьке; Його Королівська Милість
+- **TEXTUAL-OPERATOR:** `RENNOUNCES / PLEDGES`
+- **TEXTUAL-OBJECT:** Відмова від будь-яких сторонніх протекцій та обіцянка вічної вірності, підданства й послуху польському королю та всій Речі Посполитій.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-005B
+- **CLAIM-ID:** `HC-HAD1658-005B`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 5, Рядок 57
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Nie odejmując [derogując] jednak nic braterstwu z Chanem Jego Mością Krymskim zawartemu, jeśli może być bez naruszenia integralności Rzeczypospolitej [salua integritate Reipublica] to i z carem moskiewskim.»
+- **LEXICAL-TERMS:** `Nie derogując braterstwu z Chanem Krymskim, salua integritate Reipublica, z carem moskiewskim`
+- **GRAMMATICAL-ACTOR:** Гетьман і Військо Запорозьке; Кримський хан; Московський цар
+- **TEXTUAL-OPERATOR:** `RESERVES / PERMITS`
+- **TEXTUAL-OBJECT:** Збереження братерського союзу з Кримським ханом і можливість миру з Московським царем за умови збереження цілісності Речі Посполитої.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-005C
+- **CLAIM-ID:** `HC-HAD1658-005C`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 5, Рядок 58
+- **TEXTUAL-SPEAKER:** `COSSACK SIDE`
+- **EXACT-QUOTE:**
+  > «Legacji żadnych od postronnych przyjmować nie ma i jeśliby się jakie trafiły one, do Jego Królewskiej Mości odsyłać będzie.»
+- **LEXICAL-TERMS:** `Legacji żadnych od postronnych przyjmować nie ma, do Jego Królewskiej Mości odsyłać będzie`
+- **GRAMMATICAL-ACTOR:** Гетьман Запорозький; іноземні посли
+- **TEXTUAL-OPERATOR:** `PROHIBITS / REQUIRES`
+- **TEXTUAL-OBJECT:** Заборона приймати іноземні посольства та обов'язок відсилати їх до короля.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-005D
+- **CLAIM-ID:** `HC-HAD1658-005D`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 5, Рядок 59
+- **TEXTUAL-SPEAKER:** `COSSACK SIDE`
+- **EXACT-QUOTE:**
+  > «Także ani wojsk postronnych wprowadzać, ani żadnego z postronnemi porozumienia mieć nie będzie na szkodę Rzeczypospolitej, chyba z dokładem Jego Królewskiej Mości.»
+- **LEXICAL-TERMS:** `ani wojsk postronnych wprowadzać, porozumienia mieć na szkodę Rzeczypospolitej, z dokładem Jego Królewskiej Mości`
+- **GRAMMATICAL-ACTOR:** Гетьман Запорозький
+- **TEXTUAL-OPERATOR:** `PROHIBITS / RESERVES`
+- **TEXTUAL-OBJECT:** Заборона вводити чужі війська й вести переговори на шкоду Речі Посполитій без відома й дозволу короля.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-006A
+- **CLAIM-ID:** `HC-HAD1658-006A`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 6, Рядок 61
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Primatis wszystkim z obój ej strony, tak duchownym obrządku rzymskiego [ritus romani] w województwach kijowskim, bracławskim, czernihowskim, podolskim, a także w Wielkim Księstwie Litewskim i na Białej Rusi, i w Siewierszczyźnie do biskupstw, probostw, kanonii, plebanii i dóbr do nich należących, także zakonnikom wszystkim do kościołów, klasztorom dóbr fundacyj, tudzież świeckim z obojej strony do dóbr dziedzicznych, starostw, dzierżaw i własności swoich dożywotnych, zastawnych inszemi kontraktami, należących w tychże województwach pomienionych i w Wielkim Księstwie Litewskim, na Białej Rusi i w Siewierzu zostających - bezpieczny powrót i reinductio otwiera się.»
+- **LEXICAL-TERMS:** `Primatis duchownym obrządku rzymskiego, świeckim z obojej strony do dóbr dziedzicznych starostw dzierżaw, bezpieczny powrót i reinductio`
+- **GRAMMATICAL-ACTOR:** римо-католицьке духовенство; світські дідичі й орендарі обох сторін
+- **TEXTUAL-OPERATOR:** `PERMITS / RESTORES`
+- **TEXTUAL-OBJECT:** Відкриття безпечного повернення (реіндукції) католицького духовенства та світських дідичів обох сторін до своїх маєтностей і староств у чотирьох воєводствах, ВКЛ, Білій Русі та Сіверщині.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-006B
+- **CLAIM-ID:** `HC-HAD1658-006B`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 6, Рядок 62
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
+- **EXACT-QUOTE:**
+  > «Czas jednak powrócenia i rendukcji Jego Królewska Mość, zniósłszy się z Wielmożnym Hetmanem Zaporoskim, naznaczyć ma. Sposób zasię reindukcji ten ma być zachowany, aby żaden do swojej własności [inaczej] nie powracał, jeno za uniwersałem Jego Królewskiej Mości i Wielmożnego Hetmana Wojsk Zaporoskich, w czym ma być wzajemne z obu stron porozumienie [konferencja].»
+- **LEXICAL-TERMS:** `Czas powrócenia i rendukcji naznaczyć ma, za uniwersałem Króla i Hetmana, wzajemne porozumienie`
+- **GRAMMATICAL-ACTOR:** Його Королівська Милість; Гетьман Запорозький
+- **TEXTUAL-OPERATOR:** `REQUIRES / RESERVES`
+- **TEXTUAL-OBJECT:** Встановлення порядку й термінів повернення виключно за спільними універсалами та узгодженням короля й гетьмана.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-006C
+- **CLAIM-ID:** `HC-HAD1658-006C`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 6, Рядок 63
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «A dla rozsądzenia różnych spraw, tak kryminalnych, jako i potocznych, mają mieć [Kozacy] w tych trzech województwach swój osobliwy trybunał, według takiego porządku, jaki sami sobie uformują. Prócz tego, owruckie i żytomierskie z osobna starostwa sądowe mieć mają.»
+- **LEXICAL-TERMS:** `dla rozsądzenia spraw kryminalnych potocznych, osobliwy trybunał, owruckie i żytomierskie starostwa sądowe`
+- **GRAMMATICAL-ACTOR:** козаки; трибунал трьох воєводств
+- **TEXTUAL-OPERATOR:** `ESTABLISHES / PERMITS`
+- **TEXTUAL-OBJECT:** Створення окремого судового трибуналу для кримінальних і поточних справ у трьох воєводствах за обраним ними самими порядком, а також судових староств в Овручі та Житомирі.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-006D
+- **CLAIM-ID:** `HC-HAD1658-006D`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 6, Рядок 64
+- **TEXTUAL-SPEAKER:** `CROWN SIDE`
+- **EXACT-QUOTE:**
+  > «A dla lepszej pewności, ponieważ Hetman z Wojskiem Zaporoskim i województwa oderwane, wszystkie insze, postronnych narodów protekcje odrzucają, a dobrowolnie Jako wolni dowolnych, równi do równych i zacni do zacnych powracają. Przeto dla pewniejszego dotrzymania teraźniejszego postanowienia, pozwala temuż narodowi ruskiemu Jego Królewska Mość i Rzeczpospolita osobnych Pieczętarzów, Marszałków i Podskarbich, i godności senatorskie [cum dignitate senatoria] i inne urzędy narodu ruskiego, którzy według roty urzędników koronnych przysięgę wykonać mają, przydawszy ten punkt, iż nic przeciwnego teraźniejszemu postanowieniu pieczętować nie będą; i owszem, tego przestrzegać będą, jako by temu postanowieniu, przez Konstytucję albo dekreta sejmowe, żadne inne rozporządzenia [rescripta], uniwersały i przywileje, nic się przekór nie działo.»
+- **LEXICAL-TERMS:** `narodowi ruskiemu osobnych Pieczętarzów, Marszałków i Podskarbich, godności senatorskie, nic przeciwnego postanowieniu pieczętować nie będą`
+- **GRAMMATICAL-ACTOR:** Його Королівська Милість і Річ Посполита; урядники руського народу (Печатники, Маршалки, Підскарбії)
+- **TEXTUAL-OPERATOR:** `PERMITS / REQUIRES / PROHIBITS`
+- **TEXTUAL-OBJECT:** Надання руському народові окремих вищих урядників (Печатників, Маршалків, Підскарбіїв) із сенаторською гідністю та забороною скріплювати печаткою будь-які акти, що суперечать угоді.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-006E
+- **CLAIM-ID:** `HC-HAD1658-006E`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 6, Рядок 65
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Do których Pieczętarzów urzędu i kancelarii należeć będą wszystkie tylko duchowne greckie metropolie, biskupstwa [episcopie], przeorstwa i beneficja, do których podawania należy Jego Królewska Mość Pan nasz Miłościwy. W województwach ruskim, kijowskim, wołyńskim, podolskim, bracławskim, czernihowskim także wszystkie greckie,nie tylko duchowne, ale i świeckie. W województwie kijowskim, bracławskim, czernihowskim tylko także i sądy z miast królewskich pomienionych tylko trzech województw i dekreta wszelakie, tak zadworne i sejmowe.»
+- **LEXICAL-TERMS:** `do Pieczętarzów urzędu i kancelarii należeć będą, duchowne greckie beneficja, sądy z miast królewskich dekreta zadworne i sejmowe`
+- **GRAMMATICAL-ACTOR:** Печатники та Канцелярія Руська; король
+- **TEXTUAL-OPERATOR:** `DELIMITS / RESERVES`
+- **TEXTUAL-OBJECT:** Підпорядкування Руській канцелярії справ грецьких бенефіцій у шести воєводствах, а також міських, задвірних і сеймових судів трьох воєводств.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-006F
+- **CLAIM-ID:** `HC-HAD1658-006F`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 6, Рядок 66
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «A cokolwiek by przeciwnego [in contrarium] tego postanowienia wyszło z Kancelarii Koronnej albo Wielkiego Księstwa Litewskiego, to być ma nieważne, i przeprowadzenie [impetrator] takowego przywileju - nie tylko przywilej tracić, ale i karze [paenae] dziesięciu tysięcy kop litewskich podlegać ma, o co sąd będzie przed Królem Jego Mością za specjalnym Rejestrem.»
+- **LEXICAL-TERMS:** `przeciwnego z Kancelarii Koronnej albo Litewskiej nieważne, paenae dziesięciu tysięcy kop litewskich, sąd przed Królem`
+- **GRAMMATICAL-ACTOR:** Канцелярія Коронна; Канцелярія Литовська; порушники привілеїв; король
+- **TEXTUAL-OPERATOR:** `ANNULS / PENALIZES`
+- **TEXTUAL-OBJECT:** Визнання недійсними будь-яких актів коронної чи литовської канцелярій усупереч цій угоді та покарання порушників штрафом у 10 000 кіп литовських через суд перед королем.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-006G
+- **CLAIM-ID:** `HC-HAD1658-006G`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 6, Рядок 67
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Aby przy okazji procesów [occasione lisium] względem poddanych o swawolę obwinianych [inculpowanych], do nowej nie przychodziło kontuzji, wszystkie procesy o stawieniu poddanych z powodu [ratione] najazdów, zaborów, szkód podczas wnętrz-nych zapałów poczynionych, ziemskie, grodzkie, trybunalskie, by też i dekreta trybunalskie ex personali w tych sprawach zaszły, osobliwie w województwach kijowskim, wołyńskim, bracławskim, czernino wskim zostaną skasowane.»
+- **LEXICAL-TERMS:** `procesy względem poddanych o swawolę, najazdów zaborów szkód skasowane, ziemskie grodzkie trybunalskie`
+- **GRAMMATICAL-ACTOR:** суди земські, гродські, трибунальські; шляхта й піддані
+- **TEXTUAL-OPERATOR:** `ABOLISHES`
+- **TEXTUAL-OBJECT:** Касація всіх судових позовів і вироків проти підданих за звинуваченнями у с сваволі, наїздах, пограбуваннях та збитках воєнного часу в чотирьох воєводствах.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-006H
+- **CLAIM-ID:** `HC-HAD1658-006H`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Стаття 6, Рядок 68
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Z carem Jego Mością Moskiewskim, jeśliby do zawarcia pakt Jego Królewskiej Mości i Stanom Koronnym i Wielkiego Księstwa Litewskiego przyszło, ma wymagać uznania [indemnitas reputacji] i teraźniejszego postanowienia Wielmożnemu Hetmanowi i Wojsku Zaporoskiemu praecament.»
+- **LEXICAL-TERMS:** `Z carem Moskiewskim do zawarcia pakt, indemnitas reputacji, teraźniejszego postanowienia praecament`
+- **GRAMMATICAL-ACTOR:** король і Стани; цар московський; Гетьман і Військо Запорозьке
+- **TEXTUAL-OPERATOR:** `REQUIRES`
+- **TEXTUAL-OBJECT:** Вимога обов'язкового збереження честі й умов цієї угоди для Гетьмана й Війська Запорозького у разі майбутнього укладення миру з Московським царем.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-CONCL-001
+- **CLAIM-ID:** `HC-HAD1658-CONCL-001`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Заключні статті, Рядок 70
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
+- **EXACT-QUOTE:**
+  > «Którą to Komisję tak Ichmości Panowie Komisarze, jako i Wielmożny Hetman Księstwa Ruskiego de facto przysięgą potwierdzili, tak jako roty iuramentu ręką Ichmościów extract podpisane. Nadto taż Komisja przysięgą cielesną z Senatu przez Jaśnie Przewielebnego Jego Mości Arcybiskupa Gnieźnieńskiego, Prymasa Koronnego i Jego Mości Księdza Biskupa Wileńskiego, także Ichmościów Panów Hetmanów czterech Koronnych i Wielkiego Księstwa Litewskiego i Pieczętarzów Obojga Narodów, jako i przez Marszałka koła poselskiego, Stany koła rycerskiego na Sejmie, który ma być jak najprędzej złożony w obecności [in praesentia] Posłów od Wielmożnego Hetmana Wojska Zaporoskiego wyprawionych potwierdzona [konfirmowana] będzie.»
+- **LEXICAL-TERMS:** `przysięgą potwierdzili, przysięgą cielesną z Senatu przez Arcybiskupa Prymasa i Biskupa Wileńskiego, czterech Hetmanow i Pieczętarzow, Marszałka na Sejmie`
+- **GRAMMATICAL-ACTOR:** Комісари; Гетьман Виговський; Примас, єпископи, гетьмани, печатарі, маршалок посольської ізби
+- **TEXTUAL-OPERATOR:** `PLEDGES / REQUIRES`
+- **TEXTUAL-OBJECT:** Складення присяги комісарами та гетьманом на місці; зобов'язання підтвердження присягою сенаторів, чотирьох гетьманів, печатарів і маршалка на найближчому Сеймі.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-CONCL-002
+- **CLAIM-ID:** `HC-HAD1658-CONCL-002`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Заключні статті, Рядок 71
+- **TEXTUAL-SPEAKER:** `CROWN SIDE`
+- **EXACT-QUOTE:**
+  > «A co się tknie przysięgi Jego Królewskiej Mości Pana naszego miłościwego, tę, z łaski [clementiej] swojej pańskiej, na pokorną prośbę wojska Zaporoskiego, uczynić raczy Jego Królewska Mość i za nią Ichmościowie Panowie Komisarze ręczą [ascecurują].»
+- **LEXICAL-TERMS:** `przysięgi Jego Królewskiej Mości, uczynić raczy, Komisarze ascecurują`
+- **GRAMMATICAL-ACTOR:** Його Королівська Милість; пани Комісари
+- **TEXTUAL-OPERATOR:** `PLEDGES / GUARANTEES`
+- **TEXTUAL-OBJECT:** Порука королівських комісарів щодо складання присяги королем на прохання Війська Запорозького.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-CONCL-003
+- **CLAIM-ID:** `HC-HAD1658-CONCL-003`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Заключні статті, Рядок 72
+- **TEXTUAL-SPEAKER:** `COSSACK SIDE`
+- **EXACT-QUOTE:**
+  > «Przysięgi zaś pułkowników, setników i wszystkiej starszyzny Wojska Zaporoskiego po Sejmie, na którym się dosyć stanie teraźniejszemu postanowieniu, przed Komisarzami na to deputowanymi będą wykonane.»
+- **LEXICAL-TERMS:** `Przysięgi pułkowników, setników i wszystkiej starszyzny Wojska Zaporoskiego po Sejmie`
+- **GRAMMATICAL-ACTOR:** полковники, сотники та вся старшина Війська Запорозького; призначені комісари
+- **TEXTUAL-OPERATOR:** `PLEDGES / REQUIRES`
+- **TEXTUAL-OBJECT:** Обов'язок складення присяги полковниками, сотниками та всією козацькою старшиною після Сейму перед призначеними комісарами.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-CONCL-004
+- **CLAIM-ID:** `HC-HAD1658-CONCL-004`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Заключні статті, Рядок 73
+- **TEXTUAL-SPEAKER:** `JOINT FORMULA`
+- **EXACT-QUOTE:**
+  > «Ażeby ta komisja wieczną wagę i powagę miała, tak jako w sobie brzmi z początku do ostatka, w prawo pospolite, to jest w konstytucję włączona [inserowana], Sejmem aprobowana i za wieczne nieodzowne prawo rozumiana utrzymana będzie.»
+- **LEXICAL-TERMS:** `wieczną wagę miała, w prawo pospolite w konstytucję włączona, Sejmem aprobowana, za wieczne nieodzowne prawo`
+- **GRAMMATICAL-ACTOR:** Сейм Речі Посполитої
+- **TEXTUAL-OPERATOR:** `REQUIRES / RATIFIES`
+- **TEXTUAL-OBJECT:** Вимога включення всього тексту комісії без змін до сеймової конституції як вічного й непорушного загальнодержавного права.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-CONCL-005
+- **CLAIM-ID:** `HC-HAD1658-CONCL-005`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Заключні статті, Рядок 74
+- **TEXTUAL-SPEAKER:** `COMMISSION`
+- **EXACT-QUOTE:**
+  > «Do Buławy Wielkiej Ruskiej należeć ma czehryńskie starostwo, tak jako zawarto [continetur] w przywileju urodzonego niegdyś Bohdana Chmielnickiego, od Jego Królewskiej Mości uzgodnionym [conferowanym].»
+- **LEXICAL-TERMS:** `Do Buławy Wielkiej Ruskiej, czehryńskie starostwo, w przywileju Bohdana Chmielnickiego conferowanym`
+- **GRAMMATICAL-ACTOR:** Булава Велика Руська; Богдан Хмельницький
+- **TEXTUAL-OPERATOR:** `CONFIRMS / ATTACHES`
+- **TEXTUAL-OBJECT:** Закріплення Чигиринського староства за посадою гетьмана (Великою Руською булавою) за привілеєм Богдана Хмельницького.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-CONCL-006
+- **CLAIM-ID:** `HC-HAD1658-CONCL-006`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Заключні статті, Рядок 75
+- **TEXTUAL-SPEAKER:** `CROWN SIDE`
+- **EXACT-QUOTE:**
+  > «A Hetman Wojsk Ruskich od rezydencji przy Jego Królewskiej Mości ma być wolny.»
+- **LEXICAL-TERMS:** `Hetman Wojsk Ruskich od rezydencji przy Jego Królewskiej Mości ma być wolny`
+- **GRAMMATICAL-ACTOR:** Гетьман Військ Руських
+- **TEXTUAL-OPERATOR:** `EXEMPTS`
+- **TEXTUAL-OBJECT:** Звільнення Гетьмана Військ Руських від обов'язку постійної резиденції при королівському дворі.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-CONCL-007
+- **CLAIM-ID:** `HC-HAD1658-CONCL-007`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Заключні статті, Рядок 76
+- **TEXTUAL-SPEAKER:** `CROWN SIDE`
+- **EXACT-QUOTE:**
+  > «Convocatia województwom kijowskiemu, bracławskiemu, czernihowskiemu po Sejmie przyszłym, który da Bóg jako najprędzej od Jego Królewskiej Mości Pana naszego miłościwego uniwersałem złożona będzie.»
+- **LEXICAL-TERMS:** `Convocatia województwom kijowskiemu, bracławskiemu, czernihowskiemu po Sejmie uniwersałem`
+- **GRAMMATICAL-ACTOR:** Його Королівська Милість; обивателі трьох воєводств
+- **TEXTUAL-OPERATOR:** `REQUIRES`
+- **TEXTUAL-OBJECT:** Обов'язок скликання королівським універсалом конвокації трьох воєводств після сейму.
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### HC-HAD1658-CONCL-008
+- **CLAIM-ID:** `HC-HAD1658-CONCL-008`
+- **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
+- **FIDELITY:** `L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)`
+- **LOCATOR:** Підпис і датування, Рядки 77–80
+- **TEXTUAL-SPEAKER:** `COSSACK SIDE`
+- **EXACT-QUOTE:**
+  > «Działo się in supra w taborze pod Hadziaczem, dnia i roku wyżej mianowanych. / - / / - / Jan Wyhowski, hetman wojsk Zaporowskich ręką własną imieniem wszystkiego wojska»
+- **LEXICAL-TERMS:** `w taborze pod Hadziaczem, Jan Wyhowski hetman wojsk Zaporowskich ręką własną`
+- **GRAMMATICAL-ACTOR:** Іван Виговський, гетьман військ Запорозьких
+- **TEXTUAL-OPERATOR:** `SIGNS / SEALS`
+- **TEXTUAL-OBJECT:** Особистий власноручний підпис і печатка гетьмана Івана Виговського від імені всього Війська Запорозького в таборі під Гадячем 16 вересня 1658 р.
+- **INTERPRETATION:** `EMPTY`
+
 
 ---
 
