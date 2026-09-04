@@ -7,3 +7,12 @@ CHANGE-TYPE: TEXTUAL_FIDELITY_AUDIT.
 AUDIT-OBSERVATIONS:
   1. Локальний файл містить повний набір 121 статті Троїцького списку.
   2. Текстова точність: VERIFIED-AGAINST-EDITION (повний диспозитивний склад перевірено за публікацією «Правда Русская» 1940 / 1984).
+
+
+CHANGE-ID: FIDELITY-AUDIT-RP-EXP-002
+WITNESS-ID: WIT-RP-EXP
+ACTUAL-COLLATION-TARGET: scholarly web derivative (ru.wikisource from 1984 academic print)
+PRINTED-EDITION-PAGES-CHECKED: PARTIAL (Звірено нумерацію та рубрикацію 121 статті списку з С. 64–73 видання 1984 р.)
+TRANSCRIPTION-MODE: SEMI-DIPLOMATIC
+LOCAL-TEXT-FIDELITY-RATING: L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)
+PREVIOUS-LABEL: VERIFIED-AGAINST-EDITION (Понижено до L1)

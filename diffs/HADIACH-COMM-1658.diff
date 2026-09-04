@@ -9,3 +9,11 @@ AUDIT-OBSERVATIONS:
   2. Текст містить первинні формулювання: концепція «Великого Князівства Руського» як третього суб'єкта Речі Посполитої; ліквідація Берестейської унії.
   3. Суцільне поаркушне порівняння з рукописом AGAD не проводилось (LOCAL-TEXT-FIDELITY: PARTIAL).
   4. Ідентифіковано відмінність від сеймового акта травня 1659 р. (Volumina Legum T. IV, s. 297–301), де скасування унії вилучено, а автономію скорочено.
+
+
+CHANGE-ID: FIDELITY-AUDIT-HADIACH-COMM-002
+WITNESS-ID: WIT-HADIACH-COMM-1658
+ACTUAL-COLLATION-TARGET: scholarly web transcription (pl.wikisource from 19th c. Polish transcripts)
+PRINTED-EDITION-PAGES-CHECKED: NO
+TRANSCRIPTION-MODE: PLAIN EXTRACTION
+LOCAL-TEXT-FIDELITY-RATING: L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)

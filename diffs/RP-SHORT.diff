@@ -8,3 +8,12 @@ AUDIT-OBSERVATIONS:
   1. Локальний файл містить 43 статті у суворій послідовності видання 1984 р.
   2. Орфографія: ять, юси, омега, титла розкрито за академічними правилами видання 1984 р.
   3. Текстова точність: VERIFIED-AGAINST-EDITION (всі 43 статті дослівно збігаються з публікацією Б. Грекова / В. Яніна).
+
+
+CHANGE-ID: FIDELITY-AUDIT-RP-SHORT-002
+WITNESS-ID: WIT-RP-SHORT
+ACTUAL-COLLATION-TARGET: scholarly web derivative (ru.wikisource verified text from 1984 academic print)
+PRINTED-EDITION-PAGES-CHECKED: PARTIAL (Звірено порядок та склад 43 статей з публікацією Б. Грекова / В. Яніна 1984 р. С. 47–49)
+TRANSCRIPTION-MODE: SEMI-DIPLOMATIC (Орфографія з розкритими титлами за нормами видання 1984 р.)
+LOCAL-TEXT-FIDELITY-RATING: L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)
+PREVIOUS-LABEL: VERIFIED-AGAINST-EDITION (Понижено до L1, оскільки безпосереднє посимвольне зіставлення з паперовим томом не зафіксовано)

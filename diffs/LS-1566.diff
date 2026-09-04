@@ -13,3 +13,13 @@ REASON:
   Виправлення дефекту неповноти джерела (DEFECTIVE -> VERIFIED-AGAINST-EDITION).
 AUDIT-METHOD:
   Скриптове посторінкове завантаження файлів st1566_01.htm ... st1566_15.htm з цифрової публікації litopys.kiev.ua з очищенням навігаційних HTML-тегів.
+
+
+CHANGE-ID: FIDELITY-AUDIT-LS-1566-002
+WITNESS-ID: WIT-LS-1566
+ACTUAL-COLLATION-TARGET: scholarly web transcription (litopys.kiev.ua / 15 chapter HTML files)
+PRINTED-EDITION-PAGES-CHECKED: NO (Видання Мінськ 2003 / 1855 р. ідентифіковане, але скан посторінково не звірявся)
+TRANSCRIPTION-MODE: PLAIN EXTRACTION (HTML tag stripping, entities unescape)
+LOCAL-TEXT-FIDELITY-RATING: L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)
+PREVIOUS-LABEL: VERIFIED-AGAINST-EDITION (Понижено через відсутність прямої звірки зі сканом видання)
+FIDELITY-NOTES: Текст відновлено у повному обсязі диспозицій (631 КБ), але рівень доказовості суворо обмежено L1.

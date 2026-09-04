@@ -8,3 +8,11 @@ AUDIT-OBSERVATIONS:
   1. Обсяг локального тексту: 1 477 348 байт, 6 290 рядків.
   2. Текст отримано з академічної публікації 1989 р. через цифрового посередника Право.бай / be.wikisource.
   3. Текстова точність: PARTIAL (звірено повний корпус розділів та наявність ключових артикулів розділу 3 «О волностяхъ шляхетъскихъ»; суцільне посимвольне порівняння 1,5 МБ з факсиміле 1588 р. в процесі).
+
+
+CHANGE-ID: FIDELITY-AUDIT-LS-1588-002
+WITNESS-ID: WIT-LS-1588
+ACTUAL-COLLATION-TARGET: scholarly web transcription (be.wikisource / pravo.by from 1989 academic print)
+PRINTED-EDITION-PAGES-CHECKED: PARTIAL (Звірено наявність та нумерацію 14 розділів, 488 артикулів)
+TRANSCRIPTION-MODE: PLAIN EXTRACTION (Руська діловодна мова Мамоничів 1588 р.)
+LOCAL-TEXT-FIDELITY-RATING: L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)

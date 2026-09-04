@@ -9,3 +9,11 @@ AUDIT-OBSERVATIONS:
   2. Виявлено наявність сучасного українського перекладу поруч з оригінальними мовами у вікі-вивантаженні. Переклад є допоміжним шаром.
   3. Староукраїнський текст зберігає автентичну графіку: омега (ω), ять (ѣ), юс малий (ѧ), є (ε), зіло (ѕ).
   4. Текстова точність: PARTIAL (звірено структуру статей, преамбулу та присягу; поаркушна звірка кожної титли з факсиміле не проводилась).
+
+
+CHANGE-ID: FIDELITY-AUDIT-ORLYK-1710-UA-002
+WITNESS-ID: WIT-ORLYK-1710-UA
+ACTUAL-COLLATION-TARGET: scholarly web transcription (uk.wikisource from 2010 CDIAK facsimile publication by O. Vovk)
+PRINTED-EDITION-PAGES-CHECKED: PARTIAL (Звірено преамбулу, статтю 6 та присягу з факсиміле 2010 р.)
+TRANSCRIPTION-MODE: SEMI-DIPLOMATIC (Староукраїнська книжна діловодна графіка)
+LOCAL-TEXT-FIDELITY-RATING: L1 (VERIFIED-AGAINST-DIGITAL-DERIVATIVE)
