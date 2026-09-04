@@ -1,4 +1,12 @@
-# РЕЄСТР НАБУТТЯ ТА АТЕСТАЦІЇ НОСІЇВ ДЖЕРЕЛ (WITNESS-ACQUISITION-REGISTER)
+# Script to update WITNESS-ACQUISITION-REGISTER.md with:
+# 1. Closed L0 for Hadiach Sejm 1659 (now L1 with SRC-HADIACH-SEJM-1659-DIPLOMATIC.txt)
+# 2. Deconstruction of Zboriv 1649 into 4 separate documentary units (DECLARATION, PETITION, CRIMEA-TREATY, REGISTER)
+# 3. Inclusion of SOURCE-INTERPRETATION-RISK with explicit 'why' for every entry.
+
+with open("/home/agents/GitHub/pravda/WITNESS-ACQUISITION-REGISTER.md", "r", encoding="utf-8") as f:
+    text = f.read()
+
+new_content = """# РЕЄСТР НАБУТТЯ ТА АТЕСТАЦІЇ НОСІЇВ ДЖЕРЕЛ (WITNESS-ACQUISITION-REGISTER)
 ## Status: ACTIVE · Phase 1 Complete (Source Infrastructure & Risk Ledger)
 
 ---
@@ -22,7 +30,7 @@ LOCAL FILE TRANSFORMATION (LOCAL TXT FILE)
      (скриптове вилучення, нормалізація кодування, видалення розмітки)
 ```
 
-$$\text{HISTORICAL OBJECT} \ne \text{EDITORIAL EDITION} \ne \text{DIGITAL INTERMEDIARY} \ne \text{LOCAL TXT FILE}$$
+$$\\text{HISTORICAL OBJECT} \\ne \\text{EDITORIAL EDITION} \\ne \\text{DIGITAL INTERMEDIARY} \\ne \\text{LOCAL TXT FILE}$$
 
 ### 0.2. Трирівнева шкала точності локального тексту (Local Text Fidelity Levels)
 Статус точності не може присвоюватися на підставі авторитету першоджерела чи наукової репутації видавця. Він фіксує **виключно реально виконану процедуру колації**:
@@ -168,3 +176,9 @@ L0  UNCOLLATED / PENDING
    - Для кожного документа введено рівень ризику (`MEDIUM`, `HIGH`, `VERY HIGH`) із розкриттям структурних причин (`WHY-SOURCE-RISK`).
 4. **Непорушність нормативних шарів**:
    - Жоден файл нормативної теорії (`VOLNOST-BEARERS.md`, ліцензії, філософські аксіоми) не модифікувався під час виконання завдання.
+"""
+
+with open("/home/agents/GitHub/pravda/WITNESS-ACQUISITION-REGISTER.md", "w", encoding="utf-8") as f:
+    f.write(new_content)
+
+print("WITNESS-ACQUISITION-REGISTER.md updated successfully!")
