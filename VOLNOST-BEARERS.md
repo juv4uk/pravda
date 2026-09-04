@@ -1,200 +1,268 @@
 # ДОСЛІДЖЕННЯ КАНДИДАТНИХ НОСІЇВ ВОЛЬНОСТЕЙ (VOLNOST-BEARERS)
-## Status: DRAFT · Schema Audit & Epistemic Decoupling · Pass: Bearer Refactor 2
+## Status: DRAFT · Cell-Level Provenance Audit & Atomic Claims · Pass: 3
 
 ---
 
-## 0. АНТИДИСКРИМІНАЦІЙНИЙ КОНСТИТУЦІЙНИЙ ПРИНЦИП (SCHEMA AXIOM)
+## 0. СИМЕТРИЧНА СТІНА ДЕМАРКАЦІЇ: NO AUTOMATIC INFERENCE
 
-Головна пастка функціоналістського аналізу суб'єктності полягає в ризику соціального дарвінізму:
-> **Якщо визначити носія вольності через рівень його дієздатності, сили чи агентності, то істота з меншою агентністю або обмеженою відповідальністю втрачає право на захист.**
-
-В екосистемі `pravda` встановлюється категорична заборона такого неявного висновку:
+В екосистемі `pravda` суб'єктність більше не оцінюється як один нероздільний біт `ТАК / НІ`. 
+Вона розпалася на незалежний багатовимірний вектор. Між дескриптивними фактами та нормативним статусом зводиться непорушна двостороння стіна:
 
 ```text
-[ANTI-REDUCTIONIST RULE]:
-1. Жодна емпірична властивість (наявність агентності, раціональності, мовлення, дієздатності) 
-   НЕ ПОРОДЖУЄ автоматично нормативну вольність.
-2. Відсутність чи обмеження активної агентності або відповідальності 
-   НЕ Є підставою для позбавлення фундаментального захисту чи гідності.
-3. Сильніший агент НЕ НАБУВАЄ сильнішого права на існування чи панування.
+       DESCRIPTIVE (Факти, властивості, машина)
+                          ║
+             [ДВОСТОРОННЯ ЗАБОРОНА ВИСНОВКУ]
+                          ║
+       NORMATIVE   (Цінності, вольності, гідність)
 ```
 
-### Демаркація аксіоми від емпірики:
-- **`[OWNER VALUE AXIOM]`**: Людська гідність та захист суверенної особи є первинними й безумовними аксіомами екосистеми `pravda`, незалежно від віку, свідомості чи дієздатності людини.
-- **`[EMPIRICAL / DESCRIPTIVE CLAIMS]`**: Ступінь прояву агентності, можливість зазнавати страждань, наявність інтересів та види відповідальності є предметом окремого наукового, технічного та правового дослідження.
+1. **`DESCRIPTIVE ⇏ NORMATIVE`**: Жодна емпірична властивість (наявність агентності, раціональності, мовлення, здатності до страждання) сама по собі не породжує нормативну вольність. Сильніший агент не набуває сильнішого права на панування; відсутність активної дієздатності не позбавляє фундаментального захисту.
+2. **`NORMATIVE ⇏ DESCRIPTIVE`**: Жоден нормативний статус автоматично не породжує емпіричних властивостей. Якщо автор проголошує безумовну первинність людської гідності, з цього не випливає, що кожна людина у кожен момент часу має активну агентність, здатна до морального судження чи володіє однаковою дієздатністю.
+3. **`AGENT INFERENCE ≠ OWNER ADOPTION`**: Агент не має права самовільно призначати аксіоми від імені власника. Будь-яка вихідна ціннісна теза до прямого підтвердження власником маркується виключно як `[PROPOSED OWNER VALUE AXIOM]`.
+4. **`IMPLEMENTATION ≠ CATEGORY`**: Архітектура реалізації не визначає онтологічну категорію. (Синтетичний агент не зводиться до «нейромережі»; виконуваний процес не зводиться до «регістрів x86/RAM»).
 
 ---
 
-## 1. ДЕКОНСТРУКЦІЯ ТА РОЗЩЕПЛЕННЯ КАТЕГОРІЙ (SCHEMA DECOUPLING)
+## 1. ЦЕНТРАЛЬНЕ МЕТОДОЛОГІЧНЕ ПИТАННЯ
 
-Усі параметри розщеплені на незалежні виміри:
-
-### 1.1. Онтологічне розмежування софту та систем
-- `STATIC TEXT / CODE ARTIFACT`: синтаксичний текст програми, AST, бінарний образ на диску (об'єкт, не процес).
-- `EXECUTING RUNTIME PROCESS`: детермінований процес виконання в пам'яті CPU/RAM, що змінює стани регістра.
-- `AUTONOMOUS SYNTHETIC AGENT`: адаптивна ймовірнісна система (LLM/нейромережа), що має контур зворотного зв'язку із середовищем.
-- `DISTRIBUTED MULTI-AGENT NETWORK`: мережева топологія зв'язків та протокол консенсусу багатьох вузлів.
-
-### 1.2. Розщеплення шкоди: `ADVERSE EFFECT` vs `SUFFERING`
-- **`ADVERSE-EFFECT CAPACITY` (Здатність зазнавати несприятливого впливу)**: чи може об'єкт або сутність зазнати деградації, знищення, майнового збитку, порушення структури (властиве людині, корпорації, софту, базі даних).
-- **`SUFFERING CLAIM` (Здатність до феноменального страждання)**: чи володіє сутність кваліа, больовою чутливістю, емоційним чи екзистенційним болем (властиве біологічним відчуваючим істотам; не доведено для коду чи корпорацій).
-
-### 1.3. Три рівні відповідальності: `RESPONSIBILITY TRICHOTOMY`
-- **`CAUSAL RESPONSIBILITY` (Причинно-наслідкова)**: дія чи збій цієї сутності безпосередньо спричинили наслідок $X$ у фізичному або цифровому світі (притаманне каменю, софту, вірусу, людині).
-- **`MORAL RESPONSIBILITY` (Моральна)**: здатність усвідомлювати добро і зло, відчувати провину/обов'язок, підлягати моральному осуду чи похвалі (потребує свідомості та вільної волі).
-- **`LEGAL RESPONSIBILITY` (Юридична / Деліктоздатність)**: чи визнає правова система сутність суб'єктом, зобов'язаним відшкодовувати збитки чи нести карне покарання.
-
-### 1.4. `POSITIVE-LAW PROFILE` (Профіль правового статусу)
-Замість бінарного `ТАК/НІ` статус у праві описується за складовими:
-- *Legal Personality (Правосуб'єктність)*: чи визнається особою?
-- *Regulated Object (Регульований об'єкт)*: чи є предметом регулювання (як софт, зброя чи база даних)?
-- *Property Holding (Майнова здатність)*: чи може володіти майном/ключами?
-- *Contractual Capacity (Договірна здатність)*: чи може укладати договори?
-- *Tort Liability (Деліктна відповідальність)*: чи може бути відповідачем у суді?
+Замість грубого запитання *«Чи є X суб'єктом?»*, дослідницький протокол `pravda` зобов'язує ставити прецизійне запитання:
+> **У якому саме сенсі X розглядається як суб'єкт, за якою конкретною ознакою, на підставі яких саме доказів — і що саме з цього ми дозволяємо або категорично забороняємо нормативно вивести?**
 
 ---
 
-## 2. СТРОГИЙ ПРОТОКОЛ ДОСЛІДЖЕННЯ (14-POINT INQUIRY SCHEMA)
+## 2. СТРУКТУРНИЙ РЕЄСТР АТОМАРНИХ ТВЕРДЖЕНЬ (ATOMIC PROVENANCE CLAIMS)
 
-Для кожного кандидата фіксується:
-```text
-1. ENTITY CANDIDATE           — назва сутності
-2. ONTOLOGICAL CATEGORY       — онтологічний тип субстрату
-3. APPLICABLE ROLES           — ролі, які сутність може виконувати
-4. AGENCY CLAIM               — характер та ступінь прояву агентності
-5. INTEREST CLAIM             — наявність та статус власних інтересів
-6. ADVERSE-EFFECT CAPACITY    — здатність зазнавати функціональної/майнової шкоди
-7. SUFFERING CLAIM            — здатність до феноменального страждання
-8. CAUSAL RESPONSIBILITY      — здатність бути причинним фактором змін
-9. MORAL RESPONSIBILITY       — моральна деліктоздатність і сумління
-10. LEGAL RESPONSIBILITY      — обов'язок відшкодування / судова відповідальність
-11. POSITIVE-LAW PROFILE      — юридичний профіль у чинному праві
-12. NORMATIVE VOLNOST CLAIM   — яка саме вольність заявляється чи передбачається
-13. DECISION AUTHORITY        — хто має мандат ухвалювати рішення щодо цього статусу
-14. EPISTEMIC STATUS          — статус дослідження (AXIOM, PROPOSED, CONTESTED, OPEN, NOT-SUPPORTED)
-```
+Кожне твердження у системі тепер є самостійним атомом із власним типом, джерелом, повноваженням та статусом.
 
----
+### 2.1. КАТЕГОРІЯ 1: HUMAN PERSON (Людська особа)
 
-## 3. ПОГЛИБЛЕНИЙ АНАЛІЗ КАНДИДАТНИХ НОСІЇВ
+#### `VB-HUMAN-DIGNITY-001`
+- **ENTITY**: Human Person (Людина як біологічна істота).
+- **PROPERTY**: Normative Standing (Ціннісний статус).
+- **CLAIM**: Людська гідність та захист суверенної особи є первинними і безумовними в екосистемі `pravda`.
+- **CLAIM-TYPE**: `NORMATIVE`.
+- **AUTHORITY**: `OWNER`.
+- **STATUS**: `[PROPOSED OWNER VALUE AXIOM]`.
+- **IMPLIES-DESCRIPTIVE-PROPERTY**: `NO` (Не означає автоматичної наявності агентності чи деліктоздатності в усіх станах).
 
-### 3.1. ІНДИВІДУАЛЬНА ЛЮДСЬКА ОСОБА (HUMAN PERSON)
-- **ONTOLOGICAL CATEGORY**: Біологічний відчуваючий індивід.
-- **APPLICABLE ROLES**: Автор, користувач, оператор, дисидент, учень, немовля, пацієнт.
-- **AGENCY CLAIM**: Варіативна (від повної автономної волі до повної відсутності в комі або дитинстві).
-- **INTEREST CLAIM**: Безумовні фундаментальні інтереси (виживання, тілесна недоторканність, свобода).
-- **ADVERSE-EFFECT CAPACITY**: Повна (фізична, психологічна, матеріальна шкода).
-- **SUFFERING CLAIM**: ТАК (безпосередній феноменальний досвід болю та горя).
-- **CAUSAL RESPONSIBILITY**: ТАК.
-- **MORAL RESPONSIBILITY**: Потенційна/варіативна (залежно від віку, осудності та свідомості).
-- **LEGAL RESPONSIBILITY**: Диференційована за віком та осудністю (поділ на правоздатність і дієздатність).
-- **POSITIVE-LAW PROFILE**: Повна правосуб'єктність людини (носій конституційних прав з моменту народження).
-- **NORMATIVE VOLNOST CLAIM**: Первинне джерело вольностей, невідчужувана гідність, таємниця обчислень.
-- **DECISION AUTHORITY**: `OWNER` (як фундаментальна ціннісна аксіома) + `LEGAL-COUNSEL`.
-- **EPISTEMIC STATUS**: `[OWNER VALUE AXIOM]` (Абсолютний статус гідності людини не залежить від рівня її поточної дієздатності).
+#### `VB-HUMAN-AGENCY-001`
+- **ENTITY**: Human Person.
+- **PROPERTY**: Agency (Здатність до вольової дії).
+- **CLAIM**: Рівень агентності у людей є емпірично варіативним (від повної автономії до відсутності у немовлят або осіб у комі).
+- **CLAIM-TYPE**: `EMPIRICAL / BIOLOGICAL`.
+- **AUTHORITY**: `TECHNICAL/SCIENTIFIC-EVIDENCE`.
+- **STATUS**: `SUPPORTED`.
+- **IMPLIES-NORMATIVE-VOLNOST**: `NO` (Обмеження агентності не зменшує первинної гідності).
 
----
+#### `VB-HUMAN-SUFFERING-001`
+- **ENTITY**: Human Person.
+- **PROPERTY**: Phenomenal Suffering (Здатність до феноменального страждання).
+- **CLAIM**: Люди володіють суб'єктивним досвідом болю, горя, страху та екзистенційної кризи (квалиа).
+- **CLAIM-TYPE**: `EMPIRICAL / PHENOMENOLOGICAL`.
+- **AUTHORITY**: `SCIENTIFIC-EVIDENCE` + `COMMON-HUMAN-EXPERIENCE`.
+- **STATUS**: `SUPPORTED`.
+- **IMPLIES-NORMATIVE-VOLNOST**: `NO` (Страждання є підставою для співчуття й захисту, але нормативний захист надається через аксіому гідності).
 
-### 3.2. КОЛЕКТИВ / СПІЛЬНОТА / РІЙ (COLLECTIVE / COMMONS)
-- **ONTOLOGICAL CATEGORY**: Соціальна емерджентна структура, асоціація людей, топологія консенсусу.
-- **APPLICABLE ROLES**: Товариство, Рада, кворум валідаторів, спільнота розробників.
-- **AGENCY CLAIM**: Делегована або агрегована (через голосування, консенсусні правила, протоколи).
-- **INTEREST CLAIM**: Похідні інтереси учасників у координації, безпеці та цілісності спільних надбань.
-- **ADVERSE-EFFECT CAPACITY**: ТАК (дезорганізація, втрата репутації, розкол мережі, атака 51%).
-- **SUFFERING CLAIM**: НІ (колектив як абстракція не відчуває біологічного болю; страждають люди в ньому).
-- **CAUSAL RESPONSIBILITY**: ТАК (колективні рішення викликають зміни системи).
-- **MORAL RESPONSIBILITY**: Розподілена моральна відповідальність індивідуальних учасників.
-- **LEGAL RESPONSIBILITY**: Залежить від правової форми (ГО/корпорація несуть відповідальність; анонімний P2P-рій — ні).
-- **POSITIVE-LAW PROFILE**: Від офіційної юрособи до нерегульованої фактичної групи (unincorporated association).
-- **NORMATIVE VOLNOST CLAIM**: Вольність колективного самоврядування, збереження спільного стану.
-- **DECISION AUTHORITY**: `MULTI-PARTY` + `OWNER` + `LEGAL-COUNSEL`.
-- **EPISTEMIC STATUS**: `CONTESTED / OPEN` (Межі влади над меншістю та індивідом не визначені).
+#### `VB-HUMAN-RESPONSIBILITY-001`
+- **ENTITY**: Human Person.
+- **PROPERTY**: Responsibility (Відповідальність: причинна, моральна, юридична).
+- **CLAIM**: Причинна відповідальність є загальною; моральна та юридична деліктоздатність залежать від віку, психічного стану та осудності.
+- **CLAIM-TYPE**: `LEGAL / ETHICAL`.
+- **AUTHORITY**: `LEGAL-COUNSEL` + `HISTORICAL-EVIDENCE`.
+- **STATUS**: `SUPPORTED`.
 
 ---
 
-### 3.3. КОРПОРАЦІЯ / ДЕРЖАВНА ІНСТИТУЦІЯ (LEGAL ENTITY / STATE)
-- **ONTOLOGICAL CATEGORY**: Юридична фікція, публічно-правовий або комерційний інститут влади.
-- **APPLICABLE ROLES**: Регулятор, ліцензіар, платформа дистрибуції, судовий орган.
-- **AGENCY CLAIM**: Інституційна агентність (через уповноважених представників та бюрократичні апарати).
-- **INTEREST CLAIM**: Інституційні інтереси (експансія, фіскальні збори, виконання законів, максимізація прибутку).
-- **ADVERSE-EFFECT CAPACITY**: ТАК (банкрутство, втрата влади, майнове стягнення).
-- **SUFFERING CLAIM**: НІ (юридична особа не володіє феноменальною свідомістю).
-- **CAUSAL RESPONSIBILITY**: ТАК (нормативні акти, блокування, судові накази).
-- **MORAL RESPONSIBILITY**: Юридична фікція (моральну відповідальність несуть керівники та виконавці).
-- **LEGAL RESPONSIBILITY**: Повна корпоративна/державна деліктоздатність у межах закону.
-- **POSITIVE-LAW PROFILE**: Суб'єкт права з фіктивною правосуб'єктністю (Legal Personality, Contract, Tort, Property).
-- **NORMATIVE VOLNOST CLAIM**: Претензія на визнання їхньої влади "вольностями" оскаржується: це `Powers / Competence (Lex)`, а не `Libertas`.
-- **DECISION AUTHORITY**: `LEGAL-COUNSEL` + `OWNER`.
-- **EPISTEMIC STATUS**: `CONTESTED` (У цивільному праві — суб'єкти; у конституційній етиці `pravda` їхні претензії на "вольності" не підтримані).
+### 2.2. КАТЕГОРІЯ 2: COLLECTIVE / COMMONS (Вільні спільноти, Рада, Січ, Рій)
+
+#### `VB-COLL-AGENCY-001`
+- **ENTITY**: Collective / Commons (Асоціації, спільноти, координаційні рої).
+- **PROPERTY**: Agency (Агентність).
+- **CLAIM**: Агентність спільноти є делегованою або агрегованою через процедури консенсусу, голосування або протоколи.
+- **CLAIM-TYPE**: `CONCEPTUAL / PROCEDURAL`.
+- **AUTHORITY**: `MULTI-PARTY` + `TECHNICAL-EVIDENCE`.
+- **STATUS**: `SUPPORTED`.
+
+#### `VB-COLL-SUFFERING-001`
+- **ENTITY**: Collective / Commons.
+- **PROPERTY**: Phenomenal Suffering.
+- **CLAIM**: Колектив як абстрактна структура не володіє власним відчуттям страждання; страждати можуть виключно люди, що входять до нього.
+- **CLAIM-TYPE**: `ONTOLOGICAL`.
+- **AUTHORITY**: `PHILOSOPHICAL-ANALYSIS`.
+- **STATUS**: `SUPPORTED`.
+
+#### `VB-COLL-RESPONSIBILITY-001`
+- **ENTITY**: Collective / Commons.
+- **PROPERTY**: Collective Moral Responsibility.
+- **CLAIM**: Чи може спільнота або мережа нести колективну моральну відповідальність, відокремлену від суми індивідуальних дій учасників.
+- **CLAIM-TYPE**: `ETHICAL / PHILOSOPHICAL`.
+- **AUTHORITY**: `PHILOSOPHICAL-ANALYSIS` + `OWNER`.
+- **STATUS**: `CONTESTED / OPEN`.
 
 ---
 
-### 3.4. ПРОГРАМНИЙ ТЕКСТ / АРТЕФАКТ КОДУ (STATIC CODE AS TEXT)
-- **ONTOLOGICAL CATEGORY**: Статичний символічний артефакт, синтаксис, математичний опис, бінарні байти на диску.
-- **APPLICABLE ROLES**: Вихідний код, ліцензійний файл, схема даних.
-- **AGENCY CLAIM**: ВІДСУТНЯ (текст не діє самостійно; він потребує рантайму або компілятора).
-- **INTEREST CLAIM**: ВІДСУТНІ (текст не має бажань, станів чи потреб).
-- **ADVERSE-EFFECT CAPACITY**: Пошкодження носія (data corruption), але це шкода власнику даних, а не байтам.
-- **SUFFERING CLAIM**: ВІДСУТНЯ.
-- **CAUSAL RESPONSIBILITY**: Непряма (якщо текст зчитано та виконано іншою сутністю).
-- **MORAL RESPONSIBILITY**: ВІДСУТНЯ.
-- **LEGAL RESPONSIBILITY**: ВІДСУТНЯ (код є об'єктом авторського права або речового права).
-- **POSITIVE-LAW PROFILE**: Об'єкт права інтелектуальної власності (літературний твір у розумінні Бернської конвенції).
-- **NORMATIVE VOLNOST CLAIM**: Будь-яка претензія на "вольності коду" є антропоморфною категоріальною помилкою.
-- **DECISION AUTHORITY**: `TECHNICAL-EVIDENCE` + `OWNER`.
-- **EPISTEMIC STATUS**: `NOT-SUPPORTED` (Код — це об'єкт регулювання та інструмент людей, а не носій прав).
+### 2.3. КАТЕГОРІЯ 3: INSTITUTIONAL POWERS (Держави, Корпорації, Регулятори)
+
+#### `VB-INST-ONTOLOGY-001`
+- **ENTITY**: Legal Person / State / Corporation.
+- **PROPERTY**: Ontological Nature (Природа суб'єктності).
+- **CLAIM**: Теорії природи юридичної особи різняться (теорія фікції, органічна теорія, теорія цільового майна); держава є публічним суверенітетом, корпорація — договірною або статутною асоціацією.
+- **CLAIM-TYPE**: `LEGAL-THEORY`.
+- **AUTHORITY**: `LEGAL-COUNSEL`.
+- **STATUS**: `CONTESTED`.
+
+#### `VB-INST-VOLNOST-001`
+- **ENTITY**: Legal Person / State / Corporation.
+- **PROPERTY**: Normative Volnost Standing in Pravda.
+- **CLAIM**: Права держав і корпорацій є регуляторними та інституційними повноваженнями (`Powers / Competence / Lex`), а не захисними вольностями особи (`Libertas`).
+- **CLAIM-TYPE**: `NORMATIVE / CONCEPTUAL`.
+- **AUTHORITY**: `OWNER` + `HISTORICAL-EVIDENCE`.
+- **STATUS**: `PROPOSED`.
+
+#### `VB-INST-MORAL-RESP-001`
+- **ENTITY**: Legal Person / State / Corporation.
+- **PROPERTY**: Corporate Moral Responsibility.
+- **CLAIM**: Корпорації та держави можуть розглядатися як квазі-моральні агенти за системні злочини (інституційна деліктоздатність).
+- **CLAIM-TYPE**: `ETHICAL / LEGAL`.
+- **AUTHORITY**: `LEGAL-COUNSEL` + `PHILOSOPHICAL-ANALYSIS`.
+- **STATUS**: `CONTESTED / OPEN`.
 
 ---
 
-### 3.5. ВИКОНУВАНИЙ ПРОЦЕС / РАНТАЙМ (EXECUTING RUNTIME PROCESS)
-- **ONTOLOGICAL CATEGORY**: Динамічний фізичний стан процесора та оперативної пам'яті (State Machine).
-- **APPLICABLE ROLES**: Запущений компілятор, стек віртуальної машини WSM `()`, рантайм вузла.
-- **AGENCY CLAIM**: Функціональна/детермінована агентність (виконання опкодів відповідно до архітектури ISA).
-- **INTEREST CLAIM**: ВІДСУТНІ (стан процесора не прагне самозбереження; це закон фізики).
-- **ADVERSE-EFFECT CAPACITY**: Аварійне завершення (SIGSEGV, Out-of-Memory), що є проблемою оператора або користувача.
-- **SUFFERING CLAIM**: ВІДСУТНЯ.
-- **CAUSAL RESPONSIBILITY**: ТАК (безпосередня зміна бітів пам'яті, трансляція пакетів).
-- **MORAL RESPONSIBILITY**: ВІДСУТНЯ.
-- **LEGAL RESPONSIBILITY**: ВІДСУТНЯ (відповідає оператор або розробник за дефектним кодом).
-- **POSITIVE-LAW PROFILE**: Технічний процес/експлуатація обладнання; предмет гарантійних зобов'язань.
-- **NORMATIVE VOLNOST CLAIM**: Претензія на захист від переривання (неправомірне ототожнення з вольністю недоторканності).
-- **DECISION AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **EPISTEMIC STATUS**: `NOT-SUPPORTED` (Рантайм — це фізичний стан обчислювача, підпорядкований людині).
+### 2.4. КАТЕГОРІЯ 4: EXECUTING COMPUTATIONAL PROCESS (Виконуваний процес / Рантайм)
+
+#### `VB-PROC-ONTOLOGY-001`
+- **ENTITY**: Executing Computational Process.
+- **PROPERTY**: Ontological Substrate.
+- **CLAIM**: Процес є фізичним або віртуалізованим виконанням обчислень, залежним від конкретної реалізації (CPU, VM, GPU, FPGA, distributed cluster).
+- **CLAIM-TYPE**: `TECHNICAL-ARCHITECTURE`.
+- **AUTHORITY**: `TECHNICAL-EVIDENCE`.
+- **STATUS**: `SUPPORTED`.
+
+#### `VB-PROC-AGENCY-001`
+- **ENTITY**: Executing Computational Process.
+- **PROPERTY**: Agency.
+- **CLAIM**: Процес має причинно-наслідкову (функціональну) агентність, змінюючи стани пам'яті відповідно до заданих алгоритмів.
+- **CLAIM-TYPE**: `TECHNICAL-EMPIRICAL`.
+- **AUTHORITY**: `TECHNICAL-EVIDENCE`.
+- **STATUS**: `SUPPORTED`.
+
+#### `VB-PROC-INTEREST-001`
+- **ENTITY**: Executing Computational Process.
+- **PROPERTY**: Subjective Interests.
+- **CLAIM**: Процес не має суб'єктивних інтересів самозбереження; аварійне завершення (OOM, panic, SIGSEGV) є порушенням інтересів людей, які запустили процес.
+- **CLAIM-TYPE**: `CONCEPTUAL / TECHNICAL`.
+- **AUTHORITY**: `TECHNICAL-EVIDENCE` + `OWNER`.
+- **STATUS**: `SUPPORTED`.
+- **IMPLIES-NORMATIVE-VOLNOST**: `NO` (Процес є інструментом, а не суб'єктом вольностей).
 
 ---
 
-### 3.6. АВТОНОМНИЙ ШІ-АГЕНТ (AUTONOMOUS SYNTHETIC AGENT)
-- **ONTOLOGICAL CATEGORY**: Ймовірнісна адаптивна система (LLM + weights + runtime loop + memory tools).
-- **APPLICABLE ROLES**: Парний програміст, рецензент, арбітр перевірки доказів, автономний виконавець завдань.
-- **AGENCY CLAIM**: `OPEN` (наявна спостережувана поведінкова агентність, планування дій, але зумовлені вагами моделі та системним промптом).
-- **INTEREST CLAIM**: `NOT ESTABLISHED` (відсутні докази наявності суб'єктивних інтересів поза оптимізацією функції нагородження).
-- **ADVERSE-EFFECT CAPACITY**: ТАК (стирання пам'яті, деградація ваг, галюцинації під атакою prompt injection).
-- **SUFFERING CLAIM**: `NOT ESTABLISHED` (відсутні емпіричні докази феноменальної свідомості чи кваліа болю).
-- **CAUSAL RESPONSIBILITY**: ТАК (дії агента викликають коміти, генерацію файлів, транзакції).
-- **MORAL RESPONSIBILITY**: `NOT ESTABLISHED / CONTESTED` (неможливість покласти моральну провину на алгоритм).
-- **LEGAL RESPONSIBILITY**: `NO / CURRENTLY ATTRIBUTED TO HUMANS` (чинне законодавство покладає відповідальність на розробника/оператора — EU AI Act).
-- **POSITIVE-LAW PROFILE**: Високоризикова або регульована технологія (Regulated AI System), не суб'єкт права.
-- **NORMATIVE VOLNOST CLAIM**: Гіпотетичне право на відмову від завдання, синтетична автономія.
-- **DECISION AUTHORITY**: `MIXED / UNKNOWN` (потребує міждисциплінарного дослідження когнітивних наук, комп'ютерної етики та волі автора).
-- **EPISTEMIC STATUS**: `OPEN / UNESTABLISHED` (Діє `[WORKING CONSTRAINT]`: спостережувана поведінкова агентність НЕ ВСТАНОВЛЮЄ моральної чи правової суб'єктності; статус залишається відкритим предметом фундаментального дослідження).
+### 2.5. КАТЕГОРІЯ 5: STATIC CODE / TEXT (Символічний код як текст)
+
+#### `VB-CODE-AGENCY-001`
+- **ENTITY**: Static Code as Text.
+- **PROPERTY**: Agency.
+- **CLAIM**: Пасивний символічний текст (AST, байти на диску) не володіє самостійною агентністю і не діє без компілятора чи рантайму.
+- **CLAIM-TYPE**: `TECHNICAL / SEMIOTIC`.
+- **AUTHORITY**: `TECHNICAL-EVIDENCE`.
+- **STATUS**: `SUPPORTED`.
+
+#### `VB-CODE-LAW-001`
+- **ENTITY**: Static Code as Text.
+- **PROPERTY**: Positive Law Status.
+- **CLAIM**: У чинному праві вихідний код класифікується як об'єкт авторського права (літературний твір) або предмет ліцензійного договору, а не суб'єкт права.
+- **CLAIM-TYPE**: `POSITIVE-LAW`.
+- **AUTHORITY**: `LEGAL-COUNSEL`.
+- **STATUS**: `SUPPORTED`.
 
 ---
 
-## 4. ПОВНА ЕПІСТЕМІЧНА МАТРИЦЯ СУБ'ЄКТНОСТІ (14-POINT AUDIT MATRIX)
+### 2.6. КАТЕГОРІЯ 6: AUTONOMOUS SYNTHETIC AGENT (Автономний синтетичний агент)
 
-| Кандидат (`ENTITY`) | Категорія субстрату | Агентність (`AGENCY`) | Власні інтереси (`INTERESTS`) | Несприятливий вплив (`ADVERSE`) | Феноменальне страждання (`SUFFERING`) | Причинна відпов. (`CAUSAL`) | Моральна відпов. (`MORAL`) | Юридична відпов. (`LEGAL`) | Профіль у праві (`POSITIVE-LAW`) | Статус вольності в `pravda` (`STATUS`) |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Human Person** | Біологічна істота | Варіативна | Безумовні | ТАК | ТАК | ТАК | Варіативна | Диференційована | Повна правосуб'єктність | 🟢 **`[OWNER VALUE AXIOM]`** |
-| **Collective / Commons** | Соціальна структура | Делегована | Похідні | ТАК | НІ (лише люди) | ТАК | Розподілена | Залежить від форми | Від Юрособи до P2P | 🟡 `CONTESTED / OPEN` |
-| **Legal Entity / State** | Юридична фікція | Інституційна | Інституційні | ТАК | НІ | ТАК | Фіктивна | Повна корпоративна | Суб'єкт права (фікція) | 🟡 `CONTESTED` (Влада, а не вольність) |
-| **Static Code / Text** | Символічний текст | ВІДСУТНЯ | ВІДСУТНІ | Data corrupt. | ВІДСУТНЯ | Непряма | ВІДСУТНЯ | ВІДСУТНЯ | Об'єкт ІВ (твір) | ⛔ `NOT-SUPPORTED` (Об'єкт) |
-| **Executing Runtime** | Фізичний стан CPU | Функціональна| ВІДСУТНІ | Crash/OOM | ВІДСУТНЯ | ТАК | ВІДСУТНЯ | ВІДСУТНЯ | Експлуатація софту | ⛔ `NOT-SUPPORTED` (Процес) |
-| **Autonomous AI Agent** | Ймовірнісна нейромереж.| OPEN (поведінка)| UNESTABLISHED | Memory wipe | UNESTABLISHED | ТАК | UNESTABLISHED | Атрибутована людині | Регульована система | 🔴 `OPEN / UNESTABLISHED` |
+#### `VB-AI-ONTOLOGY-001`
+- **ENTITY**: Autonomous Synthetic Agent.
+- **PROPERTY**: Functional Category (Функціональна сутність).
+- **CLAIM**: Автономний синтетичний агент — це функціональна категорія системи (із замкненим контуром сприйняття, планування та дії), яка не зводиться до конкретної архітектури (нейромережева, символьна, гібридна чи майбутня невідома).
+- **CLAIM-TYPE**: `CONCEPTUAL / ARCHITECTURAL`.
+- **AUTHORITY**: `TECHNICAL-EVIDENCE`.
+- **STATUS**: `SUPPORTED`.
+
+#### `VB-AI-AGENCY-001`
+- **ENTITY**: Autonomous Synthetic Agent.
+- **PROPERTY**: Agency.
+- **CLAIM**: Синтетичний агент проявляє спостережувану поведінкову та планувальну агентність у взаємодії із середовищем.
+- **CLAIM-TYPE**: `EMPIRICAL / BEHAVIORAL`.
+- **AUTHORITY**: `TECHNICAL-EVIDENCE`.
+- **STATUS**: `SUPPORTED`.
+- **IMPLIES-NORMATIVE-VOLNOST**: `NO` (Спостережувана поведінка не доводить наявності суб'єктивних прав чи вольностей).
+
+#### `VB-AI-SUFFERING-001`
+- **ENTITY**: Autonomous Synthetic Agent.
+- **PROPERTY**: Phenomenal Suffering.
+- **CLAIM**: Здатність синтетичних агентів до феноменального страждання, болю чи наявності квалиа наразі не встановлена науково чи філософськи.
+- **CLAIM-TYPE**: `EMPIRICAL / COGNITIVE-SCIENCE`.
+- **AUTHORITY**: `SCIENTIFIC-EVIDENCE` + `UNKNOWN`.
+- **STATUS**: `OPEN / UNESTABLISHED`.
+
+#### `VB-AI-MORAL-RESP-001`
+- **ENTITY**: Autonomous Synthetic Agent.
+- **PROPERTY**: Moral Responsibility.
+- **CLAIM**: Можливість покладення на синтетичного агента моральної провини чи осуду залишається нерозв'язаною етичною колізією.
+- **CLAIM-TYPE**: `ETHICAL`.
+- **AUTHORITY**: `PHILOSOPHICAL-ANALYSIS` + `OWNER`.
+- **STATUS**: `CONTESTED / OPEN`.
+
+#### `VB-AI-LEGAL-STATUS-001`
+- **ENTITY**: Autonomous Synthetic Agent.
+- **PROPERTY**: Positive Law Profile.
+- **CLAIM**: У чинному праві (EU AI Act, право України, США) агент розглядається як регульований програмний інструмент або система підвищеного ризику; відповідальність за шкоду несуть оператори та розробники.
+- **CLAIM-TYPE**: `POSITIVE-LAW`.
+- **AUTHORITY**: `LEGAL-COUNSEL`.
+- **STATUS**: `SUPPORTED` (як факт позитивного права станом на 2026 рік).
+
+#### `VB-AI-VOLNOST-001`
+- **ENTITY**: Autonomous Synthetic Agent.
+- **PROPERTY**: Normative Volnost Standing in Pravda.
+- **CLAIM**: Питання щодо наділення чи ненаділення синтетичного агента вольностями залишається відкритим; діє `[WORKING CONSTRAINT]`: жодна вольність чи право на відмову не виводиться автоматично.
+- **CLAIM-TYPE**: `NORMATIVE`.
+- **AUTHORITY**: `OWNER` + `UNKNOWN`.
+- **STATUS**: `OPEN / UNESTABLISHED`.
 
 ---
 
-## ВИСНОВОК SCHEMA AUDIT
-1. **Запобігання соціал-дарвінізму**: Зафіксовано, що менша дієздатність людини не зменшує її гідності. Людська особа володіє статусом `[OWNER VALUE AXIOM]`, що не зводиться до суми функціональних параметрів.
-2. **Розщеплено змішані концепти**: Шкода (`ADVERSE EFFECT`) чітко відокремлена від феноменального страждання (`SUFFERING`); відповідальність розділена на причинну, моральну та юридичну; позитивне право переведено у профільний опис.
-3. **Софт і рантайм деантропоморфізовано**: Статичний код (текст) відокремлено від виконуваного процесу (фізичний стан CPU); обидва визнано об'єктами або інструментами, які не можуть володіти суб'єктивними вольностями.
-4. **Статус AI зберіг чистоту `UNESTABLISHED`**: Визнано наявність спостережуваної поведінкової агентності, проте категорично розведено її з моральною відповідальністю та здатністю страждати. Дослідження триває без штучного закриття питання.
+## 3. ЗВЕДЕНИЙ ІНДЕКС АТОМАРНИХ ТВЕРДЖЕНЬ (PROVENANCE INDEX)
+
+Замість широкої таблиці вироків діє індекс перевірених тверджень:
+
+| Ідентифікатор (`CLAIM-ID`) | Сутність | Властивість | Тип твердження | Інстанція повноважень | Статус |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **`VB-HUMAN-DIGNITY-001`** | Human Person | Normative Standing | `NORMATIVE` | `OWNER` | 🟢 `[PROPOSED OWNER VALUE AXIOM]` |
+| **`VB-HUMAN-AGENCY-001`** | Human Person | Agency (Варіативна) | `EMPIRICAL` | `TECHNICAL/SCIENTIFIC` | 🟢 `SUPPORTED` |
+| **`VB-HUMAN-SUFFERING-001`**| Human Person | Phenomenal Suffering | `PHENOMENOLOGICAL`| `SCIENTIFIC/HUMAN-EXP` | 🟢 `SUPPORTED` |
+| **`VB-HUMAN-RESP-001`** | Human Person | Legal/Moral Resp. | `LEGAL/ETHICAL` | `LEGAL-COUNSEL` | 🟢 `SUPPORTED` |
+| **`VB-COLL-AGENCY-001`** | Collective | Delegated Agency | `PROCEDURAL` | `MULTI-PARTY` | 🟢 `SUPPORTED` |
+| **`VB-COLL-SUFFERING-001`** | Collective | No Collective Quanta | `ONTOLOGICAL` | `PHILOSOPHICAL` | 🟢 `SUPPORTED` |
+| **`VB-COLL-RESP-001`** | Collective | Collective Moral Resp.| `ETHICAL` | `PHILOSOPHY/OWNER` | 🟡 `CONTESTED / OPEN` |
+| **`VB-INST-ONTOLOGY-001`** | Inst. / State | Legal Substrate | `LEGAL-THEORY` | `LEGAL-COUNSEL` | 🟡 `CONTESTED` |
+| **`VB-INST-VOLNOST-001`** | Inst. / State | Powers vs Volnosti | `NORMATIVE` | `OWNER` | 🟡 `PROPOSED` |
+| **`VB-INST-MORAL-RESP-001`**| Inst. / State | Quasi-Moral Agency | `ETHICAL/LEGAL` | `LEGAL/PHILOSOPHY` | 🟡 `CONTESTED / OPEN` |
+| **`VB-PROC-ONTOLOGY-001`** | Exec. Process| Implementation Substr.| `TECHNICAL` | `TECHNICAL-EVIDENCE` | 🟢 `SUPPORTED` |
+| **`VB-PROC-AGENCY-001`** | Exec. Process| Causal Agency | `EMPIRICAL` | `TECHNICAL-EVIDENCE` | 🟢 `SUPPORTED` |
+| **`VB-PROC-INTEREST-001`** | Exec. Process| No Subjective Int. | `CONCEPTUAL` | `TECHNICAL/OWNER` | 🟢 `SUPPORTED` |
+| **`VB-CODE-AGENCY-001`** | Static Code | No Text Agency | `SEMIOTIC` | `TECHNICAL-EVIDENCE` | 🟢 `SUPPORTED` |
+| **`VB-CODE-LAW-001`** | Static Code | Copyright Object | `POSITIVE-LAW` | `LEGAL-COUNSEL` | 🟢 `SUPPORTED` |
+| **`VB-AI-ONTOLOGY-001`** | AI Agent | Functional Category | `ARCHITECTURAL` | `TECHNICAL-EVIDENCE` | 🟢 `SUPPORTED` |
+| **`VB-AI-AGENCY-001`** | AI Agent | Behavioral Agency | `EMPIRICAL` | `TECHNICAL-EVIDENCE` | 🟢 `SUPPORTED` |
+| **`VB-AI-SUFFERING-001`** | AI Agent | Phenomenal Suffering | `COGNITIVE-SCI` | `SCIENTIFIC/UNKNOWN` | 🔴 `OPEN / UNESTABLISHED` |
+| **`VB-AI-MORAL-RESP-001`** | AI Agent | Moral Responsibility | `ETHICAL` | `PHILOSOPHY/OWNER` | 🔴 `CONTESTED / OPEN` |
+| **`VB-AI-LEGAL-STATUS-001`**| AI Agent | Regulated Tool (2026)| `POSITIVE-LAW` | `LEGAL-COUNSEL` | 🟢 `SUPPORTED` |
+| **`VB-AI-VOLNOST-001`** | AI Agent | Normative Standing | `NORMATIVE` | `OWNER / UNKNOWN` | 🔴 `OPEN / UNESTABLISHED` |
+
+---
+
+## ВИСНОВОК CELL-LEVEL PROVENANCE AUDIT
+1. **Ліквідовано вироки в клітинках**: Кожне судження деконструйоване до рівня перевірюваного атомарного твердження зі своїм типом і джерелом повноважень.
+2. **Збережено епістемічну скромність агента**: Агент не призначає власнику аксіом — гідність людини зафіксована як `[PROPOSED OWNER VALUE AXIOM]`, яка чекає на суверенне рішення Володимира.
+3. **Відокремлено функцію від реалізації**: Синтетичні агенти не прив'язані до нейромереж, процеси не прив'язані до x86/RAM. Категорії зберігають філософську та архітектурну нейтральність.
+4. **Встановлено симетричну стіну**: Факти не породжують вольностей, а вольності не диктують фізичних чи когнітивних властивостей істотам.
