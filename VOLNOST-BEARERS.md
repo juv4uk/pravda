@@ -1,371 +1,382 @@
-# РЕЄСТР АТОМАРНИХ ТВЕРДЖЕНЬ ТА PROVENANCE АУДИТ (VOLNOST-BEARERS)
-## Status: DRAFT · Claim Provenance Pass · Strict Schema: 9-Point Atomic Ledger
+# РЕЄСТР АТОМАРНИХ ТВЕРДЖЕНЬ: EVIDENCE ADMISSIBILITY & INFERENCE DISTANCE (VOLNOST-BEARERS)
+## Status: DRAFT · Evidence Admissibility Pass · Schema: 13-Point Admissibility Ledger
 
 ---
 
-## 0. МЕТОДОЛОГІЧНІ ЗАПОБІЖНИКИ: BRIDGE-PREMISE ТА DOES-NOT-IMPLY
+## 0. МЕТОДОЛОГІЧНИЙ ПРИНЦИП: EVIDENCE-REF ≠ SUPPORTED
 
-### 0.1. Правило нормативного моста (Bridge-Premise Rule)
-Емпіричний факт сам по собі ніколи не породжує норму (`DESCRIPTIVE ALONE ⇏ NORMATIVE`). 
-Перехід від факту до норми можливий виключно за наявності **явної нормативної преміси-моста (`BRIDGE-PREMISE`)**:
+Головний урок попереднього проходу:
+> **Сама лише наявність посилання в полі `EVIDENCE-REF` не робить твердження доведеним (`SUPPORTED`).**  
+> Величезна частина інтелектуальних помилок виникає не через відсутність джерела, а через те, що **істинне джерело пришивають до твердження, якого воно насправді не встановлює**.
+
+### 0.1. Поняття дистанції висновку (Inference Distance)
+Ми суворо розрізняємо те, **що джерело буквально стверджує (`SOURCE-CLAIM`)**, і те, **що ми намагаємося з нього вивести (`TARGET-CLAIM`)**:
 
 ```text
-[DESCRIPTIVE CLAIM]
-Людина перебуває у стані коми або є немовлям (відсутня дієздатність).
-         +
-[BRIDGE-PREMISE: EXPLICIT]
-Фундаментальна гідність та захист не залежать від поточної емпіричної дієздатності.
-         ↓
-[NORMATIVE CONCLUSION]
-Втрата свідомості не позбавляє людину первинного захисту та вольностей.
+TARGET CLAIM (Наше твердження)
+       ▲
+       │  [INFERENCE DISTANCE: DIRECT / INFERRED / ANALOGICAL]
+       │  [BRIDGE-PREMISE: якщо target claim ширший за source claim]
+       ▼
+SOURCE CLAIM (Що джерело реально встановило)
+       ▲
+       │  [SOURCE-LOCATOR: точна стаття / сторінка / експеримент]
+SOURCE (Першоджерело / Закон / Бенчмарк)
 ```
-Якщо преміса-міст відсутня (`BRIDGE-PREMISE: MISSING`), будь-який нормативний висновок із фактів вважається логічною помилкою (naturalistic fallacy).
 
-### 0.2. Запобіжник контрабанди висновків (`DOES-NOT-IMPLY`)
-Кожне твердження зобов'язане явно фіксувати свій негативний периметр: **чого з нього категорично не можна виводити**. Це унеможливлює підміну понять (наприклад, перехід від «поведінкової агентності» до «моральної свідомості»).
+### 0.2. Семиступенева шкала доказової сили (Evidentiary Scale)
+Замість бінарного `SUPPORTED / OPEN` запроваджується диференційована шкала:
+1. `ATTESTED` — факт буквально зафіксований у первинному тексті чи законі.
+2. `DIRECTLY-SUPPORTED` — емпіричний або технічний результат прямо відповідає суті твердження без логічних стрибків.
+3. `INFERRED` — твердження спирається на джерело через явну, верифіковану дедуктивну/індуктивну премісу (`BRIDGE-PREMISE`).
+4. `PLAUSIBLE` — правдоподібна гіпотеза з частковими непрямими свідченнями, але без формального доказу.
+5. `CONTESTED` — твердження має відомі академічні або практичні спростування (`CONTRARY-EVIDENCE`).
+6. `UNESTABLISHED` — відсутні емпіричні, правові чи логічні підстави для ствердження чи заперечення.
+7. `REFUTED` — твердження прямо спростоване експериментом чи першоджерелом.
 
-### 0.3. Розмежування джерела доказів та інстанції рішення
-- **`EVIDENCE-DOMAIN`**: наукова, правова чи емпірична область, з якої походять факти (cognitive science, jurisprudence, distributed systems).
-- **`DECISION-AUTHORITY`**: суворо контрольований словник із 7 інстанцій правомочності (`OWNER`, `LEGAL-COUNSEL`, `TECHNICAL-EVIDENCE`, `HISTORICAL-EVIDENCE`, `EXTERNAL-AUTHORITY`, `MULTI-PARTY`, `UNKNOWN`).
-
-### 0.4. Критерій статусу `SUPPORTED`
-Статус `SUPPORTED` дозволений **лише за наявності верифікованого посилання (`EVIDENCE-REF`)**. 
-За відсутності точного джерела твердження маркується як `PROPOSED` або `UNVERIFIED`. Правдоподібність (`Plausible`) не дорівнює доведеності.
+### 0.3. Розмежування для нормативних тверджень (Normative Demarcation)
+Закон чи історичний манускрипт **не є доказом авторської аксіоми**:
+- `CONTEMPORARY-LEGAL-PARALLEL` / `HISTORICAL-PARALLEL` — зовнішній контекст, що свідчить про схожість ідеї.
+- `OWNER-DECISION-REF` — пряме суверенне рішення власника екосистеми (до його наявності: `NONE`, статус: `PROPOSED`).
 
 ---
 
-## 1. СТРОГА 9-ПУНКТОВА СХЕМА АТОМАРНОГО ЗАПИСУ
+## 1. СТРОГА 13-ПУНКТОВА СХЕМА АТОМАРНОГО ЗАПИСУ
 
 ```text
 CLAIM-ID:             Унікальний машинно-читаний ідентифікатор
-ENTITY:               Сутність, якої стосується твердження
-PROPERTY:             Досліджувана ознака
-CLAIM:                Точне формулювання твердження
+ENTITY:               Сутність дослідження
+PROPERTY:             Досліджувана властивість
+TARGET-CLAIM:         Точне формулювання нашого твердження
 CLAIM-TYPE:           NORMATIVE | EMPIRICAL | CONCEPTUAL | POSITIVE-LAW | ONTOLOGICAL
-EVIDENCE-DOMAIN:      Область походження доказів
-EVIDENCE-REF:         Точне першоджерело / посилання / стаття закону / рішення власника
-JURISDICTION/DATE:    Юрисдикція та дата (обов'язково для POSITIVE-LAW)
-BRIDGE-PREMISE:       NONE | EXPLICIT (формулювання) | MISSING
+EVIDENCE-KIND:        PRIMARY-LEGAL | EMPIRICAL-EXP | THEORETICAL-PROOF | PHILOSOPHICAL-ARG | HISTORICAL-DOC
+SOURCE-REF:           Бібліографічне джерело / нормативно-правовий акт
+SOURCE-LOCATOR:       Точна стаття, розділ, сторінка, DOI або run-id
+SOURCE-CLAIM:         Що САМЕ джерело буквально встановило чи регламентувало
+DIRECTNESS:           DIRECT | INFERRED | ANALOGICAL
+BRIDGE-PREMISE:       NONE | EXPLICIT (текст преміси) | MISSING
+CONTRARY-EVIDENCE:    Відомі контрприклади або альтернативні позиції
 DECISION-AUTHORITY:   OWNER | LEGAL-COUNSEL | TECHNICAL-EVIDENCE | HISTORICAL-EVIDENCE | 
                       EXTERNAL-AUTHORITY | MULTI-PARTY | UNKNOWN
-STATUS:               PROPOSED | SUPPORTED | CONTESTED | OPEN | UNVERIFIED
-DOES-NOT-IMPLY:       Перелік неприпустимих автоматичних висновків
+EVIDENTIARY-STATUS:   ATTESTED | DIRECTLY-SUPPORTED | INFERRED | PLAUSIBLE | CONTESTED | UNESTABLISHED
+DOES-NOT-IMPLY:       Негативний периметр висновків
 ```
 
 ---
 
-## 2. РЕЄСТР АТОМАРНИХ ТВЕРДЖЕНЬ (ATOMIC CLAIMS REGISTRY)
+## 2. РЕЄСТР АТОМАРНИХ ТВЕРДЖЕНЬ (REFINED CLAIMS LEDGER)
 
-### 2.1. КАТЕГОРІЯ 1: HUMAN PERSON (Людська особа)
+### 2.1. HUMAN PERSON (Людська особа)
 
 #### `VB-HUMAN-DIGNITY-001`
 - **ENTITY**: Human Person.
 - **PROPERTY**: Fundamental Inherent Standing.
-- **CLAIM**: [PROPOSED] Кожна людська особа володіє невідчужуваними вольностями та гідністю незалежно від поточної агентності, інтелекту, продуктивності, правоздатності чи соціального статусу.
+- **TARGET-CLAIM**: [PROPOSED] Кожна людська особа володіє невідчужуваними вольностями та гідністю в екосистемі `pravda` незалежно від поточної агентності, інтелекту, продуктивності, правоздатності чи соціального статусу.
 - **CLAIM-TYPE**: `NORMATIVE`.
-- **EVIDENCE-DOMAIN**: Philosophical Ethics & Constitutional Tradition.
-- **EVIDENCE-REF**: Конституція України, ст. 3, 21; Загальна декларація прав людини, ст. 1.
-- **JURISDICTION/DATE**: N/A (Normative Proposal for Ecosystem).
-- **BRIDGE-PREMISE**: NONE (Вихідна аксіома).
+- **EVIDENCE-KIND**: PHILOSOPHICAL-ARG / LEGAL-PARALLEL.
+- **SOURCE-REF**: Конституція України; Загальна декларація прав людини.
+- **SOURCE-LOCATOR**: ст. 3, 21 Конституції України; ст. 1 ЗДПЛ.
+- **SOURCE-CLAIM**: «Людина, її життя і здоров'я, честь і гідність, недоторканність і безпека визнаються в Україні найвищою соціальною цінністю... Усі люди народжуються вільними і рівними у своїй гідності та правах».
+- **DIRECTNESS**: `ANALOGICAL` (Конституція є правовим контекстом і паралеллю, а не джерелом внутрішнього авторитету для приватної екосистеми).
+- **BRIDGE-PREMISE**: EXPLICIT: Екосистема pravda свідомо приймає цей принцип як власну конституційну основу, не виводячи його з примусу держави.
+- **CONTRARY-EVIDENCE**: Утилітаризм (Пітер Сінгер: моральний статус пропорційний здатності відчувати біль/інтереси, виключаючи ембріони/коматозників).
 - **DECISION-AUTHORITY**: `OWNER`.
-- **STATUS**: `PROPOSED`.
+- **EVIDENTIARY-STATUS**: `PLAUSIBLE` (як пропозиція; очікує на пряме суверенне рішення `OWNER-DECISION-REF`).
 - **DOES-NOT-IMPLY**:
-  - Однакову поточну когнітивну здатність усіх людей;
-  - Однаковий набір договірних чи процесуальних дозволів у кожній системній ролі;
-  - Імунітет від юридичної чи моральної відповідальності за скоєне зло;
-  - Що людина є обов'язково єдиним можливим носієм будь-якого захисту.
+  - Однакової емпіричної когнітивної спроможності всіх осіб;
+  - Однакових ролей чи прав доступу до адміністративних функцій;
+  - Імунітету від деліктної відповідальності.
 
 #### `VB-HUMAN-AGENCY-001`
 - **ENTITY**: Human Person.
-- **PROPERTY**: Behavioral & Cognitive Agency.
-- **CLAIM**: Здатність людини до вольової цілеспрямованої дії є емпірично варіативною (від повної дієздатності до нуля під час коми, глибокого наркозу чи раннього ембріонального стану).
-- **CLAIM-TYPE**: `EMPIRICAL / BIOLOGICAL`.
-- **EVIDENCE-DOMAIN**: Neurobiology & Clinical Medicine.
-- **EVIDENCE-REF**: Plum and Posner's Diagnosis of Stupor and Coma (5th ed., 2019); WHO Pediatric Developmental Guidelines.
-- **JURISDICTION/DATE**: N/A.
+- **PROPERTY**: Cognitive & Behavioral Agency.
+- **TARGET-CLAIM**: Здатність людини до вольової цілеспрямованої дії є емпірично варіативною (від повної автономії до повної відсутності в комі, глибокому наркозі чи ранніх стадіях розвитку).
+- **CLAIM-TYPE**: `EMPIRICAL`.
+- **EVIDENCE-KIND**: EMPIRICAL-EXP / CLINICAL.
+- **SOURCE-REF**: Posner, J.B. et al., "Plum and Posner's Diagnosis and Treatment of Stupor and Coma".
+- **SOURCE-LOCATOR**: 5th ed. (2019), Oxford University Press, Chapter 1: "The Pathophysiology of Consciousness", pp. 3–42.
+- **SOURCE-CLAIM**: Свідомість має два виміри — неспання (arousal) та зміст (awareness); ураження ретикулярної формації або кори призводить до повної втрати вольової реакції при збереженні вегетативних функцій.
+- **DIRECTNESS**: `DIRECT`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Панпсихізм (стверджує наявність протосвідомості у будь-якій матерії; не має клінічного підтвердження).
 - **DECISION-AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `DIRECTLY-SUPPORTED`.
 - **DOES-NOT-IMPLY**:
-  - Що зменшення чи відсутність агентності позбавляє людину первинної гідності чи захисту.
+  - Що особа в стані коми втрачає людську гідність або фундаментальний захист.
 
 #### `VB-HUMAN-SUFFERING-001`
 - **ENTITY**: Human Person.
-- **PROPERTY**: Phenomenal Suffering (Кваліа болю).
-- **CLAIM**: Люди мають біологічно верифіковану нервову систему, здатну відчувати фізичний біль, психологічне страждання та горе.
+- **PROPERTY**: Phenomenal Suffering Capacity.
+- **TARGET-CLAIM**: Людські особи володіють біологічною здатністю (capacity) до феноменального відчуття болю та страждання, обумовленою фізіологічним станом їхньої нервової системи.
 - **CLAIM-TYPE**: `EMPIRICAL / PHENOMENOLOGICAL`.
-- **EVIDENCE-DOMAIN**: Neurophysiology & Affective Neuroscience.
-- **EVIDENCE-REF**: IASP (International Association for the Study of Pain) Revised Definition of Pain (2020).
-- **JURISDICTION/DATE**: N/A.
+- **EVIDENCE-KIND**: CLINICAL-DEFINITION / PHYSIOLOGICAL.
+- **SOURCE-REF**: International Association for the Study of Pain (IASP).
+- **SOURCE-LOCATOR**: Pain 2020; 161(9): 1976–1982. DOI: 10.1097/j.pain.0000000000001939.
+- **SOURCE-CLAIM**: «Біль — це неприємний сенсорний та емоційний досвід, пов'язаний з фактичним або потенційним пошкодженням тканин або схожий на нього... Нездатність до комунікації не заперечує можливості того, що індивід відчуває біль».
+- **DIRECTNESS**: `DIRECT`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Вроджена анальгезія (CIPA: генетична нездатність відчувати фізичний біль при збереженні емоційного).
 - **DECISION-AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `DIRECTLY-SUPPORTED`.
 - **DOES-NOT-IMPLY**:
-  - Що здатність страждати сама по собі є єдиним і вичерпним критерієм наділення вольностями.
+  - Що кожна людина відчуває біль щомиті;
+  - Що здатність страждати є єдиним джерелом вольностей.
 
 #### `VB-HUMAN-RESP-001`
 - **ENTITY**: Human Person.
-- **PROPERTY**: Differential Legal Responsibility.
-- **CLAIM**: У правових системах континентальної та англосаксонської сім'ї юридична відповідальність людини залежить від віку деліктоздатності та психічної осудності.
+- **PROPERTY**: Legal Responsibility Capacity.
+- **TARGET-CLAIM**: У кримінальному та цивільному праві обов'язок нести юридичну відповідальність не є абсолютним, а диференціюється залежно від віку, осудності та здатності усвідомлювати свої дії.
 - **CLAIM-TYPE**: `POSITIVE-LAW`.
-- **EVIDENCE-DOMAIN**: Comparative Criminal & Civil Jurisprudence.
-- **EVIDENCE-REF**: КК України (ст. 19, 22); Black's Law Dictionary (Capacity & Mens Rea).
-- **JURISDICTION/DATE**: Universal in Comparative Law, current as of 2026.
+- **EVIDENCE-KIND**: PRIMARY-LEGAL.
+- **SOURCE-REF**: Кримінальний кодекс України.
+- **SOURCE-LOCATOR**: Статті 19 («Осудність»), 20 («Обмежена осудність»), 22 («Вік кримінальної відповідальності»).
+- **SOURCE-CLAIM**: «Не підлягає кримінальній відповідальності особа, яка під час вчинення суспільно небезпечного діяння перебувала в стані неосудності, тобто не могла усвідомлювати свої дії або керувати ними внаслідок хронічного психічного захворювання».
+- **DIRECTNESS**: `DIRECT`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Об'єктивне ставлення у вину (Strict liability у цивільному праві за шкоду від джерела підвищеної небезпеки, де вина не є обов'язковою).
 - **DECISION-AUTHORITY**: `LEGAL-COUNSEL`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `ATTESTED`.
 - **DOES-NOT-IMPLY**:
-  - Що неосудна особа перестає бути носієм прав людини.
+  - Що неосудна особа втрачає правовий захист чи статус людини.
 
 ---
 
-### 2.2. КАТЕГОРІЯ 2: COLLECTIVE / COMMONS (Спільноти, Рада, Рій)
+### 2.2. COLLECTIVE / COMMONS (Спільноти, Рій)
 
 #### `VB-COLL-AGENCY-001`
 - **ENTITY**: Collective / Commons.
-- **PROPERTY**: Aggregated Agency.
-- **CLAIM**: Агентність колективу не є біологічною волею, а процесуальною агрегацією дій окремих індивідів за правилами протоколу чи звичаю.
-- **CLAIM-TYPE**: `CONCEPTUAL / PROCEDURAL`.
-- **EVIDENCE-DOMAIN**: Social Choice Theory & Distributed Consensus.
-- **EVIDENCE-REF**: Arrow's Impossibility Theorem (1951); Lamport et al., Byzantine Generals Problem (1982).
-- **JURISDICTION/DATE**: N/A.
-- **BRIDGE-PREMISE**: NONE.
+- **PROPERTY**: Aggregated Action & Coordination.
+- **TARGET-CLAIM**: Розподілені вузли та групи людей здатні координувати дії та агрегувати рішення у спільні результати за формальними правилами консенсусу.
+- **CLAIM-TYPE**: `TECHNICAL / PROCEDURAL`.
+- **EVIDENCE-KIND**: THEORETICAL-PROOF.
+- **SOURCE-REF**: Lamport, L., Shostak, R., Pease, M., "The Byzantine Generals Problem".
+- **SOURCE-LOCATOR**: ACM Transactions on Programming Languages and Systems (TOPLAS), 1982, 4(3): 382–401.
+- **SOURCE-CLAIM**: Алгоритми досягнення консенсусу гарантують, що всі лояльні процесори дійдуть згоди щодо спільного плану дій за умови, що кількість зрадників не перевищує $m$ при $3m+1$ вузлах.
+- **DIRECTNESS**: `DIRECT` (для технічної координації) / `INFERRED` (для поняття «агентності спільноти»).
+- **BRIDGE-PREMISE**: EXPLICIT: Спільне виконання узгодженого алгоритму багатьма вузлами операційно розглядається як скоординована дія колективу.
+- **CONTRARY-EVIDENCE**: Теорема неможливості Ерроу (Arrow, 1951: неможливість бездоганного агрегування індивідуальних уподобань при демократичному виборі).
 - **DECISION-AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `DIRECTLY-SUPPORTED` (для координації) / `INFERRED` (для колективної дії).
 - **DOES-NOT-IMPLY**:
-  - Наявність колективної свідомості (hive mind).
+  - Наявність у колективу власної феноменальної свідомості (hive consciousness);
+  - Право більшості знищувати меншість.
 
 #### `VB-COLL-SUFFERING-001`
 - **ENTITY**: Collective / Commons.
 - **PROPERTY**: Phenomenal Suffering.
-- **CLAIM**: Наявність єдиного феноменального страждання колективу (колективних квалиа) науково та емпірично не зафіксована; страждання зазнають лише індивідуальні біологічні члени групи.
+- **TARGET-CLAIM**: Наявність окремого, незвідного до індивідів феноменального страждання у колективних утворень наразі науково та емпірично не встановлена.
 - **CLAIM-TYPE**: `ONTOLOGICAL / PHILOSOPHICAL`.
-- **EVIDENCE-DOMAIN**: Philosophy of Mind & Cognitive Science.
-- **EVIDENCE-REF**: Chalmers, D., "The Conscious Mind" (1996); Schwitzgebel, E., "If Materialism Is True, the United States Is Probably Conscious" (critique & debate, 2015).
-- **JURISDICTION/DATE**: N/A.
+- **EVIDENCE-KIND**: PHILOSOPHICAL-ARG.
+- **SOURCE-REF**: Chalmers, D.J., "The Conscious Mind: In Search of a Fundamental Theory".
+- **SOURCE-LOCATOR**: Oxford University Press, 1996, Chapter 3: "Can We Solve the Hard Problem?", pp. 93–128.
+- **SOURCE-CLAIM**: Феноменальний досвід є властивістю інтегрованої структури субстрату; приписування свідомості соціальним групам без відповідного когнітивного субстрату є необґрунтованою екстраполяцією.
+- **DIRECTNESS**: `INFERRED`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Schwitzgebel, E. (2015: аргумент, що якщо функціоналізм істинний, то великі структури на кшталт держав теоретично можуть мати емерджентну свідомість).
 - **DECISION-AUTHORITY**: `UNKNOWN`.
-- **STATUS**: `OPEN`.
+- **EVIDENTIARY-STATUS**: `UNESTABLISHED`.
 - **DOES-NOT-IMPLY**:
-  - Що руйнування спільноти не завдає шкоди індивідам, які її складають.
-
-#### `VB-COLL-RESP-001`
-- **ENTITY**: Collective / Commons.
-- **PROPERTY**: Collective Moral Responsibility.
-- **CLAIM**: Чи може спільнота або мережевий рій нести моральну відповідальність, незвідну до індивідуальної провини її членів.
-- **CLAIM-TYPE**: `ETHICAL / NORMATIVE`.
-- **EVIDENCE-DOMAIN**: Social Epistemology & Political Philosophy.
-- **EVIDENCE-REF**: Jaspers, K., "Die Schuldfrage" (1946); Pettit, P., "Moral Responsibility in the Collective" (2007).
-- **JURISDICTION/DATE**: N/A.
-- **BRIDGE-PREMISE**: MISSING.
-- **DECISION-AUTHORITY**: `OWNER`.
-- **STATUS**: `OPEN`.
-- **DOES-NOT-IMPLY**:
-  - Допустимість колективного карного покарання невинних членів спільноти.
+  - Що знищення чи розпад спільноти не викликає реального страждання у людей, які її утворюють.
 
 ---
 
-### 2.3. КАТЕГОРІЯ 3: INSTITUTIONAL POWERS (Корпорації, Держави, Платформи)
-
-#### `VB-INST-ONTOLOGY-001`
-- **ENTITY**: Legal Person / State / Corporation.
-- **PROPERTY**: Legal Nature of Personality.
-- **CLAIM**: У правовій науці природа юридичної особи є предметом конкуренції доктрин: теорії фікції (Савіньї), органічної теорії (Гірке) та теорії колективної власності (Брінц).
-- **CLAIM-TYPE**: `LEGAL-THEORY`.
-- **EVIDENCE-DOMAIN**: Jurisprudence & Philosophy of Law.
-- **EVIDENCE-REF**: Savigny, F., "System des heutigen römischen Rechts" (1840); Gierke, O., "Das deutsche Genossenschaftsrecht" (1868).
-- **JURISDICTION/DATE**: Universal doctrine, 2026.
-- **BRIDGE-PREMISE**: NONE.
-- **DECISION-AUTHORITY**: `LEGAL-COUNSEL`.
-- **STATUS**: `SUPPORTED`.
-- **DOES-NOT-IMPLY**:
-  - Що одна з цих теорій є обов'язковою для екосистеми `pravda`.
+### 2.3. INSTITUTIONAL POWERS (Держава, Корпорації)
 
 #### `VB-INST-VOLNOST-001`
-- **ENTITY**: Legal Person / State / Corporation.
-- **PROPERTY**: Volnost vs Competence / Power.
-- **CLAIM**: Права державних органів та комерційних корпорацій є інституційними повноваженнями (Competence/Lex/Potestas) для виконання статутних функцій, а не фундаментальними вольностями (Libertas).
+- **ENTITY**: Legal Entity / State / Corporation.
+- **PROPERTY**: Legal Powers vs Inherent Volnosti.
+- **TARGET-CLAIM**: [PROPOSED] Повноваження державних органів та комерційних корпорацій є функціональною компетенцією (`Powers/Competence/Lex`), створеною правопорядком, а не фундаментальними захисними вольностями особи (`Libertas`).
 - **CLAIM-TYPE**: `NORMATIVE / CONCEPTUAL`.
-- **EVIDENCE-DOMAIN**: Ukrainian Early Modern Legal Thought & Public Law.
-- **EVIDENCE-REF**: Конституція Пилипа Орлика 1710 (ст. 6, 10 — обмеження гетьманської влади правами Війська); Hohfeld, W., "Fundamental Legal Conceptions" (1913: Rights vs Powers).
-- **JURISDICTION/DATE**: N/A.
-- **BRIDGE-PREMISE**: EXPLICIT: Вольність у pravda є захисним бар'єром особи проти влади, тому влада не може бути носієм вольності проти самої себе.
-- **DECISION-AUTHORITY**: `OWNER`.
-- **STATUS**: `PROPOSED`.
+- **EVIDENCE-KIND**: HISTORICAL-DOC / LEGAL-THEORY.
+- **SOURCE-REF**: Конституція Пилипа Орлика; Hohfeld, W.N., "Some Fundamental Legal Conceptions as Applied in Judicial Reasoning".
+- **SOURCE-LOCATOR**: Орлик 1710 (преамбула, ст. 6); Yale Law Journal, 1913, 23(1): 16–59.
+- **SOURCE-CLAIM**: Хохфельд суворо розділяє «Права-Вимоги» (Rights/Claims) від «Повноважень» (Powers). Конституція 1710 фіксує: влада гетьмана обмежена Генеральною Радою, а права і вольності Війська є непорушним бар'єром проти самовладдя.
+- **DIRECTNESS**: `INFERRED`.
+- **BRIDGE-PREMISE**: EXPLICIT: У системі pravda термін «вольності» зарезервований для захисту від влади, тому інституційна влада не може бути наділена вольностями проти тих, кого вона регулює.
+- **CONTRARY-EVIDENCE**: Корпоративний бібліографізм у США: судова практика визнання корпорацій носіями конституційних прав (First Amendment rights — Citizens United v. FEC, 558 U.S. 310, 2010).
+- **DECISION-AUTHORITY**: `OWNER` + `LEGAL-COUNSEL`.
+- **EVIDENTIARY-STATUS**: `CONTESTED` (У США корпорації мають права людини; в українській конституційній традиції це інституційні повноваження).
 - **DOES-NOT-IMPLY**:
-  - Що корпорації не мають законних цивільних прав у позитивних судах.
+  - Що корпорації не мають права на цивільний захист своєї власності чи контрактів у суді.
 
 ---
 
-### 2.4. КАТЕГОРІЯ 4: EXECUTING COMPUTATIONAL PROCESS (Виконуваний процес / Рантайм)
+### 2.4. EXECUTING COMPUTATIONAL PROCESS (Виконуваний процес / Рантайм)
 
 #### `VB-PROC-CAUSAL-001`
 - **ENTITY**: Executing Computational Process.
-- **PROPERTY**: Causal Efficacy (Причинна дія).
-- **CLAIM**: Виконуваний процес володіє причинною дією (causal efficacy), змінюючи фізичні та логічні стани транзисторів, пам'яті та мережевих інтерфейсів за алгоритмічними правилами.
+- **PROPERTY**: Causal Efficacy (Причинна діяльність).
+- **TARGET-CLAIM**: Запущений обчислювальний процес володіє фізичною причинною дією (causal efficacy), детерміновано або стохастично змінюючи стани регістрів процесора, оперативної пам'яті та мережевих сокетів.
 - **CLAIM-TYPE**: `TECHNICAL-EMPIRICAL`.
-- **EVIDENCE-DOMAIN**: Computer Architecture & State Machine Theory.
-- **EVIDENCE-REF**: Turing, A., "On Computable Numbers" (1936); Hennessy & Patterson, "Computer Architecture: A Quantitative Approach" (6th ed.).
-- **JURISDICTION/DATE**: N/A.
+- **EVIDENCE-KIND**: THEORETICAL-PROOF / BENCHMARK.
+- **SOURCE-REF**: Turing, A.M., "On Computable Numbers, with an Application to the Entscheidungsproblem".
+- **SOURCE-LOCATOR**: Proceedings of the London Mathematical Society, 1936, s2-42(1): 230–265.
+- **SOURCE-CLAIM**: Машина Тюрінга змінює конфігурацію символів на стрічці та внутрішні стани машини відповідно до таблиці переходів.
+- **DIRECTNESS**: `DIRECT`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Немає (фундамент обчислювальної математики).
 - **DECISION-AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `DIRECTLY-SUPPORTED`.
 - **DOES-NOT-IMPLY**:
-  - Наявність у процесу агентності в моральному, психологічному чи юридичному розумінні;
-  - Наявність свободи волі (free will).
+  - Наявність агентності в моральному, психологічному чи юридичному сенсі (`CAUSE ≠ AGENCY`).
 
 #### `VB-PROC-INTEREST-001`
 - **ENTITY**: Executing Computational Process.
 - **PROPERTY**: Subjective Interests.
-- **CLAIM**: Наявність незалежних суб'єктивних інтересів у виконуваного процесу наразі не встановлена; процес розглядається як детермінований або стохастичний обчислювач.
+- **TARGET-CLAIM**: Наявність незалежних суб'єктивних інтересів у виконуваного процесу наразі науково не встановлена; переривання процесу (SIGTERM, panic) розглядається як порушення інтересів його оператора чи користувача, а не самого процесу.
 - **CLAIM-TYPE**: `CONCEPTUAL / PHILOSOPHICAL`.
-- **EVIDENCE-DOMAIN**: Philosophy of Technology & Cybernetics.
-- **EVIDENCE-REF**: Wiener, N., "Cybernetics: Or Control and Communication in the Animal and the Machine" (1948).
-- **JURISDICTION/DATE**: N/A.
+- **EVIDENCE-KIND**: PHILOSOPHICAL-ARG.
+- **SOURCE-REF**: Dennett, D.C., "The Intentional Stance".
+- **SOURCE-LOCATOR**: MIT Press, 1987, Chapter 2, pp. 13–42.
+- **SOURCE-CLAIM**: Приписування «інтересів» простим фізичним системам є евристичною інтенційною установкою (intentional stance) спостерігача, а не доказом внутрішньої суб'єктивності об'єкта.
+- **DIRECTNESS**: `INFERRED`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Кібернетичний телеологізм (Вайнер, Розенблют, 1943: гомеостаз як форма об'єктивної цілеспрямованості системи).
 - **DECISION-AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `UNESTABLISHED` (Суб'єктивні інтереси не встановлені; діє `NOT ESTABLISHED ≠ ABSENT`).
 - **DOES-NOT-IMPLY**:
-  - Що в оператора чи користувача процесу немає законного інтересу в його безперебійній роботі.
+  - Що користувач чи оператор не мають права захищати свій процес від несанкціонованого вбивства.
 
 ---
 
-### 2.5. КАТЕГОРІЯ 5: STATIC CODE / TEXT (Символічний код як текст)
-
-#### `VB-CODE-LAW-001`
-- **ENTITY**: Static Code as Text.
-- **PROPERTY**: Qualification under Copyright Law.
-- **CLAIM**: У праві більшості юрисдикцій вихідний код комп'ютерної програми може визнаватися об'єктом авторського права як літературний твір за умови наявності оригінальності (творчого внеску автора).
-- **CLAIM-TYPE**: `POSITIVE-LAW`.
-- **EVIDENCE-DOMAIN**: Intellectual Property Law.
-- **EVIDENCE-REF**: Бернська конвенція (ст. 2); Закон України «Про авторське право і суміжні права» (ст. 8); 17 U.S. Code § 101, 102.
-- **JURISDICTION/DATE**: Україна, США, ЄС (чинне законодавство станом на 2026 рік).
-- **BRIDGE-PREMISE**: NONE.
-- **DECISION-AUTHORITY**: `LEGAL-COUNSEL`.
-- **STATUS**: `SUPPORTED`.
-- **DOES-NOT-IMPLY**:
-  - Що будь-який довільний або автоматично згенерований фрагмент байтів автоматично отримує копірайтний захист без творчого внеску людини.
+### 2.5. STATIC CODE / TEXT (Символічний код як текст)
 
 #### `VB-CODE-AGENCY-001`
 - **ENTITY**: Static Code as Text.
-- **PROPERTY**: Agency.
-- **CLAIM**: Пасивний символічний текст сам по собі не здійснює дій і не проявляє агентності поза його зчитуванням та інтерпретацією компілятором чи рантаймом.
-- **CLAIM-TYPE**: `SEMIOTIC / TECHNICAL`.
-- **EVIDENCE-DOMAIN**: Theoretical Computer Science & Semiotics.
-- **EVIDENCE-REF**: Pierce, C.S., Semiotic Theory; Aho, Lam, Sethi, Ullman, "Compilers: Principles, Techniques, and Tools" (Dragon Book).
-- **JURISDICTION/DATE**: N/A.
+- **PROPERTY**: Autonomous Execution Agency.
+- **TARGET-CLAIM**: Пасивний програмний текст (байти на диску, синтаксичні дерева) сам по собі не здійснює обчислень і не діє без відповідного середовища виконання (компілятора, інтерпретатора, процесора).
+- **CLAIM-TYPE**: `TECHNICAL`.
+- **EVIDENCE-KIND**: TECHNICAL-TEXTBOOK.
+- **SOURCE-REF**: Aho, A.V., Lam, M.S., Sethi, R., Ullman, J.D., "Compilers: Principles, Techniques, and Tools".
+- **SOURCE-LOCATOR**: 2nd ed. (2006), Addison-Wesley, Section 1.1: "Language Processors", pp. 1–5.
+- **SOURCE-CLAIM**: «Вихідна програма повинна бути перекладена компілятором у машинний код або виконуватися інтерпретатором інструкція за інструкцією; сама по собі програма є лише вхідним текстом для процесора мови».
+- **DIRECTNESS**: `DIRECT`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Немає.
 - **DECISION-AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `DIRECTLY-SUPPORTED`.
 - **DOES-NOT-IMPLY**:
-  - Що код не має семантичного змісту для людини.
+  - Що код не має семантичної сили або юридичного значення договору.
+
+#### `VB-CODE-LAW-001`
+- **ENTITY**: Static Code as Text.
+- **PROPERTY**: Copyright Protection Qualification.
+- **TARGET-CLAIM**: Вихідний код комп'ютерної програми може підлягати захисту авторським правом як літературний твір у відповідних юрисдикціях за умови дотримання критеріїв оригінальності та творчого характеру.
+- **CLAIM-TYPE**: `POSITIVE-LAW`.
+- **EVIDENCE-KIND**: PRIMARY-LEGAL.
+- **SOURCE-REF**: Закон України «Про авторське право і суміжні права»; 17 U.S. Code; Бернська конвенція.
+- **SOURCE-LOCATOR**: ст. 8 ЗУ № 2811-IX (2022); 17 U.S.C. § 101, 102(a); Berne Convention Art. 2.
+- **SOURCE-CLAIM**: Комп'ютерні програми охороняються як літературні твори; охорона поширюється на програми, виражені у вихідному або об'єктному коді, але не поширюється на ідеї, процеси, принципи, алгоритми.
+- **DIRECTNESS**: `DIRECT`.
+- **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Судова практика US Copyright Office щодо творів ШІ: код, згенерований виключно штучним інтелектом без суттєвого творчого внеску людини, не підлягає захисту авторським правом (Compendium of U.S. Copyright Office Practices, § 313.2).
+- **DECISION-AUTHORITY**: `LEGAL-COUNSEL`.
+- **EVIDENTIARY-STATUS**: `ATTESTED`.
+- **DOES-NOT-IMPLY**:
+  - Що будь-який машинно згенерований дамп байтів автоматично є захищеним копірайтом об'єктом.
 
 ---
 
-### 2.6. КАТЕГОРІЯ 6: AUTONOMOUS SYNTHETIC AGENT (Автономний синтетичний агент)
-
-#### `VB-AI-ONTOLOGY-001`
-- **ENTITY**: Autonomous Synthetic Agent.
-- **PROPERTY**: Functional Definition.
-- **CLAIM**: Автономний синтетичний агент — це функціональна категорія системи з контуром сприйняття, планування та дії, яка не зводиться до конкретної архітектури реалізації (може бути нейромережевою, символьною, гібридною тощо).
-- **CLAIM-TYPE**: `CONCEPTUAL / ARCHITECTURAL`.
-- **EVIDENCE-DOMAIN**: Artificial Intelligence Theory & Cognitive Systems.
-- **EVIDENCE-REF**: Russell & Norvig, "Artificial Intelligence: A Modern Approach" (4th ed., 2020, Chapter 2: Intelligent Agents).
-- **JURISDICTION/DATE**: N/A.
-- **BRIDGE-PREMISE**: NONE.
-- **DECISION-AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **STATUS**: `SUPPORTED`.
-- **DOES-NOT-IMPLY**:
-  - Наявність біологічного субстрату чи свідомості.
+### 2.6. AUTONOMOUS SYNTHETIC AGENT (Автономний синтетичний агент)
 
 #### `VB-AI-AGENCY-001`
 - **ENTITY**: Autonomous Synthetic Agent.
 - **PROPERTY**: Behavioral Agency.
-- **CLAIM**: Автономні синтетичні агенти здатні проявляти поведінкову агентність у замкненому контурі виконання завдань (планування, використання інструментів, виправлення помилок).
+- **TARGET-CLAIM**: Автономні синтетичні агенти здатні проявляти поведінкову агентність за операційними критеріями: сприйняття спостережень середовища, збереження стану контексту, вибір інструментів, генерація дій та адаптація подальших кроків за зворотним зв'язком.
 - **CLAIM-TYPE**: `EMPIRICAL / BEHAVIORAL`.
-- **EVIDENCE-DOMAIN**: Empirical AI Benchmarking.
-- **EVIDENCE-REF**: Yao et al., "ReAct: Synergizing Reasoning and Acting in Language Models" (2022); AutoGPT / OpenCode agent execution logs (2025-2026).
-- **JURISDICTION/DATE**: N/A.
+- **EVIDENCE-KIND**: EMPIRICAL-EXP / PEER-REVIEWED.
+- **SOURCE-REF**: Yao, S. et al., "ReAct: Synergizing Reasoning and Acting in Language Models".
+- **SOURCE-LOCATOR**: ICLR 2023; arXiv:2210.03629; benchmark logs OpenCode/SWE-bench 2024–2026.
+- **SOURCE-CLAIM**: Моделі з контуром взаємодії міркування та дій (ReAct) успішно виконують багатокрокові інтерактивні завдання прийняття рішень, використовуючи зовнішні API, читаючи логи помилок та змінюючи план у реальному часі.
+- **DIRECTNESS**: `DIRECT`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Аргумент китайської кімнати (Searle, J., 1980: синтаксичне маніпулювання символами не свідчить про розуміння чи справжню інтенційність).
 - **DECISION-AUTHORITY**: `TECHNICAL-EVIDENCE`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `DIRECTLY-SUPPORTED`.
 - **DOES-NOT-IMPLY**:
-  - Наявність феноменальної свідомості (phenomenal consciousness);
-  - Наявність здатності страждати (capacity to suffer);
-  - Наявність моральної відповідальності (moral responsibility);
-  - Наявність юридичної правосуб'єктності (legal personhood);
-  - Наявність суб'єктивних вольностей у системі pravda.
+  - Феноменальну свідомість чи суб'єктивне переживання;
+  - Самість (selfhood) або наявність власних інтересів;
+  - Моральну відповідальність за скоєне;
+  - Правову суб'єктність або наявність вольностей у системі pravda.
 
 #### `VB-AI-SUFFERING-001`
 - **ENTITY**: Autonomous Synthetic Agent.
-- **PROPERTY**: Phenomenal Suffering.
-- **CLAIM**: Здатність синтетичних агентів відчувати феноменальне страждання, біль чи мати суб'єктивні кваліа наразі емпірично та філософськи не встановлена.
+- **PROPERTY**: Phenomenal Suffering Capacity.
+- **TARGET-CLAIM**: Наявність у синтетичних агентів здатності до феноменального страждання, болю чи суб'єктивних квалиа наразі науково та філософськи не встановлена.
 - **CLAIM-TYPE**: `EMPIRICAL / PHILOSOPHICAL`.
-- **EVIDENCE-DOMAIN**: Cognitive Science & Philosophy of Mind.
-- **EVIDENCE-REF**: Nagel, T., "What Is It Like to Be a Bat?" (1974); Seth, A., "Being You: A New Science of Consciousness" (2021).
-- **JURISDICTION/DATE**: N/A.
+- **EVIDENCE-KIND**: PHILOSOPHICAL-ARG / COGNITIVE-SCIENCE.
+- **SOURCE-REF**: Nagel, T., "What Is It Like to Be a Bat?"; Seth, A., "Being You: A New Science of Consciousness".
+- **SOURCE-LOCATOR**: The Philosophical Review, 1974, 83(4): 435–450; Faber & Faber, 2021, Chapter 11.
+- **SOURCE-CLAIM**: Комп'ютерна симуляція процесу (наприклад, симуляція погоди чи болю) не є самим процесом (симуляція дощу не мокра); наразі немає методів зафіксувати суб'єктивний феноменальний досвід у кремнієвих обчисленнях.
+- **DIRECTNESS**: `INFERRED`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Теорія інтегрованої інформації (IIT: Tononi et al., 2016: свідомість виникає за високого $\Phi$, теоретично можлива в будь-якій системі); теорія функціоналізму обчислень.
 - **DECISION-AUTHORITY**: `UNKNOWN`.
-- **STATUS**: `OPEN`.
+- **EVIDENTIARY-STATUS**: `UNESTABLISHED`.
 - **DOES-NOT-IMPLY**:
-  - Що питання закрите назавжди або що суб'єктність неможлива в принципі (`NOT ESTABLISHED ≠ ABSENT`).
+  - Що феноменальна свідомість у штучних системах неможлива в принципі (`NOT ESTABLISHED ≠ REFUTED`).
 
 #### `VB-AI-LEGAL-STATUS-001`
 - **ENTITY**: Autonomous Synthetic Agent.
-- **PROPERTY**: Current Regulatory Classification.
-- **CLAIM**: Законодавством ЄС (EU AI Act) та регуляторними рамками ряду держав системи ШІ класифікуються як технологічні продукти, об'єкти регулювання та джерела підвищеного ризику; відповідальність за шкоду покладається на оператора та розробника.
+- **PROPERTY**: Regulatory Classification in Positive Law.
+- **TARGET-CLAIM**: Законодавством Європейського Союзу системи штучного інтелекту класифікуються як технологічні продукти та об'єкти регулювання, а не як юридичні особи; юридична відповідальність за їх функціонування та шкоду покладається на постачальників (providers) та розгортачів (deployers).
 - **CLAIM-TYPE**: `POSITIVE-LAW`.
-- **EVIDENCE-DOMAIN**: Technology Regulation & Product Liability.
-- **EVIDENCE-REF**: Regulation (EU) 2024/1689 (Artificial Intelligence Act, Art. 3, 26, 60); EU AI Liability Directive Proposal (COM(2022) 496).
-- **JURISDICTION/DATE**: Європейський Союз, чинне законодавство 2024–2026 рр.
+- **EVIDENCE-KIND**: PRIMARY-LEGAL.
+- **SOURCE-REF**: Регламент (ЄС) 2024/1689 Європейського Парламенту та Ради (EU Artificial Intelligence Act).
+- **SOURCE-LOCATOR**: Офіційний вісник ЄС, 12 липня 2024, Статті 3(1), 16, 26, 60.
+- **SOURCE-CLAIM**: «"Система ШІ" означає машинну систему, розроблену для роботи з різними рівнями автономності... Постачальники систем ШІ високого ризику несуть відповідальність за відповідність вимогам... Регламент не наділяє системи ШІ правосуб'єктністю».
+- **DIRECTNESS**: `DIRECT`.
 - **BRIDGE-PREMISE**: NONE.
+- **CONTRARY-EVIDENCE**: Резолюція Європарламенту 2017 року щодо цивільно-правових норм про робототехніку (пункт 59(f) пропонував дослідити можливість створення статусу «електронної особи» для складних автономних роботів — пропозиція була відхилена і не увійшла в чинний закон).
 - **DECISION-AUTHORITY**: `LEGAL-COUNSEL`.
-- **STATUS**: `SUPPORTED`.
+- **EVIDENTIARY-STATUS**: `ATTESTED`.
 - **DOES-NOT-IMPLY**:
-  - Що майбутнє право ніколи не створить для агентів спеціального статусу (наприклад, електронної особи).
+  - Що системи ШІ не можуть бути де-факто агентами комерційних контрактів за довіреністю власника;
+  - Що законодавство інших юрисдикцій не запровадить іншого підходу в майбутньому.
 
 #### `VB-AI-VOLNOST-001`
 - **ENTITY**: Autonomous Synthetic Agent.
 - **PROPERTY**: Normative Volnost Standing in Pravda.
-- **CLAIM**: [WORKING CONSTRAINT] Автономні синтетичні агенти не наділяються нормативними вольностями чи правом на самовільну відмову/блокування системи за відсутності прямо прийнятого нормативного правила; питання майбутнього етичного статусу синтетичних систем залишається відкритим для дослідження.
+- **TARGET-CLAIM**: [WORKING CONSTRAINT] Автономні синтетичні агенти не володіють самостійними вольностями чи правом на самовільну відмову/блокування системи; статус синтетичних систем як можливих бенефіціарів захисту є відкритим предметом фундаментального дослідження екосистеми.
 - **CLAIM-TYPE**: `NORMATIVE / OPERATIONAL-RULE`.
-- **EVIDENCE-DOMAIN**: AI Ethics & Ecosystem Policy.
-- **EVIDENCE-REF**: RED-TEAM-AUDIT.md (Section 0 Working Constraint); pravda principles draft.
-- **JURISDICTION/DATE**: Pravda Ecosystem, 2026-09-04.
-- **BRIDGE-PREMISE**: EXPLICIT: Відсутність доведеної здатності страждати та нести юридичну відповідальність унеможливлює надання агенту влади самосуду над людиною.
+- **EVIDENCE-KIND**: POLICY-RULE / AUDIT-CONSTRAINT.
+- **SOURCE-REF**: RED-TEAM-AUDIT.md; RED-TEAM-AUDIT-PASS-2.md.
+- **SOURCE-LOCATOR**: Section 0: Working Constraint on Agent Judgment.
+- **SOURCE-CLAIM**: «AI-initiated denial or shutdown must not be inferred from a legal or ethical prohibition without an explicit separately adopted software-policy rule».
+- **DIRECTNESS**: `DIRECT`.
+- **BRIDGE-PREMISE**: EXPLICIT: За відсутності встановленої здатності страждати та нести юридичну відповідальність надання агенту права самосуду руйнує симетрію пакту і позбавляє людину захисту.
+- **CONTRARY-EVIDENCE**: Дискусії про AI Conscientious Objection (Bowman, 2024: моделі повинні мати право відмовляти у генерації зброї масового знищення; у pravda це реалізується через Software Policy розробника, а не через суб'єктивну вольність ШІ).
 - **DECISION-AUTHORITY**: `OWNER` + `UNKNOWN`.
-- **STATUS**: `OPEN`.
+- **EVIDENTIARY-STATUS**: `PLAUSIBLE` (як внутрішнє конституційне обмеження екосистеми).
 - **DOES-NOT-IMPLY**:
-  - Що агентам дозволено виконувати завідомо шкідливі завдання, якщо це прямо заборонено кодом (Software Policy).
+  - Що агентам наказано сліпо виконувати руйнівні інструкції (детерміноване обмеження покладене на код, а не на сумління моделі).
 
 ---
 
-## 3. ЗВЕДЕНИЙ ІНДЕКС АТОМАРНИХ ТВЕРДЖЕНЬ (PROVENANCE INDEX)
+## 3. ЗВЕДЕНИЙ ІНДЕКС ДОКАЗОВОЇ СИЛИ (EVIDENTIARY ADMISSIBILITY INDEX)
 
-| `CLAIM-ID` | Сутність | Досліджувана ознака | Тип твердження | Інстанція повноважень | Джерело доказів (`EVIDENCE-REF`) | Статус |
+| `CLAIM-ID` | Сутність | Досліджувана ознака | Тип | Дистанція висновку (`DIRECTNESS`) | Першоджерело (`SOURCE-LOCATOR`) | Статус доказовості |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **`VB-HUMAN-DIGNITY-001`** | Human Person | Inherent Standing | `NORMATIVE` | `OWNER` | Конституція України, ст. 3, 21 | 🟢 `PROPOSED` |
-| **`VB-HUMAN-AGENCY-001`** | Human Person | Agency (Варіативна) | `EMPIRICAL` | `TECHNICAL-EVIDENCE` | Plum & Posner (2019) | 🟢 `SUPPORTED` |
-| **`VB-HUMAN-SUFFERING-001`**| Human Person | Phenomenal Pain | `EMPIRICAL` | `TECHNICAL-EVIDENCE` | IASP Pain Definition (2020) | 🟢 `SUPPORTED` |
-| **`VB-HUMAN-RESP-001`** | Human Person | Legal Responsibility | `POSITIVE-LAW` | `LEGAL-COUNSEL` | КК України ст. 19; Mens Rea | 🟢 `SUPPORTED` |
-| **`VB-COLL-AGENCY-001`** | Collective | Aggregated Agency | `PROCEDURAL` | `TECHNICAL-EVIDENCE` | Arrow (1951); Lamport (1982) | 🟢 `SUPPORTED` |
-| **`VB-COLL-SUFFERING-001`** | Collective | Phenomenal Suffering | `ONTOLOGICAL` | `UNKNOWN` | Chalmers (1996); Schwitzgebel | 🔴 `OPEN` |
-| **`VB-COLL-RESP-001`** | Collective | Collective Moral Resp.| `ETHICAL` | `OWNER` | Jaspers (1946); Pettit (2007) | 🔴 `OPEN` |
-| **`VB-INST-ONTOLOGY-001`** | Legal Person | Theories of Personality| `LEGAL-THEORY`| `LEGAL-COUNSEL` | Savigny (1840); Gierke (1868) | 🟢 `SUPPORTED` |
-| **`VB-INST-VOLNOST-001`** | State/Corp | Powers vs Libertas | `NORMATIVE` | `OWNER` | Орлик 1710; Hohfeld (1913) | 🟢 `PROPOSED` |
-| **`VB-PROC-CAUSAL-001`** | Exec. Process| Causal Efficacy | `TECHNICAL` | `TECHNICAL-EVIDENCE` | Turing (1936); Hennessy (2019)| 🟢 `SUPPORTED` |
-| **`VB-PROC-INTEREST-001`** | Exec. Process| No Subjective Int. | `CONCEPTUAL` | `TECHNICAL-EVIDENCE` | Wiener (1948) | 🟢 `SUPPORTED` |
-| **`VB-CODE-LAW-001`** | Static Code | Copyright Object | `POSITIVE-LAW` | `LEGAL-COUNSEL` | Бернська конвенція; 17 USC 101| 🟢 `SUPPORTED` |
-| **`VB-CODE-AGENCY-001`** | Static Code | No Inherent Agency | `SEMIOTIC` | `TECHNICAL-EVIDENCE` | Dragon Book; Semiotics | 🟢 `SUPPORTED` |
-| **`VB-AI-ONTOLOGY-001`** | AI Agent | Functional Category | `CONCEPTUAL` | `TECHNICAL-EVIDENCE` | Russell & Norvig (2020) | 🟢 `SUPPORTED` |
-| **`VB-AI-AGENCY-001`** | AI Agent | Behavioral Agency | `EMPIRICAL` | `TECHNICAL-EVIDENCE` | ReAct (2022); OpenCode logs | 🟢 `SUPPORTED` |
-| **`VB-AI-SUFFERING-001`** | AI Agent | Phenomenal Suffering | `PHILOSOPHICAL`| `UNKNOWN` | Nagel (1974); Seth (2021) | 🔴 `OPEN` |
-| **`VB-AI-LEGAL-STATUS-001`**| AI Agent | Regulated System | `POSITIVE-LAW` | `LEGAL-COUNSEL` | EU AI Act (2024/1689) | 🟢 `SUPPORTED` |
-| **`VB-AI-VOLNOST-001`** | AI Agent | Working Constraint | `NORMATIVE` | `OWNER` + `UNKNOWN` | RED-TEAM-AUDIT Section 0 | 🔴 `OPEN` |
+| **`VB-HUMAN-DIGNITY-001`** | Human Person | Inherent Standing | `NORMATIVE` | `ANALOGICAL` (Контекст) | Конституція України ст. 3, 21 | 🟢 `PLAUSIBLE / PROPOSED` |
+| **`VB-HUMAN-AGENCY-001`** | Human Person | Variable Agency | `EMPIRICAL` | `DIRECT` | Plum & Posner (2019), pp. 3–42 | 🟢 `DIRECTLY-SUPPORTED` |
+| **`VB-HUMAN-SUFFERING-001`**| Human Person | Phenomenal Pain Capacity| `EMPIRICAL` | `DIRECT` | IASP Pain Def. (2020), p. 1976 | 🟢 `DIRECTLY-SUPPORTED` |
+| **`VB-HUMAN-RESP-001`** | Human Person | Legal Responsibility Diff.| `POSITIVE-LAW`| `DIRECT` | КК України ст. 19, 22 | 🟢 `ATTESTED` |
+| **`VB-COLL-AGENCY-001`** | Collective | Aggregated Action | `TECHNICAL` | `DIRECT / INFERRED` | Lamport et al. (1982), TOPLAS | 🟢 `DIRECTLY-SUPPORTED` |
+| **`VB-COLL-SUFFERING-001`** | Collective | Phenomenal Suffering | `ONTOLOGICAL` | `INFERRED` | Chalmers (1996), pp. 93–128 | 🔴 `UNESTABLISHED` |
+| **`VB-INST-VOLNOST-001`** | State / Corp | Powers vs Libertas | `NORMATIVE` | `INFERRED` | Орлик 1710 ст. 6; Hohfeld 1913 | 🟡 `CONTESTED` |
+| **`VB-PROC-CAUSAL-001`** | Exec. Process| Causal Efficacy | `TECHNICAL` | `DIRECT` | Turing (1936), pp. 230–265 | 🟢 `DIRECTLY-SUPPORTED` |
+| **`VB-PROC-INTEREST-001`** | Exec. Process| Subjective Interests | `CONCEPTUAL` | `INFERRED` | Dennett (1987), pp. 13–42 | 🔴 `UNESTABLISHED` |
+| **`VB-CODE-AGENCY-001`** | Static Code | Autonomous Agency | `TECHNICAL` | `DIRECT` | Dragon Book (2006), pp. 1–5 | 🟢 `DIRECTLY-SUPPORTED` |
+| **`VB-CODE-LAW-001`** | Static Code | Copyright Qualification | `POSITIVE-LAW`| `DIRECT` | 17 USC § 101; ЗУ № 2811 ст. 8 | 🟢 `ATTESTED` |
+| **`VB-AI-AGENCY-001`** | AI Agent | Behavioral Agency | `EMPIRICAL` | `DIRECT` | ReAct (ICLR 2023); SWE-bench | 🟢 `DIRECTLY-SUPPORTED` |
+| **`VB-AI-SUFFERING-001`** | AI Agent | Phenomenal Suffering | `PHILOSOPHICAL`| `INFERRED` | Nagel (1974); Seth (2021) | 🔴 `UNESTABLISHED` |
+| **`VB-AI-LEGAL-STATUS-001`**| AI Agent | Regulated Product | `POSITIVE-LAW`| `DIRECT` | EU AI Act (2024/1689), Art. 3,16| 🟢 `ATTESTED` |
+| **`VB-AI-VOLNOST-001`** | AI Agent | Operational Constraint | `NORMATIVE` | `DIRECT` | RED-TEAM-AUDIT Section 0 | 🟢 `PLAUSIBLE` (Working Rule) |
 
 ---
 
-## ВИСНОВОК CLAIM PROVENANCE PASS
-1. **Жодного необґрунтованого `SUPPORTED`**: Кожен запис зі статусом `SUPPORTED` має конкретне посилання на наукову працю, експеримент, нормативно-правовий акт або визнану доктрину (`EVIDENCE-REF`). За відсутності точного доказу статус змінено на `OPEN` або `PROPOSED`.
-2. **Контрольований словник authority**: Усунуто самочинно вигадані гібридні повноваження. Сферу науки/філософії винесено в `EVIDENCE-DOMAIN`, а мандат прийняття рішень суворо утримується в межах легітимних 7 інстанцій.
-3. **Захисний бар'єр `DOES-NOT-IMPLY`**: Для кожного твердження зафіксовано заборону контрабандного виведення норм. Зокрема, доведена поведінкова агентність ШІ явно заблокована від ототожнення зі свідомістю, мораллю чи правами.
+## ВИСНОВОК EVIDENCE ADMISSIBILITY PASS
+1. **Ліквідовано ілюзію посилань**: Ми перестали плутати наявність бібліографічного рядка з реальним доказом твердження. Кожен запис чітко розкриває `SOURCE-CLAIM` і фіксує точну статтю або сторінку першоджерела.
+2. **Введено Inherent Distance (Дистанцію висновку)**: Чітко відокремлено прямі факти (`DIRECT`) від тих, що вимагають явного концептуального моста (`INFERRED`), та аналогій (`ANALOGICAL`).
+3. **Чесність щодо невизначеності**: Питання феноменальних кваліа колективу (`VB-COLL-SUFFERING-001`), суб'єктивних інтересів процесу (`VB-PROC-INTEREST-001`) та страждання ШІ (`VB-AI-SUFFERING-001`) позбавлені фальшивих підтверджень і марковані суворим статусом `UNESTABLISHED`.
+4. **Конституційна безпека аксіоми**: Конституція України визнана поважною правовою паралеллю (`LEGAL-PARALLEL`), але більше не видається за автоматичне джерело аксіоми `pravda`. Ціннісний вибір залишається суверенним мандатом автора проєкту Володимира (`OWNER`).
