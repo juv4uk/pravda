@@ -1,0 +1,11 @@
+CHANGE-ID: DIFF-HADIACH-COMM-001
+FILE: sources/primary/transcriptions/SRC-HADIACH-1658-COMMISSION-POLISH.txt
+EDITION-LOCATOR: Польська археографія / pl.wikisource («Pakta Hadziackie autentyczne», 16.09.1658).
+LOCAL-RANGE: Преамбула + 6 пунктів комісарського договору.
+SOURCE-RANGE: 16 вересня 1658 року.
+CHANGE-TYPE: DECOUPLING_AND_FIDELITY_SPECIFICATION.
+AUDIT-OBSERVATIONS:
+  1. Текст є польськомовним актом військового табору під Гадячем (комісари Бенєвський, Євлашевський та гетьман Виговський).
+  2. Текст містить первинні формулювання: концепція «Великого Князівства Руського» як третього суб'єкта Речі Посполитої; ліквідація Берестейської унії.
+  3. Суцільне поаркушне порівняння з рукописом AGAD не проводилось (LOCAL-TEXT-FIDELITY: PARTIAL).
+  4. Ідентифіковано відмінність від сеймового акта травня 1659 р. (Volumina Legum T. IV, s. 297–301), де скасування унії вилучено, а автономію скорочено.

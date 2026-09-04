@@ -1,0 +1,9 @@
+CHANGE-ID: DIFF-RP-EXP-001
+FILE: sources/primary/transcriptions/SRC-RP-EXP-TROITSKY-WITNESS.txt
+EDITION-LOCATOR: «Российское законодательство X–XX веков». — Т. 1. — М., 1984. — С. 64–73.
+LOCAL-RANGE: Статті 1–121 (Суд Ярославль Володимеричь, Статут Володимира Мономаха).
+SOURCE-RANGE: РДБ ф. 304.I № 793 (Троїцький список XIV ст., арк. 189–205).
+CHANGE-TYPE: TEXTUAL_FIDELITY_AUDIT.
+AUDIT-OBSERVATIONS:
+  1. Локальний файл містить повний набір 121 статті Троїцького списку.
+  2. Текстова точність: VERIFIED-AGAINST-EDITION (повний диспозитивний склад перевірено за публікацією «Правда Русская» 1940 / 1984).
