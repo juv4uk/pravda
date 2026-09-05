@@ -145,4 +145,10 @@ python3 scripts/guard-inbox-latency.py /home/agents/ecosystem/knowledge/guard-re
    - [LEGAL-COUNSEL-BRIEFING-PACKET.md](file:///home/agents/GitHub/pravda/docs/LEGAL-COUNSEL-BRIEFING-PACKET.md): пакет для зовнішніх юридичних радників з IP та міжнародного публічного права.
 
 ---
+
+## Ліцензія · License
+
+[ВОЛЬНІСТЬ](LICENSE)
+
+---
 *Створено з любов'ю до правди, волі та людини. 2026 рік.*
