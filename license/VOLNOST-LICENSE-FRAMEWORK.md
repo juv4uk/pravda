@@ -19,12 +19,13 @@
 
 На підставі інструкції для юридичного радника ([`WSM-LICENSE-MANIFESTO.md`](file:///home/agents/GitHub/pravda/license/drafts/WSM-LICENSE-MANIFESTO.md)) та історичного синтезу ([`HISTORICAL-SYNTHESIS.md`](file:///home/agents/GitHub/pravda/HISTORICAL-SYNTHESIS.md)), ліцензія базується на наступних розмежуваннях:
 
-### 1.1. OSI Open Source vs Ethical Source / Source-Available
-- **Реальність Open Source Definition (OSD):** Пункт 5 (No Discrimination Against Persons or Groups) та Пункт 6 (No Discrimination Against Fields of Endeavor) критеріїв OSI суворо забороняють обмеження на сфери використання (включно з військовою діяльністю чи агресією). Тому будь-яка ліцензія з етичними/правозахисними обмеженнями формально класифікується не як OSI-approved «Open Source», а як **`Ethical Source`** або **`Source-Available with Invariant Ethical Covenants`**.
-- **Архітектурний орієнтир: Модель MPL-2.0 та принцип «не захоплювати сусідів»:** Детально розроблено в [`VOLNOST-COMPATIBILITY-SPEC.md`](file:///home/agents/GitHub/pravda/license/VOLNOST-COMPATIBILITY-SPEC.md). Щоб забезпечити композиційну сумісність із MIT, Apache-2.0, MPL-2.0 та сімейством GPL:
-  - Copyleft-вимоги діють суворо на рівні окремих файлів/модулів (`Covered Code`), не інфікуючи сусідній незалежний код у збірці (`Larger Work`).
-  - Передбачено шлях до сумісності з GPLv3 через інститут вторинних ліцензій (`Secondary Licenses`).
-  - Нормативний Пакт (`PACTA`) не створює несумісних обтяжень для звичайного компілювання чи лінкування коду.
+### 1.1. OSI Open Source vs Ethical Source / Source-Available: Ідентифікація напруги
+- **Реальність Open Source Definition (OSD) та GPLv3:** Пункт 5 (No Discrimination Against Persons or Groups) та Пункт 6 (No Discrimination Against Fields of Endeavor) OSD суворо забороняють обмеження на сфери використання (включно з військовою діяльністю чи агресією). Крім того, §10 GPLv3 прямо забороняє будь-які «further restrictions». Тому будь-яке пряме copyright restriction щодо сфер використання автоматично створює юридичну несумісність з OSD та чистою GPL.
+- **Статус напруги:** Напругу **не вважаємо розв'язаною**. Вона ідентифікована як фундаментальний архітектурний виклик.
+- **Двошарова архітектура (Copyright Layer vs PACTA Layer):** Детально розроблено в [`VOLNOST-COMPATIBILITY-SPEC.md`](file:///home/agents/GitHub/pravda/license/VOLNOST-COMPATIBILITY-SPEC.md). Щоб не ізолювати проєкт у гетто несумісності:
+  1. *Copyright Layer:* Досліджується максимально дружня до композиції модель (за інженерним прецедентом file-level copyleft MPL-2.0, де «Independent Code remains under its own terms solely by reason of combination with Covered Code»).
+  2. *Secondary Licenses (міст до GPL):* Досліджується умова, за якої код у складі GPL Larger Work може переходити під GPL, усвідомлюючи ціну: при такому переході специфічні обмеження VOLNOST мусять поступитися місцем чистій GPL, аби не порушувати §10 GPLv3.
+  3. *PACTA Layer:* Досліджується як нормативний шар прав і вольностей, який не обов'язково має бути прямою copyright-use restriction clause.
 
 ### 1.2. Об'єктивні міжнародні стандарти замість розмитих моральних декларацій
 Щоб уникнути суб'єктивного трактування понять «агресія», «репресії» та «права людини», ліцензія спирається виключно на кодифіковані норми міжнародного публічного права:
