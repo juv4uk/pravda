@@ -21,7 +21,10 @@
 
 ### 1.1. OSI Open Source vs Ethical Source / Source-Available
 - **Реальність Open Source Definition (OSD):** Пункт 5 (No Discrimination Against Persons or Groups) та Пункт 6 (No Discrimination Against Fields of Endeavor) критеріїв OSI суворо забороняють обмеження на сфери використання (включно з військовою діяльністю чи агресією). Тому будь-яка ліцензія з етичними/правозахисними обмеженнями формально класифікується не як OSI-approved «Open Source», а як **`Ethical Source`** або **`Source-Available with Invariant Ethical Covenants`**.
-- **Рішення:** Не маскувати обмеження під «OSI Open Source». Чесно декларувати модель: **Повноцінна свобода коду (Full Freedom to Use, Study, Modify, Distribute) за умови дотримання непорушного Пакту Вольностей (Covenant of Liberties)**.
+- **Архітектурний орієнтир: Модель MPL-2.0 та принцип «не захоплювати сусідів»:** Детально розроблено в [`VOLNOST-COMPATIBILITY-SPEC.md`](file:///home/agents/GitHub/pravda/license/VOLNOST-COMPATIBILITY-SPEC.md). Щоб забезпечити композиційну сумісність із MIT, Apache-2.0, MPL-2.0 та сімейством GPL:
+  - Copyleft-вимоги діють суворо на рівні окремих файлів/модулів (`Covered Code`), не інфікуючи сусідній незалежний код у збірці (`Larger Work`).
+  - Передбачено шлях до сумісності з GPLv3 через інститут вторинних ліцензій (`Secondary Licenses`).
+  - Нормативний Пакт (`PACTA`) не створює несумісних обтяжень для звичайного компілювання чи лінкування коду.
 
 ### 1.2. Об'єктивні міжнародні стандарти замість розмитих моральних декларацій
 Щоб уникнути суб'єктивного трактування понять «агресія», «репресії» та «права людини», ліцензія спирається виключно на кодифіковані норми міжнародного публічного права:
