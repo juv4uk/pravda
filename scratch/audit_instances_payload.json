@@ -1,0 +1,2040 @@
+{
+  "VOLN": [
+    {
+      "id": "LEX-INV2-0102",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 501",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "вольность на водахъ на дорогахъ, то естъ сухимъ путемъ и во..."
+    },
+    {
+      "id": "LEX-INV2-0130",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 945",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностяхъ",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "шляхец",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "=== ЧАСТИНА 4: РОЗДЂЛЪ 3. О вольностяхъ шляхецкихъ и о розмноженью Великого Князства Лито..."
+    },
+    {
+      "id": "LEX-INV2-0131",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 948",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "ВОЛЬНОСТЯХЪ",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "шляхец",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "РОЗДЂЛЪ ТРЕТІЙ О ВОЛЬНОСТЯХЪ ШЛЯХЕЦКИХЪ И О РОЗМНОЖЕНЬЮ ВЕЛИКОГО КНЯЗСТВА ЛИТО..."
+    },
+    {
+      "id": "LEX-INV2-0132",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 966",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностяхъ",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "шляхец",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "О вольностяхъ шляхецскихъ."
+    },
+    {
+      "id": "LEX-INV2-0134",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 973",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностяхъ",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "въ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "хрестіян",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "и вольностяхъ хрестіянскихъ, въ которыхъ они, яко люде вольные,..."
+    },
+    {
+      "id": "LEX-INV2-0137",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 976",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "зъ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "хрестіян",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "хрестіянскихъ, ровнаючы однако маючы и тыхъ вольностей ужываючы и зъ сусЂды братьею"
+    },
+    {
+      "id": "LEX-INV2-0138",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 978",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностяхъ",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "въ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "SVOBODY"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "свободахъ и вольностяхъ и листЂхъ Великихъ Князей Литовскихъ, продковъ на..."
+    },
+    {
+      "id": "LEX-INV2-0143",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1000",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "въ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRIVILEGE"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "вольностей и тежъ неданье листовъ и привильевъ против сему с..."
+    },
+    {
+      "id": "LEX-INV2-0146",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1007",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "въ",
+      "gov_verb": "отбирати",
+      "modifier": "",
+      "coord": [
+        "PRAVA",
+        "SVOBODY"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "свободъ и вольностей и правъ въ нихъ отбирати и отводити, и ни якимъ о..."
+    },
+    {
+      "id": "LEX-INV2-0153",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1060",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностяхъ",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "при",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "...и, ижъ все рыцерство шляхту Великого Князства при вольностяхъ"
+    },
+    {
+      "id": "LEX-INV2-0161",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1141",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "панства нашого Великого Князства Литовского мЂли вольность и моцъ выЂхати и"
+    },
+    {
+      "id": "LEX-INV2-0162",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1142",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...хъ земль нашихъ Великого Князства Литовского мЂли вольность и моцъ"
+    },
+    {
+      "id": "LEX-INV2-0177",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1233",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "ужывати",
+      "modifier": "шляхец",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "имЂнье шляхецское, а хотЂлъ вольностей шляхецскихъ ужывати; тогды первЂ маетъ"
+    },
+    {
+      "id": "LEX-INV2-0179",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1235",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностеи",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "зъ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "шляхец",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "...не показалъ, тогды хотя имЂнье купитъ, предсе зъ вольностеи шляхецскихъ веселитися"
+    },
+    {
+      "id": "LEX-INV2-0182",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1277",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "LOC",
+      "num": "SG/PL",
+      "prep": "въ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "шляхец",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "нашое господарское, вольности прывильевъ стану шляхецского самъ собЂ прывлащати"
+    },
+    {
+      "id": "LEX-INV2-0195",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1366",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "тогды таковые листы и вольности его вжо никоторое моцы мЂти не будеть, бо самъ"
+    },
+    {
+      "id": "LEX-INV2-0219",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1462",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностехъ",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "вольностехъ ихъ, а кгвалтомъ ни за кого их давати не маемъ бе..."
+    },
+    {
+      "id": "LEX-INV2-0224",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1485",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "О вольности шафовати выслугою своею."
+    },
+    {
+      "id": "LEX-INV2-0229",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1498",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "О вольности шляхтЂ имгьнья лежачые и иные"
+    },
+    {
+      "id": "LEX-INV2-0463",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 3417",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "ACC",
+      "num": "PL",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "О вольности продати третюю часть на вЂчность."
+    },
+    {
+      "id": "LEX-INV2-0703",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 28",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "од",
+      "gov_verb": "примноженыя",
+      "modifier": "",
+      "coord": [
+        "PRAVA",
+        "SVOBODY"
+      ],
+      "holder": "Шляхта / рицерство",
+      "ctx": "...ими обетницами ни одно примноженыя прав, свобод и вольностей шляхетских, але розширьнья тых паньств и прабавле..."
+    },
+    {
+      "id": "LEX-INV2-0704",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 28",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "од",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA",
+        "SVOBODY"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...мы вдячни от них будучи, и хотячи им завжды прав, вольностей и свобод вшеляких, прикладом продков нашых прибав..."
+    },
+    {
+      "id": "LEX-INV2-0705",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 28",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "ACC",
+      "num": "PL",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...тою ж прысегою нашою которую есьмо на вси права и вольности, великого князьства литовского учинили, шлюбуем и..."
+    },
+    {
+      "id": "LEX-INV2-0706",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 28",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...а потом завжды кагды одно того потребовати будеть вольность поправаньня того, Статут вцале им заховываем. А и..."
+    },
+    {
+      "id": "LEX-INV2-0725",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 100",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN",
+      "num": "SG",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "посполит",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...ысмы собе права яко найбольшые сторожы посполитое вольности творыли,"
+    },
+    {
+      "id": "LEX-INV2-0729",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 112",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "найвышому сторожу всих прав и вольностей наших, пана"
+    },
+    {
+      "id": "LEX-INV2-0755",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 253",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "...аковый, яко тотъ, который самъ собе тымъ учинъком вольность свою шляхетъскую зкгвалтилъ, маеть быти у везенью..."
+    },
+    {
+      "id": "LEX-INV2-0815",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 373",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "О мытахъ новых и о вольности засаженья местечокъ, и о будованью мостов або гро..."
+    },
+    {
+      "id": "LEX-INV2-0821",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 383",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "...етъскимъ, шляхъте в томъ панстве нашомъ даемъ тую вольность на водахъ, на дорогахъ, то естъ сухимъ путемъ и в..."
+    },
+    {
+      "id": "LEX-INV2-0853",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 793",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "въ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...твъ хрестияньских, ровнуючи а однако маючи и тыхъ вольностей уживаючи, з суседы и братьею своею рицерствомъ и..."
+    },
+    {
+      "id": "LEX-INV2-0854",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 793",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностяхъ",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "при",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "SVOBODY",
+        "PRIVILEGE"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...оруны польское, а особливе над то при свободахъ и вольностяхъ на привил[ь]яхъ и листехъ великих кн[я]зей литовъ..."
+    },
+    {
+      "id": "LEX-INV2-0892",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 921",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "давн",
+      "coord": [
+        "ZVYCHAY"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...вилья земъские стародавные и ново отъ насъ даные, вольности и звычаи добрие стародавные ховати и ни в чомъ то..."
+    },
+    {
+      "id": "LEX-INV2-0895",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 925",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "LOC",
+      "num": "SG/PL",
+      "prep": "въ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "О вольности выеханья с панствъ нашихъ до инъших паньствъ хрес..."
+    },
+    {
+      "id": "LEX-INV2-0897",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 927",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...того паньства, великого князства литовского, мели вольность и моцъ выехати и выйти с тыхъ земль наших, велико..."
+    },
+    {
+      "id": "LEX-INV2-0915",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 985",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "О непривлащенье вольностей шляхетъских людем простого стану."
+    },
+    {
+      "id": "LEX-INV2-0916",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 987",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "въ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRIVILEGE"
+      ],
+      "holder": "Шляхта / рицерство",
+      "ctx": "...мужъствомъ, оказанымъ против неприятелемъ нашимъ, вольностей и привильевъ стану шляхетъского и геръбовъ шляхет..."
+    },
+    {
+      "id": "LEX-INV2-0933",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 1005",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "до",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...х, рускихъ, жомоитъских и иных, до однакое ровное вольности приводечи, всих подъданыхъ кн[я]зскихъ, паньскихъ..."
+    },
+    {
+      "id": "LEX-INV2-0941",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 1011",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...а котором пане именье и не маючы такового листу и вольности с тым именьемъ служити або продати и заменити, ко..."
+    },
+    {
+      "id": "LEX-INV2-1005",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 1067",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностях",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "при",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...омъ, великомъ князстве литовскомъ, мешкаючых, при вольностях ихъ заховывати маемъ, а кгвалтомъ ни за кого не м..."
+    },
+    {
+      "id": "LEX-INV2-1013",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 1083",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольности",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "О вольности шляхте именья лежачие и иные маетности свои намъ,..."
+    },
+    {
+      "id": "LEX-INV2-1026",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 1127",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольностью",
+      "case": "INS",
+      "num": "SG",
+      "prep": "од",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Шляхта / рицерство",
+      "ctx": "...хъ не под присудомъ местъскимъ, але под правомъ и вольностью шляхетъскою держать, нихто свовольне, без призвол..."
+    },
+    {
+      "id": "LEX-INV2-1165",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 1540",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...ды остатнимъ разомъ вязенъ або на смерт[ь] або на вольность з везенья выходить. И естли вязень на волност[ь]..."
+    },
+    {
+      "id": "LEX-INV2-1639",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 3416",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "вольность",
+      "case": "NOM/ACC",
+      "num": "SG",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "О вольность записать на костелъ именей набытыхъ."
+    },
+    {
+      "id": "LEX-INV2-2144",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 34",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...zanie tak rzymscy, jako religii greckiej, spólnej wolności swobód zażywać mają i żadnemu religia grecka do M..."
+    },
+    {
+      "id": "LEX-INV2-2145",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 35",
+      "lang": "Early Modern Polish",
+      "form": "wolnościami",
+      "case": "INS",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "gaudere",
+      "modifier": "koronn",
+      "coord": [],
+      "holder": "Академія / колегія",
+      "ctx": "...ny Koronne erygować, która takimi prerogatywami i wolnościami ma się cieszyć [gaudere], jako Akademia Krakowska..."
+    },
+    {
+      "id": "LEX-INV2-2147",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 36",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...która takich, jako kijowska zażywać będzie praw i wolności, lecz taką, jako i w Kijowie ma być erygowana kon..."
+    },
+    {
+      "id": "LEX-INV2-2157",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 42",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...rem wojny z postronnymi pany na ujmę granic, albo wolności tych narodów stanęło co, to ma to być nieważnym i..."
+    },
+    {
+      "id": "LEX-INV2-2158",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 42",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "LOC",
+      "num": "SG/PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...ańską rzymską albo grecką wszystkich przy pokoju, wolności zostawiają. Luboby jakie prawa albo dekreta, tak..."
+    },
+    {
+      "id": "LEX-INV2-2162",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 46",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...rzed wojną zostawali, któremu to wojsku wszelakie wolności przywilejami najjaśniejszych królów nadane konfir..."
+    },
+    {
+      "id": "LEX-INV2-2163",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 46",
+      "lang": "Early Modern Polish",
+      "form": "wolnościach",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "ZVYCHAY"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...dane konfirmuje, zachowując ich przy starodawnych wolnościach i zwyczajach ich. i onym nie tylko nic nie ubliża..."
+    },
+    {
+      "id": "LEX-INV2-2168",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 47",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "szlacheck",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "...rudności spotka nobilitacja z nadaniem wszelakich wolności szlacheckich, tak jednak miarkując, żeby z każdeg..."
+    },
+    {
+      "id": "LEX-INV2-2183",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 193",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "SVOBODY"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "ckiey, spolnych wolności, swobod, zażywać ma-"
+    },
+    {
+      "id": "LEX-INV2-2184",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 199",
+      "lang": "Early Modern Polish",
+      "form": "wolnościami",
+      "case": "INS",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "gaudere",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "praerogatywami y wolnościami ma gaudere, iako"
+    },
+    {
+      "id": "LEX-INV2-2186",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 213",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "wać będzie praw y wolności, lecz taką iaką y"
+    },
+    {
+      "id": "LEX-INV2-2193",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 281",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "Pany na uymę granic, abo wolności tych na-"
+    },
+    {
+      "id": "LEX-INV2-2196",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 289",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "zostawuią",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "koiu, wolności zostawuią. Luboby iakie prawa"
+    },
+    {
+      "id": "LEX-INV2-2198",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 310",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRIVILEGE"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "sku wszelakie wolności przywileiami Nayiaśniey-"
+    },
+    {
+      "id": "LEX-INV2-2199",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 312",
+      "lang": "Early Modern Polish",
+      "form": "wolnościach",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "chowuiąc ich przy starodawnych wolnościach,"
+    },
+    {
+      "id": "LEX-INV2-2203",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 337",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "szlacheck",
+      "coord": [],
+      "holder": "Шляхта / рицерство",
+      "ctx": "nadaniem wszelakich wolności szlacheckich, tak"
+    },
+    {
+      "id": "LEX-INV2-2215",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 619",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Військо Запорозьке / козацтво",
+      "ctx": "A chcąc wolności woyska tego przez Nas, tak"
+    },
+    {
+      "id": "LEX-INV2-2217",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 623",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "zyi iakieykolwiek naydowały się, tey wolności"
+    },
+    {
+      "id": "LEX-INV2-2218",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 757",
+      "lang": "Early Modern Polish",
+      "form": "wolnościach",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRIVILEGE"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "wolnościach y przywileiach dawnych, onych za- | komorzego Kii..."
+    },
+    {
+      "id": "LEX-INV2-2230",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 1272",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "przypuszczamy",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "kleynotu, y wszystkich wolności przypuszczamy:"
+    },
+    {
+      "id": "LEX-INV2-2232",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 1356",
+      "lang": "Early Modern Polish",
+      "form": "wolnościom",
+      "case": "DAT",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "wom, prerogatywom, wolnościom religii Gre-"
+    },
+    {
+      "id": "LEX-INV2-2233",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 1357",
+      "lang": "Early Modern Polish",
+      "form": "wolnościom",
+      "case": "DAT",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "ckiey W. X. Ruskiego, y wolnościom pospoli-"
+    },
+    {
+      "id": "LEX-INV2-2250",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 1612",
+      "lang": "Early Modern Polish",
+      "form": "wolności",
+      "case": "GEN/ACC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "wzaiem też prawa y wolności nam nadane wa-"
+    },
+    {
+      "id": "LEX-INV2-2267",
+      "src": "SRC-MARCH-1654",
+      "loc": "рядок 88",
+      "lang": "Early Modern Russian / Ruthenian exchange",
+      "form": "вольности",
+      "case": "ACC",
+      "num": "PL",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...Запорожское пожалует свои государские грамоты на вольности ваши дать велит, тогда вы смотр меж собою учините..."
+    },
+    {
+      "id": "LEX-INV2-2269",
+      "src": "SRC-MARCH-1654",
+      "loc": "рядок 95",
+      "lang": "Early Modern Russian / Ruthenian exchange",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "въ",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...Россійское подданство; съ подтвержденіемъ правъ и вольностей, дарованныхъ имъ отъ Королей Польскихъ и Великихъ..."
+    },
+    {
+      "id": "LEX-INV2-2274",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 19",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "Договори і Постановлення прав і вольностей Війська Запорозького"
+    },
+    {
+      "id": "LEX-INV2-2279",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 25",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "=== Договори і Постановлення прав і вольностей Війська Запорозького ==="
+    },
+    {
+      "id": "LEX-INV2-2287",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 81",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "Прав і вольностей Війська Запорозького між Ясновельможним паном Пил..."
+    },
+    {
+      "id": "LEX-INV2-2305",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 113",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "давн",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...ого оборонця святого православ'я, прав Вітчизни і вольностей військових стародавніх — хороброго Князя, славної..."
+    },
+    {
+      "id": "LEX-INV2-2306",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 113",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностях",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "при",
+      "gov_verb": "UNKNOWN",
+      "modifier": "руськ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Народ руський / народи",
+      "ctx": "...Запорізьке та народ вільний руський при правах та вольностях непорушно буде під її обороною. Але після смерті..."
+    },
+    {
+      "id": "LEX-INV2-2307",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 113",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольності",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "змогла",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...исленними винахідливими способами змогла права та вольності Війська Запорозького, нею ж підтверджені, порушит..."
+    },
+    {
+      "id": "LEX-INV2-2316",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 119",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольності",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "поламати",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...не військо, міста забрати в свою область, права і вольності поламати, Запорозьке низове військо викоренити і..."
+    },
+    {
+      "id": "LEX-INV2-2317",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 119",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...вши правдою та ревністю цілість Вітчизни, прав та вольностей військових, а бажаючи щирим жаданням бачити у дні..."
+    },
+    {
+      "id": "LEX-INV2-2318",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 119",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностях",
+      "case": "LOC",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...ше в непорушних, але і в розширених і розмножених вольностях, віддався у незламну оборону найяснішого короля,..."
+    },
+    {
+      "id": "LEX-INV2-2332",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 131",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольності",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "давн",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Народ руський / народи",
+      "ctx": "...ю були значно надвередили давні порядки, права та вольності військові не без всенародного утяження, отож ми,..."
+    },
+    {
+      "id": "LEX-INV2-2333",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 131",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...ільки для поправи й підняття впалих своїх прав та вольностей військових, домовилися і постановили з ясновельмо..."
+    },
+    {
+      "id": "LEX-INV2-2347",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 143",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольності",
+      "case": "ACC",
+      "num": "PL",
+      "prep": "на",
+      "gov_verb": "піднявся",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...ьком ні на що інше, а тільки за військові права й вольності піднявся і почав праведну війну супроти Річі Посп..."
+    },
+    {
+      "id": "LEX-INV2-2358",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 155",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...о величність не допускав нікому не тільки прав та вольностей, але й військових кордонів пошкоджувати й собі пр..."
+    },
+    {
+      "id": "LEX-INV2-2380",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 203",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "давн",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...тьманах перед сим неомінно, згідно давніх прав та вольностей? Однак, коли деякі Запорозького війська гетьмани,..."
+    },
+    {
+      "id": "LEX-INV2-2381",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 203",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "посполит",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...Запорозькому війську незлагоди, розорення прав та вольностей, посполите утяження, насильне й купне легке розкл..."
+    },
+    {
+      "id": "LEX-INV2-2385",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 205",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностям",
+      "case": "DAT",
+      "num": "PL",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...а супротивного, негаційного, шкідливого правам та вольностям військовим, тоді та ж таки генеральна старшина, п..."
+    },
+    {
+      "id": "LEX-INV2-2386",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 205",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "на",
+      "gov_verb": "UNKNOWN",
+      "modifier": "",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...потреба, на Раді його вити про порушення прав та вольностей вітчизняних без применшення і найменшого ушкоджен..."
+    },
+    {
+      "id": "LEX-INV2-2404",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 336",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольності",
+      "case": "GEN/ACC/NOM",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...ітчизні нелади для премудрого справлення, прав та вольності військові для непорушного збереження та оборони,..."
+    },
+    {
+      "id": "LEX-INV2-2418",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 345",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностей",
+      "case": "GEN",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...тим, про публічну цілість, про розширення прав та вольностей військових, скільки сили, розуму та способів стан..."
+    },
+    {
+      "id": "LEX-INV2-2419",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 345",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "вольностям",
+      "case": "DAT",
+      "num": "PL",
+      "prep": "",
+      "gov_verb": "UNKNOWN",
+      "modifier": "військ",
+      "coord": [
+        "PRAVA"
+      ],
+      "holder": "Корпорація / стан / міщани",
+      "ctx": "...оголошувати усілякі підступи Вітчизні, правам та вольностям військовим, шкідливі генеральній старшині, полков..."
+    }
+  ],
+  "SVOB": [
+    {
+      "id": "LEX-INV2-0010",
+      "src": "SRC-RP-SHORT",
+      "loc": "рядок 35",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободна",
+      "pos": "ADJ",
+      "case": "ACC/GEN.SG.M",
+      "num": "SG",
+      "role": "ATTRIBUTIVE (мужа)",
+      "referent": "Вільна людина (не-холоп)",
+      "ctx": "# Или холопъ оударить свободна моужа, а бежить въ хоромъ, а господинъ начнеть не..."
+    },
+    {
+      "id": "LEX-INV2-0022",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 105",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободна",
+      "pos": "ADJ",
+      "case": "ACC/GEN.SG.M",
+      "num": "SG",
+      "role": "ATTRIBUTIVE (мужа)",
+      "referent": "Вільна людина (не-холоп)",
+      "ctx": "...гу, или конь, или портъ, или скотину, то выведеть свободна мужа два или мытника; аже начнеть не знати, оу ко..."
+    },
+    {
+      "id": "LEX-INV2-0033",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 182",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свобода",
+      "pos": "NOUN",
+      "case": "NOM.SG",
+      "num": "SG",
+      "role": "PREDICATIVE NOUN",
+      "referent": "Акт/стан набуття волі (закуп, діти рабині)",
+      "ctx": "...и. Продасть ли господинъ закупа обель, то наимиту свобода во всехъ кунахъ, а господину за обиду платити 12..."
+    },
+    {
+      "id": "LEX-INV2-0034",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 182",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободнемь",
+      "pos": "ADJ",
+      "case": "LOC.SG.M",
+      "num": "SG",
+      "role": "SUBSTANTIVIZED / ATTRIBUTIVE",
+      "referent": "Вільна людина",
+      "ctx": "...иеть ли не смысля пьянъ, а без вины, то яко же въ свободнемь платежь, такоже и в закупе."
+    },
+    {
+      "id": "LEX-INV2-0038",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 194",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободна",
+      "pos": "ADJ",
+      "case": "ACC/GEN.SG.M",
+      "num": "SG",
+      "role": "ATTRIBUTIVE (мужа)",
+      "referent": "Вільна людина (не-холоп)",
+      "ctx": "58. А се аже холопъ оударить свободна мужа, а оубежить в хоромъ, а господинъ его не выд..."
+    },
+    {
+      "id": "LEX-INV2-0039",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 198",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободнаго",
+      "pos": "ADJ",
+      "case": "ACC/GEN.SG.M",
+      "num": "SG",
+      "role": "ATTRIBUTIVE (мужа)",
+      "referent": "Вільна людина (не-холоп)",
+      "ctx": "...лушьства на холопа не складають, но оже не будеть свободнаго, но по нужи сложити на боярьска тивуна, а на инех..."
+    },
+    {
+      "id": "LEX-INV2-0041",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 258",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободными",
+      "pos": "ADJ",
+      "case": "INS.PL",
+      "num": "PL",
+      "role": "ATTRIBUTIVE (послухи)",
+      "referent": "Вільні свідки на суді",
+      "ctx": "81. Ты тяже все судять послухи свободными, будеть ли послухъ холопъ, то холопу на правду не..."
+    },
+    {
+      "id": "LEX-INV2-0042",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 260",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободныхъ",
+      "pos": "ADJ",
+      "case": "GEN.PL",
+      "num": "PL",
+      "role": "ATTRIBUTIVE (людии / полонених)",
+      "referent": "Вільні люди / звільнені бранці",
+      "ctx": "...окъ, кто си в чемь емлеть. Аже иметь на железо по свободныхъ людии речи, либо ли запа на нь будеть, любо прохо..."
+    },
+    {
+      "id": "LEX-INV2-0044",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 292",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свобода",
+      "pos": "NOUN",
+      "case": "NOM.SG",
+      "num": "SG",
+      "role": "PREDICATIVE NOUN",
+      "referent": "Акт/стан набуття волі (закуп, діти рабині)",
+      "ctx": "...ь робьи дети оу мужа, то задници имъ не имати, но свобода имъ смертию."
+    },
+    {
+      "id": "LEX-INV2-0047",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 318",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободы",
+      "pos": "NOUN",
+      "case": "GEN.SG",
+      "num": "SG",
+      "role": "OBJECT OF PREPOSITION (від поселення)",
+      "referent": "Поселення-слобода",
+      "ctx": "...бес трии кунъ, тако же и отъ ролеиное земли, а от свободы 9 кунъ."
+    },
+    {
+      "id": "LEX-INV2-0058",
+      "src": "SRC-RP-EXP",
+      "loc": "рядок 348",
+      "lang": "Old Rus / Church Slavonic recension",
+      "form": "свободнии",
+      "pos": "ADJ",
+      "case": "NOM.PL",
+      "num": "PL",
+      "role": "SUBSTANTIVIZED",
+      "referent": "Вільні співучасники злочину",
+      "ctx": "...выдати, паки ли а выкупаеть господинъ; аже будуть свободнии с нимь крали или хоронили, то князю въ продаже."
+    },
+    {
+      "id": "LEX-INV2-0133",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 972",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "свободахъ",
+      "pos": "NOUN",
+      "case": "LOC/GEN/INS.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION",
+      "referent": "Шляхетські/християнські привілеї",
+      "ctx": "...и во всихъ земляхъ того панства намъ заховати при свободахъ"
+    },
+    {
+      "id": "LEX-INV2-0139",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 978",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "свободахъ",
+      "pos": "NOUN",
+      "case": "LOC/GEN/INS.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION",
+      "referent": "Шляхетські/християнські привілеї",
+      "ctx": "свободахъ и вольностяхъ и листЂхъ Великихъ Князей Литовских..."
+    },
+    {
+      "id": "LEX-INV2-0147",
+      "src": "SRC-LS-1566",
+      "loc": "рядок 1007",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "свободъ",
+      "pos": "NOUN",
+      "case": "LOC/GEN/INS.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION",
+      "referent": "Шляхетські/християнські привілеї",
+      "ctx": "свободъ и вольностей и правъ въ нихъ отбирати и отводити,..."
+    },
+    {
+      "id": "LEX-INV2-0708",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 28",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "свободы",
+      "pos": "NOUN",
+      "case": "GEN.SG/ACC.PL",
+      "num": "SG/PL",
+      "role": "OBJECT",
+      "referent": "Бажана свобода війська / права",
+      "ctx": "...ньнем посадити рачыл, повиньни права вольносьти и свободы их не толко цело и не порушимо держати, але штобы..."
+    },
+    {
+      "id": "LEX-INV2-0856",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 793",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "свободахъ",
+      "pos": "NOUN",
+      "case": "LOC/GEN/INS.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION",
+      "referent": "Шляхетські/християнські привілеї",
+      "ctx": "...во всихъ землях того паньства маемъ заховати при свободахъ и волностях хрестияньскихъ, в которых они, яко лю..."
+    },
+    {
+      "id": "LEX-INV2-0857",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 793",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "свободахъ",
+      "pos": "NOUN",
+      "case": "LOC/GEN/INS.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION",
+      "referent": "Шляхетські/християнські привілеї",
+      "ctx": "...аны народу коруны польское, а особливе над то при свободахъ и вольностяхъ на привил[ь]яхъ и листехъ великих к..."
+    },
+    {
+      "id": "LEX-INV2-0875",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 815",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "свободъ",
+      "pos": "NOUN",
+      "case": "LOC/GEN/INS.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION",
+      "referent": "Шляхетські/християнські привілеї",
+      "ctx": "...ихъ именей, кгрунътовъ и всякое маетности и иныхъ свободъ и волъностей и правъ в нихъ отбирати и отводити и..."
+    },
+    {
+      "id": "LEX-INV2-1040",
+      "src": "SRC-LS-1588",
+      "loc": "рядок 1174",
+      "lang": "Chancery Ruthenian (Grand Duchy of Lithuania)",
+      "form": "свободами",
+      "pos": "NOUN",
+      "case": "LOC/GEN/INS.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION",
+      "referent": "Шляхетські/християнські привілеї",
+      "ctx": "...скихъ поправены [так!], межы инъшими волъностями, свободами и порядками, в немъ описаными, еще ку розширенью..."
+    },
+    {
+      "id": "LEX-INV2-2139",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 26",
+      "lang": "Early Modern Polish",
+      "form": "swobodnie",
+      "pos": "ADV",
+      "case": "",
+      "num": "",
+      "role": "ADVERBIAL MANNER",
+      "referent": "Безперешкодне відправлення обряду/наук",
+      "ctx": "...ich zgoła, tak jak nabożeństwa swego publicznie i swobodnie [libere et publica] zażywa obrządek rzymski [ritu..."
+    },
+    {
+      "id": "LEX-INV2-2149",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 37",
+      "lang": "Early Modern Polish",
+      "form": "swobodnie",
+      "pos": "ADV",
+      "case": "",
+      "num": "",
+      "role": "ADVERBIAL MANNER",
+      "referent": "Безперешкодне відправлення обряду/наук",
+      "ctx": "...ebować będą bez trudności stanowić będzie wolno i swobodnie [liberę] nauki odprawować i księgi drukować wszel..."
+    },
+    {
+      "id": "LEX-INV2-2160",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 42",
+      "lang": "Early Modern Polish",
+      "form": "swobodach",
+      "pos": "NOUN",
+      "case": "LOC.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION (przy)",
+      "referent": "Права й свободи народів",
+      "ctx": "...ojną, to jest, aby te narody w granicach swoich i swobodach zostawały nienaruszone, jako były przed wojną, i..."
+    },
+    {
+      "id": "LEX-INV2-2161",
+      "src": "SRC-HADIACH-1658",
+      "loc": "рядок 42",
+      "lang": "Early Modern Polish",
+      "form": "swobodach",
+      "pos": "NOUN",
+      "case": "LOC.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION (przy)",
+      "referent": "Права й свободи народів",
+      "ctx": "...anęło co, to ma to być nieważnym i pustym, a przy swobodach swoich narody wyżej pomienione stawać mają bona f..."
+    },
+    {
+      "id": "LEX-INV2-2190",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 276",
+      "lang": "Early Modern Polish",
+      "form": "swobodach",
+      "pos": "NOUN",
+      "case": "LOC.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION (przy)",
+      "referent": "Права й свободи народів",
+      "ctx": "y swobodach zostawały nie naruszone, iako były"
+    },
+    {
+      "id": "LEX-INV2-2194",
+      "src": "SRC-HADIACH-1659",
+      "loc": "рядок 283",
+      "lang": "Early Modern Polish",
+      "form": "swobodach",
+      "pos": "NOUN",
+      "case": "LOC.PL",
+      "num": "PL",
+      "role": "OBJECT OF PREPOSITION (przy)",
+      "referent": "Права й свободи народів",
+      "ctx": "ma, a przy swobodach swoich narody wyżey"
+    },
+    {
+      "id": "LEX-INV2-2296",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 111",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "свободу",
+      "pos": "NOUN",
+      "case": "ACC.SG",
+      "num": "SG",
+      "role": "OBJECT OF PREPOSITION",
+      "referent": "Первісний стан свободи народу",
+      "ctx": "...ваючися, ни во вѣки враждуючи, а хотячи на пεрвую свободу помянутый nародъ козацкий з под тяжкого на тот ча..."
+    },
+    {
+      "id": "LEX-INV2-2308",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 113",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "свободи",
+      "pos": "ADJ",
+      "case": "",
+      "num": "",
+      "role": "",
+      "referent": "",
+      "ctx": "...і довіку не ворогуючи, а бажаючи, як за колишньої свободи, згаданий козацький народ з-під тяжкого на той ча..."
+    },
+    {
+      "id": "LEX-INV2-2320",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 123",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "свободы",
+      "pos": "NOUN",
+      "case": "GEN.SG/ACC.PL",
+      "num": "SG/PL",
+      "role": "OBJECT",
+      "referent": "Бажана свобода війська / права",
+      "ctx": "...Войско Zапорожскоε, нε отчаεваючися жεлаεмой сεбѣ свободы, а полагаючи сталую үөност в помощи Б[о]жой, в пр..."
+    },
+    {
+      "id": "LEX-INV2-2323",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 125",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "свободи",
+      "pos": "ADJ",
+      "case": "",
+      "num": "",
+      "role": "",
+      "referent": "",
+      "ctx": "...озьке військо, не покидаючи прагнути бажаної собі свободи і покладаючи надію на Божу поміч у протекції найя..."
+    },
+    {
+      "id": "LEX-INV2-2340",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 139",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "свободити",
+      "pos": "VERB",
+      "case": "",
+      "num": "",
+      "role": "INFINITIVE OBJECT",
+      "referent": "Акт визволення отчизни",
+      "ctx": "...ружіεмъ nаяснѣйшого короля εго милости швεдскаго, свободити отчизну n[а]шу, Малую Россію, от нεволничого ярма..."
+    },
+    {
+      "id": "LEX-INV2-2350",
+      "src": "SRC-ORLYK-1710",
+      "loc": "рядок 152",
+      "lang": "Old Ukrainian (Hetmanate chancery standard)",
+      "form": "свободных",
+      "pos": "ADJ",
+      "case": "GEN.PL",
+      "num": "PL",
+      "role": "ATTRIBUTIVE (людии / полонених)",
+      "referent": "Вільні люди / звільнені бранці",
+      "ctx": "...Московскомъ найдуючихся, по скончεню войны, nамъ свободных возвращεно, такъ и всѣ починεныε въ н[ы]нѣшную во..."
+    }
+  ],
+  "voln_audited": {
+    "LEX-INV2-0102": [
+      "CONST-VOLN-007"
+    ],
+    "LEX-INV2-0130": [],
+    "LEX-INV2-0131": [],
+    "LEX-INV2-0132": [],
+    "LEX-INV2-0134": [],
+    "LEX-INV2-0137": [],
+    "LEX-INV2-0138": [],
+    "LEX-INV2-0143": [],
+    "LEX-INV2-0146": [
+      "CONST-VOLN-004"
+    ],
+    "LEX-INV2-0153": [
+      "CONST-VOLN-002"
+    ],
+    "LEX-INV2-0161": [
+      "CONST-VOLN-006"
+    ],
+    "LEX-INV2-0162": [
+      "CONST-VOLN-006"
+    ],
+    "LEX-INV2-0177": [],
+    "LEX-INV2-0179": [
+      "CONST-VOLN-005"
+    ],
+    "LEX-INV2-0182": [],
+    "LEX-INV2-0195": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-0219": [],
+    "LEX-INV2-0224": [],
+    "LEX-INV2-0229": [],
+    "LEX-INV2-0463": [],
+    "LEX-INV2-0703": [
+      "CONST-VOLN-001",
+      "CONST-VOLN-003"
+    ],
+    "LEX-INV2-0704": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-0705": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-0706": [
+      "CONST-VOLN-006"
+    ],
+    "LEX-INV2-0725": [],
+    "LEX-INV2-0729": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-0755": [],
+    "LEX-INV2-0815": [],
+    "LEX-INV2-0821": [
+      "CONST-VOLN-007"
+    ],
+    "LEX-INV2-0853": [
+      "CONST-VOLN-005"
+    ],
+    "LEX-INV2-0854": [],
+    "LEX-INV2-0892": [
+      "CONST-VOLN-003"
+    ],
+    "LEX-INV2-0895": [],
+    "LEX-INV2-0897": [
+      "CONST-VOLN-006"
+    ],
+    "LEX-INV2-0915": [],
+    "LEX-INV2-0916": [],
+    "LEX-INV2-0933": [],
+    "LEX-INV2-0941": [],
+    "LEX-INV2-1005": [
+      "CONST-VOLN-002"
+    ],
+    "LEX-INV2-1013": [],
+    "LEX-INV2-1026": [],
+    "LEX-INV2-1165": [],
+    "LEX-INV2-1639": [],
+    "LEX-INV2-2144": [],
+    "LEX-INV2-2145": [
+      "CONST-VOLN-005"
+    ],
+    "LEX-INV2-2147": [],
+    "LEX-INV2-2157": [],
+    "LEX-INV2-2158": [],
+    "LEX-INV2-2162": [],
+    "LEX-INV2-2163": [],
+    "LEX-INV2-2168": [],
+    "LEX-INV2-2183": [],
+    "LEX-INV2-2184": [
+      "CONST-VOLN-005"
+    ],
+    "LEX-INV2-2186": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-2193": [
+      "CONST-VOLN-004"
+    ],
+    "LEX-INV2-2196": [],
+    "LEX-INV2-2198": [],
+    "LEX-INV2-2199": [],
+    "LEX-INV2-2203": [],
+    "LEX-INV2-2215": [],
+    "LEX-INV2-2217": [],
+    "LEX-INV2-2218": [],
+    "LEX-INV2-2230": [],
+    "LEX-INV2-2232": [],
+    "LEX-INV2-2233": [],
+    "LEX-INV2-2250": [],
+    "LEX-INV2-2267": [
+      "CONST-VOLN-003"
+    ],
+    "LEX-INV2-2269": [],
+    "LEX-INV2-2274": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-2279": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-2287": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-2305": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-2306": [
+      "CONST-VOLN-001",
+      "CONST-VOLN-004"
+    ],
+    "LEX-INV2-2307": [
+      "CONST-VOLN-001",
+      "CONST-VOLN-004"
+    ],
+    "LEX-INV2-2316": [
+      "CONST-VOLN-001",
+      "CONST-VOLN-004"
+    ],
+    "LEX-INV2-2317": [],
+    "LEX-INV2-2318": [
+      "CONST-VOLN-004"
+    ],
+    "LEX-INV2-2332": [
+      "CONST-VOLN-001"
+    ],
+    "LEX-INV2-2333": [],
+    "LEX-INV2-2347": [],
+    "LEX-INV2-2358": [],
+    "LEX-INV2-2380": [],
+    "LEX-INV2-2381": [],
+    "LEX-INV2-2385": [],
+    "LEX-INV2-2386": [
+      "CONST-VOLN-004"
+    ],
+    "LEX-INV2-2404": [
+      "CONST-VOLN-004"
+    ],
+    "LEX-INV2-2418": [],
+    "LEX-INV2-2419": []
+  },
+  "svob_audited": {
+    "LEX-INV2-0010": [],
+    "LEX-INV2-0022": [
+      "CONST-SVOB-001"
+    ],
+    "LEX-INV2-0033": [
+      "CONST-SVOB-003"
+    ],
+    "LEX-INV2-0034": [
+      "CONST-SVOB-001"
+    ],
+    "LEX-INV2-0038": [
+      "CONST-SVOB-001"
+    ],
+    "LEX-INV2-0039": [],
+    "LEX-INV2-0041": [
+      "CONST-SVOB-001",
+      "CONST-SVOB-002"
+    ],
+    "LEX-INV2-0042": [
+      "CONST-SVOB-001"
+    ],
+    "LEX-INV2-0044": [
+      "CONST-SVOB-001",
+      "CONST-SVOB-003"
+    ],
+    "LEX-INV2-0047": [
+      "CONST-SVOB-006"
+    ],
+    "LEX-INV2-0058": [
+      "CONST-SVOB-001"
+    ],
+    "LEX-INV2-0133": [],
+    "LEX-INV2-0139": [],
+    "LEX-INV2-0147": [],
+    "LEX-INV2-0708": [],
+    "LEX-INV2-0856": [],
+    "LEX-INV2-0857": [],
+    "LEX-INV2-0875": [],
+    "LEX-INV2-1040": [],
+    "LEX-INV2-2139": [
+      "CONST-SVOB-004"
+    ],
+    "LEX-INV2-2149": [
+      "CONST-SVOB-004"
+    ],
+    "LEX-INV2-2160": [],
+    "LEX-INV2-2161": [],
+    "LEX-INV2-2190": [],
+    "LEX-INV2-2194": [],
+    "LEX-INV2-2296": [
+      "CONST-SVOB-005"
+    ],
+    "LEX-INV2-2308": [],
+    "LEX-INV2-2320": [
+      "CONST-SVOB-005"
+    ],
+    "LEX-INV2-2323": [],
+    "LEX-INV2-2340": [
+      "CONST-SVOB-005"
+    ],
+    "LEX-INV2-2350": []
+  }
+}

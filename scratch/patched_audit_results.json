@@ -1,0 +1,686 @@
+{
+  "cid_tokens": {
+    "CONST-VOLN-007": [
+      "LEX-INV2-0102",
+      "LEX-INV2-0821"
+    ],
+    "CONST-VOLN-004": [
+      "LEX-INV2-0146",
+      "LEX-INV2-2193",
+      "LEX-INV2-2306",
+      "LEX-INV2-2307",
+      "LEX-INV2-2316",
+      "LEX-INV2-2318",
+      "LEX-INV2-2386",
+      "LEX-INV2-2404"
+    ],
+    "CONST-VOLN-006": [
+      "LEX-INV2-0161",
+      "LEX-INV2-0162",
+      "LEX-INV2-0706",
+      "LEX-INV2-0897"
+    ],
+    "CONST-VOLN-005": [
+      "LEX-INV2-0179",
+      "LEX-INV2-0853",
+      "LEX-INV2-2145",
+      "LEX-INV2-2184"
+    ],
+    "CONST-VOLN-001": [
+      "LEX-INV2-0195",
+      "LEX-INV2-0703",
+      "LEX-INV2-0704",
+      "LEX-INV2-0705",
+      "LEX-INV2-0729",
+      "LEX-INV2-2186",
+      "LEX-INV2-2274",
+      "LEX-INV2-2279",
+      "LEX-INV2-2287",
+      "LEX-INV2-2305",
+      "LEX-INV2-2306",
+      "LEX-INV2-2307",
+      "LEX-INV2-2316",
+      "LEX-INV2-2332"
+    ],
+    "CONST-VOLN-003": [
+      "LEX-INV2-0703",
+      "LEX-INV2-0892",
+      "LEX-INV2-2267"
+    ],
+    "CONST-VOLN-002": [
+      "LEX-INV2-2163",
+      "LEX-INV2-2199",
+      "LEX-INV2-2306"
+    ],
+    "CONST-SVOB-001": [
+      "LEX-INV2-0022",
+      "LEX-INV2-0034",
+      "LEX-INV2-0038",
+      "LEX-INV2-0042",
+      "LEX-INV2-0058"
+    ],
+    "CONST-SVOB-003": [
+      "LEX-INV2-0033",
+      "LEX-INV2-0044"
+    ],
+    "CONST-SVOB-002": [
+      "LEX-INV2-0041"
+    ],
+    "CONST-SVOB-006": [
+      "LEX-INV2-0047"
+    ],
+    "CONST-SVOB-004": [
+      "LEX-INV2-2139",
+      "LEX-INV2-2149"
+    ],
+    "CONST-SVOB-005": [
+      "LEX-INV2-2296",
+      "LEX-INV2-2320",
+      "LEX-INV2-2340"
+    ]
+  },
+  "cid_instances": {
+    "CONST-VOLN-007": [
+      {
+        "token_id": "LEX-INV2-0102",
+        "rule_id": "VOLN-R07-LOC-TRANSIT",
+        "src": "SRC-LS-1566",
+        "loc": "рядок 501",
+        "evidence": "Token 'вольность' situates within spatial transit formula «вольность на водахъ на дорогахъ»: «вольность на водахъ на дорогахъ, то естъ сухимъ путемъ и во...»"
+      },
+      {
+        "token_id": "LEX-INV2-0821",
+        "rule_id": "VOLN-R07-LOC-TRANSIT",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 383",
+        "evidence": "Token 'вольность' situates within spatial transit formula «вольность на водахъ на дорогахъ»: «...етъскимъ, шляхъте в томъ панстве нашомъ даемъ тую вольность на вода»"
+      }
+    ],
+    "CONST-VOLN-004": [
+      {
+        "token_id": "LEX-INV2-0146",
+        "rule_id": "VOLN-R04-VERB-BREACH",
+        "src": "SRC-LS-1566",
+        "loc": "рядок 1007",
+        "evidence": "Token 'вольностей' is direct object of breach/deprivation/derogation predicate in span: «свободъ и вольностей и правъ въ нихъ отбирати и отводити, и ни якимъ о»"
+      },
+      {
+        "token_id": "LEX-INV2-2193",
+        "rule_id": "VOLN-R04-VERB-BREACH",
+        "src": "SRC-HADIACH-1659",
+        "loc": "рядок 281",
+        "evidence": "Token 'wolności' is direct object of breach/deprivation/derogation predicate in span: «Pany na uymę granic, abo wolności tych na-»"
+      },
+      {
+        "token_id": "LEX-INV2-2306",
+        "rule_id": "VOLN-R04-VERB-BREACH",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 113",
+        "evidence": "Token 'вольностях' is direct object of breach/deprivation/derogation predicate in span: «...Запорізьке та народ вільний руський при правах та вольностях непору»"
+      },
+      {
+        "token_id": "LEX-INV2-2307",
+        "rule_id": "VOLN-R04-VERB-BREACH",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 113",
+        "evidence": "Token 'вольності' is direct object of breach/deprivation/derogation predicate in span: «...исленними винахідливими способами змогла права та вольності Війська»"
+      },
+      {
+        "token_id": "LEX-INV2-2316",
+        "rule_id": "VOLN-R04-VERB-BREACH",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 119",
+        "evidence": "Token 'вольності' is direct object of breach/deprivation/derogation predicate in span: «...не військо, міста забрати в свою область, права і вольності поламат»"
+      },
+      {
+        "token_id": "LEX-INV2-2318",
+        "rule_id": "VOLN-R04-VERB-BREACH",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 119",
+        "evidence": "Token 'вольностях' is direct object of breach/deprivation/derogation predicate in span: «...ше в непорушних, але і в розширених і розмножених вольностях, відда»"
+      },
+      {
+        "token_id": "LEX-INV2-2386",
+        "rule_id": "VOLN-R04-VERB-BREACH",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 205",
+        "evidence": "Token 'вольностей' is direct object of breach/deprivation/derogation predicate in span: «...потреба, на Раді його вити про порушення прав та вольностей вітчизн»"
+      },
+      {
+        "token_id": "LEX-INV2-2404",
+        "rule_id": "VOLN-R04-VERB-BREACH",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 336",
+        "evidence": "Token 'вольності' is direct object of breach/deprivation/derogation predicate in span: «...ітчизні нелади для премудрого справлення, прав та вольності військо»"
+      }
+    ],
+    "CONST-VOLN-006": [
+      {
+        "token_id": "LEX-INV2-0161",
+        "rule_id": "VOLN-R06-NOM-CAPABILITY",
+        "src": "SRC-LS-1566",
+        "loc": "рядок 1141",
+        "evidence": "Singular token 'вольность' combined with modal capability/infinitive in span: «панства нашого Великого Князства Литовского мЂли вольность и моцъ выЂх»"
+      },
+      {
+        "token_id": "LEX-INV2-0162",
+        "rule_id": "VOLN-R06-NOM-CAPABILITY",
+        "src": "SRC-LS-1566",
+        "loc": "рядок 1142",
+        "evidence": "Singular token 'вольность' combined with modal capability/infinitive in span: «...хъ земль нашихъ Великого Князства Литовского мЂли вольность и моцъ»"
+      },
+      {
+        "token_id": "LEX-INV2-0706",
+        "rule_id": "VOLN-R06-NOM-CAPABILITY",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 28",
+        "evidence": "Singular token 'вольность' combined with modal capability/infinitive in span: «...а потом завжды кагды одно того потребовати будеть вольность поправа»"
+      },
+      {
+        "token_id": "LEX-INV2-0897",
+        "rule_id": "VOLN-R06-NOM-CAPABILITY",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 927",
+        "evidence": "Singular token 'вольность' combined with modal capability/infinitive in span: «...того паньства, великого князства литовского, мели вольность и моцъ »"
+      }
+    ],
+    "CONST-VOLN-005": [
+      {
+        "token_id": "LEX-INV2-0179",
+        "rule_id": "VOLN-R05-VERB-USAGE",
+        "src": "SRC-LS-1566",
+        "loc": "рядок 1235",
+        "evidence": "Token 'вольностеи' is governed by usage/enjoyment predicate in span: «...не показалъ, тогды хотя имЂнье купитъ, предсе зъ вольностеи шляхецс»"
+      },
+      {
+        "token_id": "LEX-INV2-0853",
+        "rule_id": "VOLN-R05-VERB-USAGE",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 793",
+        "evidence": "Token 'вольностей' is governed by usage/enjoyment predicate in span: «...твъ хрестияньских, ровнуючи а однако маючи и тыхъ вольностей уживаю»"
+      },
+      {
+        "token_id": "LEX-INV2-2145",
+        "rule_id": "VOLN-R05-VERB-USAGE",
+        "src": "SRC-HADIACH-1658",
+        "loc": "рядок 35",
+        "evidence": "Token 'wolnościami' is governed by usage/enjoyment predicate in span: «...ny Koronne erygować, która takimi prerogatywami i wolnościami ma si»"
+      },
+      {
+        "token_id": "LEX-INV2-2184",
+        "rule_id": "VOLN-R05-VERB-USAGE",
+        "src": "SRC-HADIACH-1659",
+        "loc": "рядок 199",
+        "evidence": "Token 'wolnościami' is governed by usage/enjoyment predicate in span: «praerogatywami y wolnościami ma gaudere, iako»"
+      }
+    ],
+    "CONST-VOLN-001": [
+      {
+        "token_id": "LEX-INV2-0195",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-LS-1566",
+        "loc": "рядок 1366",
+        "evidence": "Token 'вольности' is syntactically coordinated with parallel legal category in span: «тогды таковые листы и вольности его вжо никоторое моцы мЂти не будеть,»"
+      },
+      {
+        "token_id": "LEX-INV2-0703",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 28",
+        "evidence": "Token 'вольностей' is syntactically coordinated with parallel legal category in span: «...ими обетницами ни одно примноженыя прав, свобод и вольностей шляхет»"
+      },
+      {
+        "token_id": "LEX-INV2-0704",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 28",
+        "evidence": "Token 'вольностей' is syntactically coordinated with parallel legal category in span: «...мы вдячни от них будучи, и хотячи им завжды прав, вольностей и своб»"
+      },
+      {
+        "token_id": "LEX-INV2-0705",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 28",
+        "evidence": "Token 'вольности' is syntactically coordinated with parallel legal category in span: «...тою ж прысегою нашою которую есьмо на вси права и вольности, велико»"
+      },
+      {
+        "token_id": "LEX-INV2-0729",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 112",
+        "evidence": "Token 'вольностей' is syntactically coordinated with parallel legal category in span: «найвышому сторожу всих прав и вольностей наших, пана»"
+      },
+      {
+        "token_id": "LEX-INV2-2186",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-HADIACH-1659",
+        "loc": "рядок 213",
+        "evidence": "Token 'wolności' is syntactically coordinated with parallel legal category in span: «wać będzie praw y wolności, lecz taką iaką y»"
+      },
+      {
+        "token_id": "LEX-INV2-2274",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 19",
+        "evidence": "Token 'вольностей' is syntactically coordinated with parallel legal category in span: «Договори і Постановлення прав і вольностей Війська Запорозького»"
+      },
+      {
+        "token_id": "LEX-INV2-2279",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 25",
+        "evidence": "Token 'вольностей' is syntactically coordinated with parallel legal category in span: «=== Договори і Постановлення прав і вольностей Війська Запорозького ==»"
+      },
+      {
+        "token_id": "LEX-INV2-2287",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 81",
+        "evidence": "Token 'вольностей' is syntactically coordinated with parallel legal category in span: «Прав і вольностей Війська Запорозького між Ясновельможним паном Пил...»"
+      },
+      {
+        "token_id": "LEX-INV2-2305",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 113",
+        "evidence": "Token 'вольностей' is syntactically coordinated with parallel legal category in span: «...ого оборонця святого православ'я, прав Вітчизни і вольностей військ»"
+      },
+      {
+        "token_id": "LEX-INV2-2306",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 113",
+        "evidence": "Token 'вольностях' is syntactically coordinated with parallel legal category in span: «...Запорізьке та народ вільний руський при правах та вольностях непору»"
+      },
+      {
+        "token_id": "LEX-INV2-2307",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 113",
+        "evidence": "Token 'вольності' is syntactically coordinated with parallel legal category in span: «...исленними винахідливими способами змогла права та вольності Війська»"
+      },
+      {
+        "token_id": "LEX-INV2-2316",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 119",
+        "evidence": "Token 'вольності' is syntactically coordinated with parallel legal category in span: «...не військо, міста забрати в свою область, права і вольності поламат»"
+      },
+      {
+        "token_id": "LEX-INV2-2332",
+        "rule_id": "VOLN-R01-COORD",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 131",
+        "evidence": "Token 'вольності' is syntactically coordinated with parallel legal category in span: «...ю були значно надвередили давні порядки, права та вольності військо»"
+      }
+    ],
+    "CONST-VOLN-003": [
+      {
+        "token_id": "LEX-INV2-0703",
+        "rule_id": "VOLN-R03-VERB-CONFIRM",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 28",
+        "evidence": "Token 'вольностей' is direct object/theme of confirmation or granting predicate in span: «...ими обетницами ни одно примноженыя прав, свобод и вольностей шляхет»"
+      },
+      {
+        "token_id": "LEX-INV2-0892",
+        "rule_id": "VOLN-R03-VERB-CONFIRM",
+        "src": "SRC-LS-1588",
+        "loc": "рядок 921",
+        "evidence": "Token 'вольности' is direct object/theme of confirmation or granting predicate in span: «...вилья земъские стародавные и ново отъ насъ даные, вольности и звыча»"
+      },
+      {
+        "token_id": "LEX-INV2-2267",
+        "rule_id": "VOLN-R03-VERB-CONFIRM",
+        "src": "SRC-MARCH-1654",
+        "loc": "рядок 88",
+        "evidence": "Token 'вольности' is direct object/theme of confirmation or granting predicate in span: «...Запорожское пожалует свои государские грамоты на вольности ваши дат»"
+      }
+    ],
+    "CONST-VOLN-002": [
+      {
+        "token_id": "LEX-INV2-2163",
+        "rule_id": "VOLN-R02-PREP-PRI",
+        "src": "SRC-HADIACH-1658",
+        "loc": "рядок 46",
+        "evidence": "Token 'wolnościach' is governed by preposition 'при'/'przy' in span: «...dane konfirmuje, zachowując ich przy starodawnych wolnościach i zwy»"
+      },
+      {
+        "token_id": "LEX-INV2-2199",
+        "rule_id": "VOLN-R02-PREP-PRI",
+        "src": "SRC-HADIACH-1659",
+        "loc": "рядок 312",
+        "evidence": "Token 'wolnościach' is governed by preposition 'при'/'przy' in span: «chowuiąc ich przy starodawnych wolnościach,»"
+      },
+      {
+        "token_id": "LEX-INV2-2306",
+        "rule_id": "VOLN-R02-PREP-PRI",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 113",
+        "evidence": "Token 'вольностях' is governed by preposition 'при'/'przy' in span: «...Запорізьке та народ вільний руський при правах та вольностях непору»"
+      }
+    ],
+    "CONST-SVOB-001": [
+      {
+        "token_id": "LEX-INV2-0022",
+        "rule_id": "SVOB-R01-ADJ-PERSON",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 105",
+        "evidence": "Adjectival token 'свободна' (POS=ADJ) directly modifies personal noun/status in span: «...гу, или конь, или портъ, или скотину, то выведеть свободна мужа два»"
+      },
+      {
+        "token_id": "LEX-INV2-0034",
+        "rule_id": "SVOB-R01-ADJ-PERSON",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 182",
+        "evidence": "Adjectival token 'свободнемь' (POS=ADJ) directly modifies personal noun/status in span: «...иеть ли не смысля пьянъ, а без вины, то яко же въ свободнемь платеж»"
+      },
+      {
+        "token_id": "LEX-INV2-0038",
+        "rule_id": "SVOB-R01-ADJ-PERSON",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 194",
+        "evidence": "Adjectival token 'свободна' (POS=ADJ) directly modifies personal noun/status in span: «58. А се аже холопъ оударить свободна мужа, а оубежить в хоромъ, а гос»"
+      },
+      {
+        "token_id": "LEX-INV2-0042",
+        "rule_id": "SVOB-R01-ADJ-PERSON",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 260",
+        "evidence": "Adjectival token 'свободныхъ' (POS=ADJ) directly modifies personal noun/status in span: «...окъ, кто си в чемь емлеть. Аже иметь на железо по свободныхъ людии »"
+      },
+      {
+        "token_id": "LEX-INV2-0058",
+        "rule_id": "SVOB-R01-ADJ-PERSON",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 348",
+        "evidence": "Adjectival token 'свободнии' (POS=ADJ) directly modifies personal noun/status in span: «...выдати, паки ли а выкупаеть господинъ; аже будуть свободнии с нимь »"
+      }
+    ],
+    "CONST-SVOB-003": [
+      {
+        "token_id": "LEX-INV2-0033",
+        "rule_id": "SVOB-R03-NOM-RELEASE",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 182",
+        "evidence": "Nominal token 'свобода' (POS=NOUN) functions as predicative noun of release with dative beneficiary: «...и. Продасть ли господинъ закупа обель, то наимиту свобода во всехъ »"
+      },
+      {
+        "token_id": "LEX-INV2-0044",
+        "rule_id": "SVOB-R03-NOM-RELEASE",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 292",
+        "evidence": "Nominal token 'свобода' (POS=NOUN) functions as predicative noun of release with dative beneficiary: «...ь робьи дети оу мужа, то задници имъ не имати, но свобода имъ смерт»"
+      }
+    ],
+    "CONST-SVOB-002": [
+      {
+        "token_id": "LEX-INV2-0041",
+        "rule_id": "SVOB-R02-INS-WITNESS",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 258",
+        "evidence": "Token 'свободными' functions as instrumental predicate complement defining witness qualification in span: «81. Ты тяже все судять послухи свободными, будеть ли послухъ холопъ, т»"
+      }
+    ],
+    "CONST-SVOB-006": [
+      {
+        "token_id": "LEX-INV2-0047",
+        "rule_id": "SVOB-R06-LOC-SLOBODA",
+        "src": "SRC-RP-EXP",
+        "loc": "рядок 318",
+        "evidence": "Token 'свободы' functions as fiscal origin unit in tariff list: «...бес трии кунъ, тако же и отъ ролеиное земли, а от свободы 9 кунъ.»"
+      }
+    ],
+    "CONST-SVOB-004": [
+      {
+        "token_id": "LEX-INV2-2139",
+        "rule_id": "SVOB-R04-ADV-MANNER",
+        "src": "SRC-HADIACH-1658",
+        "loc": "рядок 26",
+        "evidence": "Adverbial token 'swobodnie' modifies religious/educational practice in span: «...ich zgoła, tak jak nabożeństwa swego publicznie i swobodnie [libere»"
+      },
+      {
+        "token_id": "LEX-INV2-2149",
+        "rule_id": "SVOB-R04-ADV-MANNER",
+        "src": "SRC-HADIACH-1658",
+        "loc": "рядок 37",
+        "evidence": "Adverbial token 'swobodnie' modifies religious/educational practice in span: «...ebować będą bez trudności stanowić będzie wolno i swobodnie [liberę»"
+      }
+    ],
+    "CONST-SVOB-005": [
+      {
+        "token_id": "LEX-INV2-2296",
+        "rule_id": "SVOB-R05-COLL-EMANCIP",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 111",
+        "evidence": "Token 'свободу' participates in formula of collective liberation of people/homeland: «...ваючися, ни во вѣки враждуючи, а хотячи на пεрвую свободу помянутый»"
+      },
+      {
+        "token_id": "LEX-INV2-2320",
+        "rule_id": "SVOB-R05-COLL-EMANCIP",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 123",
+        "evidence": "Token 'свободы' participates in formula of collective liberation of people/homeland: «...Войско Zапорожскоε, нε отчаεваючися жεлаεмой сεбѣ свободы, а полага»"
+      },
+      {
+        "token_id": "LEX-INV2-2340",
+        "rule_id": "SVOB-R05-COLL-EMANCIP",
+        "src": "SRC-ORLYK-1710",
+        "loc": "рядок 139",
+        "evidence": "Token 'свободити' participates in formula of collective liberation of people/homeland: «...ружіεмъ nаяснѣйшого короля εго милости швεдскаго, свободити отчизну»"
+      }
+    ]
+  },
+  "cid_sentences": {
+    "CONST-VOLN-007": [
+      [
+        "SRC-LS-1588",
+        "рядок 383"
+      ],
+      [
+        "SRC-LS-1566",
+        "рядок 501"
+      ]
+    ],
+    "CONST-VOLN-004": [
+      [
+        "SRC-ORLYK-1710",
+        "рядок 119"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 336"
+      ],
+      [
+        "SRC-HADIACH-1659",
+        "рядок 281"
+      ],
+      [
+        "SRC-LS-1566",
+        "рядок 1007"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 113"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 205"
+      ]
+    ],
+    "CONST-VOLN-006": [
+      [
+        "SRC-LS-1588",
+        "рядок 927"
+      ],
+      [
+        "SRC-LS-1566",
+        "рядок 1142"
+      ],
+      [
+        "SRC-LS-1588",
+        "рядок 28"
+      ],
+      [
+        "SRC-LS-1566",
+        "рядок 1141"
+      ]
+    ],
+    "CONST-VOLN-005": [
+      [
+        "SRC-LS-1588",
+        "рядок 793"
+      ],
+      [
+        "SRC-LS-1566",
+        "рядок 1235"
+      ],
+      [
+        "SRC-HADIACH-1658",
+        "рядок 35"
+      ],
+      [
+        "SRC-HADIACH-1659",
+        "рядок 199"
+      ]
+    ],
+    "CONST-VOLN-001": [
+      [
+        "SRC-ORLYK-1710",
+        "рядок 119"
+      ],
+      [
+        "SRC-LS-1588",
+        "рядок 28"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 25"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 19"
+      ],
+      [
+        "SRC-HADIACH-1659",
+        "рядок 213"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 81"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 113"
+      ],
+      [
+        "SRC-LS-1566",
+        "рядок 1366"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 131"
+      ],
+      [
+        "SRC-LS-1588",
+        "рядок 112"
+      ]
+    ],
+    "CONST-VOLN-003": [
+      [
+        "SRC-MARCH-1654",
+        "рядок 88"
+      ],
+      [
+        "SRC-LS-1588",
+        "рядок 28"
+      ],
+      [
+        "SRC-LS-1588",
+        "рядок 921"
+      ]
+    ],
+    "CONST-VOLN-002": [
+      [
+        "SRC-HADIACH-1659",
+        "рядок 312"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 113"
+      ],
+      [
+        "SRC-HADIACH-1658",
+        "рядок 46"
+      ]
+    ],
+    "CONST-SVOB-001": [
+      [
+        "SRC-RP-EXP",
+        "рядок 260"
+      ],
+      [
+        "SRC-RP-EXP",
+        "рядок 105"
+      ],
+      [
+        "SRC-RP-EXP",
+        "рядок 348"
+      ],
+      [
+        "SRC-RP-EXP",
+        "рядок 182"
+      ],
+      [
+        "SRC-RP-EXP",
+        "рядок 194"
+      ]
+    ],
+    "CONST-SVOB-003": [
+      [
+        "SRC-RP-EXP",
+        "рядок 292"
+      ],
+      [
+        "SRC-RP-EXP",
+        "рядок 182"
+      ]
+    ],
+    "CONST-SVOB-002": [
+      [
+        "SRC-RP-EXP",
+        "рядок 258"
+      ]
+    ],
+    "CONST-SVOB-006": [
+      [
+        "SRC-RP-EXP",
+        "рядок 318"
+      ]
+    ],
+    "CONST-SVOB-004": [
+      [
+        "SRC-HADIACH-1658",
+        "рядок 37"
+      ],
+      [
+        "SRC-HADIACH-1658",
+        "рядок 26"
+      ]
+    ],
+    "CONST-SVOB-005": [
+      [
+        "SRC-ORLYK-1710",
+        "рядок 139"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 123"
+      ],
+      [
+        "SRC-ORLYK-1710",
+        "рядок 111"
+      ]
+    ]
+  }
+}

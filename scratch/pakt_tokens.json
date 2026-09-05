@@ -1,0 +1,106 @@
+[
+  {
+    "id": "LEX-INV2-2134",
+    "src": "SRC-HADIACH-1658",
+    "loc": "рядок 3",
+    "form": "Pakta",
+    "pos": "NOUN",
+    "ctx": "WORK: Pakta Hadziackie / Ugoda Hadziacka (16 вересня 1658 рок..."
+  },
+  {
+    "id": "LEX-INV2-2135",
+    "src": "SRC-HADIACH-1658",
+    "loc": "рядок 5",
+    "form": "Pakta",
+    "pos": "NOUN",
+    "ctx": "...ською археографічною публікацією / pl.wikisource (Pakta Hadziackie autentyczne)"
+  },
+  {
+    "id": "LEX-INV2-2136",
+    "src": "SRC-HADIACH-1658",
+    "loc": "рядок 17",
+    "form": "Pakta",
+    "pos": "NOUN",
+    "ctx": "Pakta Hadziackie autentyczne. 16 września 1658 postanow..."
+  },
+  {
+    "id": "LEX-INV2-2170",
+    "src": "SRC-HADIACH-1658",
+    "loc": "рядок 50",
+    "form": "pakt",
+    "pos": "NOUN",
+    "ctx": "4.\tDla tym lepszego tych pakt potwierdzenia i pewności Hetman Wojsk Ruskich do..."
+  },
+  {
+    "id": "LEX-INV2-2173",
+    "src": "SRC-HADIACH-1658",
+    "loc": "рядок 68",
+    "form": "pakt",
+    "pos": "NOUN",
+    "ctx": "...arem Jego Mością Moskiewskim, jeśliby do zawarcia pakt Jego Królewskiej Mości i Stanom Koronnym i Wielki..."
+  },
+  {
+    "id": "LEX-INV2-2204",
+    "src": "SRC-HADIACH-1659",
+    "loc": "рядок 362",
+    "form": "pakt",
+    "pos": "NOUN",
+    "ctx": "Dla tym lepszego tych pakt utwierdzenia, y"
+  },
+  {
+    "id": "LEX-INV2-2209",
+    "src": "SRC-HADIACH-1659",
+    "loc": "рядок 511",
+    "form": "pakt",
+    "pos": "NOUN",
+    "ctx": "zawarcia pakt lego K. M. y Stanom Koron-"
+  },
+  {
+    "id": "LEX-INV2-2351",
+    "src": "SRC-ORLYK-1710",
+    "loc": "рядок 152",
+    "form": "пактами",
+    "pos": "NOUN",
+    "ctx": "...ая Россія, ωтчизна n[а]ша, жεбы в своих границях, пактами ωт Рѣчи Посполитой Полской, от Nаяснѣйшой Порты и..."
+  },
+  {
+    "id": "LEX-INV2-2352",
+    "src": "SRC-ORLYK-1710",
+    "loc": "рядок 152",
+    "form": "пактами",
+    "pos": "NOUN",
+    "ctx": "...гεтманскои и войсковои поступлεны, вѣчнε ωтданы и пактами обварованы зостали, нε была zигвалчεна и нарушεна..."
+  },
+  {
+    "id": "LEX-INV2-2359",
+    "src": "SRC-ORLYK-1710",
+    "loc": "рядок 155",
+    "form": "пактами",
+    "pos": "NOUN",
+    "ctx": "...Вітчизна наша, щоб у своїх кордонах, стверджених пактами від Річі Посполитої польської і від Московської д..."
+  },
+  {
+    "id": "LEX-INV2-2360",
+    "src": "SRC-ORLYK-1710",
+    "loc": "рядок 155",
+    "form": "пактами",
+    "pos": "NOUN",
+    "ctx": "...а Хмельницького були відступлені, вічно віддані й пактами укріплені від Річі Посполитої польської в гетьман..."
+  },
+  {
+    "id": "LEX-INV2-2424",
+    "src": "SRC-ORLYK-1710",
+    "loc": "рядок 387",
+    "form": "Пакти",
+    "pos": "NOUN",
+    "ctx": "↑ Інший переклад: \"Пакти і Конституція\". Від нього походить назва \"Констит..."
+  },
+  {
+    "id": "LEX-INV2-2425",
+    "src": "SRC-ORLYK-1710",
+    "loc": "рядок 398",
+    "form": "Пакти",
+    "pos": "NOUN",
+    "ctx": "факсимільне відтворення оригінальної публікації: «Пакти і Конституції» Української козацької держави (до..."
+  }
+]
