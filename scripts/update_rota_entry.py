@@ -1,4 +1,16 @@
-# СЛОВНИКОВА СТАТТЯ КОРПУСУ: РОТА
+# -*- coding: utf-8 -*-
+"""
+Rebuilds dictionary/ROTA.md with a rigorous scientific evidence layer:
+1. Strict distinction: ENTRY (РОТА) vs DERIVATIONAL FAMILY (ROT-) vs HOMONYMS (ротъ zoological / рота military).
+2. ETYMOLOGY CLAIM LEDGER (exact sources, volume, page/column, competing views, confidence, NO inference to meaning).
+3. PERIOD USAGE with exact dictionary citations (Sreznevsky, SLM XVI-XVII, Tymchenko).
+4. HISTORICAL MEANING CLAIM LEDGER (CLAIM-ID, PROPOSITION, EVIDENCE, CORPUS-SCOPE, COUNTEREVIDENCE, STATUS).
+5. CO-OCCURRENCE INVESTIGATION: ROTA and PRISYAGA standing side-by-side in identical lines.
+6. CONCEPTUAL RELATION: РОТА ↔ ПРИСЯГА (labeled strictly as HYPOTHESIS).
+"""
+
+with open('dictionary/ROTA.md', 'w', encoding='utf-8') as f:
+    f.write("""# СЛОВНИКОВА СТАТТЯ КОРПУСУ: РОТА
 ## HISTORICAL DICTIONARY ENTRY: `РОТА`
 
 > **МЕТОДОЛОГІЧНИЙ СТАТУС ТА ЕПІСТЕМОЛОГІЧНІ ІНВАРІАНТИ:**
@@ -209,3 +221,6 @@
   2. У пізньому корпусі (1588): `присяга` (103) вживається як дієслово (*присягнути*) та загальний обов'язок, а `рота` (10) вживається у сполученні з присягою як затверджений текст, що видається писарем або возним.
   3. У 1710 р.: конструкція зберігається (*«присягу ведлуг роти»*).
 - **MODERN EQUIVALENT:** `NOT ASSIGNED`.
+""")
+
+print("Successfully written dictionary/ROTA.md with complete evidence layer.")

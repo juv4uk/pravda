@@ -1,4 +1,16 @@
-# СЛОВНИКОВА СТАТТЯ КОРПУСУ: ПРАВДА
+# -*- coding: utf-8 -*-
+"""
+Rebuilds dictionary/PRAVDA.md with a rigorous scientific evidence layer:
+1. Strict distinction: ENTRY (ПРАВДА) vs DERIVATIONAL FAMILY (PRAVD-) vs RELATED LEXEMES (правдивый, правдиво).
+2. ETYMOLOGY CLAIM LEDGER (exact sources, volume, page/column, competing views, confidence, NO inference to meaning).
+3. PERIOD USAGE with exact dictionary citations (Sreznevsky, SLM XVI-XVII, Tymchenko).
+4. HISTORICAL MEANING CLAIM LEDGER (CLAIM-ID, PROPOSITION, EVIDENCE, CORPUS-SCOPE, COUNTEREVIDENCE, STATUS).
+5. DIACHRONIC HYPOTHESES (labeled strictly as HYPOTHESIS, NO mandatory shift labels).
+6. CONCEPTUAL RELATION: ПРАВДА ↔ ПРАВО (no assumed succession).
+"""
+
+with open('dictionary/PRAVDA.md', 'w', encoding='utf-8') as f:
+    f.write("""# СЛОВНИКОВА СТАТТЯ КОРПУСУ: ПРАВДА
 ## HISTORICAL DICTIONARY ENTRY: `ПРАВДА`
 
 > **МЕТОДОЛОГІЧНИЙ СТАТУС ТА ЕПІСТЕМОЛОГІЧНІ ІНВАРІАНТИ:**
@@ -187,3 +199,6 @@
     - `право`: об'єкт володіння (*«маеть право»*), джерело суду (*«водлугъ права»*), процедура (*«поступок права»*).
     - `правда`: зміст свідчення (*«правду мовити»*), етичний критерій суду (*«в правді і справедливості»*).
 - **MODERN EQUIVALENT:** `NOT ASSIGNED`.
+""")
+
+print("Successfully written dictionary/PRAVDA.md with complete evidence layer.")
