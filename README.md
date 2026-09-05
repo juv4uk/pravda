@@ -149,6 +149,3 @@ python3 scripts/guard-inbox-latency.py /home/agents/ecosystem/knowledge/guard-re
 ## Ліцензія · License
 
 [ВОЛЬНІСТЬ](LICENSE)
-
----
-*Створено з любов'ю до правди, волі та людини. 2026 рік.*
