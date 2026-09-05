@@ -82,7 +82,7 @@
 | **`PRIVILEG`** | 0 | 0 | 18 | 35 | 0 | 0 | 0 | 0 | **53** |
 ---
 
-| **`ROTA_OATH`** | 1 | 11 | 0 | 10 | 0 | 0 | 0 | 1 | **23** |
+| **`ROTA_OATH`** | 1 | 11 | 0 | 9 | 0 | 0 | 0 | 1 | **22** |
 ---
 
 | **`RYAD`** | 0 | 10 | 2 | 3 | 0 | 0 | 0 | 0 | **15** |
@@ -106,7 +106,7 @@
 | **`ZVYCHAY`** | 0 | 0 | 7 | 9 | 1 | 0 | 0 | 0 | **17** |
 ---
 
-| **РАЗОМ ПО СВІДКАХ** | 15 | 43 | 637 | 1439 | 45 | 73 | 19 | 155 | **2426** |
+| **РАЗОМ ПО СВІДКАХ** | 15 | 43 | 637 | 1438 | 45 | 73 | 19 | 155 | **2425** |
 
 ---
 
@@ -14537,11 +14537,11 @@
 - **LEX-ID:** `LEX-INV2-0849`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 725
-- **SOURCE-FORM:** `роты`
+- **LOCATOR:** рядок 761
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...на тые замъки, гдЪ староства и деръжавы мають, на роты давати, але зъ своими властными почты, з врядовъ...
-- **ROOT-FAMILY:** `ROTA_OATH`
+  > ...а до пана гетмана переехать, и окажеть ли се то с права перед гетъманомъ, тотъ мает быть за то каран водл...
+- **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
 - **DECISION-LAYER:** `AUDIT`
@@ -14555,9 +14555,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 761
-- **SOURCE-FORM:** `права`
+- **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...а до пана гетмана переехать, и окажеть ли се то с права перед гетъманомъ, тотъ мает быть за то каран водл...
+  > ...бы былъ неоселый, тогды маеть быть поставленъ ку праву перед оный же вряд кгродский. И кгды тамъ ку прав...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -14574,7 +14574,7 @@
 - **LOCATOR:** рядок 761
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...бы былъ неоселый, тогды маеть быть поставленъ ку праву перед оный же вряд кгродский. И кгды тамъ ку прав...
+  > ...раву перед оный же вряд кгродский. И кгды тамъ ку праву притягненъ будеть и з розсудъку врядового виненъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -14586,23 +14586,6 @@
 
 ### LEX-INV2-0852
 - **LEX-ID:** `LEX-INV2-0852`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 761
-- **SOURCE-FORM:** `праву`
-- **EXACT-CONTEXT:**
-  > ...раву перед оный же вряд кгродский. И кгды тамъ ку праву притягненъ будеть и з розсудъку врядового виненъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0853
-- **LEX-ID:** `LEX-INV2-0853`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 793
@@ -14618,8 +14601,8 @@
 
 ---
 
-### LEX-INV2-0854
-- **LEX-ID:** `LEX-INV2-0854`
+### LEX-INV2-0853
+- **LEX-ID:** `LEX-INV2-0853`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 793
@@ -14635,8 +14618,8 @@
 
 ---
 
-### LEX-INV2-0855
-- **LEX-ID:** `LEX-INV2-0855`
+### LEX-INV2-0854
+- **LEX-ID:** `LEX-INV2-0854`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 793
@@ -14652,8 +14635,8 @@
 
 ---
 
-### LEX-INV2-0856
-- **LEX-ID:** `LEX-INV2-0856`
+### LEX-INV2-0855
+- **LEX-ID:** `LEX-INV2-0855`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 793
@@ -14669,8 +14652,8 @@
 
 ---
 
-### LEX-INV2-0857
-- **LEX-ID:** `LEX-INV2-0857`
+### LEX-INV2-0856
+- **LEX-ID:** `LEX-INV2-0856`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 793
@@ -14686,8 +14669,8 @@
 
 ---
 
-### LEX-INV2-0858
-- **LEX-ID:** `LEX-INV2-0858`
+### LEX-INV2-0857
+- **LEX-ID:** `LEX-INV2-0857`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 793
@@ -14703,8 +14686,8 @@
 
 ---
 
-### LEX-INV2-0859
-- **LEX-ID:** `LEX-INV2-0859`
+### LEX-INV2-0858
+- **LEX-ID:** `LEX-INV2-0858`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 793
@@ -14720,8 +14703,8 @@
 
 ---
 
-### LEX-INV2-0860
-- **LEX-ID:** `LEX-INV2-0860`
+### LEX-INV2-0859
+- **LEX-ID:** `LEX-INV2-0859`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 793
@@ -14737,8 +14720,8 @@
 
 ---
 
-### LEX-INV2-0861
-- **LEX-ID:** `LEX-INV2-0861`
+### LEX-INV2-0860
+- **LEX-ID:** `LEX-INV2-0860`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 799
@@ -14754,8 +14737,8 @@
 
 ---
 
-### LEX-INV2-0862
-- **LEX-ID:** `LEX-INV2-0862`
+### LEX-INV2-0861
+- **LEX-ID:** `LEX-INV2-0861`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 799
@@ -14771,8 +14754,8 @@
 
 ---
 
-### LEX-INV2-0863
-- **LEX-ID:** `LEX-INV2-0863`
+### LEX-INV2-0862
+- **LEX-ID:** `LEX-INV2-0862`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 801
@@ -14788,8 +14771,8 @@
 
 ---
 
-### LEX-INV2-0864
-- **LEX-ID:** `LEX-INV2-0864`
+### LEX-INV2-0863
+- **LEX-ID:** `LEX-INV2-0863`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 801
@@ -14805,8 +14788,8 @@
 
 ---
 
-### LEX-INV2-0865
-- **LEX-ID:** `LEX-INV2-0865`
+### LEX-INV2-0864
+- **LEX-ID:** `LEX-INV2-0864`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 801
@@ -14822,8 +14805,8 @@
 
 ---
 
-### LEX-INV2-0866
-- **LEX-ID:** `LEX-INV2-0866`
+### LEX-INV2-0865
+- **LEX-ID:** `LEX-INV2-0865`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 801
@@ -14839,8 +14822,8 @@
 
 ---
 
-### LEX-INV2-0867
-- **LEX-ID:** `LEX-INV2-0867`
+### LEX-INV2-0866
+- **LEX-ID:** `LEX-INV2-0866`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 801
@@ -14856,8 +14839,8 @@
 
 ---
 
-### LEX-INV2-0868
-- **LEX-ID:** `LEX-INV2-0868`
+### LEX-INV2-0867
+- **LEX-ID:** `LEX-INV2-0867`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 803
@@ -14873,8 +14856,8 @@
 
 ---
 
-### LEX-INV2-0869
-- **LEX-ID:** `LEX-INV2-0869`
+### LEX-INV2-0868
+- **LEX-ID:** `LEX-INV2-0868`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 803
@@ -14890,8 +14873,8 @@
 
 ---
 
-### LEX-INV2-0870
-- **LEX-ID:** `LEX-INV2-0870`
+### LEX-INV2-0869
+- **LEX-ID:** `LEX-INV2-0869`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 803
@@ -14907,8 +14890,8 @@
 
 ---
 
-### LEX-INV2-0871
-- **LEX-ID:** `LEX-INV2-0871`
+### LEX-INV2-0870
+- **LEX-ID:** `LEX-INV2-0870`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 803
@@ -14924,8 +14907,8 @@
 
 ---
 
-### LEX-INV2-0872
-- **LEX-ID:** `LEX-INV2-0872`
+### LEX-INV2-0871
+- **LEX-ID:** `LEX-INV2-0871`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 813
@@ -14941,8 +14924,8 @@
 
 ---
 
-### LEX-INV2-0873
-- **LEX-ID:** `LEX-INV2-0873`
+### LEX-INV2-0872
+- **LEX-ID:** `LEX-INV2-0872`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 815
@@ -14958,8 +14941,8 @@
 
 ---
 
-### LEX-INV2-0874
-- **LEX-ID:** `LEX-INV2-0874`
+### LEX-INV2-0873
+- **LEX-ID:** `LEX-INV2-0873`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 815
@@ -14975,8 +14958,8 @@
 
 ---
 
-### LEX-INV2-0875
-- **LEX-ID:** `LEX-INV2-0875`
+### LEX-INV2-0874
+- **LEX-ID:** `LEX-INV2-0874`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 815
@@ -14992,8 +14975,8 @@
 
 ---
 
-### LEX-INV2-0876
-- **LEX-ID:** `LEX-INV2-0876`
+### LEX-INV2-0875
+- **LEX-ID:** `LEX-INV2-0875`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 815
@@ -15009,8 +14992,8 @@
 
 ---
 
-### LEX-INV2-0877
-- **LEX-ID:** `LEX-INV2-0877`
+### LEX-INV2-0876
+- **LEX-ID:** `LEX-INV2-0876`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 815
@@ -15026,8 +15009,8 @@
 
 ---
 
-### LEX-INV2-0878
-- **LEX-ID:** `LEX-INV2-0878`
+### LEX-INV2-0877
+- **LEX-ID:** `LEX-INV2-0877`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 819
@@ -15043,8 +15026,8 @@
 
 ---
 
-### LEX-INV2-0879
-- **LEX-ID:** `LEX-INV2-0879`
+### LEX-INV2-0878
+- **LEX-ID:** `LEX-INV2-0878`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 821
@@ -15060,8 +15043,8 @@
 
 ---
 
-### LEX-INV2-0880
-- **LEX-ID:** `LEX-INV2-0880`
+### LEX-INV2-0879
+- **LEX-ID:** `LEX-INV2-0879`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 821
@@ -15077,8 +15060,8 @@
 
 ---
 
-### LEX-INV2-0881
-- **LEX-ID:** `LEX-INV2-0881`
+### LEX-INV2-0880
+- **LEX-ID:** `LEX-INV2-0880`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 821
@@ -15094,8 +15077,8 @@
 
 ---
 
-### LEX-INV2-0882
-- **LEX-ID:** `LEX-INV2-0882`
+### LEX-INV2-0881
+- **LEX-ID:** `LEX-INV2-0881`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 879
@@ -15111,8 +15094,8 @@
 
 ---
 
-### LEX-INV2-0883
-- **LEX-ID:** `LEX-INV2-0883`
+### LEX-INV2-0882
+- **LEX-ID:** `LEX-INV2-0882`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 885
@@ -15128,8 +15111,8 @@
 
 ---
 
-### LEX-INV2-0884
-- **LEX-ID:** `LEX-INV2-0884`
+### LEX-INV2-0883
+- **LEX-ID:** `LEX-INV2-0883`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 891
@@ -15145,8 +15128,8 @@
 
 ---
 
-### LEX-INV2-0885
-- **LEX-ID:** `LEX-INV2-0885`
+### LEX-INV2-0884
+- **LEX-ID:** `LEX-INV2-0884`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 891
@@ -15162,8 +15145,8 @@
 
 ---
 
-### LEX-INV2-0886
-- **LEX-ID:** `LEX-INV2-0886`
+### LEX-INV2-0885
+- **LEX-ID:** `LEX-INV2-0885`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 897
@@ -15179,8 +15162,8 @@
 
 ---
 
-### LEX-INV2-0887
-- **LEX-ID:** `LEX-INV2-0887`
+### LEX-INV2-0886
+- **LEX-ID:** `LEX-INV2-0886`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 897
@@ -15196,8 +15179,8 @@
 
 ---
 
-### LEX-INV2-0888
-- **LEX-ID:** `LEX-INV2-0888`
+### LEX-INV2-0887
+- **LEX-ID:** `LEX-INV2-0887`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 897
@@ -15213,8 +15196,8 @@
 
 ---
 
-### LEX-INV2-0889
-- **LEX-ID:** `LEX-INV2-0889`
+### LEX-INV2-0888
+- **LEX-ID:** `LEX-INV2-0888`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 903
@@ -15230,8 +15213,8 @@
 
 ---
 
-### LEX-INV2-0890
-- **LEX-ID:** `LEX-INV2-0890`
+### LEX-INV2-0889
+- **LEX-ID:** `LEX-INV2-0889`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 903
@@ -15247,8 +15230,8 @@
 
 ---
 
-### LEX-INV2-0891
-- **LEX-ID:** `LEX-INV2-0891`
+### LEX-INV2-0890
+- **LEX-ID:** `LEX-INV2-0890`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 909
@@ -15264,8 +15247,8 @@
 
 ---
 
-### LEX-INV2-0892
-- **LEX-ID:** `LEX-INV2-0892`
+### LEX-INV2-0891
+- **LEX-ID:** `LEX-INV2-0891`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 915
@@ -15281,8 +15264,8 @@
 
 ---
 
-### LEX-INV2-0893
-- **LEX-ID:** `LEX-INV2-0893`
+### LEX-INV2-0892
+- **LEX-ID:** `LEX-INV2-0892`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 921
@@ -15298,8 +15281,8 @@
 
 ---
 
-### LEX-INV2-0894
-- **LEX-ID:** `LEX-INV2-0894`
+### LEX-INV2-0893
+- **LEX-ID:** `LEX-INV2-0893`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 921
@@ -15315,8 +15298,8 @@
 
 ---
 
-### LEX-INV2-0895
-- **LEX-ID:** `LEX-INV2-0895`
+### LEX-INV2-0894
+- **LEX-ID:** `LEX-INV2-0894`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 921
@@ -15332,8 +15315,8 @@
 
 ---
 
-### LEX-INV2-0896
-- **LEX-ID:** `LEX-INV2-0896`
+### LEX-INV2-0895
+- **LEX-ID:** `LEX-INV2-0895`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 925
@@ -15349,8 +15332,8 @@
 
 ---
 
-### LEX-INV2-0897
-- **LEX-ID:** `LEX-INV2-0897`
+### LEX-INV2-0896
+- **LEX-ID:** `LEX-INV2-0896`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 927
@@ -15366,8 +15349,8 @@
 
 ---
 
-### LEX-INV2-0898
-- **LEX-ID:** `LEX-INV2-0898`
+### LEX-INV2-0897
+- **LEX-ID:** `LEX-INV2-0897`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 927
@@ -15383,14 +15366,31 @@
 
 ---
 
-### LEX-INV2-0899
-- **LEX-ID:** `LEX-INV2-0899`
+### LEX-INV2-0898
+- **LEX-ID:** `LEX-INV2-0898`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 933
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...они сами и ихъ щадки властные кровъные и близкие правомъ прирожонымъ и слушне набытымъ звычаемъ стародавны...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0899
+- **LEX-ID:** `LEX-INV2-0899`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 933
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...хъ, спадкохъ, выслугахъ и всякомъ набытью подлугъ права, а то тымъ обычаемъ: естли бы было колько брат[ь]...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -15407,7 +15407,7 @@
 - **LOCATOR:** рядок 933
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...хъ, спадкохъ, выслугахъ и всякомъ набытью подлугъ права, а то тымъ обычаемъ: естли бы было колько брат[ь]...
+  > ...х щадковъ и наследковъ своихъ зомруть, ни на кого права своего прирожоного, выслужоного и набытого не въл...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -15422,10 +15422,10 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 933
-- **SOURCE-FORM:** `права`
+- **SOURCE-FORM:** `обычаемъ`
 - **EXACT-CONTEXT:**
-  > ...х щадковъ и наследковъ своихъ зомруть, ни на кого права своего прирожоного, выслужоного и набытого не въл...
-- **ROOT-FAMILY:** `PRAVO`
+  > ...лугахъ и всякомъ набытью подлугъ права, а то тымъ обычаемъ: естли бы было колько брат[ь]и, сестръ рожоныхъ,...
+- **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
 - **DECISION-LAYER:** `AUDIT`
@@ -15441,7 +15441,7 @@
 - **LOCATOR:** рядок 933
 - **SOURCE-FORM:** `обычаемъ`
 - **EXACT-CONTEXT:**
-  > ...лугахъ и всякомъ набытью подлугъ права, а то тымъ обычаемъ: естли бы было колько брат[ь]и, сестръ рожоныхъ,...
+  > ...отомъ се звело, тогды оная вся отчизная и всякимъ обычаемъ набытые именья, засе на сестры и на их потомства...
 - **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -15458,7 +15458,7 @@
 - **LOCATOR:** рядок 933
 - **SOURCE-FORM:** `обычаемъ`
 - **EXACT-CONTEXT:**
-  > ...отомъ се звело, тогды оная вся отчизная и всякимъ обычаемъ набытые именья, засе на сестры и на их потомства...
+  > ...стало, тогды оная отчизна ихъ вся, такъже всякимъ обычаемъ слушне набытые именья и маетность маеть на близки...
 - **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -15475,7 +15475,7 @@
 - **LOCATOR:** рядок 933
 - **SOURCE-FORM:** `обычаемъ`
 - **EXACT-CONTEXT:**
-  > ...стало, тогды оная отчизна ихъ вся, такъже всякимъ обычаемъ слушне набытые именья и маетность маеть на близки...
+  > ...го не въливъшы и не записавшы, бо по тыхъ и таким обычаемъ именье спадкомъ на речъ посполитую и на насъ, г[о...
 - **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -15487,23 +15487,6 @@
 
 ### LEX-INV2-0905
 - **LEX-ID:** `LEX-INV2-0905`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 933
-- **SOURCE-FORM:** `обычаемъ`
-- **EXACT-CONTEXT:**
-  > ...го не въливъшы и не записавшы, бо по тыхъ и таким обычаемъ именье спадкомъ на речъ посполитую и на насъ, г[о...
-- **ROOT-FAMILY:** `OBYCHAY`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0906
-- **LEX-ID:** `LEX-INV2-0906`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 933
@@ -15519,8 +15502,8 @@
 
 ---
 
-### LEX-INV2-0907
-- **LEX-ID:** `LEX-INV2-0907`
+### LEX-INV2-0906
+- **LEX-ID:** `LEX-INV2-0906`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 945
@@ -15536,8 +15519,8 @@
 
 ---
 
-### LEX-INV2-0908
-- **LEX-ID:** `LEX-INV2-0908`
+### LEX-INV2-0907
+- **LEX-ID:** `LEX-INV2-0907`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 951
@@ -15553,8 +15536,8 @@
 
 ---
 
-### LEX-INV2-0909
-- **LEX-ID:** `LEX-INV2-0909`
+### LEX-INV2-0908
+- **LEX-ID:** `LEX-INV2-0908`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 957
@@ -15570,8 +15553,8 @@
 
 ---
 
-### LEX-INV2-0910
-- **LEX-ID:** `LEX-INV2-0910`
+### LEX-INV2-0909
+- **LEX-ID:** `LEX-INV2-0909`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 957
@@ -15587,8 +15570,8 @@
 
 ---
 
-### LEX-INV2-0911
-- **LEX-ID:** `LEX-INV2-0911`
+### LEX-INV2-0910
+- **LEX-ID:** `LEX-INV2-0910`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 957
@@ -15604,8 +15587,8 @@
 
 ---
 
-### LEX-INV2-0912
-- **LEX-ID:** `LEX-INV2-0912`
+### LEX-INV2-0911
+- **LEX-ID:** `LEX-INV2-0911`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 957
@@ -15621,8 +15604,8 @@
 
 ---
 
-### LEX-INV2-0913
-- **LEX-ID:** `LEX-INV2-0913`
+### LEX-INV2-0912
+- **LEX-ID:** `LEX-INV2-0912`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 957
@@ -15638,8 +15621,8 @@
 
 ---
 
-### LEX-INV2-0914
-- **LEX-ID:** `LEX-INV2-0914`
+### LEX-INV2-0913
+- **LEX-ID:** `LEX-INV2-0913`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 963
@@ -15655,8 +15638,8 @@
 
 ---
 
-### LEX-INV2-0915
-- **LEX-ID:** `LEX-INV2-0915`
+### LEX-INV2-0914
+- **LEX-ID:** `LEX-INV2-0914`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 981
@@ -15672,8 +15655,8 @@
 
 ---
 
-### LEX-INV2-0916
-- **LEX-ID:** `LEX-INV2-0916`
+### LEX-INV2-0915
+- **LEX-ID:** `LEX-INV2-0915`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 985
@@ -15689,8 +15672,8 @@
 
 ---
 
-### LEX-INV2-0917
-- **LEX-ID:** `LEX-INV2-0917`
+### LEX-INV2-0916
+- **LEX-ID:** `LEX-INV2-0916`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 987
@@ -15706,8 +15689,8 @@
 
 ---
 
-### LEX-INV2-0918
-- **LEX-ID:** `LEX-INV2-0918`
+### LEX-INV2-0917
+- **LEX-ID:** `LEX-INV2-0917`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 987
@@ -15723,8 +15706,8 @@
 
 ---
 
-### LEX-INV2-0919
-- **LEX-ID:** `LEX-INV2-0919`
+### LEX-INV2-0918
+- **LEX-ID:** `LEX-INV2-0918`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 987
@@ -15740,8 +15723,8 @@
 
 ---
 
-### LEX-INV2-0920
-- **LEX-ID:** `LEX-INV2-0920`
+### LEX-INV2-0919
+- **LEX-ID:** `LEX-INV2-0919`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 987
@@ -15757,8 +15740,8 @@
 
 ---
 
-### LEX-INV2-0921
-- **LEX-ID:** `LEX-INV2-0921`
+### LEX-INV2-0920
+- **LEX-ID:** `LEX-INV2-0920`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 993
@@ -15774,14 +15757,31 @@
 
 ---
 
-### LEX-INV2-0922
-- **LEX-ID:** `LEX-INV2-0922`
+### LEX-INV2-0921
+- **LEX-ID:** `LEX-INV2-0921`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 993
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...приточило, и гдЪ бы тотъ, хто примовилъ, а передъ правомъ к тому се не знал, тогды тому, кому примовено, то...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0922
+- **LEX-ID:** `LEX-INV2-0922`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 993
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...местъцу в семъ статуте естъ описано, маеть быти с права каранъ везен[ь]емъ, то естъ в замку або в дворе н...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -15798,7 +15798,7 @@
 - **LOCATOR:** рядок 993
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...местъцу в семъ статуте естъ описано, маеть быти с права каранъ везен[ь]емъ, то естъ в замку або в дворе н...
+  > ...ашомъ шесть недель седети будеть. А за переводомъ права, естли бы винъный вряду послушонъ быти и у везен[...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -15810,23 +15810,6 @@
 
 ### LEX-INV2-0924
 - **LEX-ID:** `LEX-INV2-0924`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 993
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ашомъ шесть недель седети будеть. А за переводомъ права, естли бы винъный вряду послушонъ быти и у везен[...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0925
-- **LEX-ID:** `LEX-INV2-0925`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 999
@@ -15842,8 +15825,8 @@
 
 ---
 
-### LEX-INV2-0926
-- **LEX-ID:** `LEX-INV2-0926`
+### LEX-INV2-0925
+- **LEX-ID:** `LEX-INV2-0925`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 999
@@ -15859,8 +15842,8 @@
 
 ---
 
-### LEX-INV2-0927
-- **LEX-ID:** `LEX-INV2-0927`
+### LEX-INV2-0926
+- **LEX-ID:** `LEX-INV2-0926`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 999
@@ -15876,8 +15859,8 @@
 
 ---
 
-### LEX-INV2-0928
-- **LEX-ID:** `LEX-INV2-0928`
+### LEX-INV2-0927
+- **LEX-ID:** `LEX-INV2-0927`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 999
@@ -15893,8 +15876,8 @@
 
 ---
 
-### LEX-INV2-0929
-- **LEX-ID:** `LEX-INV2-0929`
+### LEX-INV2-0928
+- **LEX-ID:** `LEX-INV2-0928`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 999
@@ -15910,8 +15893,8 @@
 
 ---
 
-### LEX-INV2-0930
-- **LEX-ID:** `LEX-INV2-0930`
+### LEX-INV2-0929
+- **LEX-ID:** `LEX-INV2-0929`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 999
@@ -15927,8 +15910,8 @@
 
 ---
 
-### LEX-INV2-0931
-- **LEX-ID:** `LEX-INV2-0931`
+### LEX-INV2-0930
+- **LEX-ID:** `LEX-INV2-0930`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 999
@@ -15944,8 +15927,8 @@
 
 ---
 
-### LEX-INV2-0932
-- **LEX-ID:** `LEX-INV2-0932`
+### LEX-INV2-0931
+- **LEX-ID:** `LEX-INV2-0931`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1005
@@ -15961,8 +15944,8 @@
 
 ---
 
-### LEX-INV2-0933
-- **LEX-ID:** `LEX-INV2-0933`
+### LEX-INV2-0932
+- **LEX-ID:** `LEX-INV2-0932`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1005
@@ -15978,8 +15961,8 @@
 
 ---
 
-### LEX-INV2-0934
-- **LEX-ID:** `LEX-INV2-0934`
+### LEX-INV2-0933
+- **LEX-ID:** `LEX-INV2-0933`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1005
@@ -15995,8 +15978,8 @@
 
 ---
 
-### LEX-INV2-0935
-- **LEX-ID:** `LEX-INV2-0935`
+### LEX-INV2-0934
+- **LEX-ID:** `LEX-INV2-0934`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1005
@@ -16012,8 +15995,8 @@
 
 ---
 
-### LEX-INV2-0936
-- **LEX-ID:** `LEX-INV2-0936`
+### LEX-INV2-0935
+- **LEX-ID:** `LEX-INV2-0935`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1005
@@ -16029,8 +16012,8 @@
 
 ---
 
-### LEX-INV2-0937
-- **LEX-ID:** `LEX-INV2-0937`
+### LEX-INV2-0936
+- **LEX-ID:** `LEX-INV2-0936`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1005
@@ -16046,8 +16029,8 @@
 
 ---
 
-### LEX-INV2-0938
-- **LEX-ID:** `LEX-INV2-0938`
+### LEX-INV2-0937
+- **LEX-ID:** `LEX-INV2-0937`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1005
@@ -16063,8 +16046,8 @@
 
 ---
 
-### LEX-INV2-0939
-- **LEX-ID:** `LEX-INV2-0939`
+### LEX-INV2-0938
+- **LEX-ID:** `LEX-INV2-0938`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1005
@@ -16080,8 +16063,8 @@
 
 ---
 
-### LEX-INV2-0940
-- **LEX-ID:** `LEX-INV2-0940`
+### LEX-INV2-0939
+- **LEX-ID:** `LEX-INV2-0939`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1011
@@ -16097,8 +16080,8 @@
 
 ---
 
-### LEX-INV2-0941
-- **LEX-ID:** `LEX-INV2-0941`
+### LEX-INV2-0940
+- **LEX-ID:** `LEX-INV2-0940`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1011
@@ -16114,8 +16097,8 @@
 
 ---
 
-### LEX-INV2-0942
-- **LEX-ID:** `LEX-INV2-0942`
+### LEX-INV2-0941
+- **LEX-ID:** `LEX-INV2-0941`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1011
@@ -16131,6 +16114,23 @@
 
 ---
 
+### LEX-INV2-0942
+- **LEX-ID:** `LEX-INV2-0942`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1011
+- **SOURCE-FORM:** `вольно`
+- **EXACT-CONTEXT:**
+  > ...або потомъки его, а потомъ хотелъ бы прочъ, тогды вольно будеть ему и потомъком его отыйти прочъ куды хоте...
+- **ROOT-FAMILY:** `VOLN_ADJ_ADV`
+- **POS-CANDIDATE:** `ADV`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-0943
 - **LEX-ID:** `LEX-INV2-0943`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -16138,7 +16138,7 @@
 - **LOCATOR:** рядок 1011
 - **SOURCE-FORM:** `вольно`
 - **EXACT-CONTEXT:**
-  > ...або потомъки его, а потомъ хотелъ бы прочъ, тогды вольно будеть ему и потомъком его отыйти прочъ куды хоте...
+  > ...й веры годныхъ, и то бы в немъ выражоно было, ижъ вольно ему и потомъкомъ его с тымъ именьемъ кому хотечы...
 - **ROOT-FAMILY:** `VOLN_ADJ_ADV`
 - **POS-CANDIDATE:** `ADV`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16155,7 +16155,7 @@
 - **LOCATOR:** рядок 1011
 - **SOURCE-FORM:** `вольно`
 - **EXACT-CONTEXT:**
-  > ...й веры годныхъ, и то бы в немъ выражоно было, ижъ вольно ему и потомъкомъ его с тымъ именьемъ кому хотечы...
+  > ...му пану служити, оставивши тое именье оному пану, вольно будеть ему з маетностью своею, яко о томъ выше [т...
 - **ROOT-FAMILY:** `VOLN_ADJ_ADV`
 - **POS-CANDIDATE:** `ADV`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16167,23 +16167,6 @@
 
 ### LEX-INV2-0945
 - **LEX-ID:** `LEX-INV2-0945`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1011
-- **SOURCE-FORM:** `вольно`
-- **EXACT-CONTEXT:**
-  > ...му пану служити, оставивши тое именье оному пану, вольно будеть ему з маетностью своею, яко о томъ выше [т...
-- **ROOT-FAMILY:** `VOLN_ADJ_ADV`
-- **POS-CANDIDATE:** `ADV`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0946
-- **LEX-ID:** `LEX-INV2-0946`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1011
@@ -16199,14 +16182,31 @@
 
 ---
 
-### LEX-INV2-0947
-- **LEX-ID:** `LEX-INV2-0947`
+### LEX-INV2-0946
+- **LEX-ID:** `LEX-INV2-0946`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1015
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > О непозыван[ь]е светъскихъ в духовное право о речи светские.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0947
+- **LEX-ID:** `LEX-INV2-0947`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1017
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...шляхетскихъ не мають никого ку собе до духовного права о светские речи позывати. Такъ теж и сама шляхъта...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16223,7 +16223,7 @@
 - **LOCATOR:** рядок 1017
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...шляхетскихъ не мають никого ку собе до духовного права о светские речи позывати. Такъ теж и сама шляхъта...
+  > ...ие якого кольвекъ стану не мають се до духовъного права утекати и позывати о речы светъские под закладом...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16235,23 +16235,6 @@
 
 ### LEX-INV2-0949
 - **LEX-ID:** `LEX-INV2-0949`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1017
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ие якого кольвекъ стану не мають се до духовъного права утекати и позывати о речы светъские под закладом...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0950
-- **LEX-ID:** `LEX-INV2-0950`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1017
@@ -16267,8 +16250,8 @@
 
 ---
 
-### LEX-INV2-0951
-- **LEX-ID:** `LEX-INV2-0951`
+### LEX-INV2-0950
+- **LEX-ID:** `LEX-INV2-0950`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1017
@@ -16284,14 +16267,31 @@
 
 ---
 
-### LEX-INV2-0952
-- **LEX-ID:** `LEX-INV2-0952`
+### LEX-INV2-0951
+- **LEX-ID:** `LEX-INV2-0951`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...ьемъ черезь листъ вряду земъского водлугъ сего жъ права писаного статуту земского. А где бы хто з особъ д...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0952
+- **LEX-ID:** `LEX-INV2-0952`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1023
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...абы в чомъ ущербена не была, повиненъ будеть тымъ правомъ посполитымъ и статутомъ земъскимъ справедливость...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16308,7 +16308,7 @@
 - **LOCATOR:** рядок 1023
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...абы в чомъ ущербена не была, повиненъ будеть тымъ правомъ посполитымъ и статутомъ земъскимъ справедливость...
+  > ...новатом з добръ, з маетности рухомое и з доходовъ правомъ переконаного. А где бы маетности не стало — и на...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16320,23 +16320,6 @@
 
 ### LEX-INV2-0954
 - **LEX-ID:** `LEX-INV2-0954`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1023
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...новатом з добръ, з маетности рухомое и з доходовъ правомъ переконаного. А где бы маетности не стало — и на...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0955
-- **LEX-ID:** `LEX-INV2-0955`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
@@ -16352,8 +16335,8 @@
 
 ---
 
-### LEX-INV2-0956
-- **LEX-ID:** `LEX-INV2-0956`
+### LEX-INV2-0955
+- **LEX-ID:** `LEX-INV2-0955`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
@@ -16369,8 +16352,8 @@
 
 ---
 
-### LEX-INV2-0957
-- **LEX-ID:** `LEX-INV2-0957`
+### LEX-INV2-0956
+- **LEX-ID:** `LEX-INV2-0956`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
@@ -16386,8 +16369,8 @@
 
 ---
 
-### LEX-INV2-0958
-- **LEX-ID:** `LEX-INV2-0958`
+### LEX-INV2-0957
+- **LEX-ID:** `LEX-INV2-0957`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
@@ -16403,8 +16386,8 @@
 
 ---
 
-### LEX-INV2-0959
-- **LEX-ID:** `LEX-INV2-0959`
+### LEX-INV2-0958
+- **LEX-ID:** `LEX-INV2-0958`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
@@ -16420,14 +16403,31 @@
 
 ---
 
-### LEX-INV2-0960
-- **LEX-ID:** `LEX-INV2-0960`
+### LEX-INV2-0959
+- **LEX-ID:** `LEX-INV2-0959`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...стороне княз[ь] бискупъ або вряд его о речи, тымъ правомъ земъскимъ осужоные, апеляцый допустити будуть пов...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0960
+- **LEX-ID:** `LEX-INV2-0960`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1023
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ны духовъными и светъскими водлугъ [с]его статуту права посполитого отсуживати маеть. На которые суды три...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16444,7 +16444,7 @@
 - **LOCATOR:** рядок 1023
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ны духовъными и светъскими водлугъ [с]его статуту права посполитого отсуживати маеть. На которые суды три...
+  > ...ыхъ своих справедливости не учинили водълугъ сего права посполитого, тогды о то до нас, г[о]с[по]д[а]ра,...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16456,23 +16456,6 @@
 
 ### LEX-INV2-0962
 - **LEX-ID:** `LEX-INV2-0962`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1023
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ыхъ своих справедливости не учинили водълугъ сего права посполитого, тогды о то до нас, г[о]с[по]д[а]ра,...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0963
-- **LEX-ID:** `LEX-INV2-0963`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
@@ -16488,14 +16471,31 @@
 
 ---
 
-### LEX-INV2-0964
-- **LEX-ID:** `LEX-INV2-0964`
+### LEX-INV2-0963
+- **LEX-ID:** `LEX-INV2-0963`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...инъни будут справедливость чинити водлугъ сего жъ права и статуту земъского. А то жъ се маеть розумети и...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0964
+- **LEX-ID:** `LEX-INV2-0964`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1023
+- **SOURCE-FORM:** `праву`
+- **EXACT-CONTEXT:**
+  > ...никовъ и подданых ихъ албо от нихъ самых, которые праву посполитому и службе земъской военъной подълегли...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16512,7 +16512,7 @@
 - **LOCATOR:** рядок 1023
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...никовъ и подданых ихъ албо от нихъ самых, которые праву посполитому и службе земъской военъной подълегли...
+  > ...стану светъского, водле порадъку статутового тому праву посполитому земъскому подлегати мають такъ у суду...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16524,23 +16524,6 @@
 
 ### LEX-INV2-0966
 - **LEX-ID:** `LEX-INV2-0966`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1023
-- **SOURCE-FORM:** `праву`
-- **EXACT-CONTEXT:**
-  > ...стану светъского, водле порадъку статутового тому праву посполитому земъскому подлегати мають такъ у суду...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0967
-- **LEX-ID:** `LEX-INV2-0967`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
@@ -16556,8 +16539,8 @@
 
 ---
 
-### LEX-INV2-0968
-- **LEX-ID:** `LEX-INV2-0968`
+### LEX-INV2-0967
+- **LEX-ID:** `LEX-INV2-0967`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1023
@@ -16573,14 +16556,31 @@
 
 ---
 
-### LEX-INV2-0969
-- **LEX-ID:** `LEX-INV2-0969`
+### LEX-INV2-0968
+- **LEX-ID:** `LEX-INV2-0968`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1027
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > О права земленые межы станы духовъными и светъскими.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0969
+- **LEX-ID:** `LEX-INV2-0969`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1029
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ..., кгды жъ особы стану духовного добрую и певную с права посполитого мають ведомость, ижъ у суду земъского...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16597,7 +16597,7 @@
 - **LOCATOR:** рядок 1029
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ..., кгды жъ особы стану духовного добрую и певную с права посполитого мають ведомость, ижъ у суду земъского...
+  > ...йшый прикладъ в томъ имъ естъ поданъ, иж мы водле права посполитого, через врядники нашы и через насъ том...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16612,9 +16612,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1029
-- **SOURCE-FORM:** `права`
+- **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...йшый прикладъ в томъ имъ естъ поданъ, иж мы водле права посполитого, через врядники нашы и через насъ том...
+  > ...еть о кгрунъты и речы земленые, ровные и однакому праву посполитому тому жъ подлегаемъ. Тогды тымъ же обы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16631,7 +16631,7 @@
 - **LOCATOR:** рядок 1029
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...еть о кгрунъты и речы земленые, ровные и однакому праву посполитому тому жъ подлегаемъ. Тогды тымъ же обы...
+  > ...къ именемъ названые, деръжачы и именья светъские, праву посполитому и службе земъской военъной подълеглые...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16643,23 +16643,6 @@
 
 ### LEX-INV2-0973
 - **LEX-ID:** `LEX-INV2-0973`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1029
-- **SOURCE-FORM:** `праву`
-- **EXACT-CONTEXT:**
-  > ...къ именемъ названые, деръжачы и именья светъские, праву посполитому и службе земъской военъной подълеглые...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0974
-- **LEX-ID:** `LEX-INV2-0974`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1029
@@ -16675,8 +16658,8 @@
 
 ---
 
-### LEX-INV2-0975
-- **LEX-ID:** `LEX-INV2-0975`
+### LEX-INV2-0974
+- **LEX-ID:** `LEX-INV2-0974`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1029
@@ -16692,8 +16675,8 @@
 
 ---
 
-### LEX-INV2-0976
-- **LEX-ID:** `LEX-INV2-0976`
+### LEX-INV2-0975
+- **LEX-ID:** `LEX-INV2-0975`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1029
@@ -16709,8 +16692,8 @@
 
 ---
 
-### LEX-INV2-0977
-- **LEX-ID:** `LEX-INV2-0977`
+### LEX-INV2-0976
+- **LEX-ID:** `LEX-INV2-0976`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1029
@@ -16726,8 +16709,8 @@
 
 ---
 
-### LEX-INV2-0978
-- **LEX-ID:** `LEX-INV2-0978`
+### LEX-INV2-0977
+- **LEX-ID:** `LEX-INV2-0977`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1029
@@ -16743,8 +16726,8 @@
 
 ---
 
-### LEX-INV2-0979
-- **LEX-ID:** `LEX-INV2-0979`
+### LEX-INV2-0978
+- **LEX-ID:** `LEX-INV2-0978`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1029
@@ -16760,14 +16743,31 @@
 
 ---
 
-### LEX-INV2-0980
-- **LEX-ID:** `LEX-INV2-0980`
+### LEX-INV2-0979
+- **LEX-ID:** `LEX-INV2-0979`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1029
 - **SOURCE-FORM:** `обычаем`
 - **EXACT-CONTEXT:**
   > ...леглые, будь купленые, закупленые и якимъ колвекъ обычаем через нихъ и продъков ихъ набытые, о кгрунты земл...
+- **ROOT-FAMILY:** `OBYCHAY`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0980
+- **LEX-ID:** `LEX-INV2-0980`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1029
+- **SOURCE-FORM:** `обычаемъ`
+- **EXACT-CONTEXT:**
+  > ...жы собою и именьями або кгрунтами своими однакимъ обычаемъ и поступкомъ правнымъ приймовати у суду земского...
 - **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16784,7 +16784,7 @@
 - **LOCATOR:** рядок 1029
 - **SOURCE-FORM:** `обычаемъ`
 - **EXACT-CONTEXT:**
-  > ...жы собою и именьями або кгрунтами своими однакимъ обычаемъ и поступкомъ правнымъ приймовати у суду земского...
+  > ...ского, з добры и именьями шляхетьскими. А тымъ же обычаемъ шляхъте з добры нашими и костельными давность зах...
 - **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16796,23 +16796,6 @@
 
 ### LEX-INV2-0982
 - **LEX-ID:** `LEX-INV2-0982`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1029
-- **SOURCE-FORM:** `обычаемъ`
-- **EXACT-CONTEXT:**
-  > ...ского, з добры и именьями шляхетьскими. А тымъ же обычаемъ шляхъте з добры нашими и костельными давность зах...
-- **ROOT-FAMILY:** `OBYCHAY`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0983
-- **LEX-ID:** `LEX-INV2-0983`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1035
@@ -16828,8 +16811,8 @@
 
 ---
 
-### LEX-INV2-0984
-- **LEX-ID:** `LEX-INV2-0984`
+### LEX-INV2-0983
+- **LEX-ID:** `LEX-INV2-0983`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1035
@@ -16845,14 +16828,31 @@
 
 ---
 
-### LEX-INV2-0985
-- **LEX-ID:** `LEX-INV2-0985`
+### LEX-INV2-0984
+- **LEX-ID:** `LEX-INV2-0984`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1041
 - **SOURCE-FORM:** `правом`
 - **EXACT-CONTEXT:**
   > ...ы о то врядъ местский справедливость чинити маеть правом ихъ майдеборскимъ водлугъ привильевъ ихъ, тому ме...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-0985
+- **LEX-ID:** `LEX-INV2-0985`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1041
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...есту Виленьскому и мещаномъ нашимъ, под местъским правомъ мешкаючимъ, от продъков нашихъ и от насъ, г[о]с[п...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16869,7 +16869,7 @@
 - **LOCATOR:** рядок 1041
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...есту Виленьскому и мещаномъ нашимъ, под местъским правомъ мешкаючимъ, от продъков нашихъ и от насъ, г[о]с[п...
+  > ...ста Виленьского, кгды о бой альбо раны шляхетские правомъ будуть переконани, тогды тымъ винамъ подлегати по...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16884,9 +16884,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1041
-- **SOURCE-FORM:** `правомъ`
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ста Виленьского, кгды о бой альбо раны шляхетские правомъ будуть переконани, тогды тымъ винамъ подлегати по...
+  > ...кому што записомъ своим доброволнымъ, отступивъши права своего, выполънити обовезалсе, то симъ статутомъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16903,7 +16903,7 @@
 - **LOCATOR:** рядок 1041
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...кому што записомъ своим доброволнымъ, отступивъши права своего, выполънити обовезалсе, то симъ статутомъ...
+  > ...местъский чинити повиненъ, только бы от принятья права местского давности десЪти летъ не заседялъ. А где...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16920,7 +16920,7 @@
 - **LOCATOR:** рядок 1041
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...местъский чинити повиненъ, только бы от принятья права местского давности десЪти летъ не заседялъ. А где...
+  > ...ежнымъ водлугъ сего жъ статуту земъского мещанинъ права собе зъ шляхтичомъ доводити маеть. А в ынъшихъ ме...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16937,7 +16937,7 @@
 - **LOCATOR:** рядок 1041
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ежнымъ водлугъ сего жъ статуту земъского мещанинъ права собе зъ шляхтичомъ доводити маеть. А в ынъшихъ ме...
+  > ...князства литовского, вряды местъские, хотя где и права майдебурского уживают и привилья продковъ нашихъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -16949,23 +16949,6 @@
 
 ### LEX-INV2-0991
 - **LEX-ID:** `LEX-INV2-0991`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1041
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...князства литовского, вряды местъские, хотя где и права майдебурского уживают и привилья продковъ нашихъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-0992
-- **LEX-ID:** `LEX-INV2-0992`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1041
@@ -16981,8 +16964,8 @@
 
 ---
 
-### LEX-INV2-0993
-- **LEX-ID:** `LEX-INV2-0993`
+### LEX-INV2-0992
+- **LEX-ID:** `LEX-INV2-0992`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1041
@@ -16998,8 +16981,8 @@
 
 ---
 
-### LEX-INV2-0994
-- **LEX-ID:** `LEX-INV2-0994`
+### LEX-INV2-0993
+- **LEX-ID:** `LEX-INV2-0993`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1041
@@ -17015,8 +16998,8 @@
 
 ---
 
-### LEX-INV2-0995
-- **LEX-ID:** `LEX-INV2-0995`
+### LEX-INV2-0994
+- **LEX-ID:** `LEX-INV2-0994`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1041
@@ -17032,8 +17015,8 @@
 
 ---
 
-### LEX-INV2-0996
-- **LEX-ID:** `LEX-INV2-0996`
+### LEX-INV2-0995
+- **LEX-ID:** `LEX-INV2-0995`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1041
@@ -17049,8 +17032,8 @@
 
 ---
 
-### LEX-INV2-0997
-- **LEX-ID:** `LEX-INV2-0997`
+### LEX-INV2-0996
+- **LEX-ID:** `LEX-INV2-0996`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1047
@@ -17066,8 +17049,8 @@
 
 ---
 
-### LEX-INV2-0998
-- **LEX-ID:** `LEX-INV2-0998`
+### LEX-INV2-0997
+- **LEX-ID:** `LEX-INV2-0997`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1047
@@ -17083,8 +17066,8 @@
 
 ---
 
-### LEX-INV2-0999
-- **LEX-ID:** `LEX-INV2-0999`
+### LEX-INV2-0998
+- **LEX-ID:** `LEX-INV2-0998`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1047
@@ -17100,8 +17083,8 @@
 
 ---
 
-### LEX-INV2-1000
-- **LEX-ID:** `LEX-INV2-1000`
+### LEX-INV2-0999
+- **LEX-ID:** `LEX-INV2-0999`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1047
@@ -17117,8 +17100,8 @@
 
 ---
 
-### LEX-INV2-1001
-- **LEX-ID:** `LEX-INV2-1001`
+### LEX-INV2-1000
+- **LEX-ID:** `LEX-INV2-1000`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1053
@@ -17134,8 +17117,8 @@
 
 ---
 
-### LEX-INV2-1002
-- **LEX-ID:** `LEX-INV2-1002`
+### LEX-INV2-1001
+- **LEX-ID:** `LEX-INV2-1001`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1059
@@ -17151,8 +17134,8 @@
 
 ---
 
-### LEX-INV2-1003
-- **LEX-ID:** `LEX-INV2-1003`
+### LEX-INV2-1002
+- **LEX-ID:** `LEX-INV2-1002`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1059
@@ -17168,8 +17151,8 @@
 
 ---
 
-### LEX-INV2-1004
-- **LEX-ID:** `LEX-INV2-1004`
+### LEX-INV2-1003
+- **LEX-ID:** `LEX-INV2-1003`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1061
@@ -17185,8 +17168,8 @@
 
 ---
 
-### LEX-INV2-1005
-- **LEX-ID:** `LEX-INV2-1005`
+### LEX-INV2-1004
+- **LEX-ID:** `LEX-INV2-1004`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1061
@@ -17202,8 +17185,8 @@
 
 ---
 
-### LEX-INV2-1006
-- **LEX-ID:** `LEX-INV2-1006`
+### LEX-INV2-1005
+- **LEX-ID:** `LEX-INV2-1005`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1067
@@ -17219,8 +17202,8 @@
 
 ---
 
-### LEX-INV2-1007
-- **LEX-ID:** `LEX-INV2-1007`
+### LEX-INV2-1006
+- **LEX-ID:** `LEX-INV2-1006`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1067
@@ -17236,8 +17219,8 @@
 
 ---
 
-### LEX-INV2-1008
-- **LEX-ID:** `LEX-INV2-1008`
+### LEX-INV2-1007
+- **LEX-ID:** `LEX-INV2-1007`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1067
@@ -17253,8 +17236,8 @@
 
 ---
 
-### LEX-INV2-1009
-- **LEX-ID:** `LEX-INV2-1009`
+### LEX-INV2-1008
+- **LEX-ID:** `LEX-INV2-1008`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1073
@@ -17270,8 +17253,8 @@
 
 ---
 
-### LEX-INV2-1010
-- **LEX-ID:** `LEX-INV2-1010`
+### LEX-INV2-1009
+- **LEX-ID:** `LEX-INV2-1009`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1077
@@ -17287,8 +17270,8 @@
 
 ---
 
-### LEX-INV2-1011
-- **LEX-ID:** `LEX-INV2-1011`
+### LEX-INV2-1010
+- **LEX-ID:** `LEX-INV2-1010`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1079
@@ -17304,8 +17287,8 @@
 
 ---
 
-### LEX-INV2-1012
-- **LEX-ID:** `LEX-INV2-1012`
+### LEX-INV2-1011
+- **LEX-ID:** `LEX-INV2-1011`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1079
@@ -17321,8 +17304,8 @@
 
 ---
 
-### LEX-INV2-1013
-- **LEX-ID:** `LEX-INV2-1013`
+### LEX-INV2-1012
+- **LEX-ID:** `LEX-INV2-1012`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1079
@@ -17338,8 +17321,8 @@
 
 ---
 
-### LEX-INV2-1014
-- **LEX-ID:** `LEX-INV2-1014`
+### LEX-INV2-1013
+- **LEX-ID:** `LEX-INV2-1013`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1083
@@ -17355,8 +17338,8 @@
 
 ---
 
-### LEX-INV2-1015
-- **LEX-ID:** `LEX-INV2-1015`
+### LEX-INV2-1014
+- **LEX-ID:** `LEX-INV2-1014`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1085
@@ -17372,8 +17355,8 @@
 
 ---
 
-### LEX-INV2-1016
-- **LEX-ID:** `LEX-INV2-1016`
+### LEX-INV2-1015
+- **LEX-ID:** `LEX-INV2-1015`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1085
@@ -17389,8 +17372,8 @@
 
 ---
 
-### LEX-INV2-1017
-- **LEX-ID:** `LEX-INV2-1017`
+### LEX-INV2-1016
+- **LEX-ID:** `LEX-INV2-1016`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1085
@@ -17406,8 +17389,8 @@
 
 ---
 
-### LEX-INV2-1018
-- **LEX-ID:** `LEX-INV2-1018`
+### LEX-INV2-1017
+- **LEX-ID:** `LEX-INV2-1017`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1085
@@ -17423,8 +17406,8 @@
 
 ---
 
-### LEX-INV2-1019
-- **LEX-ID:** `LEX-INV2-1019`
+### LEX-INV2-1018
+- **LEX-ID:** `LEX-INV2-1018`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1091
@@ -17440,14 +17423,31 @@
 
 ---
 
-### LEX-INV2-1020
-- **LEX-ID:** `LEX-INV2-1020`
+### LEX-INV2-1019
+- **LEX-ID:** `LEX-INV2-1019`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1097
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...тогды тотъ, у кого отнялъ, можеть того доходити и правомъ позыскивати. Нижли болшей и[с]кати не можеть, одн...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1020
+- **LEX-ID:** `LEX-INV2-1020`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1103
+- **SOURCE-FORM:** `праву`
+- **EXACT-CONTEXT:**
+  > ...и земские упоминалные и позвы припозываючы его ку праву и становечисе за позвы. А хто бы, листы упоминалн...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -17464,7 +17464,7 @@
 - **LOCATOR:** рядок 1103
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...и земские упоминалные и позвы припозываючы его ку праву и становечисе за позвы. А хто бы, листы упоминалн...
+  > ...лные або позвы взявши, у себе держалъ, стороны ку праву не припозывал и листовъ упоминальных врядовне не...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -17476,23 +17476,6 @@
 
 ### LEX-INV2-1022
 - **LEX-ID:** `LEX-INV2-1022`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1103
-- **SOURCE-FORM:** `праву`
-- **EXACT-CONTEXT:**
-  > ...лные або позвы взявши, у себе держалъ, стороны ку праву не припозывал и листовъ упоминальных врядовне не...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1023
-- **LEX-ID:** `LEX-INV2-1023`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1103
@@ -17508,8 +17491,8 @@
 
 ---
 
-### LEX-INV2-1024
-- **LEX-ID:** `LEX-INV2-1024`
+### LEX-INV2-1023
+- **LEX-ID:** `LEX-INV2-1023`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1109
@@ -17525,8 +17508,8 @@
 
 ---
 
-### LEX-INV2-1025
-- **LEX-ID:** `LEX-INV2-1025`
+### LEX-INV2-1024
+- **LEX-ID:** `LEX-INV2-1024`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1109
@@ -17542,8 +17525,8 @@
 
 ---
 
-### LEX-INV2-1026
-- **LEX-ID:** `LEX-INV2-1026`
+### LEX-INV2-1025
+- **LEX-ID:** `LEX-INV2-1025`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1127
@@ -17559,8 +17542,8 @@
 
 ---
 
-### LEX-INV2-1027
-- **LEX-ID:** `LEX-INV2-1027`
+### LEX-INV2-1026
+- **LEX-ID:** `LEX-INV2-1026`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1127
@@ -17576,8 +17559,8 @@
 
 ---
 
-### LEX-INV2-1028
-- **LEX-ID:** `LEX-INV2-1028`
+### LEX-INV2-1027
+- **LEX-ID:** `LEX-INV2-1027`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1133
@@ -17593,8 +17576,8 @@
 
 ---
 
-### LEX-INV2-1029
-- **LEX-ID:** `LEX-INV2-1029`
+### LEX-INV2-1028
+- **LEX-ID:** `LEX-INV2-1028`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1133
@@ -17610,8 +17593,8 @@
 
 ---
 
-### LEX-INV2-1030
-- **LEX-ID:** `LEX-INV2-1030`
+### LEX-INV2-1029
+- **LEX-ID:** `LEX-INV2-1029`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1170
@@ -17627,8 +17610,8 @@
 
 ---
 
-### LEX-INV2-1031
-- **LEX-ID:** `LEX-INV2-1031`
+### LEX-INV2-1030
+- **LEX-ID:** `LEX-INV2-1030`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17644,8 +17627,8 @@
 
 ---
 
-### LEX-INV2-1032
-- **LEX-ID:** `LEX-INV2-1032`
+### LEX-INV2-1031
+- **LEX-ID:** `LEX-INV2-1031`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17661,8 +17644,8 @@
 
 ---
 
-### LEX-INV2-1033
-- **LEX-ID:** `LEX-INV2-1033`
+### LEX-INV2-1032
+- **LEX-ID:** `LEX-INV2-1032`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17678,8 +17661,8 @@
 
 ---
 
-### LEX-INV2-1034
-- **LEX-ID:** `LEX-INV2-1034`
+### LEX-INV2-1033
+- **LEX-ID:** `LEX-INV2-1033`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17695,8 +17678,8 @@
 
 ---
 
-### LEX-INV2-1035
-- **LEX-ID:** `LEX-INV2-1035`
+### LEX-INV2-1034
+- **LEX-ID:** `LEX-INV2-1034`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17712,8 +17695,8 @@
 
 ---
 
-### LEX-INV2-1036
-- **LEX-ID:** `LEX-INV2-1036`
+### LEX-INV2-1035
+- **LEX-ID:** `LEX-INV2-1035`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17729,8 +17712,8 @@
 
 ---
 
-### LEX-INV2-1037
-- **LEX-ID:** `LEX-INV2-1037`
+### LEX-INV2-1036
+- **LEX-ID:** `LEX-INV2-1036`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17746,8 +17729,8 @@
 
 ---
 
-### LEX-INV2-1038
-- **LEX-ID:** `LEX-INV2-1038`
+### LEX-INV2-1037
+- **LEX-ID:** `LEX-INV2-1037`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17763,8 +17746,8 @@
 
 ---
 
-### LEX-INV2-1039
-- **LEX-ID:** `LEX-INV2-1039`
+### LEX-INV2-1038
+- **LEX-ID:** `LEX-INV2-1038`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17780,8 +17763,8 @@
 
 ---
 
-### LEX-INV2-1040
-- **LEX-ID:** `LEX-INV2-1040`
+### LEX-INV2-1039
+- **LEX-ID:** `LEX-INV2-1039`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17797,8 +17780,8 @@
 
 ---
 
-### LEX-INV2-1041
-- **LEX-ID:** `LEX-INV2-1041`
+### LEX-INV2-1040
+- **LEX-ID:** `LEX-INV2-1040`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17814,8 +17797,8 @@
 
 ---
 
-### LEX-INV2-1042
-- **LEX-ID:** `LEX-INV2-1042`
+### LEX-INV2-1041
+- **LEX-ID:** `LEX-INV2-1041`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17831,8 +17814,8 @@
 
 ---
 
-### LEX-INV2-1043
-- **LEX-ID:** `LEX-INV2-1043`
+### LEX-INV2-1042
+- **LEX-ID:** `LEX-INV2-1042`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17848,8 +17831,8 @@
 
 ---
 
-### LEX-INV2-1044
-- **LEX-ID:** `LEX-INV2-1044`
+### LEX-INV2-1043
+- **LEX-ID:** `LEX-INV2-1043`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17865,8 +17848,8 @@
 
 ---
 
-### LEX-INV2-1045
-- **LEX-ID:** `LEX-INV2-1045`
+### LEX-INV2-1044
+- **LEX-ID:** `LEX-INV2-1044`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17882,8 +17865,8 @@
 
 ---
 
-### LEX-INV2-1046
-- **LEX-ID:** `LEX-INV2-1046`
+### LEX-INV2-1045
+- **LEX-ID:** `LEX-INV2-1045`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17899,8 +17882,8 @@
 
 ---
 
-### LEX-INV2-1047
-- **LEX-ID:** `LEX-INV2-1047`
+### LEX-INV2-1046
+- **LEX-ID:** `LEX-INV2-1046`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17916,8 +17899,8 @@
 
 ---
 
-### LEX-INV2-1048
-- **LEX-ID:** `LEX-INV2-1048`
+### LEX-INV2-1047
+- **LEX-ID:** `LEX-INV2-1047`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1174
@@ -17933,14 +17916,31 @@
 
 ---
 
-### LEX-INV2-1049
-- **LEX-ID:** `LEX-INV2-1049`
+### LEX-INV2-1048
+- **LEX-ID:** `LEX-INV2-1048`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1194
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...о томъ, хто бы передъ нимъ не сталъ або ставъши с права передъ вырокомъ прочъ зышолъ.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1049
+- **LEX-ID:** `LEX-INV2-1049`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1198
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...мъскому, судьи и подъсудьку, ижъ мають подле сего права и артыкуловъ, нижей о томъ постановеных и написан...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -17957,7 +17957,7 @@
 - **LOCATOR:** рядок 1198
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...мъскому, судьи и подъсудьку, ижъ мають подле сего права и артыкуловъ, нижей о томъ постановеных и написан...
+  > ...а которомъ року упадаеть, ажъ до остатнего стопня права. А где бы сторона позваная, передъ врядомъ у суду...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -17969,23 +17969,6 @@
 
 ### LEX-INV2-1051
 - **LEX-ID:** `LEX-INV2-1051`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1198
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...а которомъ року упадаеть, ажъ до остатнего стопня права. А где бы сторона позваная, передъ врядомъ у суду...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1052
-- **LEX-ID:** `LEX-INV2-1052`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1198
@@ -18001,8 +17984,8 @@
 
 ---
 
-### LEX-INV2-1053
-- **LEX-ID:** `LEX-INV2-1053`
+### LEX-INV2-1052
+- **LEX-ID:** `LEX-INV2-1052`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1198
@@ -18018,8 +18001,8 @@
 
 ---
 
-### LEX-INV2-1054
-- **LEX-ID:** `LEX-INV2-1054`
+### LEX-INV2-1053
+- **LEX-ID:** `LEX-INV2-1053`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1198
@@ -18035,8 +18018,8 @@
 
 ---
 
-### LEX-INV2-1055
-- **LEX-ID:** `LEX-INV2-1055`
+### LEX-INV2-1054
+- **LEX-ID:** `LEX-INV2-1054`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1198
@@ -18052,8 +18035,8 @@
 
 ---
 
-### LEX-INV2-1056
-- **LEX-ID:** `LEX-INV2-1056`
+### LEX-INV2-1055
+- **LEX-ID:** `LEX-INV2-1055`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1198
@@ -18069,8 +18052,8 @@
 
 ---
 
-### LEX-INV2-1057
-- **LEX-ID:** `LEX-INV2-1057`
+### LEX-INV2-1056
+- **LEX-ID:** `LEX-INV2-1056`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18086,8 +18069,8 @@
 
 ---
 
-### LEX-INV2-1058
-- **LEX-ID:** `LEX-INV2-1058`
+### LEX-INV2-1057
+- **LEX-ID:** `LEX-INV2-1057`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18103,8 +18086,8 @@
 
 ---
 
-### LEX-INV2-1059
-- **LEX-ID:** `LEX-INV2-1059`
+### LEX-INV2-1058
+- **LEX-ID:** `LEX-INV2-1058`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18120,14 +18103,31 @@
 
 ---
 
-### LEX-INV2-1060
-- **LEX-ID:** `LEX-INV2-1060`
+### LEX-INV2-1059
+- **LEX-ID:** `LEX-INV2-1059`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...ого чоловека доброго, цнотливого, веры годного, в праве и писать умеючого шляхтича, тамъ же в томъ повете...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1060
+- **LEX-ID:** `LEX-INV2-1060`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1210
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...до тых, которые бы особу учстивую, богобойную и у права умеетъную подавали, мають за товариша третего, в...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -18144,7 +18144,7 @@
 - **LOCATOR:** рядок 1210
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...до тых, которые бы особу учстивую, богобойную и у права умеетъную подавали, мають за товариша третего, в...
+  > ...е перед тыми двема врядниками стороны пилность до права чинити и воланья через возныхъ ку праву на позвех...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -18156,23 +18156,6 @@
 
 ### LEX-INV2-1062
 - **LEX-ID:** `LEX-INV2-1062`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1210
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...е перед тыми двема врядниками стороны пилность до права чинити и воланья через возныхъ ку праву на позвех...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1063
-- **LEX-ID:** `LEX-INV2-1063`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18188,8 +18171,8 @@
 
 ---
 
-### LEX-INV2-1064
-- **LEX-ID:** `LEX-INV2-1064`
+### LEX-INV2-1063
+- **LEX-ID:** `LEX-INV2-1063`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18205,8 +18188,8 @@
 
 ---
 
-### LEX-INV2-1065
-- **LEX-ID:** `LEX-INV2-1065`
+### LEX-INV2-1064
+- **LEX-ID:** `LEX-INV2-1064`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18222,8 +18205,8 @@
 
 ---
 
-### LEX-INV2-1066
-- **LEX-ID:** `LEX-INV2-1066`
+### LEX-INV2-1065
+- **LEX-ID:** `LEX-INV2-1065`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18239,8 +18222,8 @@
 
 ---
 
-### LEX-INV2-1067
-- **LEX-ID:** `LEX-INV2-1067`
+### LEX-INV2-1066
+- **LEX-ID:** `LEX-INV2-1066`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18256,8 +18239,8 @@
 
 ---
 
-### LEX-INV2-1068
-- **LEX-ID:** `LEX-INV2-1068`
+### LEX-INV2-1067
+- **LEX-ID:** `LEX-INV2-1067`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1210
@@ -18273,8 +18256,8 @@
 
 ---
 
-### LEX-INV2-1069
-- **LEX-ID:** `LEX-INV2-1069`
+### LEX-INV2-1068
+- **LEX-ID:** `LEX-INV2-1068`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1222
@@ -18290,8 +18273,8 @@
 
 ---
 
-### LEX-INV2-1070
-- **LEX-ID:** `LEX-INV2-1070`
+### LEX-INV2-1069
+- **LEX-ID:** `LEX-INV2-1069`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1222
@@ -18307,8 +18290,8 @@
 
 ---
 
-### LEX-INV2-1071
-- **LEX-ID:** `LEX-INV2-1071`
+### LEX-INV2-1070
+- **LEX-ID:** `LEX-INV2-1070`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1234
@@ -18324,8 +18307,8 @@
 
 ---
 
-### LEX-INV2-1072
-- **LEX-ID:** `LEX-INV2-1072`
+### LEX-INV2-1071
+- **LEX-ID:** `LEX-INV2-1071`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1234
@@ -18341,8 +18324,8 @@
 
 ---
 
-### LEX-INV2-1073
-- **LEX-ID:** `LEX-INV2-1073`
+### LEX-INV2-1072
+- **LEX-ID:** `LEX-INV2-1072`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1234
@@ -18358,8 +18341,8 @@
 
 ---
 
-### LEX-INV2-1074
-- **LEX-ID:** `LEX-INV2-1074`
+### LEX-INV2-1073
+- **LEX-ID:** `LEX-INV2-1073`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1234
@@ -18375,8 +18358,8 @@
 
 ---
 
-### LEX-INV2-1075
-- **LEX-ID:** `LEX-INV2-1075`
+### LEX-INV2-1074
+- **LEX-ID:** `LEX-INV2-1074`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1234
@@ -18392,8 +18375,8 @@
 
 ---
 
-### LEX-INV2-1076
-- **LEX-ID:** `LEX-INV2-1076`
+### LEX-INV2-1075
+- **LEX-ID:** `LEX-INV2-1075`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1260
@@ -18409,8 +18392,8 @@
 
 ---
 
-### LEX-INV2-1077
-- **LEX-ID:** `LEX-INV2-1077`
+### LEX-INV2-1076
+- **LEX-ID:** `LEX-INV2-1076`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1260
@@ -18426,8 +18409,8 @@
 
 ---
 
-### LEX-INV2-1078
-- **LEX-ID:** `LEX-INV2-1078`
+### LEX-INV2-1077
+- **LEX-ID:** `LEX-INV2-1077`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1260
@@ -18443,8 +18426,8 @@
 
 ---
 
-### LEX-INV2-1079
-- **LEX-ID:** `LEX-INV2-1079`
+### LEX-INV2-1078
+- **LEX-ID:** `LEX-INV2-1078`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1260
@@ -18460,8 +18443,8 @@
 
 ---
 
-### LEX-INV2-1080
-- **LEX-ID:** `LEX-INV2-1080`
+### LEX-INV2-1079
+- **LEX-ID:** `LEX-INV2-1079`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1260
@@ -18477,8 +18460,8 @@
 
 ---
 
-### LEX-INV2-1081
-- **LEX-ID:** `LEX-INV2-1081`
+### LEX-INV2-1080
+- **LEX-ID:** `LEX-INV2-1080`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1260
@@ -18494,14 +18477,31 @@
 
 ---
 
-### LEX-INV2-1082
-- **LEX-ID:** `LEX-INV2-1082`
+### LEX-INV2-1081
+- **LEX-ID:** `LEX-INV2-1081`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1272
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...аши и врядовые в справахъ людъскихъ подавати и на право часу чиненья одному от другого за листы упоминаль...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1082
+- **LEX-ID:** `LEX-INV2-1082`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1272
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...посланьемъ врядовымъ заповедать сторону, ижъбы от права не от[ъ]еждчала, а по сказанью вряду земъского аб...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -18518,7 +18518,7 @@
 - **LOCATOR:** рядок 1272
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...посланьемъ врядовымъ заповедать сторону, ижъбы от права не от[ъ]еждчала, а по сказанью вряду земъского аб...
+  > ...ыписы с книгъ врядовых сознанья возного у кождого права приймованы быти мають. А кгды бы возный, не доеха...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -18530,23 +18530,6 @@
 
 ### LEX-INV2-1084
 - **LEX-ID:** `LEX-INV2-1084`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1272
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ыписы с книгъ врядовых сознанья возного у кождого права приймованы быти мають. А кгды бы возный, не доеха...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1085
-- **LEX-ID:** `LEX-INV2-1085`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1272
@@ -18562,8 +18545,8 @@
 
 ---
 
-### LEX-INV2-1086
-- **LEX-ID:** `LEX-INV2-1086`
+### LEX-INV2-1085
+- **LEX-ID:** `LEX-INV2-1085`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1284
@@ -18579,8 +18562,8 @@
 
 ---
 
-### LEX-INV2-1087
-- **LEX-ID:** `LEX-INV2-1087`
+### LEX-INV2-1086
+- **LEX-ID:** `LEX-INV2-1086`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1284
@@ -18596,8 +18579,8 @@
 
 ---
 
-### LEX-INV2-1088
-- **LEX-ID:** `LEX-INV2-1088`
+### LEX-INV2-1087
+- **LEX-ID:** `LEX-INV2-1087`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1296
@@ -18613,8 +18596,8 @@
 
 ---
 
-### LEX-INV2-1089
-- **LEX-ID:** `LEX-INV2-1089`
+### LEX-INV2-1088
+- **LEX-ID:** `LEX-INV2-1088`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1296
@@ -18630,8 +18613,8 @@
 
 ---
 
-### LEX-INV2-1090
-- **LEX-ID:** `LEX-INV2-1090`
+### LEX-INV2-1089
+- **LEX-ID:** `LEX-INV2-1089`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1320
@@ -18647,8 +18630,8 @@
 
 ---
 
-### LEX-INV2-1091
-- **LEX-ID:** `LEX-INV2-1091`
+### LEX-INV2-1090
+- **LEX-ID:** `LEX-INV2-1090`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1320
@@ -18664,8 +18647,8 @@
 
 ---
 
-### LEX-INV2-1092
-- **LEX-ID:** `LEX-INV2-1092`
+### LEX-INV2-1091
+- **LEX-ID:** `LEX-INV2-1091`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1320
@@ -18681,8 +18664,8 @@
 
 ---
 
-### LEX-INV2-1093
-- **LEX-ID:** `LEX-INV2-1093`
+### LEX-INV2-1092
+- **LEX-ID:** `LEX-INV2-1092`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1320
@@ -18698,6 +18681,23 @@
 
 ---
 
+### LEX-INV2-1093
+- **LEX-ID:** `LEX-INV2-1093`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1344
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...аеть. А платити то маеть тотъ, хто винен в чомъ с права зостанет. А естли бы вязень с права от объжалован...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1094
 - **LEX-ID:** `LEX-INV2-1094`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -18705,7 +18705,7 @@
 - **LOCATOR:** рядок 1344
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...аеть. А платити то маеть тотъ, хто винен в чомъ с права зостанет. А естли бы вязень с права от объжалован...
+  > ...инен в чомъ с права зостанет. А естли бы вязень с права от объжалованья стороны противное вольным былъ вч...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -18722,7 +18722,7 @@
 - **LOCATOR:** рядок 1344
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...инен в чомъ с права зостанет. А естли бы вязень с права от объжалованья стороны противное вольным былъ вч...
+  > ...езенья вязня упустилъ, о томъ за припозваньемъ до права належного водлугъ описаня сего статуту маеть быти...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -18739,7 +18739,7 @@
 - **LOCATOR:** рядок 1344
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...езенья вязня упустилъ, о томъ за припозваньемъ до права належного водлугъ описаня сего статуту маеть быти...
+  > ...язня до везенья упустилъ. А што будеть от вряду с права сказано, то панъ або врядникъ его за декретомъ вр...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -18751,23 +18751,6 @@
 
 ### LEX-INV2-1097
 - **LEX-ID:** `LEX-INV2-1097`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1344
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...язня до везенья упустилъ. А што будеть от вряду с права сказано, то панъ або врядникъ его за декретомъ вр...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1098
-- **LEX-ID:** `LEX-INV2-1098`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1344
@@ -18783,8 +18766,8 @@
 
 ---
 
-### LEX-INV2-1099
-- **LEX-ID:** `LEX-INV2-1099`
+### LEX-INV2-1098
+- **LEX-ID:** `LEX-INV2-1098`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1344
@@ -18800,8 +18783,8 @@
 
 ---
 
-### LEX-INV2-1100
-- **LEX-ID:** `LEX-INV2-1100`
+### LEX-INV2-1099
+- **LEX-ID:** `LEX-INV2-1099`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1352
@@ -18817,8 +18800,8 @@
 
 ---
 
-### LEX-INV2-1101
-- **LEX-ID:** `LEX-INV2-1101`
+### LEX-INV2-1100
+- **LEX-ID:** `LEX-INV2-1100`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1356
@@ -18834,8 +18817,8 @@
 
 ---
 
-### LEX-INV2-1102
-- **LEX-ID:** `LEX-INV2-1102`
+### LEX-INV2-1101
+- **LEX-ID:** `LEX-INV2-1101`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1368
@@ -18851,8 +18834,8 @@
 
 ---
 
-### LEX-INV2-1103
-- **LEX-ID:** `LEX-INV2-1103`
+### LEX-INV2-1102
+- **LEX-ID:** `LEX-INV2-1102`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1368
@@ -18868,8 +18851,8 @@
 
 ---
 
-### LEX-INV2-1104
-- **LEX-ID:** `LEX-INV2-1104`
+### LEX-INV2-1103
+- **LEX-ID:** `LEX-INV2-1103`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1368
@@ -18885,8 +18868,8 @@
 
 ---
 
-### LEX-INV2-1105
-- **LEX-ID:** `LEX-INV2-1105`
+### LEX-INV2-1104
+- **LEX-ID:** `LEX-INV2-1104`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1380
@@ -18902,8 +18885,8 @@
 
 ---
 
-### LEX-INV2-1106
-- **LEX-ID:** `LEX-INV2-1106`
+### LEX-INV2-1105
+- **LEX-ID:** `LEX-INV2-1105`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1380
@@ -18919,8 +18902,8 @@
 
 ---
 
-### LEX-INV2-1107
-- **LEX-ID:** `LEX-INV2-1107`
+### LEX-INV2-1106
+- **LEX-ID:** `LEX-INV2-1106`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1392
@@ -18936,8 +18919,8 @@
 
 ---
 
-### LEX-INV2-1108
-- **LEX-ID:** `LEX-INV2-1108`
+### LEX-INV2-1107
+- **LEX-ID:** `LEX-INV2-1107`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1392
@@ -18953,8 +18936,8 @@
 
 ---
 
-### LEX-INV2-1109
-- **LEX-ID:** `LEX-INV2-1109`
+### LEX-INV2-1108
+- **LEX-ID:** `LEX-INV2-1108`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1392
@@ -18970,8 +18953,8 @@
 
 ---
 
-### LEX-INV2-1110
-- **LEX-ID:** `LEX-INV2-1110`
+### LEX-INV2-1109
+- **LEX-ID:** `LEX-INV2-1109`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1392
@@ -18987,8 +18970,8 @@
 
 ---
 
-### LEX-INV2-1111
-- **LEX-ID:** `LEX-INV2-1111`
+### LEX-INV2-1110
+- **LEX-ID:** `LEX-INV2-1110`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1404
@@ -19004,8 +18987,8 @@
 
 ---
 
-### LEX-INV2-1112
-- **LEX-ID:** `LEX-INV2-1112`
+### LEX-INV2-1111
+- **LEX-ID:** `LEX-INV2-1111`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1412
@@ -19021,8 +19004,8 @@
 
 ---
 
-### LEX-INV2-1113
-- **LEX-ID:** `LEX-INV2-1113`
+### LEX-INV2-1112
+- **LEX-ID:** `LEX-INV2-1112`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1412
@@ -19038,8 +19021,8 @@
 
 ---
 
-### LEX-INV2-1114
-- **LEX-ID:** `LEX-INV2-1114`
+### LEX-INV2-1113
+- **LEX-ID:** `LEX-INV2-1113`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1416
@@ -19055,8 +19038,8 @@
 
 ---
 
-### LEX-INV2-1115
-- **LEX-ID:** `LEX-INV2-1115`
+### LEX-INV2-1114
+- **LEX-ID:** `LEX-INV2-1114`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1416
@@ -19072,8 +19055,8 @@
 
 ---
 
-### LEX-INV2-1116
-- **LEX-ID:** `LEX-INV2-1116`
+### LEX-INV2-1115
+- **LEX-ID:** `LEX-INV2-1115`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1416
@@ -19089,8 +19072,8 @@
 
 ---
 
-### LEX-INV2-1117
-- **LEX-ID:** `LEX-INV2-1117`
+### LEX-INV2-1116
+- **LEX-ID:** `LEX-INV2-1116`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1428
@@ -19106,6 +19089,23 @@
 
 ---
 
+### LEX-INV2-1117
+- **LEX-ID:** `LEX-INV2-1117`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1440
+- **SOURCE-FORM:** `правдиве`
+- **EXACT-CONTEXT:**
+  > ...озваньемъ стороны поводовое маеть прысягнути, яко правдиве немоцон былъ. А естли бы прысягнути не хотелъ, то...
+- **ROOT-FAMILY:** `PRAVDA`
+- **POS-CANDIDATE:** `ADJ`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1118
 - **LEX-ID:** `LEX-INV2-1118`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -19113,7 +19113,7 @@
 - **LOCATOR:** рядок 1440
 - **SOURCE-FORM:** `правдиве`
 - **EXACT-CONTEXT:**
-  > ...озваньемъ стороны поводовое маеть прысягнути, яко правдиве немоцон былъ. А естли бы прысягнути не хотелъ, то...
+  > ..., што ся хоробою вымовляеть, маеть прысегнути, же правдиве обложною хоробою на першых и на тыхъ другихъ роко...
 - **ROOT-FAMILY:** `PRAVDA`
 - **POS-CANDIDATE:** `ADJ`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -19130,7 +19130,7 @@
 - **LOCATOR:** рядок 1440
 - **SOURCE-FORM:** `правдиве`
 - **EXACT-CONTEXT:**
-  > ..., што ся хоробою вымовляеть, маеть прысегнути, же правдиве обложною хоробою на першых и на тыхъ другихъ роко...
+  > ..., ижъ не ку зволоце стороне своей противъной, але правдиве за хоробою своею на перъшомъ року стати не могъ....
 - **ROOT-FAMILY:** `PRAVDA`
 - **POS-CANDIDATE:** `ADJ`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -19142,23 +19142,6 @@
 
 ### LEX-INV2-1120
 - **LEX-ID:** `LEX-INV2-1120`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1440
-- **SOURCE-FORM:** `правдиве`
-- **EXACT-CONTEXT:**
-  > ..., ижъ не ку зволоце стороне своей противъной, але правдиве за хоробою своею на перъшомъ року стати не могъ....
-- **ROOT-FAMILY:** `PRAVDA`
-- **POS-CANDIDATE:** `ADJ`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1121
-- **LEX-ID:** `LEX-INV2-1121`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1440
@@ -19174,8 +19157,8 @@
 
 ---
 
-### LEX-INV2-1122
-- **LEX-ID:** `LEX-INV2-1122`
+### LEX-INV2-1121
+- **LEX-ID:** `LEX-INV2-1121`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1440
@@ -19191,8 +19174,8 @@
 
 ---
 
-### LEX-INV2-1123
-- **LEX-ID:** `LEX-INV2-1123`
+### LEX-INV2-1122
+- **LEX-ID:** `LEX-INV2-1122`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1440
@@ -19208,8 +19191,8 @@
 
 ---
 
-### LEX-INV2-1124
-- **LEX-ID:** `LEX-INV2-1124`
+### LEX-INV2-1123
+- **LEX-ID:** `LEX-INV2-1123`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1440
@@ -19225,14 +19208,31 @@
 
 ---
 
-### LEX-INV2-1125
-- **LEX-ID:** `LEX-INV2-1125`
+### LEX-INV2-1124
+- **LEX-ID:** `LEX-INV2-1124`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1440
 - **SOURCE-FORM:** `присягнеть`
 - **EXACT-CONTEXT:**
   > ...зный и шляхъта, от вряду взятые, естли тотъ хорый присягнеть, заразомъ передъ тымъ врядомъ, от которого послан...
+- **ROOT-FAMILY:** `PRISYAGA`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1125
+- **LEX-ID:** `LEX-INV2-1125`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1440
+- **SOURCE-FORM:** `прысягнути`
+- **EXACT-CONTEXT:**
+  > ...ъ рокохъ за прыпозваньемъ стороны поводовое маеть прысягнути, яко правдиве немоцон былъ. А естли бы прысягнути...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -19249,7 +19249,7 @@
 - **LOCATOR:** рядок 1440
 - **SOURCE-FORM:** `прысягнути`
 - **EXACT-CONTEXT:**
-  > ...ъ рокохъ за прыпозваньемъ стороны поводовое маеть прысягнути, яко правдиве немоцон былъ. А естли бы прысягнути...
+  > ...прысягнути, яко правдиве немоцон былъ. А естли бы прысягнути не хотелъ, тогды на тыхъ другихъ рокохъ маеть вин...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -19261,23 +19261,6 @@
 
 ### LEX-INV2-1127
 - **LEX-ID:** `LEX-INV2-1127`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1440
-- **SOURCE-FORM:** `прысягнути`
-- **EXACT-CONTEXT:**
-  > ...прысягнути, яко правдиве немоцон былъ. А естли бы прысягнути не хотелъ, тогды на тыхъ другихъ рокохъ маеть вин...
-- **ROOT-FAMILY:** `PRISYAGA`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1128
-- **LEX-ID:** `LEX-INV2-1128`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1440
@@ -19293,8 +19276,8 @@
 
 ---
 
-### LEX-INV2-1129
-- **LEX-ID:** `LEX-INV2-1129`
+### LEX-INV2-1128
+- **LEX-ID:** `LEX-INV2-1128`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1440
@@ -19310,8 +19293,8 @@
 
 ---
 
-### LEX-INV2-1130
-- **LEX-ID:** `LEX-INV2-1130`
+### LEX-INV2-1129
+- **LEX-ID:** `LEX-INV2-1129`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1448
@@ -19327,8 +19310,8 @@
 
 ---
 
-### LEX-INV2-1131
-- **LEX-ID:** `LEX-INV2-1131`
+### LEX-INV2-1130
+- **LEX-ID:** `LEX-INV2-1130`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1452
@@ -19344,8 +19327,8 @@
 
 ---
 
-### LEX-INV2-1132
-- **LEX-ID:** `LEX-INV2-1132`
+### LEX-INV2-1131
+- **LEX-ID:** `LEX-INV2-1131`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1452
@@ -19361,8 +19344,8 @@
 
 ---
 
-### LEX-INV2-1133
-- **LEX-ID:** `LEX-INV2-1133`
+### LEX-INV2-1132
+- **LEX-ID:** `LEX-INV2-1132`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1452
@@ -19378,8 +19361,8 @@
 
 ---
 
-### LEX-INV2-1134
-- **LEX-ID:** `LEX-INV2-1134`
+### LEX-INV2-1133
+- **LEX-ID:** `LEX-INV2-1133`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1452
@@ -19395,8 +19378,8 @@
 
 ---
 
-### LEX-INV2-1135
-- **LEX-ID:** `LEX-INV2-1135`
+### LEX-INV2-1134
+- **LEX-ID:** `LEX-INV2-1134`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1452
@@ -19412,8 +19395,8 @@
 
 ---
 
-### LEX-INV2-1136
-- **LEX-ID:** `LEX-INV2-1136`
+### LEX-INV2-1135
+- **LEX-ID:** `LEX-INV2-1135`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1452
@@ -19429,8 +19412,8 @@
 
 ---
 
-### LEX-INV2-1137
-- **LEX-ID:** `LEX-INV2-1137`
+### LEX-INV2-1136
+- **LEX-ID:** `LEX-INV2-1136`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1460
@@ -19446,8 +19429,8 @@
 
 ---
 
-### LEX-INV2-1138
-- **LEX-ID:** `LEX-INV2-1138`
+### LEX-INV2-1137
+- **LEX-ID:** `LEX-INV2-1137`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1464
@@ -19463,8 +19446,8 @@
 
 ---
 
-### LEX-INV2-1139
-- **LEX-ID:** `LEX-INV2-1139`
+### LEX-INV2-1138
+- **LEX-ID:** `LEX-INV2-1138`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1464
@@ -19480,8 +19463,8 @@
 
 ---
 
-### LEX-INV2-1140
-- **LEX-ID:** `LEX-INV2-1140`
+### LEX-INV2-1139
+- **LEX-ID:** `LEX-INV2-1139`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1464
@@ -19497,8 +19480,8 @@
 
 ---
 
-### LEX-INV2-1141
-- **LEX-ID:** `LEX-INV2-1141`
+### LEX-INV2-1140
+- **LEX-ID:** `LEX-INV2-1140`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1464
@@ -19514,8 +19497,8 @@
 
 ---
 
-### LEX-INV2-1142
-- **LEX-ID:** `LEX-INV2-1142`
+### LEX-INV2-1141
+- **LEX-ID:** `LEX-INV2-1141`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1464
@@ -19531,8 +19514,8 @@
 
 ---
 
-### LEX-INV2-1143
-- **LEX-ID:** `LEX-INV2-1143`
+### LEX-INV2-1142
+- **LEX-ID:** `LEX-INV2-1142`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1488
@@ -19548,8 +19531,8 @@
 
 ---
 
-### LEX-INV2-1144
-- **LEX-ID:** `LEX-INV2-1144`
+### LEX-INV2-1143
+- **LEX-ID:** `LEX-INV2-1143`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1488
@@ -19565,8 +19548,8 @@
 
 ---
 
-### LEX-INV2-1145
-- **LEX-ID:** `LEX-INV2-1145`
+### LEX-INV2-1144
+- **LEX-ID:** `LEX-INV2-1144`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1488
@@ -19582,8 +19565,8 @@
 
 ---
 
-### LEX-INV2-1146
-- **LEX-ID:** `LEX-INV2-1146`
+### LEX-INV2-1145
+- **LEX-ID:** `LEX-INV2-1145`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1488
@@ -19599,8 +19582,8 @@
 
 ---
 
-### LEX-INV2-1147
-- **LEX-ID:** `LEX-INV2-1147`
+### LEX-INV2-1146
+- **LEX-ID:** `LEX-INV2-1146`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1488
@@ -19616,8 +19599,8 @@
 
 ---
 
-### LEX-INV2-1148
-- **LEX-ID:** `LEX-INV2-1148`
+### LEX-INV2-1147
+- **LEX-ID:** `LEX-INV2-1147`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1500
@@ -19633,8 +19616,8 @@
 
 ---
 
-### LEX-INV2-1149
-- **LEX-ID:** `LEX-INV2-1149`
+### LEX-INV2-1148
+- **LEX-ID:** `LEX-INV2-1148`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1500
@@ -19650,8 +19633,8 @@
 
 ---
 
-### LEX-INV2-1150
-- **LEX-ID:** `LEX-INV2-1150`
+### LEX-INV2-1149
+- **LEX-ID:** `LEX-INV2-1149`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1512
@@ -19667,8 +19650,8 @@
 
 ---
 
-### LEX-INV2-1151
-- **LEX-ID:** `LEX-INV2-1151`
+### LEX-INV2-1150
+- **LEX-ID:** `LEX-INV2-1150`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1512
@@ -19684,8 +19667,8 @@
 
 ---
 
-### LEX-INV2-1152
-- **LEX-ID:** `LEX-INV2-1152`
+### LEX-INV2-1151
+- **LEX-ID:** `LEX-INV2-1151`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1512
@@ -19701,8 +19684,8 @@
 
 ---
 
-### LEX-INV2-1153
-- **LEX-ID:** `LEX-INV2-1153`
+### LEX-INV2-1152
+- **LEX-ID:** `LEX-INV2-1152`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1512
@@ -19718,8 +19701,8 @@
 
 ---
 
-### LEX-INV2-1154
-- **LEX-ID:** `LEX-INV2-1154`
+### LEX-INV2-1153
+- **LEX-ID:** `LEX-INV2-1153`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1512
@@ -19735,8 +19718,8 @@
 
 ---
 
-### LEX-INV2-1155
-- **LEX-ID:** `LEX-INV2-1155`
+### LEX-INV2-1154
+- **LEX-ID:** `LEX-INV2-1154`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1524
@@ -19752,8 +19735,8 @@
 
 ---
 
-### LEX-INV2-1156
-- **LEX-ID:** `LEX-INV2-1156`
+### LEX-INV2-1155
+- **LEX-ID:** `LEX-INV2-1155`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1524
@@ -19769,8 +19752,8 @@
 
 ---
 
-### LEX-INV2-1157
-- **LEX-ID:** `LEX-INV2-1157`
+### LEX-INV2-1156
+- **LEX-ID:** `LEX-INV2-1156`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1524
@@ -19786,8 +19769,8 @@
 
 ---
 
-### LEX-INV2-1158
-- **LEX-ID:** `LEX-INV2-1158`
+### LEX-INV2-1157
+- **LEX-ID:** `LEX-INV2-1157`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1528
@@ -19803,8 +19786,8 @@
 
 ---
 
-### LEX-INV2-1159
-- **LEX-ID:** `LEX-INV2-1159`
+### LEX-INV2-1158
+- **LEX-ID:** `LEX-INV2-1158`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1528
@@ -19820,8 +19803,8 @@
 
 ---
 
-### LEX-INV2-1160
-- **LEX-ID:** `LEX-INV2-1160`
+### LEX-INV2-1159
+- **LEX-ID:** `LEX-INV2-1159`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1528
@@ -19837,8 +19820,8 @@
 
 ---
 
-### LEX-INV2-1161
-- **LEX-ID:** `LEX-INV2-1161`
+### LEX-INV2-1160
+- **LEX-ID:** `LEX-INV2-1160`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1528
@@ -19854,8 +19837,8 @@
 
 ---
 
-### LEX-INV2-1162
-- **LEX-ID:** `LEX-INV2-1162`
+### LEX-INV2-1161
+- **LEX-ID:** `LEX-INV2-1161`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1540
@@ -19871,14 +19854,31 @@
 
 ---
 
-### LEX-INV2-1163
-- **LEX-ID:** `LEX-INV2-1163`
+### LEX-INV2-1162
+- **LEX-ID:** `LEX-INV2-1162`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1540
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...о везенья утечеть, яко и стороне жалобной имати и правомъ передъ тымъ врядомъ, гдЪ его постигнеть, поконыва...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1163
+- **LEX-ID:** `LEX-INV2-1163`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1540
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...му верънути будеть повинъна, а того вязня водлугъ права наконецъ поконывать во всемъ томъ, о што ему идет...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -19895,7 +19895,7 @@
 - **LOCATOR:** рядок 1540
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...му верънути будеть повинъна, а того вязня водлугъ права наконецъ поконывать во всемъ томъ, о што ему идет...
+  > ...с помочниками своими, яко бунтовники и взрушители права посполитого, горъломъ и отсуженьемъ почстивости к...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -19907,23 +19907,6 @@
 
 ### LEX-INV2-1165
 - **LEX-ID:** `LEX-INV2-1165`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1540
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...с помочниками своими, яко бунтовники и взрушители права посполитого, горъломъ и отсуженьемъ почстивости к...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1166
-- **LEX-ID:** `LEX-INV2-1166`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1540
@@ -19939,8 +19922,8 @@
 
 ---
 
-### LEX-INV2-1167
-- **LEX-ID:** `LEX-INV2-1167`
+### LEX-INV2-1166
+- **LEX-ID:** `LEX-INV2-1166`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1552
@@ -19956,8 +19939,8 @@
 
 ---
 
-### LEX-INV2-1168
-- **LEX-ID:** `LEX-INV2-1168`
+### LEX-INV2-1167
+- **LEX-ID:** `LEX-INV2-1167`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1556
@@ -19973,8 +19956,8 @@
 
 ---
 
-### LEX-INV2-1169
-- **LEX-ID:** `LEX-INV2-1169`
+### LEX-INV2-1168
+- **LEX-ID:** `LEX-INV2-1168`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1556
@@ -19990,8 +19973,8 @@
 
 ---
 
-### LEX-INV2-1170
-- **LEX-ID:** `LEX-INV2-1170`
+### LEX-INV2-1169
+- **LEX-ID:** `LEX-INV2-1169`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1556
@@ -20007,8 +19990,8 @@
 
 ---
 
-### LEX-INV2-1171
-- **LEX-ID:** `LEX-INV2-1171`
+### LEX-INV2-1170
+- **LEX-ID:** `LEX-INV2-1170`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1556
@@ -20024,8 +20007,8 @@
 
 ---
 
-### LEX-INV2-1172
-- **LEX-ID:** `LEX-INV2-1172`
+### LEX-INV2-1171
+- **LEX-ID:** `LEX-INV2-1171`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1556
@@ -20041,8 +20024,8 @@
 
 ---
 
-### LEX-INV2-1173
-- **LEX-ID:** `LEX-INV2-1173`
+### LEX-INV2-1172
+- **LEX-ID:** `LEX-INV2-1172`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1556
@@ -20058,8 +20041,8 @@
 
 ---
 
-### LEX-INV2-1174
-- **LEX-ID:** `LEX-INV2-1174`
+### LEX-INV2-1173
+- **LEX-ID:** `LEX-INV2-1173`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1568
@@ -20075,8 +20058,8 @@
 
 ---
 
-### LEX-INV2-1175
-- **LEX-ID:** `LEX-INV2-1175`
+### LEX-INV2-1174
+- **LEX-ID:** `LEX-INV2-1174`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1580
@@ -20092,14 +20075,31 @@
 
 ---
 
-### LEX-INV2-1176
-- **LEX-ID:** `LEX-INV2-1176`
+### LEX-INV2-1175
+- **LEX-ID:** `LEX-INV2-1175`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1592
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...кий вынятые, оселого в томъ паньстве не позвал ку праву черезъ тры годы, таковый вжо вечнЪ о то молчати м...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1176
+- **LEX-ID:** `LEX-INV2-1176`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1592
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...ляхетъской дЪти або близъские такие, кому бы о то правомъ чинити належало, еще летъ недорослыхъ были, або б...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20116,7 +20116,7 @@
 - **LOCATOR:** рядок 1592
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...ляхетъской дЪти або близъские такие, кому бы о то правомъ чинити належало, еще летъ недорослыхъ были, або б...
+  > ...олъныхъ або с чужихъ земль приехавъши, могут о то правомъ чинитн, толко бы по дошъстью летъ або по приехань...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20128,23 +20128,6 @@
 
 ### LEX-INV2-1178
 - **LEX-ID:** `LEX-INV2-1178`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1592
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...олъныхъ або с чужихъ земль приехавъши, могут о то правомъ чинитн, толко бы по дошъстью летъ або по приехань...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1179
-- **LEX-ID:** `LEX-INV2-1179`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1604
@@ -20160,8 +20143,8 @@
 
 ---
 
-### LEX-INV2-1180
-- **LEX-ID:** `LEX-INV2-1180`
+### LEX-INV2-1179
+- **LEX-ID:** `LEX-INV2-1179`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1604
@@ -20177,8 +20160,8 @@
 
 ---
 
-### LEX-INV2-1181
-- **LEX-ID:** `LEX-INV2-1181`
+### LEX-INV2-1180
+- **LEX-ID:** `LEX-INV2-1180`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1604
@@ -20194,8 +20177,8 @@
 
 ---
 
-### LEX-INV2-1182
-- **LEX-ID:** `LEX-INV2-1182`
+### LEX-INV2-1181
+- **LEX-ID:** `LEX-INV2-1181`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1616
@@ -20211,14 +20194,31 @@
 
 ---
 
-### LEX-INV2-1183
-- **LEX-ID:** `LEX-INV2-1183`
+### LEX-INV2-1182
+- **LEX-ID:** `LEX-INV2-1182`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1616
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...яду, если бы се кому проволока або якое уближенье праву стало, тогды воеводове, старостове судовые, кгды...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1183
+- **LEX-ID:** `LEX-INV2-1183`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1616
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...е и въ справе ихъ поблудило, а зъ статутомъ бы се права посполитого не згожало и што бы се стороне которо...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20235,7 +20235,7 @@
 - **LOCATOR:** рядок 1616
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...е и въ справе ихъ поблудило, а зъ статутомъ бы се права посполитого не згожало и што бы се стороне которо...
+  > ...роне жалобной розсудокъ и сказанье ихъ не водлугъ права видело, тогды той стороне жалобной волно будеть в...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20247,23 +20247,6 @@
 
 ### LEX-INV2-1185
 - **LEX-ID:** `LEX-INV2-1185`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1616
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...роне жалобной розсудокъ и сказанье ихъ не водлугъ права видело, тогды той стороне жалобной волно будеть в...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1186
-- **LEX-ID:** `LEX-INV2-1186`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1616
@@ -20279,8 +20262,8 @@
 
 ---
 
-### LEX-INV2-1187
-- **LEX-ID:** `LEX-INV2-1187`
+### LEX-INV2-1186
+- **LEX-ID:** `LEX-INV2-1186`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1616
@@ -20296,8 +20279,8 @@
 
 ---
 
-### LEX-INV2-1188
-- **LEX-ID:** `LEX-INV2-1188`
+### LEX-INV2-1187
+- **LEX-ID:** `LEX-INV2-1187`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1616
@@ -20313,8 +20296,8 @@
 
 ---
 
-### LEX-INV2-1189
-- **LEX-ID:** `LEX-INV2-1189`
+### LEX-INV2-1188
+- **LEX-ID:** `LEX-INV2-1188`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1628
@@ -20330,8 +20313,8 @@
 
 ---
 
-### LEX-INV2-1190
-- **LEX-ID:** `LEX-INV2-1190`
+### LEX-INV2-1189
+- **LEX-ID:** `LEX-INV2-1189`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1628
@@ -20347,8 +20330,8 @@
 
 ---
 
-### LEX-INV2-1191
-- **LEX-ID:** `LEX-INV2-1191`
+### LEX-INV2-1190
+- **LEX-ID:** `LEX-INV2-1190`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1628
@@ -20364,8 +20347,8 @@
 
 ---
 
-### LEX-INV2-1192
-- **LEX-ID:** `LEX-INV2-1192`
+### LEX-INV2-1191
+- **LEX-ID:** `LEX-INV2-1191`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1628
@@ -20381,8 +20364,8 @@
 
 ---
 
-### LEX-INV2-1193
-- **LEX-ID:** `LEX-INV2-1193`
+### LEX-INV2-1192
+- **LEX-ID:** `LEX-INV2-1192`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1640
@@ -20398,8 +20381,8 @@
 
 ---
 
-### LEX-INV2-1194
-- **LEX-ID:** `LEX-INV2-1194`
+### LEX-INV2-1193
+- **LEX-ID:** `LEX-INV2-1193`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1640
@@ -20415,8 +20398,8 @@
 
 ---
 
-### LEX-INV2-1195
-- **LEX-ID:** `LEX-INV2-1195`
+### LEX-INV2-1194
+- **LEX-ID:** `LEX-INV2-1194`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1640
@@ -20432,8 +20415,8 @@
 
 ---
 
-### LEX-INV2-1196
-- **LEX-ID:** `LEX-INV2-1196`
+### LEX-INV2-1195
+- **LEX-ID:** `LEX-INV2-1195`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1652
@@ -20449,8 +20432,8 @@
 
 ---
 
-### LEX-INV2-1197
-- **LEX-ID:** `LEX-INV2-1197`
+### LEX-INV2-1196
+- **LEX-ID:** `LEX-INV2-1196`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1652
@@ -20466,8 +20449,8 @@
 
 ---
 
-### LEX-INV2-1198
-- **LEX-ID:** `LEX-INV2-1198`
+### LEX-INV2-1197
+- **LEX-ID:** `LEX-INV2-1197`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1652
@@ -20483,8 +20466,8 @@
 
 ---
 
-### LEX-INV2-1199
-- **LEX-ID:** `LEX-INV2-1199`
+### LEX-INV2-1198
+- **LEX-ID:** `LEX-INV2-1198`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1652
@@ -20500,8 +20483,8 @@
 
 ---
 
-### LEX-INV2-1200
-- **LEX-ID:** `LEX-INV2-1200`
+### LEX-INV2-1199
+- **LEX-ID:** `LEX-INV2-1199`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1660
@@ -20517,8 +20500,8 @@
 
 ---
 
-### LEX-INV2-1201
-- **LEX-ID:** `LEX-INV2-1201`
+### LEX-INV2-1200
+- **LEX-ID:** `LEX-INV2-1200`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20534,8 +20517,8 @@
 
 ---
 
-### LEX-INV2-1202
-- **LEX-ID:** `LEX-INV2-1202`
+### LEX-INV2-1201
+- **LEX-ID:** `LEX-INV2-1201`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20551,8 +20534,8 @@
 
 ---
 
-### LEX-INV2-1203
-- **LEX-ID:** `LEX-INV2-1203`
+### LEX-INV2-1202
+- **LEX-ID:** `LEX-INV2-1202`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20568,8 +20551,8 @@
 
 ---
 
-### LEX-INV2-1204
-- **LEX-ID:** `LEX-INV2-1204`
+### LEX-INV2-1203
+- **LEX-ID:** `LEX-INV2-1203`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20585,8 +20568,8 @@
 
 ---
 
-### LEX-INV2-1205
-- **LEX-ID:** `LEX-INV2-1205`
+### LEX-INV2-1204
+- **LEX-ID:** `LEX-INV2-1204`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20602,14 +20585,31 @@
 
 ---
 
-### LEX-INV2-1206
-- **LEX-ID:** `LEX-INV2-1206`
+### LEX-INV2-1205
+- **LEX-ID:** `LEX-INV2-1205`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...горъла не заслужить. Ведъ же естли бы се на томъ праве оказалъ який фалшъ и подъступокъ значный, явный,...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1206
+- **LEX-ID:** `LEX-INV2-1206`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1664
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...одъступокъ значный, явный, за што бы слушнЪ водле права мелъ быти горъломъ каранъ, тогды такового вряд ма...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20626,7 +20626,7 @@
 - **LOCATOR:** рядок 1664
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...одъступокъ значный, явный, за што бы слушнЪ водле права мелъ быти горъломъ каранъ, тогды такового вряд ма...
+  > ...ряд маеть судити, сказовати и карати водлугъ сего права посполитого и выступку его. Пакли ж бы тотъ, хто...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20643,7 +20643,7 @@
 - **LOCATOR:** рядок 1664
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ряд маеть судити, сказовати и карати водлугъ сего права посполитого и выступку его. Пакли ж бы тотъ, хто...
+  > ...го. Пакли ж бы тотъ, хто позоветь о злый переводъ права, тое жалобы своей не довелъ, але бы тое позванье...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20655,23 +20655,6 @@
 
 ### LEX-INV2-1209
 - **LEX-ID:** `LEX-INV2-1209`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1664
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...го. Пакли ж бы тотъ, хто позоветь о злый переводъ права, тое жалобы своей не довелъ, але бы тое позванье...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1210
-- **LEX-ID:** `LEX-INV2-1210`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20687,8 +20670,8 @@
 
 ---
 
-### LEX-INV2-1211
-- **LEX-ID:** `LEX-INV2-1211`
+### LEX-INV2-1210
+- **LEX-ID:** `LEX-INV2-1210`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20704,8 +20687,8 @@
 
 ---
 
-### LEX-INV2-1212
-- **LEX-ID:** `LEX-INV2-1212`
+### LEX-INV2-1211
+- **LEX-ID:** `LEX-INV2-1211`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20721,8 +20704,8 @@
 
 ---
 
-### LEX-INV2-1213
-- **LEX-ID:** `LEX-INV2-1213`
+### LEX-INV2-1212
+- **LEX-ID:** `LEX-INV2-1212`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1664
@@ -20738,8 +20721,8 @@
 
 ---
 
-### LEX-INV2-1214
-- **LEX-ID:** `LEX-INV2-1214`
+### LEX-INV2-1213
+- **LEX-ID:** `LEX-INV2-1213`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1676
@@ -20755,8 +20738,8 @@
 
 ---
 
-### LEX-INV2-1215
-- **LEX-ID:** `LEX-INV2-1215`
+### LEX-INV2-1214
+- **LEX-ID:** `LEX-INV2-1214`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1676
@@ -20772,8 +20755,8 @@
 
 ---
 
-### LEX-INV2-1216
-- **LEX-ID:** `LEX-INV2-1216`
+### LEX-INV2-1215
+- **LEX-ID:** `LEX-INV2-1215`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1676
@@ -20789,8 +20772,8 @@
 
 ---
 
-### LEX-INV2-1217
-- **LEX-ID:** `LEX-INV2-1217`
+### LEX-INV2-1216
+- **LEX-ID:** `LEX-INV2-1216`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1676
@@ -20806,8 +20789,8 @@
 
 ---
 
-### LEX-INV2-1218
-- **LEX-ID:** `LEX-INV2-1218`
+### LEX-INV2-1217
+- **LEX-ID:** `LEX-INV2-1217`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1676
@@ -20823,8 +20806,8 @@
 
 ---
 
-### LEX-INV2-1219
-- **LEX-ID:** `LEX-INV2-1219`
+### LEX-INV2-1218
+- **LEX-ID:** `LEX-INV2-1218`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1676
@@ -20840,8 +20823,8 @@
 
 ---
 
-### LEX-INV2-1220
-- **LEX-ID:** `LEX-INV2-1220`
+### LEX-INV2-1219
+- **LEX-ID:** `LEX-INV2-1219`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1676
@@ -20857,14 +20840,31 @@
 
 ---
 
-### LEX-INV2-1221
-- **LEX-ID:** `LEX-INV2-1221`
+### LEX-INV2-1220
+- **LEX-ID:** `LEX-INV2-1220`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1712
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...позваный оселый можеть заразомъ не отповедати и в право сЪ не вдавати, аж бы се тежъ онъ противникъ его н...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1221
+- **LEX-ID:** `LEX-INV2-1221`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1712
+- **SOURCE-FORM:** `праве`
+- **EXACT-CONTEXT:**
+  > ...ротивной усправедливятися заразомъ скоро по своем праве будеть повиненъ. А гдЪ бы по своем праве уехалъ,...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20881,7 +20881,7 @@
 - **LOCATOR:** рядок 1712
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
-  > ...ротивной усправедливятися заразомъ скоро по своем праве будеть повиненъ. А гдЪ бы по своем праве уехалъ,...
+  > ...по своем праве будеть повиненъ. А гдЪ бы по своем праве уехалъ, не росправившисе з стороною противною, то...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20893,23 +20893,6 @@
 
 ### LEX-INV2-1223
 - **LEX-ID:** `LEX-INV2-1223`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1712
-- **SOURCE-FORM:** `праве`
-- **EXACT-CONTEXT:**
-  > ...по своем праве будеть повиненъ. А гдЪ бы по своем праве уехалъ, не росправившисе з стороною противною, то...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1224
-- **LEX-ID:** `LEX-INV2-1224`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1724
@@ -20925,14 +20908,31 @@
 
 ---
 
-### LEX-INV2-1225
-- **LEX-ID:** `LEX-INV2-1225`
+### LEX-INV2-1224
+- **LEX-ID:** `LEX-INV2-1224`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1736
 - **SOURCE-FORM:** `присягнувшы`
 - **EXACT-CONTEXT:**
   > ...я того врядника обрати. Который обраный шляхтичъ, присягнувшы на справедливый судъ, будет мети моцъ зъ иншими п...
+- **ROOT-FAMILY:** `PRISYAGA`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1225
+- **LEX-ID:** `LEX-INV2-1225`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1736
+- **SOURCE-FORM:** `присягнути`
+- **EXACT-CONTEXT:**
+  > ...тые роки судити и отправовати. А гдЪ бы не хотелъ присягнути, тогды роки сужоны быти не мають. Где бы тежъ обр...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20949,7 +20949,7 @@
 - **LOCATOR:** рядок 1736
 - **SOURCE-FORM:** `присягнути`
 - **EXACT-CONTEXT:**
-  > ...тые роки судити и отправовати. А гдЪ бы не хотелъ присягнути, тогды роки сужоны быти не мають. Где бы тежъ обр...
+  > ...обраный такежъ виненъ будет на справедливый судъ присягнути.
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -20961,23 +20961,6 @@
 
 ### LEX-INV2-1227
 - **LEX-ID:** `LEX-INV2-1227`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1736
-- **SOURCE-FORM:** `присягнути`
-- **EXACT-CONTEXT:**
-  > ...обраный такежъ виненъ будет на справедливый судъ присягнути.
-- **ROOT-FAMILY:** `PRISYAGA`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1228
-- **LEX-ID:** `LEX-INV2-1228`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -20993,8 +20976,8 @@
 
 ---
 
-### LEX-INV2-1229
-- **LEX-ID:** `LEX-INV2-1229`
+### LEX-INV2-1228
+- **LEX-ID:** `LEX-INV2-1228`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -21010,8 +20993,8 @@
 
 ---
 
-### LEX-INV2-1230
-- **LEX-ID:** `LEX-INV2-1230`
+### LEX-INV2-1229
+- **LEX-ID:** `LEX-INV2-1229`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -21027,8 +21010,8 @@
 
 ---
 
-### LEX-INV2-1231
-- **LEX-ID:** `LEX-INV2-1231`
+### LEX-INV2-1230
+- **LEX-ID:** `LEX-INV2-1230`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -21044,8 +21027,8 @@
 
 ---
 
-### LEX-INV2-1232
-- **LEX-ID:** `LEX-INV2-1232`
+### LEX-INV2-1231
+- **LEX-ID:** `LEX-INV2-1231`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -21061,8 +21044,8 @@
 
 ---
 
-### LEX-INV2-1233
-- **LEX-ID:** `LEX-INV2-1233`
+### LEX-INV2-1232
+- **LEX-ID:** `LEX-INV2-1232`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -21078,8 +21061,8 @@
 
 ---
 
-### LEX-INV2-1234
-- **LEX-ID:** `LEX-INV2-1234`
+### LEX-INV2-1233
+- **LEX-ID:** `LEX-INV2-1233`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -21095,8 +21078,8 @@
 
 ---
 
-### LEX-INV2-1235
-- **LEX-ID:** `LEX-INV2-1235`
+### LEX-INV2-1234
+- **LEX-ID:** `LEX-INV2-1234`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -21112,14 +21095,31 @@
 
 ---
 
-### LEX-INV2-1236
-- **LEX-ID:** `LEX-INV2-1236`
+### LEX-INV2-1235
+- **LEX-ID:** `LEX-INV2-1235`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...я тое право точило, и тымъ ся сторона поводовая у права подъпирати маеть. А естли жъ бы яко панове сами,...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1236
+- **LEX-ID:** `LEX-INV2-1236`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1748
+- **SOURCE-FORM:** `праву`
+- **EXACT-CONTEXT:**
+  > ...врядники ихъ, очевисте будучы такъ упомнени, року праву зложыти и справедливости учинити не хотели, тогды...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21136,7 +21136,7 @@
 - **LOCATOR:** рядок 1748
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...врядники ихъ, очевисте будучы такъ упомнени, року праву зложыти и справедливости учинити не хотели, тогды...
+  > ...справедливости ехати албо кого з моцъю от себе ку праву слати. Если жъ бы тотъ панъ албо врядникъ, тивунъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21153,7 +21153,7 @@
 - **LOCATOR:** рядок 1748
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...справедливости ехати албо кого з моцъю от себе ку праву слати. Если жъ бы тотъ панъ албо врядникъ, тивунъ...
+  > ...панъ и хто жъ кольвекъ самъ або врядники ихъ рокъ праву зложили, а на томъ року зложономъ або тежъ за зао...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21168,9 +21168,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
-- **SOURCE-FORM:** `праву`
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...панъ и хто жъ кольвекъ самъ або врядники ихъ рокъ праву зложили, а на томъ року зложономъ або тежъ за зао...
+  > ...мъ, вышей тутъ менованомъ, справедливости водлугъ права и сего статуту не учинили албо и учинивъшы справе...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21187,7 +21187,7 @@
 - **LOCATOR:** рядок 1748
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...мъ, вышей тутъ менованомъ, справедливости водлугъ права и сего статуту не учинили албо и учинивъшы справе...
+  > ...по положенью позву припалом, справедливости водле права не вделалъ або отправы суду своему не вчинилъ, по...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21199,23 +21199,6 @@
 
 ### LEX-INV2-1241
 - **LEX-ID:** `LEX-INV2-1241`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1748
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...по положенью позву припалом, справедливости водле права не вделалъ або отправы суду своему не вчинилъ, по...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1242
-- **LEX-ID:** `LEX-INV2-1242`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1748
@@ -21231,8 +21214,8 @@
 
 ---
 
-### LEX-INV2-1243
-- **LEX-ID:** `LEX-INV2-1243`
+### LEX-INV2-1242
+- **LEX-ID:** `LEX-INV2-1242`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1752
@@ -21248,8 +21231,8 @@
 
 ---
 
-### LEX-INV2-1244
-- **LEX-ID:** `LEX-INV2-1244`
+### LEX-INV2-1243
+- **LEX-ID:** `LEX-INV2-1243`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1752
@@ -21265,8 +21248,8 @@
 
 ---
 
-### LEX-INV2-1245
-- **LEX-ID:** `LEX-INV2-1245`
+### LEX-INV2-1244
+- **LEX-ID:** `LEX-INV2-1244`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1752
@@ -21282,8 +21265,8 @@
 
 ---
 
-### LEX-INV2-1246
-- **LEX-ID:** `LEX-INV2-1246`
+### LEX-INV2-1245
+- **LEX-ID:** `LEX-INV2-1245`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1752
@@ -21299,8 +21282,8 @@
 
 ---
 
-### LEX-INV2-1247
-- **LEX-ID:** `LEX-INV2-1247`
+### LEX-INV2-1246
+- **LEX-ID:** `LEX-INV2-1246`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1752
@@ -21316,8 +21299,8 @@
 
 ---
 
-### LEX-INV2-1248
-- **LEX-ID:** `LEX-INV2-1248`
+### LEX-INV2-1247
+- **LEX-ID:** `LEX-INV2-1247`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1752
@@ -21333,14 +21316,31 @@
 
 ---
 
-### LEX-INV2-1249
-- **LEX-ID:** `LEX-INV2-1249`
+### LEX-INV2-1248
+- **LEX-ID:** `LEX-INV2-1248`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1752
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...ано и доведено, же перъвей за жывота тыхъ винныхъ право прошоно, тогды тотъ панъ самъ за доводомъ жалобно...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1249
+- **LEX-ID:** `LEX-INV2-1249`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1752
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...за доводомъ жалобное стороны на речъ самую, водле права учиненымъ, будеть ей виненъ о то, о што жалоба ид...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21357,7 +21357,7 @@
 - **LOCATOR:** рядок 1752
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...за доводомъ жалобное стороны на речъ самую, водле права учиненымъ, будеть ей виненъ о то, о што жалоба ид...
+  > ...будеть ей виненъ о то, о што жалоба идеть, самъ у права отказывати и с права што будеть сказано самъ запл...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21374,7 +21374,7 @@
 - **LOCATOR:** рядок 1752
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...будеть ей виненъ о то, о што жалоба идеть, самъ у права отказывати и с права што будеть сказано самъ запл...
+  > ..., о што жалоба идеть, самъ у права отказывати и с права што будеть сказано самъ заплатити и нагородити, а...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21388,10 +21388,10 @@
 - **LEX-ID:** `LEX-INV2-1252`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1752
+- **LOCATOR:** рядок 1764
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ..., о што жалоба идеть, самъ у права отказывати и с права што будеть сказано самъ заплатити и нагородити, а...
+  > ...ъ осмого просити. А хто бы справедливости водлугъ права учинити не хотелъ, тотъ, будучи о то до суду нале...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21408,7 +21408,7 @@
 - **LOCATOR:** рядок 1764
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ъ осмого просити. А хто бы справедливости водлугъ права учинити не хотелъ, тотъ, будучи о то до суду нале...
+  > ...ное або свое властное, тогды то, што за ее вину с права будеть сказано, на ее жъ имен[ь]ю, будь венованом...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21420,23 +21420,6 @@
 
 ### LEX-INV2-1254
 - **LEX-ID:** `LEX-INV2-1254`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1764
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ное або свое властное, тогды то, што за ее вину с права будеть сказано, на ее жъ имен[ь]ю, будь венованом...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1255
-- **LEX-ID:** `LEX-INV2-1255`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1764
@@ -21452,8 +21435,8 @@
 
 ---
 
-### LEX-INV2-1256
-- **LEX-ID:** `LEX-INV2-1256`
+### LEX-INV2-1255
+- **LEX-ID:** `LEX-INV2-1255`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1764
@@ -21469,8 +21452,8 @@
 
 ---
 
-### LEX-INV2-1257
-- **LEX-ID:** `LEX-INV2-1257`
+### LEX-INV2-1256
+- **LEX-ID:** `LEX-INV2-1256`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1764
@@ -21486,8 +21469,8 @@
 
 ---
 
-### LEX-INV2-1258
-- **LEX-ID:** `LEX-INV2-1258`
+### LEX-INV2-1257
+- **LEX-ID:** `LEX-INV2-1257`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1764
@@ -21503,8 +21486,8 @@
 
 ---
 
-### LEX-INV2-1259
-- **LEX-ID:** `LEX-INV2-1259`
+### LEX-INV2-1258
+- **LEX-ID:** `LEX-INV2-1258`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1764
@@ -21520,8 +21503,8 @@
 
 ---
 
-### LEX-INV2-1260
-- **LEX-ID:** `LEX-INV2-1260`
+### LEX-INV2-1259
+- **LEX-ID:** `LEX-INV2-1259`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1764
@@ -21537,8 +21520,8 @@
 
 ---
 
-### LEX-INV2-1261
-- **LEX-ID:** `LEX-INV2-1261`
+### LEX-INV2-1260
+- **LEX-ID:** `LEX-INV2-1260`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1764
@@ -21554,14 +21537,31 @@
 
 ---
 
-### LEX-INV2-1262
-- **LEX-ID:** `LEX-INV2-1262`
+### LEX-INV2-1261
+- **LEX-ID:** `LEX-INV2-1261`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1772
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > Хто бы, маючи именье заставное або с права в презыску поданое, в суседъстве кому кгвалътъ ал...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1262
+- **LEX-ID:** `LEX-INV2-1262`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1776
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...н[ь]е, собе в суме п[е]н[е]зей заставленое албо с права от вряду в презыску поданое, кому иному в суседъс...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21578,7 +21578,7 @@
 - **LOCATOR:** рядок 1776
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...н[ь]е, собе в суме п[е]н[е]зей заставленое албо с права от вряду в презыску поданое, кому иному в суседъс...
+  > ...ь дедичу оного именья ознаймити, з нимъ сполне до права становитисе и в отказЪ быти. А вряд будеть моцонъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21590,23 +21590,6 @@
 
 ### LEX-INV2-1264
 - **LEX-ID:** `LEX-INV2-1264`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1776
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ь дедичу оного именья ознаймити, з нимъ сполне до права становитисе и в отказЪ быти. А вряд будеть моцонъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1265
-- **LEX-ID:** `LEX-INV2-1265`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1776
@@ -21622,8 +21605,8 @@
 
 ---
 
-### LEX-INV2-1266
-- **LEX-ID:** `LEX-INV2-1266`
+### LEX-INV2-1265
+- **LEX-ID:** `LEX-INV2-1265`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1776
@@ -21639,8 +21622,8 @@
 
 ---
 
-### LEX-INV2-1267
-- **LEX-ID:** `LEX-INV2-1267`
+### LEX-INV2-1266
+- **LEX-ID:** `LEX-INV2-1266`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1776
@@ -21656,8 +21639,8 @@
 
 ---
 
-### LEX-INV2-1268
-- **LEX-ID:** `LEX-INV2-1268`
+### LEX-INV2-1267
+- **LEX-ID:** `LEX-INV2-1267`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1776
@@ -21673,8 +21656,8 @@
 
 ---
 
-### LEX-INV2-1269
-- **LEX-ID:** `LEX-INV2-1269`
+### LEX-INV2-1268
+- **LEX-ID:** `LEX-INV2-1268`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1776
@@ -21690,8 +21673,8 @@
 
 ---
 
-### LEX-INV2-1270
-- **LEX-ID:** `LEX-INV2-1270`
+### LEX-INV2-1269
+- **LEX-ID:** `LEX-INV2-1269`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1788
@@ -21707,8 +21690,8 @@
 
 ---
 
-### LEX-INV2-1271
-- **LEX-ID:** `LEX-INV2-1271`
+### LEX-INV2-1270
+- **LEX-ID:** `LEX-INV2-1270`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1788
@@ -21724,8 +21707,8 @@
 
 ---
 
-### LEX-INV2-1272
-- **LEX-ID:** `LEX-INV2-1272`
+### LEX-INV2-1271
+- **LEX-ID:** `LEX-INV2-1271`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1812
@@ -21741,8 +21724,8 @@
 
 ---
 
-### LEX-INV2-1273
-- **LEX-ID:** `LEX-INV2-1273`
+### LEX-INV2-1272
+- **LEX-ID:** `LEX-INV2-1272`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1812
@@ -21758,14 +21741,31 @@
 
 ---
 
-### LEX-INV2-1274
-- **LEX-ID:** `LEX-INV2-1274`
+### LEX-INV2-1273
+- **LEX-ID:** `LEX-INV2-1273`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1816
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...ы з стороною у того суду, до которого будет водле права позвано, и где таковый неслушный всказъ суду перъ...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1274
+- **LEX-ID:** `LEX-INV2-1274`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1824
+- **SOURCE-FORM:** `праве`
+- **EXACT-CONTEXT:**
+  > ...ечы словы жалобы, але вместо жалобы маеть дати на праве позовъ чести и позву своего слушнымъ доводомъ под...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21782,7 +21782,7 @@
 - **LOCATOR:** рядок 1824
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
-  > ...ечы словы жалобы, але вместо жалобы маеть дати на праве позовъ чести и позву своего слушнымъ доводомъ под...
+  > ...ть перъвей сторонъ напоменути, абы все, што бы на праве покладати и оказывати або мовити мели, учинили. А...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21794,23 +21794,6 @@
 
 ### LEX-INV2-1276
 - **LEX-ID:** `LEX-INV2-1276`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1824
-- **SOURCE-FORM:** `праве`
-- **EXACT-CONTEXT:**
-  > ...ть перъвей сторонъ напоменути, абы все, што бы на праве покладати и оказывати або мовити мели, учинили. А...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1277
-- **LEX-ID:** `LEX-INV2-1277`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1824
@@ -21826,8 +21809,8 @@
 
 ---
 
-### LEX-INV2-1278
-- **LEX-ID:** `LEX-INV2-1278`
+### LEX-INV2-1277
+- **LEX-ID:** `LEX-INV2-1277`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1836
@@ -21843,14 +21826,31 @@
 
 ---
 
-### LEX-INV2-1279
-- **LEX-ID:** `LEX-INV2-1279`
+### LEX-INV2-1278
+- **LEX-ID:** `LEX-INV2-1278`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1836
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...одовая сторона противъ обжалованое стороны в томъ праве мела, маеть противко тому заступцы ити и у права...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1279
+- **LEX-ID:** `LEX-INV2-1279`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1836
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...праве мела, маеть противко тому заступцы ити и у права местъцЪ мети такъ, яко и противъ обжалованому, и...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21867,7 +21867,7 @@
 - **LOCATOR:** рядок 1836
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...праве мела, маеть противко тому заступцы ити и у права местъцЪ мети такъ, яко и противъ обжалованому, и...
+  > ...тли бы на заступцы не оселомъ в томъ поветЪ што у права сказано, тогды жалобная сторока, взявшы от того в...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21884,7 +21884,7 @@
 - **LOCATOR:** рядок 1836
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...тли бы на заступцы не оселомъ в томъ поветЪ што у права сказано, тогды жалобная сторока, взявшы от того в...
+  > ...ъ того суда вряду оного маеть ему отправу водълуг права посполитого на ономъ заступцы, правомъ переконано...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21899,9 +21899,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1836
-- **SOURCE-FORM:** `права`
+- **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...ъ того суда вряду оного маеть ему отправу водълуг права посполитого на ономъ заступцы, правомъ переконано...
+  > ...раву водълуг права посполитого на ономъ заступцы, правомъ переконаном, учинити. А до оказанья оселости тако...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21918,7 +21918,7 @@
 - **LOCATOR:** рядок 1836
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...раву водълуг права посполитого на ономъ заступцы, правомъ переконаном, учинити. А до оказанья оселости тако...
+  > ...оказанья оселости такого заступцы в ыншомъ поветЪ правомъ слушнымъ або сведецьствомъ и признаньемъ черезъ л...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21933,9 +21933,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1836
-- **SOURCE-FORM:** `правомъ`
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...оказанья оселости такого заступцы в ыншомъ поветЪ правомъ слушнымъ або сведецьствомъ и признаньемъ черезъ л...
+  > ...паньстве, великомъ князьстве литовъскомъ, былъ у права въ якой вине переконанъ, тотъ заразомъ на томъ же...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21952,7 +21952,7 @@
 - **LOCATOR:** рядок 1836
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...паньстве, великомъ князьстве литовъскомъ, былъ у права въ якой вине переконанъ, тотъ заразомъ на томъ же...
+  > ..., заступцу менилъ, але бы того заступцы заразом у права ставити не могъ, менуючи его быти хорым обложною...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -21964,23 +21964,6 @@
 
 ### LEX-INV2-1286
 - **LEX-ID:** `LEX-INV2-1286`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1836
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ..., заступцу менилъ, але бы того заступцы заразом у права ставити не могъ, менуючи его быти хорым обложною...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1287
-- **LEX-ID:** `LEX-INV2-1287`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1836
@@ -21996,8 +21979,8 @@
 
 ---
 
-### LEX-INV2-1288
-- **LEX-ID:** `LEX-INV2-1288`
+### LEX-INV2-1287
+- **LEX-ID:** `LEX-INV2-1287`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1836
@@ -22013,8 +21996,8 @@
 
 ---
 
-### LEX-INV2-1289
-- **LEX-ID:** `LEX-INV2-1289`
+### LEX-INV2-1288
+- **LEX-ID:** `LEX-INV2-1288`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1844
@@ -22030,14 +22013,31 @@
 
 ---
 
-### LEX-INV2-1290
-- **LEX-ID:** `LEX-INV2-1290`
+### LEX-INV2-1289
+- **LEX-ID:** `LEX-INV2-1289`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1848
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...за позвы або на котором року прыпаломъ не могъ на праве быти такъ за хоробою, яко и за инъшими которыми п...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1290
+- **LEX-ID:** `LEX-INV2-1290`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1848
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...тора албо умоцованого своего можеть уместо себе у права мети. А вед же умоцованый або прокураторъ икакшый...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22054,7 +22054,7 @@
 - **LOCATOR:** рядок 1848
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...тора албо умоцованого своего можеть уместо себе у права мети. А вед же умоцованый або прокураторъ икакшый...
+  > ...й або прокураторъ икакшый и иначей установянъ и у права прыймованъ быти не маеть, ажъбы ему очевисто злет...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22071,7 +22071,7 @@
 - **LOCATOR:** рядок 1848
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...й або прокураторъ икакшый и иначей установянъ и у права прыймованъ быти не маеть, ажъбы ему очевисто злет...
+  > ...ику або умоцованому своему речъ свою ку мовенью у права злетити листомъ своимъ отвороным, панове рады, да...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22085,10 +22085,10 @@
 - **LEX-ID:** `LEX-INV2-1293`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1848
+- **LOCATOR:** рядок 1856
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ику або умоцованому своему речъ свою ку мовенью у права злетити листомъ своимъ отвороным, панове рады, да...
+  > Хто бы самъ не могъ або не въмелъ у права мовити и о приданью прокуратора людямъ убогимъ.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22102,10 +22102,10 @@
 - **LEX-ID:** `LEX-INV2-1294`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1856
+- **LOCATOR:** рядок 1860
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > Хто бы самъ не могъ або не въмелъ у права мовити и о приданью прокуратора людямъ убогимъ.
+  > Уставуемъ теж, если бы хто, очевисте у права стоячы, не могучы або не вмеючы самъ мовити и реч...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22122,7 +22122,7 @@
 - **LOCATOR:** рядок 1860
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > Уставуемъ теж, если бы хто, очевисте у права стоячы, не могучы або не вмеючы самъ мовити и реч...
+  > ...ъ таким, которымъ бы се хто описалъ, не сходячы с права, досыть чинити, тогды таковая сторона, хотя и реч...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22139,7 +22139,7 @@
 - **LOCATOR:** рядок 1860
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ъ таким, которымъ бы се хто описалъ, не сходячы с права, досыть чинити, тогды таковая сторона, хотя и реч...
+  > ...ы, предъся от суду отходити не маеть до сконченья права. К тому, где бы хто, не могучы и не умеючы самъ м...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22156,7 +22156,7 @@
 - **LOCATOR:** рядок 1860
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ы, предъся от суду отходити не маеть до сконченья права. К тому, где бы хто, не могучы и не умеючы самъ м...
+  > ...у прокуратора даръмо прыдавати и казати от нихъ у права мовити, и прокураторъ маеть в томъ уряду быти пос...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22168,23 +22168,6 @@
 
 ### LEX-INV2-1298
 - **LEX-ID:** `LEX-INV2-1298`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1860
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...у прокуратора даръмо прыдавати и казати от нихъ у права мовити, и прокураторъ маеть в томъ уряду быти пос...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1299
-- **LEX-ID:** `LEX-INV2-1299`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1872
@@ -22200,8 +22183,8 @@
 
 ---
 
-### LEX-INV2-1300
-- **LEX-ID:** `LEX-INV2-1300`
+### LEX-INV2-1299
+- **LEX-ID:** `LEX-INV2-1299`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1872
@@ -22217,14 +22200,31 @@
 
 ---
 
-### LEX-INV2-1301
-- **LEX-ID:** `LEX-INV2-1301`
+### LEX-INV2-1300
+- **LEX-ID:** `LEX-INV2-1300`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1880
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ..., и к тому, иж волно стороне прокуратора своего у права подъпирати, и самому мовити, и другого прокуратор...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1301
+- **LEX-ID:** `LEX-INV2-1301`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1884
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...чъ мовити, тогды таковому не маеть быти мовенье у права допущоно. К тому если бы хто кольвекъ, хотечы ком...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22241,7 +22241,7 @@
 - **LOCATOR:** рядок 1884
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...чъ мовити, тогды таковому не маеть быти мовенье у права допущоно. К тому если бы хто кольвекъ, хотечы ком...
+  > ...сыть не учынилъ албо умысльне ку шкоде кому што у права недъбальствомъ своимъ упустилъ, тогды за тое на в...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22258,7 +22258,7 @@
 - **LOCATOR:** рядок 1884
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...сыть не учынилъ албо умысльне ку шкоде кому што у права недъбальствомъ своимъ упустилъ, тогды за тое на в...
+  > ...справедливитися повиненъ будеть. А хто бы тежъ, у права самъ стоячи, хотелъ отставити прокуратора своего,...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22270,23 +22270,6 @@
 
 ### LEX-INV2-1304
 - **LEX-ID:** `LEX-INV2-1304`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1884
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...справедливитися повиненъ будеть. А хто бы тежъ, у права самъ стоячи, хотелъ отставити прокуратора своего,...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1305
-- **LEX-ID:** `LEX-INV2-1305`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1896
@@ -22302,8 +22285,8 @@
 
 ---
 
-### LEX-INV2-1306
-- **LEX-ID:** `LEX-INV2-1306`
+### LEX-INV2-1305
+- **LEX-ID:** `LEX-INV2-1305`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1896
@@ -22319,6 +22302,23 @@
 
 ---
 
+### LEX-INV2-1306
+- **LEX-ID:** `LEX-INV2-1306`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1896
+- **SOURCE-FORM:** `присягнеть`
+- **EXACT-CONTEXT:**
+  > ...бо посланецъ ставленъ не будеть, або и ставшы, не присягнеть, тогды тая сторона за оные перъвшые роки земские...
+- **ROOT-FAMILY:** `PRISYAGA`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1307
 - **LEX-ID:** `LEX-INV2-1307`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -22326,7 +22326,7 @@
 - **LOCATOR:** рядок 1896
 - **SOURCE-FORM:** `присягнеть`
 - **EXACT-CONTEXT:**
-  > ...бо посланецъ ставленъ не будеть, або и ставшы, не присягнеть, тогды тая сторона за оные перъвшые роки земские...
+  > ...кураторъ або посланецъ не станеть або и ставши не присягнеть, тогды таковая сторона за оное перъвшое нестанье...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22343,7 +22343,7 @@
 - **LOCATOR:** рядок 1896
 - **SOURCE-FORM:** `присягнеть`
 - **EXACT-CONTEXT:**
-  > ...кураторъ або посланецъ не станеть або и ставши не присягнеть, тогды таковая сторона за оное перъвшое нестанье...
+  > ...нъ, не доехавъшы того вряду, умеръ. И кгды на том присягнеть, судъ маеть ся противко ему водле сего арътыкулу...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22355,23 +22355,6 @@
 
 ### LEX-INV2-1309
 - **LEX-ID:** `LEX-INV2-1309`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1896
-- **SOURCE-FORM:** `присягнеть`
-- **EXACT-CONTEXT:**
-  > ...нъ, не доехавъшы того вряду, умеръ. И кгды на том присягнеть, судъ маеть ся противко ему водле сего арътыкулу...
-- **ROOT-FAMILY:** `PRISYAGA`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1310
-- **LEX-ID:** `LEX-INV2-1310`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1916
@@ -22387,8 +22370,8 @@
 
 ---
 
-### LEX-INV2-1311
-- **LEX-ID:** `LEX-INV2-1311`
+### LEX-INV2-1310
+- **LEX-ID:** `LEX-INV2-1310`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1920
@@ -22404,8 +22387,8 @@
 
 ---
 
-### LEX-INV2-1312
-- **LEX-ID:** `LEX-INV2-1312`
+### LEX-INV2-1311
+- **LEX-ID:** `LEX-INV2-1311`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1948
@@ -22421,8 +22404,8 @@
 
 ---
 
-### LEX-INV2-1313
-- **LEX-ID:** `LEX-INV2-1313`
+### LEX-INV2-1312
+- **LEX-ID:** `LEX-INV2-1312`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1948
@@ -22438,8 +22421,8 @@
 
 ---
 
-### LEX-INV2-1314
-- **LEX-ID:** `LEX-INV2-1314`
+### LEX-INV2-1313
+- **LEX-ID:** `LEX-INV2-1313`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1948
@@ -22455,8 +22438,8 @@
 
 ---
 
-### LEX-INV2-1315
-- **LEX-ID:** `LEX-INV2-1315`
+### LEX-INV2-1314
+- **LEX-ID:** `LEX-INV2-1314`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1956
@@ -22472,8 +22455,8 @@
 
 ---
 
-### LEX-INV2-1316
-- **LEX-ID:** `LEX-INV2-1316`
+### LEX-INV2-1315
+- **LEX-ID:** `LEX-INV2-1315`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1956
@@ -22489,8 +22472,8 @@
 
 ---
 
-### LEX-INV2-1317
-- **LEX-ID:** `LEX-INV2-1317`
+### LEX-INV2-1316
+- **LEX-ID:** `LEX-INV2-1316`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1960
@@ -22506,8 +22489,8 @@
 
 ---
 
-### LEX-INV2-1318
-- **LEX-ID:** `LEX-INV2-1318`
+### LEX-INV2-1317
+- **LEX-ID:** `LEX-INV2-1317`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1960
@@ -22523,8 +22506,8 @@
 
 ---
 
-### LEX-INV2-1319
-- **LEX-ID:** `LEX-INV2-1319`
+### LEX-INV2-1318
+- **LEX-ID:** `LEX-INV2-1318`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1960
@@ -22540,8 +22523,8 @@
 
 ---
 
-### LEX-INV2-1320
-- **LEX-ID:** `LEX-INV2-1320`
+### LEX-INV2-1319
+- **LEX-ID:** `LEX-INV2-1319`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1960
@@ -22557,8 +22540,8 @@
 
 ---
 
-### LEX-INV2-1321
-- **LEX-ID:** `LEX-INV2-1321`
+### LEX-INV2-1320
+- **LEX-ID:** `LEX-INV2-1320`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1960
@@ -22574,14 +22557,31 @@
 
 ---
 
-### LEX-INV2-1322
-- **LEX-ID:** `LEX-INV2-1322`
+### LEX-INV2-1321
+- **LEX-ID:** `LEX-INV2-1321`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1960
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...мъ прыповедалъ, судъ, не припущаючи его заразъ ку праву, маеть ему толко вперодъ волное мовенье до права...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1322
+- **LEX-ID:** `LEX-INV2-1322`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 1960
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...праву, маеть ему толко вперодъ волное мовенье до права в той речы заховати с тымъ, хто з выроку ихъ при...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22598,7 +22598,7 @@
 - **LOCATOR:** рядок 1960
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...праву, маеть ему толко вперодъ волное мовенье до права в той речы заховати с тымъ, хто з выроку ихъ при...
+  > ...ъ, которые бы се ново межы тыми двема, за позвы у права стоячыми, прыточили, судъ маеть имъ сказати, абы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22615,7 +22615,7 @@
 - **LOCATOR:** рядок 1960
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ъ, которые бы се ново межы тыми двема, за позвы у права стоячыми, прыточили, судъ маеть имъ сказати, абы...
+  > ...судовъне межы ними росправовати и кончыти водлугъ права.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22629,10 +22629,10 @@
 - **LEX-ID:** `LEX-INV2-1325`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1960
+- **LOCATOR:** рядок 1972
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...судовъне межы ними росправовати и кончыти водлугъ права.
+  > ...огды суд на рокохъ судовыхъ будеть сказанье подле права на именью чынити водлугъ того, яко о томъ о рокох...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22646,10 +22646,10 @@
 - **LEX-ID:** `LEX-INV2-1326`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1972
+- **LOCATOR:** рядок 1984
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...огды суд на рокохъ судовыхъ будеть сказанье подле права на именью чынити водлугъ того, яко о томъ о рокох...
+  > ...того вряду послушни во всемъ до остатнего стопня права. И было ль бы што на которомъ з урядниковъ нашихъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22666,7 +22666,7 @@
 - **LOCATOR:** рядок 1984
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...того вряду послушни во всемъ до остатнего стопня права. И было ль бы што на которомъ з урядниковъ нашихъ...
+  > ...торомъ з урядниковъ нашихъ за его властную вину с права сказано, тогды тые презыски не мают се стегати на...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22680,10 +22680,10 @@
 - **LEX-ID:** `LEX-INV2-1328`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1984
+- **LOCATOR:** рядок 1988
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...торомъ з урядниковъ нашихъ за его властную вину с права сказано, тогды тые презыски не мают се стегати на...
+  > ...воее власное не мелъ, тогды судъ водлугъ поступку права, сказан[ь]е на нем учинившы, мает отослати на отп...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22700,7 +22700,7 @@
 - **LOCATOR:** рядок 1988
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...воее власное не мелъ, тогды судъ водлугъ поступку права, сказан[ь]е на нем учинившы, мает отослати на отп...
+  > ...отправу на именью его водлугъ того суду и обычаю права учинити под виною в артыкуле деветьдесятъ четверт...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22717,7 +22717,7 @@
 - **LOCATOR:** рядок 1988
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...отправу на именью его водлугъ того суду и обычаю права учинити под виною в артыкуле деветьдесятъ четверт...
+  > ...всемъ водле сего статуту ажъ до остатнего стопня права поступуючи. А где бы который врядникъ нашъ былъ п...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22734,7 +22734,7 @@
 - **LOCATOR:** рядок 1988
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...всемъ водле сего статуту ажъ до остатнего стопня права поступуючи. А где бы который врядникъ нашъ былъ п...
+  > ...одлугъ выступку кождого ажъ и до остатнего стопня права водлугъ статуту сего чинити повинни будут, и отоз...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22751,7 +22751,7 @@
 - **LOCATOR:** рядок 1988
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...одлугъ выступку кождого ажъ и до остатнего стопня права водлугъ статуту сего чинити повинни будут, и отоз...
+  > ...до росправы поставити маеть. И покажет ли се то с права, же справедливости жалобнику не вчинилъ, тогды та...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22768,7 +22768,7 @@
 - **LOCATOR:** рядок 1988
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...до росправы поставити маеть. И покажет ли се то с права, же справедливости жалобнику не вчинилъ, тогды та...
+  > ...ливость чинена была, а судъ вряду того не водлугъ права бы ся жалобнику виделъ, тогды о то стороне жалобл...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22780,23 +22780,6 @@
 
 ### LEX-INV2-1334
 - **LEX-ID:** `LEX-INV2-1334`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 1988
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ливость чинена была, а судъ вряду того не водлугъ права бы ся жалобнику виделъ, тогды о то стороне жалобл...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1335
-- **LEX-ID:** `LEX-INV2-1335`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1988
@@ -22812,8 +22795,8 @@
 
 ---
 
-### LEX-INV2-1336
-- **LEX-ID:** `LEX-INV2-1336`
+### LEX-INV2-1335
+- **LEX-ID:** `LEX-INV2-1335`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 1988
@@ -22829,6 +22812,23 @@
 
 ---
 
+### LEX-INV2-1336
+- **LEX-ID:** `LEX-INV2-1336`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2000
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ли кривду якую колвекъ мещаномъ местъ нашихъ, где права майдебуръского не мають, такъ тежъ и людемъ имене...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1337
 - **LEX-ID:** `LEX-INV2-1337`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -22836,7 +22836,7 @@
 - **LOCATOR:** рядок 2000
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ли кривду якую колвекъ мещаномъ местъ нашихъ, где права майдебуръского не мають, такъ тежъ и людемъ имене...
+  > ...ъ судовыхъ, яко на завитомъ року, под страченьемъ права маеть стати и подданыхъ своихъ, кому будеть вина...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22853,7 +22853,7 @@
 - **LOCATOR:** рядок 2000
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ъ судовыхъ, яко на завитомъ року, под страченьемъ права маеть стати и подданыхъ своихъ, кому будеть вина...
+  > ...яко на завитомъ року, справедливость учинити и с права, в чомъ бы противъ мещаномъ и людемъ нашимъ зоста...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22865,23 +22865,6 @@
 
 ### LEX-INV2-1339
 - **LEX-ID:** `LEX-INV2-1339`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2000
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...яко на завитомъ року, справедливость учинити и с права, в чомъ бы противъ мещаномъ и людемъ нашимъ зоста...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1340
-- **LEX-ID:** `LEX-INV2-1340`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2000
@@ -22897,14 +22880,31 @@
 
 ---
 
-### LEX-INV2-1341
-- **LEX-ID:** `LEX-INV2-1341`
+### LEX-INV2-1340
+- **LEX-ID:** `LEX-INV2-1340`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2008
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > О мещанехъ права майдебуръского.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1341
+- **LEX-ID:** `LEX-INV2-1341`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2012
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > Такъ уставуемъ: естли бы кому з мещанъ нашыхъ права майдебуръского которая крывда деяла от кн[я]зей,...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22921,7 +22921,7 @@
 - **LOCATOR:** рядок 2012
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > Такъ уставуемъ: естли бы кому з мещанъ нашыхъ права майдебуръского которая крывда деяла от кн[я]зей,...
+  > ...и далей поступовати противъ ему подълугъ поступку права и статуту земъского.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -22933,23 +22933,6 @@
 
 ### LEX-INV2-1343
 - **LEX-ID:** `LEX-INV2-1343`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2012
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...и далей поступовати противъ ему подълугъ поступку права и статуту земъского.
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1344
-- **LEX-ID:** `LEX-INV2-1344`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2024
@@ -22965,8 +22948,8 @@
 
 ---
 
-### LEX-INV2-1345
-- **LEX-ID:** `LEX-INV2-1345`
+### LEX-INV2-1344
+- **LEX-ID:** `LEX-INV2-1344`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2024
@@ -22982,8 +22965,8 @@
 
 ---
 
-### LEX-INV2-1346
-- **LEX-ID:** `LEX-INV2-1346`
+### LEX-INV2-1345
+- **LEX-ID:** `LEX-INV2-1345`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2024
@@ -22999,8 +22982,8 @@
 
 ---
 
-### LEX-INV2-1347
-- **LEX-ID:** `LEX-INV2-1347`
+### LEX-INV2-1346
+- **LEX-ID:** `LEX-INV2-1346`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2024
@@ -23016,8 +22999,8 @@
 
 ---
 
-### LEX-INV2-1348
-- **LEX-ID:** `LEX-INV2-1348`
+### LEX-INV2-1347
+- **LEX-ID:** `LEX-INV2-1347`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2024
@@ -23033,8 +23016,8 @@
 
 ---
 
-### LEX-INV2-1349
-- **LEX-ID:** `LEX-INV2-1349`
+### LEX-INV2-1348
+- **LEX-ID:** `LEX-INV2-1348`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2032
@@ -23050,8 +23033,8 @@
 
 ---
 
-### LEX-INV2-1350
-- **LEX-ID:** `LEX-INV2-1350`
+### LEX-INV2-1349
+- **LEX-ID:** `LEX-INV2-1349`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2036
@@ -23067,8 +23050,8 @@
 
 ---
 
-### LEX-INV2-1351
-- **LEX-ID:** `LEX-INV2-1351`
+### LEX-INV2-1350
+- **LEX-ID:** `LEX-INV2-1350`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2036
@@ -23084,8 +23067,8 @@
 
 ---
 
-### LEX-INV2-1352
-- **LEX-ID:** `LEX-INV2-1352`
+### LEX-INV2-1351
+- **LEX-ID:** `LEX-INV2-1351`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2036
@@ -23101,14 +23084,31 @@
 
 ---
 
-### LEX-INV2-1353
-- **LEX-ID:** `LEX-INV2-1353`
+### LEX-INV2-1352
+- **LEX-ID:** `LEX-INV2-1352`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2048
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...тпоръная сторона не мела бы на тое имен[ь]е якого права прирожоного або набытого и давностью земъскою зад...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1353
+- **LEX-ID:** `LEX-INV2-1353`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2048
+- **SOURCE-FORM:** `право`
+- **EXACT-CONTEXT:**
+  > ...двадъцать копъ грошей. А естли отпоръная сторона право якое на тое именье мети будеть, тогды и о тое пра...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23125,7 +23125,7 @@
 - **LOCATOR:** рядок 2048
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
-  > ...двадъцать копъ грошей. А естли отпоръная сторона право якое на тое именье мети будеть, тогды и о тое пра...
+  > ...аво якое на тое именье мети будеть, тогды и о тое право врядъ маеть розсудокъ свой водлугъ права там же з...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23137,23 +23137,6 @@
 
 ### LEX-INV2-1355
 - **LEX-ID:** `LEX-INV2-1355`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2048
-- **SOURCE-FORM:** `право`
-- **EXACT-CONTEXT:**
-  > ...аво якое на тое именье мети будеть, тогды и о тое право врядъ маеть розсудокъ свой водлугъ права там же з...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1356
-- **LEX-ID:** `LEX-INV2-1356`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2048
@@ -23169,8 +23152,8 @@
 
 ---
 
-### LEX-INV2-1357
-- **LEX-ID:** `LEX-INV2-1357`
+### LEX-INV2-1356
+- **LEX-ID:** `LEX-INV2-1356`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2060
@@ -23186,8 +23169,8 @@
 
 ---
 
-### LEX-INV2-1358
-- **LEX-ID:** `LEX-INV2-1358`
+### LEX-INV2-1357
+- **LEX-ID:** `LEX-INV2-1357`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2060
@@ -23203,8 +23186,8 @@
 
 ---
 
-### LEX-INV2-1359
-- **LEX-ID:** `LEX-INV2-1359`
+### LEX-INV2-1358
+- **LEX-ID:** `LEX-INV2-1358`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2072
@@ -23220,8 +23203,8 @@
 
 ---
 
-### LEX-INV2-1360
-- **LEX-ID:** `LEX-INV2-1360`
+### LEX-INV2-1359
+- **LEX-ID:** `LEX-INV2-1359`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2072
@@ -23237,8 +23220,8 @@
 
 ---
 
-### LEX-INV2-1361
-- **LEX-ID:** `LEX-INV2-1361`
+### LEX-INV2-1360
+- **LEX-ID:** `LEX-INV2-1360`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2072
@@ -23254,8 +23237,8 @@
 
 ---
 
-### LEX-INV2-1362
-- **LEX-ID:** `LEX-INV2-1362`
+### LEX-INV2-1361
+- **LEX-ID:** `LEX-INV2-1361`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2072
@@ -23271,8 +23254,8 @@
 
 ---
 
-### LEX-INV2-1363
-- **LEX-ID:** `LEX-INV2-1363`
+### LEX-INV2-1362
+- **LEX-ID:** `LEX-INV2-1362`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2072
@@ -23288,8 +23271,8 @@
 
 ---
 
-### LEX-INV2-1364
-- **LEX-ID:** `LEX-INV2-1364`
+### LEX-INV2-1363
+- **LEX-ID:** `LEX-INV2-1363`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2080
@@ -23305,8 +23288,8 @@
 
 ---
 
-### LEX-INV2-1365
-- **LEX-ID:** `LEX-INV2-1365`
+### LEX-INV2-1364
+- **LEX-ID:** `LEX-INV2-1364`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2080
@@ -23322,8 +23305,8 @@
 
 ---
 
-### LEX-INV2-1366
-- **LEX-ID:** `LEX-INV2-1366`
+### LEX-INV2-1365
+- **LEX-ID:** `LEX-INV2-1365`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2084
@@ -23339,14 +23322,31 @@
 
 ---
 
-### LEX-INV2-1367
-- **LEX-ID:** `LEX-INV2-1367`
+### LEX-INV2-1366
+- **LEX-ID:** `LEX-INV2-1366`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2084
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...бы оный, который его обжаловалъ, тое жъ речы, што правомъ утратилъ, на немъ по другое искалъ, менуючы, ижъб...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1367
+- **LEX-ID:** `LEX-INV2-1367`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2084
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ый присягнулъ, доводити, тогды такий доводъ водле права не маеть быти ему допущонъ, але ижъ по прысязе то...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23363,7 +23363,7 @@
 - **LOCATOR:** рядок 2084
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ый присягнулъ, доводити, тогды такий доводъ водле права не маеть быти ему допущонъ, але ижъ по прысязе то...
+  > ...але ижъ по прысязе тое жъ речы искалъ, которую у права утратилъ, маеть чотыри недели на замку нашомъ сед...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23375,23 +23375,6 @@
 
 ### LEX-INV2-1369
 - **LEX-ID:** `LEX-INV2-1369`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2084
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...але ижъ по прысязе тое жъ речы искалъ, которую у права утратилъ, маеть чотыри недели на замку нашомъ сед...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1370
-- **LEX-ID:** `LEX-INV2-1370`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2084
@@ -23407,8 +23390,8 @@
 
 ---
 
-### LEX-INV2-1371
-- **LEX-ID:** `LEX-INV2-1371`
+### LEX-INV2-1370
+- **LEX-ID:** `LEX-INV2-1370`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2084
@@ -23424,8 +23407,8 @@
 
 ---
 
-### LEX-INV2-1372
-- **LEX-ID:** `LEX-INV2-1372`
+### LEX-INV2-1371
+- **LEX-ID:** `LEX-INV2-1371`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2092
@@ -23441,8 +23424,8 @@
 
 ---
 
-### LEX-INV2-1373
-- **LEX-ID:** `LEX-INV2-1373`
+### LEX-INV2-1372
+- **LEX-ID:** `LEX-INV2-1372`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2096
@@ -23458,8 +23441,8 @@
 
 ---
 
-### LEX-INV2-1374
-- **LEX-ID:** `LEX-INV2-1374`
+### LEX-INV2-1373
+- **LEX-ID:** `LEX-INV2-1373`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2096
@@ -23475,8 +23458,8 @@
 
 ---
 
-### LEX-INV2-1375
-- **LEX-ID:** `LEX-INV2-1375`
+### LEX-INV2-1374
+- **LEX-ID:** `LEX-INV2-1374`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2108
@@ -23492,8 +23475,8 @@
 
 ---
 
-### LEX-INV2-1376
-- **LEX-ID:** `LEX-INV2-1376`
+### LEX-INV2-1375
+- **LEX-ID:** `LEX-INV2-1375`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2108
@@ -23509,8 +23492,8 @@
 
 ---
 
-### LEX-INV2-1377
-- **LEX-ID:** `LEX-INV2-1377`
+### LEX-INV2-1376
+- **LEX-ID:** `LEX-INV2-1376`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2120
@@ -23526,14 +23509,31 @@
 
 ---
 
-### LEX-INV2-1378
-- **LEX-ID:** `LEX-INV2-1378`
+### LEX-INV2-1377
+- **LEX-ID:** `LEX-INV2-1377`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2132
 - **SOURCE-FORM:** `правом`
 - **EXACT-CONTEXT:**
   > ...и ганити имъ, тогды маеть тут же заразомъ передъ правом и перъвей, нижли ихъ ку сведоцъству прыпустить аб...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1378
+- **LEX-ID:** `LEX-INV2-1378`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2132
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...у нимъ мовити и на нихъ доводити и, не спущаючи с права, то конъчыти. А где бы на которого светка што вел...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23550,7 +23550,7 @@
 - **LOCATOR:** рядок 2132
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...у нимъ мовити и на нихъ доводити и, не спущаючи с права, то конъчыти. А где бы на которого светка што вел...
+  > ...ъ, а не довелъ, тогды маеть того светъка там же у права навезати водлугъ стану его, а ку сведецъству буде...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23567,7 +23567,7 @@
 - **LOCATOR:** рядок 2132
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ъ, а не довелъ, тогды маеть того светъка там же у права навезати водлугъ стану его, а ку сведецъству буде...
+  > ...ковъ подъ страченьемъ [в оригинале: «страченымъ»] права отложити маеть. Але сторона заразъ тыхъ светковъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23579,23 +23579,6 @@
 
 ### LEX-INV2-1381
 - **LEX-ID:** `LEX-INV2-1381`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2132
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ковъ подъ страченьемъ [в оригинале: «страченымъ»] права отложити маеть. Але сторона заразъ тыхъ светковъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1382
-- **LEX-ID:** `LEX-INV2-1382`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2132
@@ -23611,8 +23594,8 @@
 
 ---
 
-### LEX-INV2-1383
-- **LEX-ID:** `LEX-INV2-1383`
+### LEX-INV2-1382
+- **LEX-ID:** `LEX-INV2-1382`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2132
@@ -23628,8 +23611,8 @@
 
 ---
 
-### LEX-INV2-1384
-- **LEX-ID:** `LEX-INV2-1384`
+### LEX-INV2-1383
+- **LEX-ID:** `LEX-INV2-1383`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2140
@@ -23645,8 +23628,8 @@
 
 ---
 
-### LEX-INV2-1385
-- **LEX-ID:** `LEX-INV2-1385`
+### LEX-INV2-1384
+- **LEX-ID:** `LEX-INV2-1384`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2144
@@ -23662,8 +23645,8 @@
 
 ---
 
-### LEX-INV2-1386
-- **LEX-ID:** `LEX-INV2-1386`
+### LEX-INV2-1385
+- **LEX-ID:** `LEX-INV2-1385`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2144
@@ -23679,8 +23662,8 @@
 
 ---
 
-### LEX-INV2-1387
-- **LEX-ID:** `LEX-INV2-1387`
+### LEX-INV2-1386
+- **LEX-ID:** `LEX-INV2-1386`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2144
@@ -23696,8 +23679,8 @@
 
 ---
 
-### LEX-INV2-1388
-- **LEX-ID:** `LEX-INV2-1388`
+### LEX-INV2-1387
+- **LEX-ID:** `LEX-INV2-1387`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2152
@@ -23713,8 +23696,8 @@
 
 ---
 
-### LEX-INV2-1389
-- **LEX-ID:** `LEX-INV2-1389`
+### LEX-INV2-1388
+- **LEX-ID:** `LEX-INV2-1388`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23730,8 +23713,8 @@
 
 ---
 
-### LEX-INV2-1390
-- **LEX-ID:** `LEX-INV2-1390`
+### LEX-INV2-1389
+- **LEX-ID:** `LEX-INV2-1389`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23747,8 +23730,8 @@
 
 ---
 
-### LEX-INV2-1391
-- **LEX-ID:** `LEX-INV2-1391`
+### LEX-INV2-1390
+- **LEX-ID:** `LEX-INV2-1390`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23764,8 +23747,8 @@
 
 ---
 
-### LEX-INV2-1392
-- **LEX-ID:** `LEX-INV2-1392`
+### LEX-INV2-1391
+- **LEX-ID:** `LEX-INV2-1391`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23781,8 +23764,8 @@
 
 ---
 
-### LEX-INV2-1393
-- **LEX-ID:** `LEX-INV2-1393`
+### LEX-INV2-1392
+- **LEX-ID:** `LEX-INV2-1392`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23798,8 +23781,8 @@
 
 ---
 
-### LEX-INV2-1394
-- **LEX-ID:** `LEX-INV2-1394`
+### LEX-INV2-1393
+- **LEX-ID:** `LEX-INV2-1393`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23815,8 +23798,8 @@
 
 ---
 
-### LEX-INV2-1395
-- **LEX-ID:** `LEX-INV2-1395`
+### LEX-INV2-1394
+- **LEX-ID:** `LEX-INV2-1394`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23832,8 +23815,8 @@
 
 ---
 
-### LEX-INV2-1396
-- **LEX-ID:** `LEX-INV2-1396`
+### LEX-INV2-1395
+- **LEX-ID:** `LEX-INV2-1395`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23849,8 +23832,8 @@
 
 ---
 
-### LEX-INV2-1397
-- **LEX-ID:** `LEX-INV2-1397`
+### LEX-INV2-1396
+- **LEX-ID:** `LEX-INV2-1396`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23866,8 +23849,8 @@
 
 ---
 
-### LEX-INV2-1398
-- **LEX-ID:** `LEX-INV2-1398`
+### LEX-INV2-1397
+- **LEX-ID:** `LEX-INV2-1397`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23883,8 +23866,8 @@
 
 ---
 
-### LEX-INV2-1399
-- **LEX-ID:** `LEX-INV2-1399`
+### LEX-INV2-1398
+- **LEX-ID:** `LEX-INV2-1398`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23900,8 +23883,8 @@
 
 ---
 
-### LEX-INV2-1400
-- **LEX-ID:** `LEX-INV2-1400`
+### LEX-INV2-1399
+- **LEX-ID:** `LEX-INV2-1399`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2156
@@ -23917,6 +23900,23 @@
 
 ---
 
+### LEX-INV2-1400
+- **LEX-ID:** `LEX-INV2-1400`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2192
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ежъ уставуемъ, ижъ кождой заплате п[е]н[е]жной, с права за презыски от которого кольвекъ суду сказаной, м...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1401
 - **LEX-ID:** `LEX-INV2-1401`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -23924,7 +23924,7 @@
 - **LOCATOR:** рядок 2192
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ежъ уставуемъ, ижъ кождой заплате п[е]н[е]жной, с права за презыски от которого кольвекъ суду сказаной, м...
+  > ...о сторону поводовую увязывати водлугъ обычаю сего права посполитого. Нижли естли бы се хто листомъ своимъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23941,7 +23941,7 @@
 - **LOCATOR:** рядок 2192
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...о сторону поводовую увязывати водлугъ обычаю сего права посполитого. Нижли естли бы се хто листомъ своимъ...
+  > ...на што бы сторона поводовая слушный доводъ водле права вчынила, тогды если чого с тыхъ речей пры подаван...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -23953,23 +23953,6 @@
 
 ### LEX-INV2-1403
 - **LEX-ID:** `LEX-INV2-1403`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2192
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...на што бы сторона поводовая слушный доводъ водле права вчынила, тогды если чого с тыхъ речей пры подаван...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1404
-- **LEX-ID:** `LEX-INV2-1404`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2192
@@ -23985,6 +23968,23 @@
 
 ---
 
+### LEX-INV2-1404
+- **LEX-ID:** `LEX-INV2-1404`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2204
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ети и розъсудити, и которое стороны судьи водлугъ права будуть сказали, тотъ судъ пры моцы зоставити. Ест...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1405
 - **LEX-ID:** `LEX-INV2-1405`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -23992,7 +23992,7 @@
 - **LOCATOR:** рядок 2204
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ети и розъсудити, и которое стороны судьи водлугъ права будуть сказали, тотъ судъ пры моцы зоставити. Ест...
+  > ...Естли ж бы обеюхъ сторонъ судьи судомъ своимъ от права посполитого або комъпромису ухилилися, тогды вряд...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24009,7 +24009,7 @@
 - **LOCATOR:** рядок 2204
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...Естли ж бы обеюхъ сторонъ судьи судомъ своимъ от права посполитого або комъпромису ухилилися, тогды вряд...
+  > ...позваное, маеть розъсудокъ свой в той речи водле права вделати и отправу дати.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24023,10 +24023,10 @@
 - **LEX-ID:** `LEX-INV2-1407`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2204
+- **LOCATOR:** рядок 2216
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...позваное, маеть розъсудокъ свой в той речи водле права вделати и отправу дати.
+  > ...удовых або подкоморого або комисаръское, не водле права видело такъ поводовой, яко и отпорной стороне, то...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24043,7 +24043,7 @@
 - **LOCATOR:** рядок 2216
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...удовых або подкоморого або комисаръское, не водле права видело такъ поводовой, яко и отпорной стороне, то...
+  > ...е судьи, тое сказанье вашо мне ся видить не водле права, отзываюся с тымъ до суду головного». А по отозва...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24058,9 +24058,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2216
-- **SOURCE-FORM:** `права`
+- **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...е судьи, тое сказанье вашо мне ся видить не водле права, отзываюся с тымъ до суду головного». А по отозва...
+  > ...тозванью, поки се передъ судомъ головнымъ стороны правомъ розопруть, судъ отправы чинити не маеть. А где бы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24075,9 +24075,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2216
-- **SOURCE-FORM:** `правомъ`
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...тозванью, поки се передъ судомъ головнымъ стороны правомъ розопруть, судъ отправы чинити не маеть. А где бы...
+  > ...а, тогды потомъки ее, кому бы тотъ презыскъ водле права належалъ, похочут ли презыскъ одеръжати, винни бу...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24094,7 +24094,7 @@
 - **LOCATOR:** рядок 2216
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...а, тогды потомъки ее, кому бы тотъ презыскъ водле права належалъ, похочут ли презыскъ одеръжати, винни бу...
+  > ...в такомъ припадъку розумети маеть, же потомки ихъ права пилновати и попирати мають. Ведъ же кгды бы, у ап...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24111,7 +24111,7 @@
 - **LOCATOR:** рядок 2216
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...в такомъ припадъку розумети маеть, же потомки ихъ права пилновати и попирати мають. Ведъ же кгды бы, у ап...
+  > ...А што суду нашому, г[о]с[по]д[а]ръскому, водлугъ права посполитого належить, в такихъ речахъ и апеляцыя...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24123,23 +24123,6 @@
 
 ### LEX-INV2-1413
 - **LEX-ID:** `LEX-INV2-1413`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2216
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...А што суду нашому, г[о]с[по]д[а]ръскому, водлугъ права посполитого належить, в такихъ речахъ и апеляцыя...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1414
-- **LEX-ID:** `LEX-INV2-1414`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2224
@@ -24155,14 +24138,31 @@
 
 ---
 
-### LEX-INV2-1415
-- **LEX-ID:** `LEX-INV2-1415`
+### LEX-INV2-1414
+- **LEX-ID:** `LEX-INV2-1414`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2228
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...роною поводовою або отпоръною будучы, мели с кимъ право о якую кольвекъ речъ, а сказанье бы за ними або п...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1415
+- **LEX-ID:** `LEX-INV2-1415`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2228
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...томъ бы другая сторона зъ отозву тымъ хотела быти права, отбиваючы тыхъ, с которыми ся не еднала, для тог...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24179,7 +24179,7 @@
 - **LOCATOR:** рядок 2228
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...томъ бы другая сторона зъ отозву тымъ хотела быти права, отбиваючы тыхъ, с которыми ся не еднала, для тог...
+  > ...я и зъ апеляцеи выступили, тогды таковый отпоръ у права не маеть быти приймованъ, але тые, которые ся не...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24191,23 +24191,6 @@
 
 ### LEX-INV2-1417
 - **LEX-ID:** `LEX-INV2-1417`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2228
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...я и зъ апеляцеи выступили, тогды таковый отпоръ у права не маеть быти приймованъ, але тые, которые ся не...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1418
-- **LEX-ID:** `LEX-INV2-1418`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2228
@@ -24223,8 +24206,8 @@
 
 ---
 
-### LEX-INV2-1419
-- **LEX-ID:** `LEX-INV2-1419`
+### LEX-INV2-1418
+- **LEX-ID:** `LEX-INV2-1418`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2228
@@ -24240,8 +24223,8 @@
 
 ---
 
-### LEX-INV2-1420
-- **LEX-ID:** `LEX-INV2-1420`
+### LEX-INV2-1419
+- **LEX-ID:** `LEX-INV2-1419`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2240
@@ -24257,8 +24240,8 @@
 
 ---
 
-### LEX-INV2-1421
-- **LEX-ID:** `LEX-INV2-1421`
+### LEX-INV2-1420
+- **LEX-ID:** `LEX-INV2-1420`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2240
@@ -24274,14 +24257,31 @@
 
 ---
 
-### LEX-INV2-1422
-- **LEX-ID:** `LEX-INV2-1422`
+### LEX-INV2-1421
+- **LEX-ID:** `LEX-INV2-1421`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2252
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...е и достаточне доложоно. А хто неслушне и противъ праву отъзоветься, а судъ головный сказнь судовую потве...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1422
+- **LEX-ID:** `LEX-INV2-1422`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2252
+- **SOURCE-FORM:** `право`
+- **EXACT-CONTEXT:**
+  > ...рые брал в томъ часе, по отозве держачы то, о што право идеть, за доводомъ слушнымъ з навезкою маеть ушко...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24298,7 +24298,7 @@
 - **LOCATOR:** рядок 2252
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
-  > ...рые брал в томъ часе, по отозве держачы то, о што право идеть, за доводомъ слушнымъ з навезкою маеть ушко...
+  > ...абы ся нихто упоръне, а в чужомъ користечы, надъ право ку проволоцс стороны своее противное не отзывалъ.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24310,23 +24310,6 @@
 
 ### LEX-INV2-1424
 - **LEX-ID:** `LEX-INV2-1424`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2252
-- **SOURCE-FORM:** `право`
-- **EXACT-CONTEXT:**
-  > ...абы ся нихто упоръне, а в чужомъ користечы, надъ право ку проволоцс стороны своее противное не отзывалъ.
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1425
-- **LEX-ID:** `LEX-INV2-1425`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2264
@@ -24342,8 +24325,8 @@
 
 ---
 
-### LEX-INV2-1426
-- **LEX-ID:** `LEX-INV2-1426`
+### LEX-INV2-1425
+- **LEX-ID:** `LEX-INV2-1425`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2272
@@ -24359,8 +24342,8 @@
 
 ---
 
-### LEX-INV2-1427
-- **LEX-ID:** `LEX-INV2-1427`
+### LEX-INV2-1426
+- **LEX-ID:** `LEX-INV2-1426`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2276
@@ -24376,8 +24359,8 @@
 
 ---
 
-### LEX-INV2-1428
-- **LEX-ID:** `LEX-INV2-1428`
+### LEX-INV2-1427
+- **LEX-ID:** `LEX-INV2-1427`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2276
@@ -24393,8 +24376,8 @@
 
 ---
 
-### LEX-INV2-1429
-- **LEX-ID:** `LEX-INV2-1429`
+### LEX-INV2-1428
+- **LEX-ID:** `LEX-INV2-1428`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2276
@@ -24410,14 +24393,31 @@
 
 ---
 
-### LEX-INV2-1430
-- **LEX-ID:** `LEX-INV2-1430`
+### LEX-INV2-1429
+- **LEX-ID:** `LEX-INV2-1429`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2288
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > Тежъ уставуемъ: хто бы кого кгвалътовне без права выбилъ зъ спокойного держанья, з двора и с пашни...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1430
+- **LEX-ID:** `LEX-INV2-1430`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2288
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...без бою отнял и собе приверънулъ именье, люди за правомъ прирожонымъ держачое, або во што бы хто за правом...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24434,7 +24434,7 @@
 - **LOCATOR:** рядок 2288
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...без бою отнял и собе приверънулъ именье, люди за правомъ прирожонымъ держачое, або во што бы хто за правом...
+  > ...равомъ прирожонымъ держачое, або во што бы хто за правомъ якимъ набытымъ врядовне при возномъ и шляхте в де...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24449,9 +24449,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2288
-- **SOURCE-FORM:** `правомъ`
+- **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...равомъ прирожонымъ держачое, або во што бы хто за правомъ якимъ набытымъ врядовне при возномъ и шляхте в де...
+  > ...рядомъ кгродскимъ, кгды обедве стороне стануть ку праву, а позваная сторона естли бы ся того кгвалтовного...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24466,9 +24466,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2288
-- **SOURCE-FORM:** `праву`
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...рядомъ кгродскимъ, кгды обедве стороне стануть ку праву, а позваная сторона естли бы ся того кгвалтовного...
+  > ...ом имен[ь]ю винъного чинити до остаточнего стопня права, роков статутовыхъ, заплате п[е]н[е]зей сказаныхъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24485,7 +24485,7 @@
 - **LOCATOR:** рядок 2288
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ом имен[ь]ю винъного чинити до остаточнего стопня права, роков статутовыхъ, заплате п[е]н[е]зей сказаныхъ...
+  > ...й сказаныхъ, не складаючи. А прийдет ли до того с права, и горломъ карати. А где бы сторона обвиненая, пр...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24500,9 +24500,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2288
-- **SOURCE-FORM:** `права`
+- **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...й сказаныхъ, не складаючи. А прийдет ли до того с права, и горломъ карати. А где бы сторона обвиненая, пр...
+  > ...жалуеть, кгвалтовне не выбиялъ, але то держить за правомъ якимъ слушнымъ и хотел бы то якимъ правомъ хотя и...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24519,7 +24519,7 @@
 - **LOCATOR:** рядок 2288
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...жалуеть, кгвалтовне не выбиялъ, але то держить за правомъ якимъ слушнымъ и хотел бы то якимъ правомъ хотя и...
+  > ...ить за правомъ якимъ слушнымъ и хотел бы то якимъ правомъ хотя и на писме покозати [так!], тогды предся той...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24536,7 +24536,7 @@
 - **LOCATOR:** рядок 2288
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...ить за правомъ якимъ слушнымъ и хотел бы то якимъ правомъ хотя и на писме покозати [так!], тогды предся той...
+  > ...уту. А той противной стороне, которая се зъ якимъ правомъ своимъ у суду окажеть, врядъ волное мовенье впере...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24548,23 +24548,6 @@
 
 ### LEX-INV2-1438
 - **LEX-ID:** `LEX-INV2-1438`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2288
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...уту. А той противной стороне, которая се зъ якимъ правомъ своимъ у суду окажеть, врядъ волное мовенье впере...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1439
-- **LEX-ID:** `LEX-INV2-1439`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2288
@@ -24580,8 +24563,8 @@
 
 ---
 
-### LEX-INV2-1440
-- **LEX-ID:** `LEX-INV2-1440`
+### LEX-INV2-1439
+- **LEX-ID:** `LEX-INV2-1439`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2288
@@ -24597,8 +24580,8 @@
 
 ---
 
-### LEX-INV2-1441
-- **LEX-ID:** `LEX-INV2-1441`
+### LEX-INV2-1440
+- **LEX-ID:** `LEX-INV2-1440`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2296
@@ -24614,14 +24597,31 @@
 
 ---
 
-### LEX-INV2-1442
-- **LEX-ID:** `LEX-INV2-1442`
+### LEX-INV2-1441
+- **LEX-ID:** `LEX-INV2-1441`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2300
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...бегаючы мы тому, абы нихто непослушенъства своего праву посполитому неведомостью покрывати и обмовляти не...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1442
+- **LEX-ID:** `LEX-INV2-1442`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2300
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...о. Нижли которая сума п[е]н[е]зей за очевистымъ у права мовеньемъ сторонъ або ихъ умоцованых [в оригинале...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24638,7 +24638,7 @@
 - **LOCATOR:** рядок 2300
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...о. Нижли которая сума п[е]н[е]зей за очевистымъ у права мовеньемъ сторонъ або ихъ умоцованых [в оригинале...
+  > ...е]н[е]зей але и о иншихъ речахъ якихъ рухомыхъ, с права ку отданыо присужоныхъ, розумети маеть. А где бы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24650,23 +24650,6 @@
 
 ### LEX-INV2-1444
 - **LEX-ID:** `LEX-INV2-1444`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2300
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...е]н[е]зей але и о иншихъ речахъ якихъ рухомыхъ, с права ку отданыо присужоныхъ, розумети маеть. А где бы...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1445
-- **LEX-ID:** `LEX-INV2-1445`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2308
@@ -24682,8 +24665,8 @@
 
 ---
 
-### LEX-INV2-1446
-- **LEX-ID:** `LEX-INV2-1446`
+### LEX-INV2-1445
+- **LEX-ID:** `LEX-INV2-1445`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2312
@@ -24699,14 +24682,31 @@
 
 ---
 
-### LEX-INV2-1447
-- **LEX-ID:** `LEX-INV2-1447`
+### LEX-INV2-1446
+- **LEX-ID:** `LEX-INV2-1446`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2312
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...дели, и тамъ сторону поводовую яко за тую суму, с права сказаную, такъ и за заруку, в листе увяжчомъ поло...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1447
+- **LEX-ID:** `LEX-INV2-1447`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2312
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...ы детямъ, близскимъ его, кому бы тотъ презыскъ за правомъ прирожоным албо тежъ обчому кому за записомъ нале...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24723,7 +24723,7 @@
 - **LOCATOR:** рядок 2312
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...ы детямъ, близскимъ его, кому бы тотъ презыскъ за правомъ прирожоным албо тежъ обчому кому за записомъ нале...
+  > ...енье стороны жалобное, близкостью або якимъ инымъ правомъ презысканое, або в люди, кгрунты, кромъ такого им...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24735,23 +24735,6 @@
 
 ### LEX-INV2-1449
 - **LEX-ID:** `LEX-INV2-1449`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2312
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...енье стороны жалобное, близкостью або якимъ инымъ правомъ презысканое, або в люди, кгрунты, кромъ такого им...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1450
-- **LEX-ID:** `LEX-INV2-1450`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2324
@@ -24767,8 +24750,8 @@
 
 ---
 
-### LEX-INV2-1451
-- **LEX-ID:** `LEX-INV2-1451`
+### LEX-INV2-1450
+- **LEX-ID:** `LEX-INV2-1450`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2324
@@ -24784,8 +24767,8 @@
 
 ---
 
-### LEX-INV2-1452
-- **LEX-ID:** `LEX-INV2-1452`
+### LEX-INV2-1451
+- **LEX-ID:** `LEX-INV2-1451`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2324
@@ -24801,8 +24784,8 @@
 
 ---
 
-### LEX-INV2-1453
-- **LEX-ID:** `LEX-INV2-1453`
+### LEX-INV2-1452
+- **LEX-ID:** `LEX-INV2-1452`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2336
@@ -24818,8 +24801,8 @@
 
 ---
 
-### LEX-INV2-1454
-- **LEX-ID:** `LEX-INV2-1454`
+### LEX-INV2-1453
+- **LEX-ID:** `LEX-INV2-1453`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2352
@@ -24835,14 +24818,31 @@
 
 ---
 
-### LEX-INV2-1455
-- **LEX-ID:** `LEX-INV2-1455`
+### LEX-INV2-1454
+- **LEX-ID:** `LEX-INV2-1454`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2352
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...азана была або бы хто, упоромъ своимъ противечися праву посполитому и увезанья не поступуючы, в заруки та...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1455
+- **LEX-ID:** `LEX-INV2-1455`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2352
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...гроду, тогды тежъ кгродъский, за останокъ сумы, с права сказаное, водлугъ науки сего статуту, на именьяхъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24859,7 +24859,7 @@
 - **LOCATOR:** рядок 2352
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...гроду, тогды тежъ кгродъский, за останокъ сумы, с права сказаное, водлугъ науки сего статуту, на именьяхъ...
+  > ...отправу за суму п[е]н[е]зей чинити або в самое с права сказаное именье увязывати, в таковое, которое бы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -24871,23 +24871,6 @@
 
 ### LEX-INV2-1457
 - **LEX-ID:** `LEX-INV2-1457`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2352
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...отправу за суму п[е]н[е]зей чинити або в самое с права сказаное именье увязывати, в таковое, которое бы...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1458
-- **LEX-ID:** `LEX-INV2-1458`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2360
@@ -24903,8 +24886,8 @@
 
 ---
 
-### LEX-INV2-1459
-- **LEX-ID:** `LEX-INV2-1459`
+### LEX-INV2-1458
+- **LEX-ID:** `LEX-INV2-1458`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2372
@@ -24920,8 +24903,8 @@
 
 ---
 
-### LEX-INV2-1460
-- **LEX-ID:** `LEX-INV2-1460`
+### LEX-INV2-1459
+- **LEX-ID:** `LEX-INV2-1459`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2372
@@ -24937,8 +24920,8 @@
 
 ---
 
-### LEX-INV2-1461
-- **LEX-ID:** `LEX-INV2-1461`
+### LEX-INV2-1460
+- **LEX-ID:** `LEX-INV2-1460`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2380
@@ -24954,8 +24937,8 @@
 
 ---
 
-### LEX-INV2-1462
-- **LEX-ID:** `LEX-INV2-1462`
+### LEX-INV2-1461
+- **LEX-ID:** `LEX-INV2-1461`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2384
@@ -24971,8 +24954,8 @@
 
 ---
 
-### LEX-INV2-1463
-- **LEX-ID:** `LEX-INV2-1463`
+### LEX-INV2-1462
+- **LEX-ID:** `LEX-INV2-1462`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2384
@@ -24988,8 +24971,8 @@
 
 ---
 
-### LEX-INV2-1464
-- **LEX-ID:** `LEX-INV2-1464`
+### LEX-INV2-1463
+- **LEX-ID:** `LEX-INV2-1463`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2388
@@ -25005,8 +24988,8 @@
 
 ---
 
-### LEX-INV2-1465
-- **LEX-ID:** `LEX-INV2-1465`
+### LEX-INV2-1464
+- **LEX-ID:** `LEX-INV2-1464`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2388
@@ -25022,14 +25005,31 @@
 
 ---
 
-### LEX-INV2-1466
-- **LEX-ID:** `LEX-INV2-1466`
+### LEX-INV2-1465
+- **LEX-ID:** `LEX-INV2-1465`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2412
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > Кгды бы хто попалъ у вину якую, слушне правомъ переконаную которому вряду нашому земъскому або к...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1466
+- **LEX-ID:** `LEX-INV2-1466`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2424
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...панов, доводечы имъ справедливости. Ведъ же часу права могуть то панове отправовати через умоцованых сво...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -25046,7 +25046,7 @@
 - **LOCATOR:** рядок 2424
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...панов, доводечы имъ справедливости. Ведъ же часу права могуть то панове отправовати через умоцованых сво...
+  > ...аные его кгвалтовъ, кривдъ и шкодъ своихъ водлугъ права доводити могуть. Ведъ же на кгвалтех толко людямъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -25058,23 +25058,6 @@
 
 ### LEX-INV2-1468
 - **LEX-ID:** `LEX-INV2-1468`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2424
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...аные его кгвалтовъ, кривдъ и шкодъ своихъ водлугъ права доводити могуть. Ведъ же на кгвалтех толко людямъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1469
-- **LEX-ID:** `LEX-INV2-1469`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2424
@@ -25090,8 +25073,8 @@
 
 ---
 
-### LEX-INV2-1470
-- **LEX-ID:** `LEX-INV2-1470`
+### LEX-INV2-1469
+- **LEX-ID:** `LEX-INV2-1469`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2436
@@ -25107,8 +25090,8 @@
 
 ---
 
-### LEX-INV2-1471
-- **LEX-ID:** `LEX-INV2-1471`
+### LEX-INV2-1470
+- **LEX-ID:** `LEX-INV2-1470`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2448
@@ -25124,8 +25107,8 @@
 
 ---
 
-### LEX-INV2-1472
-- **LEX-ID:** `LEX-INV2-1472`
+### LEX-INV2-1471
+- **LEX-ID:** `LEX-INV2-1471`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2460
@@ -25141,8 +25124,8 @@
 
 ---
 
-### LEX-INV2-1473
-- **LEX-ID:** `LEX-INV2-1473`
+### LEX-INV2-1472
+- **LEX-ID:** `LEX-INV2-1472`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2488
@@ -25158,8 +25141,8 @@
 
 ---
 
-### LEX-INV2-1474
-- **LEX-ID:** `LEX-INV2-1474`
+### LEX-INV2-1473
+- **LEX-ID:** `LEX-INV2-1473`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2492
@@ -25175,8 +25158,8 @@
 
 ---
 
-### LEX-INV2-1475
-- **LEX-ID:** `LEX-INV2-1475`
+### LEX-INV2-1474
+- **LEX-ID:** `LEX-INV2-1474`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2492
@@ -25192,8 +25175,8 @@
 
 ---
 
-### LEX-INV2-1476
-- **LEX-ID:** `LEX-INV2-1476`
+### LEX-INV2-1475
+- **LEX-ID:** `LEX-INV2-1475`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2492
@@ -25209,8 +25192,8 @@
 
 ---
 
-### LEX-INV2-1477
-- **LEX-ID:** `LEX-INV2-1477`
+### LEX-INV2-1476
+- **LEX-ID:** `LEX-INV2-1476`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2508
@@ -25226,8 +25209,8 @@
 
 ---
 
-### LEX-INV2-1478
-- **LEX-ID:** `LEX-INV2-1478`
+### LEX-INV2-1477
+- **LEX-ID:** `LEX-INV2-1477`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2508
@@ -25243,8 +25226,8 @@
 
 ---
 
-### LEX-INV2-1479
-- **LEX-ID:** `LEX-INV2-1479`
+### LEX-INV2-1478
+- **LEX-ID:** `LEX-INV2-1478`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2508
@@ -25260,8 +25243,8 @@
 
 ---
 
-### LEX-INV2-1480
-- **LEX-ID:** `LEX-INV2-1480`
+### LEX-INV2-1479
+- **LEX-ID:** `LEX-INV2-1479`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2536
@@ -25277,8 +25260,8 @@
 
 ---
 
-### LEX-INV2-1481
-- **LEX-ID:** `LEX-INV2-1481`
+### LEX-INV2-1480
+- **LEX-ID:** `LEX-INV2-1480`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2572
@@ -25294,8 +25277,8 @@
 
 ---
 
-### LEX-INV2-1482
-- **LEX-ID:** `LEX-INV2-1482`
+### LEX-INV2-1481
+- **LEX-ID:** `LEX-INV2-1481`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2596
@@ -25311,8 +25294,8 @@
 
 ---
 
-### LEX-INV2-1483
-- **LEX-ID:** `LEX-INV2-1483`
+### LEX-INV2-1482
+- **LEX-ID:** `LEX-INV2-1482`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2696
@@ -25328,8 +25311,8 @@
 
 ---
 
-### LEX-INV2-1484
-- **LEX-ID:** `LEX-INV2-1484`
+### LEX-INV2-1483
+- **LEX-ID:** `LEX-INV2-1483`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2696
@@ -25345,8 +25328,8 @@
 
 ---
 
-### LEX-INV2-1485
-- **LEX-ID:** `LEX-INV2-1485`
+### LEX-INV2-1484
+- **LEX-ID:** `LEX-INV2-1484`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2708
@@ -25362,8 +25345,8 @@
 
 ---
 
-### LEX-INV2-1486
-- **LEX-ID:** `LEX-INV2-1486`
+### LEX-INV2-1485
+- **LEX-ID:** `LEX-INV2-1485`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2708
@@ -25379,8 +25362,8 @@
 
 ---
 
-### LEX-INV2-1487
-- **LEX-ID:** `LEX-INV2-1487`
+### LEX-INV2-1486
+- **LEX-ID:** `LEX-INV2-1486`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2720
@@ -25396,8 +25379,8 @@
 
 ---
 
-### LEX-INV2-1488
-- **LEX-ID:** `LEX-INV2-1488`
+### LEX-INV2-1487
+- **LEX-ID:** `LEX-INV2-1487`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2720
@@ -25413,8 +25396,8 @@
 
 ---
 
-### LEX-INV2-1489
-- **LEX-ID:** `LEX-INV2-1489`
+### LEX-INV2-1488
+- **LEX-ID:** `LEX-INV2-1488`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2732
@@ -25430,8 +25413,8 @@
 
 ---
 
-### LEX-INV2-1490
-- **LEX-ID:** `LEX-INV2-1490`
+### LEX-INV2-1489
+- **LEX-ID:** `LEX-INV2-1489`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2732
@@ -25447,8 +25430,8 @@
 
 ---
 
-### LEX-INV2-1491
-- **LEX-ID:** `LEX-INV2-1491`
+### LEX-INV2-1490
+- **LEX-ID:** `LEX-INV2-1490`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2732
@@ -25464,8 +25447,8 @@
 
 ---
 
-### LEX-INV2-1492
-- **LEX-ID:** `LEX-INV2-1492`
+### LEX-INV2-1491
+- **LEX-ID:** `LEX-INV2-1491`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2732
@@ -25481,8 +25464,8 @@
 
 ---
 
-### LEX-INV2-1493
-- **LEX-ID:** `LEX-INV2-1493`
+### LEX-INV2-1492
+- **LEX-ID:** `LEX-INV2-1492`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2732
@@ -25498,8 +25481,8 @@
 
 ---
 
-### LEX-INV2-1494
-- **LEX-ID:** `LEX-INV2-1494`
+### LEX-INV2-1493
+- **LEX-ID:** `LEX-INV2-1493`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2756
@@ -25515,8 +25498,8 @@
 
 ---
 
-### LEX-INV2-1495
-- **LEX-ID:** `LEX-INV2-1495`
+### LEX-INV2-1494
+- **LEX-ID:** `LEX-INV2-1494`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2756
@@ -25532,14 +25515,31 @@
 
 ---
 
-### LEX-INV2-1496
-- **LEX-ID:** `LEX-INV2-1496`
+### LEX-INV2-1495
+- **LEX-ID:** `LEX-INV2-1495`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2756
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...будеть в ыншое малъженъство отдаватисе, розсудокъ права духовного промежку ихъ узнати маеть. Также естли...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1496
+- **LEX-ID:** `LEX-INV2-1496`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2800
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...]ю рухомою, которое бы отецъ по смерти жоны своее правомъ детей своихъ доискалъся, всимъ тымъ опекатися мае...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -25556,7 +25556,7 @@
 - **LOCATOR:** рядок 2800
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...]ю рухомою, которое бы отецъ по смерти жоны своее правомъ детей своихъ доискалъся, всимъ тымъ опекатися мае...
+  > ...му, тогды и такого именья отецъъ никому никоторым правомъ вечностью, ани в суме заводити не можеть, и брать...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -25568,23 +25568,6 @@
 
 ### LEX-INV2-1498
 - **LEX-ID:** `LEX-INV2-1498`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2800
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...му, тогды и такого именья отецъъ никому никоторым правомъ вечностью, ани в суме заводити не можеть, и брать...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1499
-- **LEX-ID:** `LEX-INV2-1499`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2800
@@ -25600,8 +25583,8 @@
 
 ---
 
-### LEX-INV2-1500
-- **LEX-ID:** `LEX-INV2-1500`
+### LEX-INV2-1499
+- **LEX-ID:** `LEX-INV2-1499`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2800
@@ -25617,8 +25600,8 @@
 
 ---
 
-### LEX-INV2-1501
-- **LEX-ID:** `LEX-INV2-1501`
+### LEX-INV2-1500
+- **LEX-ID:** `LEX-INV2-1500`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2800
@@ -25634,8 +25617,8 @@
 
 ---
 
-### LEX-INV2-1502
-- **LEX-ID:** `LEX-INV2-1502`
+### LEX-INV2-1501
+- **LEX-ID:** `LEX-INV2-1501`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2812
@@ -25651,8 +25634,8 @@
 
 ---
 
-### LEX-INV2-1503
-- **LEX-ID:** `LEX-INV2-1503`
+### LEX-INV2-1502
+- **LEX-ID:** `LEX-INV2-1502`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2812
@@ -25668,8 +25651,8 @@
 
 ---
 
-### LEX-INV2-1504
-- **LEX-ID:** `LEX-INV2-1504`
+### LEX-INV2-1503
+- **LEX-ID:** `LEX-INV2-1503`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2812
@@ -25685,8 +25668,8 @@
 
 ---
 
-### LEX-INV2-1505
-- **LEX-ID:** `LEX-INV2-1505`
+### LEX-INV2-1504
+- **LEX-ID:** `LEX-INV2-1504`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2824
@@ -25702,8 +25685,8 @@
 
 ---
 
-### LEX-INV2-1506
-- **LEX-ID:** `LEX-INV2-1506`
+### LEX-INV2-1505
+- **LEX-ID:** `LEX-INV2-1505`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2824
@@ -25719,8 +25702,8 @@
 
 ---
 
-### LEX-INV2-1507
-- **LEX-ID:** `LEX-INV2-1507`
+### LEX-INV2-1506
+- **LEX-ID:** `LEX-INV2-1506`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2828
@@ -25736,8 +25719,8 @@
 
 ---
 
-### LEX-INV2-1508
-- **LEX-ID:** `LEX-INV2-1508`
+### LEX-INV2-1507
+- **LEX-ID:** `LEX-INV2-1507`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2828
@@ -25753,8 +25736,8 @@
 
 ---
 
-### LEX-INV2-1509
-- **LEX-ID:** `LEX-INV2-1509`
+### LEX-INV2-1508
+- **LEX-ID:** `LEX-INV2-1508`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2840
@@ -25770,14 +25753,31 @@
 
 ---
 
-### LEX-INV2-1510
-- **LEX-ID:** `LEX-INV2-1510`
+### LEX-INV2-1509
+- **LEX-ID:** `LEX-INV2-1509`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2848
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > Опекунъ можеть детиньное кривды у права доходити, але не моцонъ ничого утратити.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1510
+- **LEX-ID:** `LEX-INV2-1510`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2852
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...ыхъ речахъ учинилъ, тогды опекунъ ихъ моцонъ того правомъ ихъ дойскиватися. Вед же што бы опекунъ в летехъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -25794,7 +25794,7 @@
 - **LOCATOR:** рядок 2852
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...ыхъ речахъ учинилъ, тогды опекунъ ихъ моцонъ того правомъ ихъ дойскиватися. Вед же што бы опекунъ в летехъ...
+  > ...етъ своихъ, могуть о тыхъ крывдахъ своих мовити и правомъ того доходити, толко бы давности земское не омешк...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -25811,7 +25811,7 @@
 - **LOCATOR:** рядок 2852
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...етъ своихъ, могуть о тыхъ крывдахъ своих мовити и правомъ того доходити, толко бы давности земское не омешк...
+  > ...еланыхъ и иныхъ крывдъ в речахъ поточныхъ, што ся правомъ за опекуна скончить, того вжо дети взновляти и вз...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -25823,23 +25823,6 @@
 
 ### LEX-INV2-1513
 - **LEX-ID:** `LEX-INV2-1513`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2852
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...еланыхъ и иныхъ крывдъ в речахъ поточныхъ, што ся правомъ за опекуна скончить, того вжо дети взновляти и вз...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1514
-- **LEX-ID:** `LEX-INV2-1514`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2860
@@ -25855,8 +25838,8 @@
 
 ---
 
-### LEX-INV2-1515
-- **LEX-ID:** `LEX-INV2-1515`
+### LEX-INV2-1514
+- **LEX-ID:** `LEX-INV2-1514`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2864
@@ -25872,8 +25855,8 @@
 
 ---
 
-### LEX-INV2-1516
-- **LEX-ID:** `LEX-INV2-1516`
+### LEX-INV2-1515
+- **LEX-ID:** `LEX-INV2-1515`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2872
@@ -25889,8 +25872,8 @@
 
 ---
 
-### LEX-INV2-1517
-- **LEX-ID:** `LEX-INV2-1517`
+### LEX-INV2-1516
+- **LEX-ID:** `LEX-INV2-1516`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2876
@@ -25906,8 +25889,8 @@
 
 ---
 
-### LEX-INV2-1518
-- **LEX-ID:** `LEX-INV2-1518`
+### LEX-INV2-1517
+- **LEX-ID:** `LEX-INV2-1517`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2876
@@ -25923,8 +25906,8 @@
 
 ---
 
-### LEX-INV2-1519
-- **LEX-ID:** `LEX-INV2-1519`
+### LEX-INV2-1518
+- **LEX-ID:** `LEX-INV2-1518`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2876
@@ -25940,8 +25923,8 @@
 
 ---
 
-### LEX-INV2-1520
-- **LEX-ID:** `LEX-INV2-1520`
+### LEX-INV2-1519
+- **LEX-ID:** `LEX-INV2-1519`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2876
@@ -25957,8 +25940,8 @@
 
 ---
 
-### LEX-INV2-1521
-- **LEX-ID:** `LEX-INV2-1521`
+### LEX-INV2-1520
+- **LEX-ID:** `LEX-INV2-1520`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2876
@@ -25974,8 +25957,8 @@
 
 ---
 
-### LEX-INV2-1522
-- **LEX-ID:** `LEX-INV2-1522`
+### LEX-INV2-1521
+- **LEX-ID:** `LEX-INV2-1521`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2876
@@ -25991,14 +25974,31 @@
 
 ---
 
-### LEX-INV2-1523
-- **LEX-ID:** `LEX-INV2-1523`
+### LEX-INV2-1522
+- **LEX-ID:** `LEX-INV2-1522`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2888
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...яко старъший и на местъцу зоставленый, был бы ку праву позванъ, а сполъную речъ свою и братьи своее утра...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1523
+- **LEX-ID:** `LEX-INV2-1523`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2888
+- **SOURCE-FORM:** `праве`
+- **EXACT-CONTEXT:**
+  > ...ожоная не мають моцы такового судовного выроку въ праве отменити, ани поправити, але што черезъ брата сво...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26015,7 +26015,7 @@
 - **LOCATOR:** рядок 2888
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
-  > ...ожоная не мають моцы такового судовного выроку въ праве отменити, ани поправити, але што черезъ брата сво...
+  > ...ую колвекъ речъ сполъную, тогды повиненъ будеть в праве отповедати, не ждучи летъ братьи своее молодъшое....
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26030,9 +26030,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2888
-- **SOURCE-FORM:** `праве`
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ую колвекъ речъ сполъную, тогды повиненъ будеть в праве отповедати, не ждучи летъ братьи своее молодъшое....
+  > ...и виненъ будеть усправедливитися и делъ ровный, с права сказаный, поступити. И где бы што с права албо де...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26049,7 +26049,7 @@
 - **LOCATOR:** рядок 2888
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...и виненъ будеть усправедливитися и делъ ровный, с права сказаный, поступити. И где бы што с права албо де...
+  > ...вный, с права сказаный, поступити. И где бы што с права албо деломъ братъ старший упустилъ, тогды братья...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26061,23 +26061,6 @@
 
 ### LEX-INV2-1527
 - **LEX-ID:** `LEX-INV2-1527`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2888
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...вный, с права сказаный, поступити. И где бы што с права албо деломъ братъ старший упустилъ, тогды братья...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1528
-- **LEX-ID:** `LEX-INV2-1528`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2888
@@ -26093,8 +26076,8 @@
 
 ---
 
-### LEX-INV2-1529
-- **LEX-ID:** `LEX-INV2-1529`
+### LEX-INV2-1528
+- **LEX-ID:** `LEX-INV2-1528`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2888
@@ -26110,8 +26093,8 @@
 
 ---
 
-### LEX-INV2-1530
-- **LEX-ID:** `LEX-INV2-1530`
+### LEX-INV2-1529
+- **LEX-ID:** `LEX-INV2-1529`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2900
@@ -26127,8 +26110,8 @@
 
 ---
 
-### LEX-INV2-1531
-- **LEX-ID:** `LEX-INV2-1531`
+### LEX-INV2-1530
+- **LEX-ID:** `LEX-INV2-1530`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2900
@@ -26144,8 +26127,8 @@
 
 ---
 
-### LEX-INV2-1532
-- **LEX-ID:** `LEX-INV2-1532`
+### LEX-INV2-1531
+- **LEX-ID:** `LEX-INV2-1531`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2912
@@ -26161,8 +26144,8 @@
 
 ---
 
-### LEX-INV2-1533
-- **LEX-ID:** `LEX-INV2-1533`
+### LEX-INV2-1532
+- **LEX-ID:** `LEX-INV2-1532`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2912
@@ -26178,8 +26161,8 @@
 
 ---
 
-### LEX-INV2-1534
-- **LEX-ID:** `LEX-INV2-1534`
+### LEX-INV2-1533
+- **LEX-ID:** `LEX-INV2-1533`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2916
@@ -26195,8 +26178,8 @@
 
 ---
 
-### LEX-INV2-1535
-- **LEX-ID:** `LEX-INV2-1535`
+### LEX-INV2-1534
+- **LEX-ID:** `LEX-INV2-1534`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2916
@@ -26212,8 +26195,8 @@
 
 ---
 
-### LEX-INV2-1536
-- **LEX-ID:** `LEX-INV2-1536`
+### LEX-INV2-1535
+- **LEX-ID:** `LEX-INV2-1535`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2916
@@ -26229,8 +26212,8 @@
 
 ---
 
-### LEX-INV2-1537
-- **LEX-ID:** `LEX-INV2-1537`
+### LEX-INV2-1536
+- **LEX-ID:** `LEX-INV2-1536`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2928
@@ -26246,8 +26229,8 @@
 
 ---
 
-### LEX-INV2-1538
-- **LEX-ID:** `LEX-INV2-1538`
+### LEX-INV2-1537
+- **LEX-ID:** `LEX-INV2-1537`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2928
@@ -26263,8 +26246,8 @@
 
 ---
 
-### LEX-INV2-1539
-- **LEX-ID:** `LEX-INV2-1539`
+### LEX-INV2-1538
+- **LEX-ID:** `LEX-INV2-1538`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2952
@@ -26280,8 +26263,8 @@
 
 ---
 
-### LEX-INV2-1540
-- **LEX-ID:** `LEX-INV2-1540`
+### LEX-INV2-1539
+- **LEX-ID:** `LEX-INV2-1539`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2952
@@ -26297,8 +26280,8 @@
 
 ---
 
-### LEX-INV2-1541
-- **LEX-ID:** `LEX-INV2-1541`
+### LEX-INV2-1540
+- **LEX-ID:** `LEX-INV2-1540`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2960
@@ -26314,14 +26297,31 @@
 
 ---
 
-### LEX-INV2-1542
-- **LEX-ID:** `LEX-INV2-1542`
+### LEX-INV2-1541
+- **LEX-ID:** `LEX-INV2-1541`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 2964
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...ъ тестаменту в чомъ кольвекъ якое кривды детинное правомъ доходити, и не доконавши того права, одинъ которы...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1542
+- **LEX-ID:** `LEX-INV2-1542`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 2964
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ды детинное правомъ доходити, и не доконавши того права, одинъ который з нихъ умеръ, тогды позосталый моц...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26338,7 +26338,7 @@
 - **LOCATOR:** рядок 2964
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ды детинное правомъ доходити, и не доконавши того права, одинъ который з нихъ умеръ, тогды позосталый моц...
+  > ...зосталый моцонъ будеть таковое кривды детинъное у права доводити. А где бы вси опекунове, не доконавши ко...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26352,11 +26352,11 @@
 - **LEX-ID:** `LEX-INV2-1544`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2964
-- **SOURCE-FORM:** `права`
+- **LOCATOR:** рядок 2992
+- **SOURCE-FORM:** `обычаемъ`
 - **EXACT-CONTEXT:**
-  > ...зосталый моцонъ будеть таковое кривды детинъное у права доводити. А где бы вси опекунове, не доконавши ко...
-- **ROOT-FAMILY:** `PRAVO`
+  > О записехъ именей отчизныхъ, матерыстых и всякимъ обычаемъ набытыхъ.
+- **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
 - **DECISION-LAYER:** `AUDIT`
@@ -26369,10 +26369,10 @@
 - **LEX-ID:** `LEX-INV2-1545`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2992
+- **LOCATOR:** рядок 2996
 - **SOURCE-FORM:** `обычаемъ`
 - **EXACT-CONTEXT:**
-  > О записехъ именей отчизныхъ, матерыстых и всякимъ обычаемъ набытыхъ.
+  > ..., матерыстые, выслужоные, купленые и якимъ колвек обычаемъ набытые и названые, не смотречы третее и двухъ ча...
 - **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26389,7 +26389,7 @@
 - **LOCATOR:** рядок 2996
 - **SOURCE-FORM:** `обычаемъ`
 - **EXACT-CONTEXT:**
-  > ..., матерыстые, выслужоные, купленые и якимъ колвек обычаемъ набытые и названые, не смотречы третее и двухъ ча...
+  > ...ти. А тотъ, кому то продано або якимъ же кольвекъ обычаемъ записано, с тымъ листом, записомъ своимъ и тежъ з...
 - **ROOT-FAMILY:** `OBYCHAY`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26401,23 +26401,6 @@
 
 ### LEX-INV2-1547
 - **LEX-ID:** `LEX-INV2-1547`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 2996
-- **SOURCE-FORM:** `обычаемъ`
-- **EXACT-CONTEXT:**
-  > ...ти. А тотъ, кому то продано або якимъ же кольвекъ обычаемъ записано, с тымъ листом, записомъ своимъ и тежъ з...
-- **ROOT-FAMILY:** `OBYCHAY`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1548
-- **LEX-ID:** `LEX-INV2-1548`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3020
@@ -26433,8 +26416,8 @@
 
 ---
 
-### LEX-INV2-1549
-- **LEX-ID:** `LEX-INV2-1549`
+### LEX-INV2-1548
+- **LEX-ID:** `LEX-INV2-1548`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3020
@@ -26450,8 +26433,8 @@
 
 ---
 
-### LEX-INV2-1550
-- **LEX-ID:** `LEX-INV2-1550`
+### LEX-INV2-1549
+- **LEX-ID:** `LEX-INV2-1549`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3032
@@ -26467,8 +26450,8 @@
 
 ---
 
-### LEX-INV2-1551
-- **LEX-ID:** `LEX-INV2-1551`
+### LEX-INV2-1550
+- **LEX-ID:** `LEX-INV2-1550`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3032
@@ -26484,8 +26467,8 @@
 
 ---
 
-### LEX-INV2-1552
-- **LEX-ID:** `LEX-INV2-1552`
+### LEX-INV2-1551
+- **LEX-ID:** `LEX-INV2-1551`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3032
@@ -26501,14 +26484,31 @@
 
 ---
 
-### LEX-INV2-1553
-- **LEX-ID:** `LEX-INV2-1553`
+### LEX-INV2-1552
+- **LEX-ID:** `LEX-INV2-1552`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3032
 - **SOURCE-FORM:** `правом`
 - **EXACT-CONTEXT:**
   > ...же естли бы який спадокъ на кого по змерълой руце правом прирожоным припал, а оный кому бы ся до такого сп...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1553
+- **LEX-ID:** `LEX-INV2-1553`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3032
+- **SOURCE-FORM:** `право`
+- **EXACT-CONTEXT:**
+  > ...ожоным припал, а оный кому бы ся до такого спадку право прырожоное отворыло, а тое имен[ь]е, хотя бы было...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26525,7 +26525,7 @@
 - **LOCATOR:** рядок 3032
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
-  > ...ожоным припал, а оный кому бы ся до такого спадку право прырожоное отворыло, а тое имен[ь]е, хотя бы было...
+  > ...гучы, албо тежъ з доброе воли своее на кого иного право свое влилъ и то кому урядовне записалъ або злетил...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26537,23 +26537,6 @@
 
 ### LEX-INV2-1555
 - **LEX-ID:** `LEX-INV2-1555`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3032
-- **SOURCE-FORM:** `право`
-- **EXACT-CONTEXT:**
-  > ...гучы, албо тежъ з доброе воли своее на кого иного право свое влилъ и то кому урядовне записалъ або злетил...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1556
-- **LEX-ID:** `LEX-INV2-1556`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3032
@@ -26569,8 +26552,8 @@
 
 ---
 
-### LEX-INV2-1557
-- **LEX-ID:** `LEX-INV2-1557`
+### LEX-INV2-1556
+- **LEX-ID:** `LEX-INV2-1556`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3032
@@ -26586,8 +26569,8 @@
 
 ---
 
-### LEX-INV2-1558
-- **LEX-ID:** `LEX-INV2-1558`
+### LEX-INV2-1557
+- **LEX-ID:** `LEX-INV2-1557`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3032
@@ -26603,8 +26586,8 @@
 
 ---
 
-### LEX-INV2-1559
-- **LEX-ID:** `LEX-INV2-1559`
+### LEX-INV2-1558
+- **LEX-ID:** `LEX-INV2-1558`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3032
@@ -26620,8 +26603,8 @@
 
 ---
 
-### LEX-INV2-1560
-- **LEX-ID:** `LEX-INV2-1560`
+### LEX-INV2-1559
+- **LEX-ID:** `LEX-INV2-1559`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3052
@@ -26637,14 +26620,31 @@
 
 ---
 
-### LEX-INV2-1561
-- **LEX-ID:** `LEX-INV2-1561`
+### LEX-INV2-1560
+- **LEX-ID:** `LEX-INV2-1560`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3064
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > О записохъ, которые мають бытъ у права прыймованы кромъ зезнанья урядового, и о позычках...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1561
+- **LEX-ID:** `LEX-INV2-1561`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3068
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...менья або люди и без зезнанья урядового дан[ь]е у права, за моцные прыймованы быти мають. Вед же естли бы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26661,7 +26661,7 @@
 - **LOCATOR:** рядок 3068
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...менья або люди и без зезнанья урядового дан[ь]е у права, за моцные прыймованы быти мають. Вед же естли бы...
+  > ...не прызнавати, тогды тотъ не через прокуратора у права усправедливятися маеть, але самъ повиненъ будеть...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26676,9 +26676,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3068
-- **SOURCE-FORM:** `права`
+- **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
-  > ...не прызнавати, тогды тотъ не через прокуратора у права усправедливятися маеть, але самъ повиненъ будеть...
+  > ...мбрам ему не на тую, але на иншую речъ далъ, а въ праве бы былъ листъ написаный, а не мемъбрамъ показалъ,...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26692,10 +26692,10 @@
 - **LEX-ID:** `LEX-INV2-1564`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3068
-- **SOURCE-FORM:** `праве`
+- **LOCATOR:** рядок 3080
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...мбрам ему не на тую, але на иншую речъ далъ, а въ праве бы былъ листъ написаный, а не мемъбрамъ показалъ,...
+  > ...шляхтичовъ, веры годъныхъ, далъ, таковый записъ у права за моцный и слушный прыймован быти маеть. Вед же...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26712,7 +26712,7 @@
 - **LOCATOR:** рядок 3080
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...шляхтичовъ, веры годъныхъ, далъ, таковый записъ у права за моцный и слушный прыймован быти маеть. Вед же...
+  > ...шей меноваными, обовезалися, тогды такие записы у права приймованы быти не мають, и за ними тотъ, кому се...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26729,7 +26729,7 @@
 - **LOCATOR:** рядок 3080
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...шей меноваными, обовезалися, тогды такие записы у права приймованы быти не мають, и за ними тотъ, кому се...
+  > ...сы даные, яко се у верху того артыкулу описало, у права за слушъные приймованы быти мають.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26743,10 +26743,10 @@
 - **LEX-ID:** `LEX-INV2-1567`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3080
+- **LOCATOR:** рядок 3092
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...сы даные, яко се у верху того артыкулу описало, у права за слушъные приймованы быти мають.
+  > ...калъ именья, близькости своее и позвалъ бы его до права, а тотъ, под кимъ ищеть, деръжалъ бы тое именье з...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26763,7 +26763,7 @@
 - **LOCATOR:** рядок 3092
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...калъ именья, близькости своее и позвалъ бы его до права, а тотъ, под кимъ ищеть, деръжалъ бы тое именье з...
+  > ...записомъ тое именье записано, и показалъ бы то у права речъю самою на ономъ же записе, тогды тотъ, хто и...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -26775,23 +26775,6 @@
 
 ### LEX-INV2-1569
 - **LEX-ID:** `LEX-INV2-1569`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3092
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...записомъ тое именье записано, и показалъ бы то у права речъю самою на ономъ же записе, тогды тотъ, хто и...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1570
-- **LEX-ID:** `LEX-INV2-1570`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3104
@@ -26807,8 +26790,8 @@
 
 ---
 
-### LEX-INV2-1571
-- **LEX-ID:** `LEX-INV2-1571`
+### LEX-INV2-1570
+- **LEX-ID:** `LEX-INV2-1570`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3104
@@ -26824,8 +26807,8 @@
 
 ---
 
-### LEX-INV2-1572
-- **LEX-ID:** `LEX-INV2-1572`
+### LEX-INV2-1571
+- **LEX-ID:** `LEX-INV2-1571`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3116
@@ -26841,8 +26824,8 @@
 
 ---
 
-### LEX-INV2-1573
-- **LEX-ID:** `LEX-INV2-1573`
+### LEX-INV2-1572
+- **LEX-ID:** `LEX-INV2-1572`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3116
@@ -26858,8 +26841,8 @@
 
 ---
 
-### LEX-INV2-1574
-- **LEX-ID:** `LEX-INV2-1574`
+### LEX-INV2-1573
+- **LEX-ID:** `LEX-INV2-1573`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3128
@@ -26875,8 +26858,8 @@
 
 ---
 
-### LEX-INV2-1575
-- **LEX-ID:** `LEX-INV2-1575`
+### LEX-INV2-1574
+- **LEX-ID:** `LEX-INV2-1574`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3128
@@ -26892,8 +26875,8 @@
 
 ---
 
-### LEX-INV2-1576
-- **LEX-ID:** `LEX-INV2-1576`
+### LEX-INV2-1575
+- **LEX-ID:** `LEX-INV2-1575`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3128
@@ -26909,8 +26892,8 @@
 
 ---
 
-### LEX-INV2-1577
-- **LEX-ID:** `LEX-INV2-1577`
+### LEX-INV2-1576
+- **LEX-ID:** `LEX-INV2-1576`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3128
@@ -26926,8 +26909,8 @@
 
 ---
 
-### LEX-INV2-1578
-- **LEX-ID:** `LEX-INV2-1578`
+### LEX-INV2-1577
+- **LEX-ID:** `LEX-INV2-1577`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -26943,8 +26926,8 @@
 
 ---
 
-### LEX-INV2-1579
-- **LEX-ID:** `LEX-INV2-1579`
+### LEX-INV2-1578
+- **LEX-ID:** `LEX-INV2-1578`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -26960,8 +26943,8 @@
 
 ---
 
-### LEX-INV2-1580
-- **LEX-ID:** `LEX-INV2-1580`
+### LEX-INV2-1579
+- **LEX-ID:** `LEX-INV2-1579`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -26977,8 +26960,8 @@
 
 ---
 
-### LEX-INV2-1581
-- **LEX-ID:** `LEX-INV2-1581`
+### LEX-INV2-1580
+- **LEX-ID:** `LEX-INV2-1580`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -26994,8 +26977,8 @@
 
 ---
 
-### LEX-INV2-1582
-- **LEX-ID:** `LEX-INV2-1582`
+### LEX-INV2-1581
+- **LEX-ID:** `LEX-INV2-1581`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -27011,8 +26994,8 @@
 
 ---
 
-### LEX-INV2-1583
-- **LEX-ID:** `LEX-INV2-1583`
+### LEX-INV2-1582
+- **LEX-ID:** `LEX-INV2-1582`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -27028,8 +27011,8 @@
 
 ---
 
-### LEX-INV2-1584
-- **LEX-ID:** `LEX-INV2-1584`
+### LEX-INV2-1583
+- **LEX-ID:** `LEX-INV2-1583`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -27045,8 +27028,8 @@
 
 ---
 
-### LEX-INV2-1585
-- **LEX-ID:** `LEX-INV2-1585`
+### LEX-INV2-1584
+- **LEX-ID:** `LEX-INV2-1584`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -27062,8 +27045,8 @@
 
 ---
 
-### LEX-INV2-1586
-- **LEX-ID:** `LEX-INV2-1586`
+### LEX-INV2-1585
+- **LEX-ID:** `LEX-INV2-1585`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -27079,8 +27062,8 @@
 
 ---
 
-### LEX-INV2-1587
-- **LEX-ID:** `LEX-INV2-1587`
+### LEX-INV2-1586
+- **LEX-ID:** `LEX-INV2-1586`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -27096,8 +27079,8 @@
 
 ---
 
-### LEX-INV2-1588
-- **LEX-ID:** `LEX-INV2-1588`
+### LEX-INV2-1587
+- **LEX-ID:** `LEX-INV2-1587`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -27113,14 +27096,31 @@
 
 ---
 
-### LEX-INV2-1589
-- **LEX-ID:** `LEX-INV2-1589`
+### LEX-INV2-1588
+- **LEX-ID:** `LEX-INV2-1588`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...же до десети летъ о таковую заставу виненъ будетъ правомъ чинити, яко вышей описано. А который бы, дошедшы...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1589
+- **LEX-ID:** `LEX-INV2-1589`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3140
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...татуту в молчанью былъ, упоминанья не чинилъ и до права не притегал, таковый за такъ далекою давностью та...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27137,7 +27137,7 @@
 - **LOCATOR:** рядок 3140
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...татуту в молчанью былъ, упоминанья не чинилъ и до права не притегал, таковый за такъ далекою давностью та...
+  > ...й за такъ далекою давностью также о такую речъ до права потегати и того упоминати не маетъ вечными часы.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27149,23 +27149,6 @@
 
 ### LEX-INV2-1591
 - **LEX-ID:** `LEX-INV2-1591`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3140
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...й за такъ далекою давностью также о такую речъ до права потегати и того упоминати не маетъ вечными часы.
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1592
-- **LEX-ID:** `LEX-INV2-1592`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3140
@@ -27181,8 +27164,8 @@
 
 ---
 
-### LEX-INV2-1593
-- **LEX-ID:** `LEX-INV2-1593`
+### LEX-INV2-1592
+- **LEX-ID:** `LEX-INV2-1592`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3152
@@ -27198,8 +27181,8 @@
 
 ---
 
-### LEX-INV2-1594
-- **LEX-ID:** `LEX-INV2-1594`
+### LEX-INV2-1593
+- **LEX-ID:** `LEX-INV2-1593`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3152
@@ -27215,8 +27198,8 @@
 
 ---
 
-### LEX-INV2-1595
-- **LEX-ID:** `LEX-INV2-1595`
+### LEX-INV2-1594
+- **LEX-ID:** `LEX-INV2-1594`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3152
@@ -27232,8 +27215,8 @@
 
 ---
 
-### LEX-INV2-1596
-- **LEX-ID:** `LEX-INV2-1596`
+### LEX-INV2-1595
+- **LEX-ID:** `LEX-INV2-1595`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3152
@@ -27249,8 +27232,8 @@
 
 ---
 
-### LEX-INV2-1597
-- **LEX-ID:** `LEX-INV2-1597`
+### LEX-INV2-1596
+- **LEX-ID:** `LEX-INV2-1596`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3184
@@ -27266,8 +27249,8 @@
 
 ---
 
-### LEX-INV2-1598
-- **LEX-ID:** `LEX-INV2-1598`
+### LEX-INV2-1597
+- **LEX-ID:** `LEX-INV2-1597`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3188
@@ -27283,8 +27266,8 @@
 
 ---
 
-### LEX-INV2-1599
-- **LEX-ID:** `LEX-INV2-1599`
+### LEX-INV2-1598
+- **LEX-ID:** `LEX-INV2-1598`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3204
@@ -27300,8 +27283,8 @@
 
 ---
 
-### LEX-INV2-1600
-- **LEX-ID:** `LEX-INV2-1600`
+### LEX-INV2-1599
+- **LEX-ID:** `LEX-INV2-1599`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3204
@@ -27317,8 +27300,8 @@
 
 ---
 
-### LEX-INV2-1601
-- **LEX-ID:** `LEX-INV2-1601`
+### LEX-INV2-1600
+- **LEX-ID:** `LEX-INV2-1600`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3204
@@ -27334,8 +27317,8 @@
 
 ---
 
-### LEX-INV2-1602
-- **LEX-ID:** `LEX-INV2-1602`
+### LEX-INV2-1601
+- **LEX-ID:** `LEX-INV2-1601`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3204
@@ -27351,8 +27334,8 @@
 
 ---
 
-### LEX-INV2-1603
-- **LEX-ID:** `LEX-INV2-1603`
+### LEX-INV2-1602
+- **LEX-ID:** `LEX-INV2-1602`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3204
@@ -27368,8 +27351,8 @@
 
 ---
 
-### LEX-INV2-1604
-- **LEX-ID:** `LEX-INV2-1604`
+### LEX-INV2-1603
+- **LEX-ID:** `LEX-INV2-1603`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3204
@@ -27385,8 +27368,8 @@
 
 ---
 
-### LEX-INV2-1605
-- **LEX-ID:** `LEX-INV2-1605`
+### LEX-INV2-1604
+- **LEX-ID:** `LEX-INV2-1604`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3204
@@ -27402,8 +27385,8 @@
 
 ---
 
-### LEX-INV2-1606
-- **LEX-ID:** `LEX-INV2-1606`
+### LEX-INV2-1605
+- **LEX-ID:** `LEX-INV2-1605`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3204
@@ -27419,8 +27402,8 @@
 
 ---
 
-### LEX-INV2-1607
-- **LEX-ID:** `LEX-INV2-1607`
+### LEX-INV2-1606
+- **LEX-ID:** `LEX-INV2-1606`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3208
@@ -27436,14 +27419,31 @@
 
 ---
 
-### LEX-INV2-1608
-- **LEX-ID:** `LEX-INV2-1608`
+### LEX-INV2-1607
+- **LEX-ID:** `LEX-INV2-1607`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3216
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > Рокъ праву о заставную речъ маеть быти положонъ завитый.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1608
+- **LEX-ID:** `LEX-INV2-1608`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3220
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...речъ заставную, мает быти завитый под страченьемъ права. А от которого часу будеть позванъ заставникъ о т...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27460,7 +27460,7 @@
 - **LOCATOR:** рядок 3220
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...речъ заставную, мает быти завитый под страченьемъ права. А от которого часу будеть позванъ заставникъ о т...
+  > ...держанье именья, маеть того заставника позвати до права на рокъ завитый и тое шкоды своее доходити. А вря...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27472,23 +27472,6 @@
 
 ### LEX-INV2-1610
 - **LEX-ID:** `LEX-INV2-1610`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3220
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...держанье именья, маеть того заставника позвати до права на рокъ завитый и тое шкоды своее доходити. А вря...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1611
-- **LEX-ID:** `LEX-INV2-1611`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3220
@@ -27504,8 +27487,8 @@
 
 ---
 
-### LEX-INV2-1612
-- **LEX-ID:** `LEX-INV2-1612`
+### LEX-INV2-1611
+- **LEX-ID:** `LEX-INV2-1611`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3232
@@ -27521,8 +27504,8 @@
 
 ---
 
-### LEX-INV2-1613
-- **LEX-ID:** `LEX-INV2-1613`
+### LEX-INV2-1612
+- **LEX-ID:** `LEX-INV2-1612`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3232
@@ -27538,8 +27521,8 @@
 
 ---
 
-### LEX-INV2-1614
-- **LEX-ID:** `LEX-INV2-1614`
+### LEX-INV2-1613
+- **LEX-ID:** `LEX-INV2-1613`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3244
@@ -27555,8 +27538,8 @@
 
 ---
 
-### LEX-INV2-1615
-- **LEX-ID:** `LEX-INV2-1615`
+### LEX-INV2-1614
+- **LEX-ID:** `LEX-INV2-1614`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3256
@@ -27572,8 +27555,8 @@
 
 ---
 
-### LEX-INV2-1616
-- **LEX-ID:** `LEX-INV2-1616`
+### LEX-INV2-1615
+- **LEX-ID:** `LEX-INV2-1615`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3256
@@ -27589,8 +27572,8 @@
 
 ---
 
-### LEX-INV2-1617
-- **LEX-ID:** `LEX-INV2-1617`
+### LEX-INV2-1616
+- **LEX-ID:** `LEX-INV2-1616`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3256
@@ -27606,8 +27589,8 @@
 
 ---
 
-### LEX-INV2-1618
-- **LEX-ID:** `LEX-INV2-1618`
+### LEX-INV2-1617
+- **LEX-ID:** `LEX-INV2-1617`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3264
@@ -27623,8 +27606,8 @@
 
 ---
 
-### LEX-INV2-1619
-- **LEX-ID:** `LEX-INV2-1619`
+### LEX-INV2-1618
+- **LEX-ID:** `LEX-INV2-1618`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3268
@@ -27640,8 +27623,8 @@
 
 ---
 
-### LEX-INV2-1620
-- **LEX-ID:** `LEX-INV2-1620`
+### LEX-INV2-1619
+- **LEX-ID:** `LEX-INV2-1619`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3268
@@ -27657,14 +27640,31 @@
 
 ---
 
-### LEX-INV2-1621
-- **LEX-ID:** `LEX-INV2-1621`
+### LEX-INV2-1620
+- **LEX-ID:** `LEX-INV2-1620`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3268
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...который ему тое именье продалъ або якимъ колвекъ правомъ завелъ, а кгды бы тотъ заводъца его заступилъ, а...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1621
+- **LEX-ID:** `LEX-INV2-1621`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3268
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...илъ, а позваный, поставившы заводъцу, хотелъ бы с права прочъ пойти, тогды в таковой речы яко тотъ заводц...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27681,7 +27681,7 @@
 - **LOCATOR:** рядок 3268
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...илъ, а позваный, поставившы заводъцу, хотелъ бы с права прочъ пойти, тогды в таковой речы яко тотъ заводц...
+  > ...яко тотъ заводца, такъ и позваный о тое именье с права отходити не мають потоль, ажъ се тотъ заводъца ег...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27698,7 +27698,7 @@
 - **LOCATOR:** рядок 3268
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...яко тотъ заводца, такъ и позваный о тое именье с права отходити не мають потоль, ажъ се тотъ заводъца ег...
+  > ...ою стороною росправит. И кгды бы се то показало с права, же тотъ заводъца неслушне чужое именье пустилъ,...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27710,23 +27710,6 @@
 
 ### LEX-INV2-1624
 - **LEX-ID:** `LEX-INV2-1624`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3268
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ою стороною росправит. И кгды бы се то показало с права, же тотъ заводъца неслушне чужое именье пустилъ,...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1625
-- **LEX-ID:** `LEX-INV2-1625`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3268
@@ -27742,8 +27725,8 @@
 
 ---
 
-### LEX-INV2-1626
-- **LEX-ID:** `LEX-INV2-1626`
+### LEX-INV2-1625
+- **LEX-ID:** `LEX-INV2-1625`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3280
@@ -27759,8 +27742,8 @@
 
 ---
 
-### LEX-INV2-1627
-- **LEX-ID:** `LEX-INV2-1627`
+### LEX-INV2-1626
+- **LEX-ID:** `LEX-INV2-1626`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3280
@@ -27776,8 +27759,8 @@
 
 ---
 
-### LEX-INV2-1628
-- **LEX-ID:** `LEX-INV2-1628`
+### LEX-INV2-1627
+- **LEX-ID:** `LEX-INV2-1627`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3292
@@ -27793,8 +27776,8 @@
 
 ---
 
-### LEX-INV2-1629
-- **LEX-ID:** `LEX-INV2-1629`
+### LEX-INV2-1628
+- **LEX-ID:** `LEX-INV2-1628`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3304
@@ -27810,8 +27793,8 @@
 
 ---
 
-### LEX-INV2-1630
-- **LEX-ID:** `LEX-INV2-1630`
+### LEX-INV2-1629
+- **LEX-ID:** `LEX-INV2-1629`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3352
@@ -27827,8 +27810,8 @@
 
 ---
 
-### LEX-INV2-1631
-- **LEX-ID:** `LEX-INV2-1631`
+### LEX-INV2-1630
+- **LEX-ID:** `LEX-INV2-1630`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3352
@@ -27844,14 +27827,31 @@
 
 ---
 
-### LEX-INV2-1632
-- **LEX-ID:** `LEX-INV2-1632`
+### LEX-INV2-1631
+- **LEX-ID:** `LEX-INV2-1631`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3364
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...заповедалъ, росправити. Ведъ же естли бы се то на праве показало, ижъбы без жадное слушное причины невинъ...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1632
+- **LEX-ID:** `LEX-INV2-1632`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3396
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...сонъ, нижей описаныхъ, которые парсоны, ижъ подле права не мають ничого волного, для того тестаментомъ ни...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27868,7 +27868,7 @@
 - **LOCATOR:** рядок 3396
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...сонъ, нижей описаныхъ, которые парсоны, ижъ подле права не мають ничого волного, для того тестаментомъ ни...
+  > ...го власного або выслуги, такъ тежъ в чужую моцъ с права выданые, то естъ тот, кого бы кому выдано зъ его...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -27880,23 +27880,6 @@
 
 ### LEX-INV2-1634
 - **LEX-ID:** `LEX-INV2-1634`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3396
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...го власного або выслуги, такъ тежъ в чужую моцъ с права выданые, то естъ тот, кого бы кому выдано зъ его...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1635
-- **LEX-ID:** `LEX-INV2-1635`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3396
@@ -27912,8 +27895,8 @@
 
 ---
 
-### LEX-INV2-1636
-- **LEX-ID:** `LEX-INV2-1636`
+### LEX-INV2-1635
+- **LEX-ID:** `LEX-INV2-1635`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3408
@@ -27929,8 +27912,8 @@
 
 ---
 
-### LEX-INV2-1637
-- **LEX-ID:** `LEX-INV2-1637`
+### LEX-INV2-1636
+- **LEX-ID:** `LEX-INV2-1636`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3408
@@ -27946,8 +27929,8 @@
 
 ---
 
-### LEX-INV2-1638
-- **LEX-ID:** `LEX-INV2-1638`
+### LEX-INV2-1637
+- **LEX-ID:** `LEX-INV2-1637`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3408
@@ -27963,8 +27946,8 @@
 
 ---
 
-### LEX-INV2-1639
-- **LEX-ID:** `LEX-INV2-1639`
+### LEX-INV2-1638
+- **LEX-ID:** `LEX-INV2-1638`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3408
@@ -27980,8 +27963,8 @@
 
 ---
 
-### LEX-INV2-1640
-- **LEX-ID:** `LEX-INV2-1640`
+### LEX-INV2-1639
+- **LEX-ID:** `LEX-INV2-1639`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3416
@@ -27997,8 +27980,8 @@
 
 ---
 
-### LEX-INV2-1641
-- **LEX-ID:** `LEX-INV2-1641`
+### LEX-INV2-1640
+- **LEX-ID:** `LEX-INV2-1640`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3452
@@ -28014,8 +27997,8 @@
 
 ---
 
-### LEX-INV2-1642
-- **LEX-ID:** `LEX-INV2-1642`
+### LEX-INV2-1641
+- **LEX-ID:** `LEX-INV2-1641`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3456
@@ -28031,8 +28014,8 @@
 
 ---
 
-### LEX-INV2-1643
-- **LEX-ID:** `LEX-INV2-1643`
+### LEX-INV2-1642
+- **LEX-ID:** `LEX-INV2-1642`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3456
@@ -28048,8 +28031,8 @@
 
 ---
 
-### LEX-INV2-1644
-- **LEX-ID:** `LEX-INV2-1644`
+### LEX-INV2-1643
+- **LEX-ID:** `LEX-INV2-1643`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3456
@@ -28065,8 +28048,8 @@
 
 ---
 
-### LEX-INV2-1645
-- **LEX-ID:** `LEX-INV2-1645`
+### LEX-INV2-1644
+- **LEX-ID:** `LEX-INV2-1644`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3468
@@ -28082,8 +28065,8 @@
 
 ---
 
-### LEX-INV2-1646
-- **LEX-ID:** `LEX-INV2-1646`
+### LEX-INV2-1645
+- **LEX-ID:** `LEX-INV2-1645`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3468
@@ -28099,8 +28082,8 @@
 
 ---
 
-### LEX-INV2-1647
-- **LEX-ID:** `LEX-INV2-1647`
+### LEX-INV2-1646
+- **LEX-ID:** `LEX-INV2-1646`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3497
@@ -28116,8 +28099,8 @@
 
 ---
 
-### LEX-INV2-1648
-- **LEX-ID:** `LEX-INV2-1648`
+### LEX-INV2-1647
+- **LEX-ID:** `LEX-INV2-1647`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3512
@@ -28133,8 +28116,8 @@
 
 ---
 
-### LEX-INV2-1649
-- **LEX-ID:** `LEX-INV2-1649`
+### LEX-INV2-1648
+- **LEX-ID:** `LEX-INV2-1648`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3524
@@ -28150,8 +28133,8 @@
 
 ---
 
-### LEX-INV2-1650
-- **LEX-ID:** `LEX-INV2-1650`
+### LEX-INV2-1649
+- **LEX-ID:** `LEX-INV2-1649`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3524
@@ -28167,8 +28150,8 @@
 
 ---
 
-### LEX-INV2-1651
-- **LEX-ID:** `LEX-INV2-1651`
+### LEX-INV2-1650
+- **LEX-ID:** `LEX-INV2-1650`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3524
@@ -28184,8 +28167,8 @@
 
 ---
 
-### LEX-INV2-1652
-- **LEX-ID:** `LEX-INV2-1652`
+### LEX-INV2-1651
+- **LEX-ID:** `LEX-INV2-1651`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3536
@@ -28201,8 +28184,8 @@
 
 ---
 
-### LEX-INV2-1653
-- **LEX-ID:** `LEX-INV2-1653`
+### LEX-INV2-1652
+- **LEX-ID:** `LEX-INV2-1652`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3536
@@ -28218,8 +28201,8 @@
 
 ---
 
-### LEX-INV2-1654
-- **LEX-ID:** `LEX-INV2-1654`
+### LEX-INV2-1653
+- **LEX-ID:** `LEX-INV2-1653`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3536
@@ -28235,8 +28218,8 @@
 
 ---
 
-### LEX-INV2-1655
-- **LEX-ID:** `LEX-INV2-1655`
+### LEX-INV2-1654
+- **LEX-ID:** `LEX-INV2-1654`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3548
@@ -28252,14 +28235,31 @@
 
 ---
 
-### LEX-INV2-1656
-- **LEX-ID:** `LEX-INV2-1656`
+### LEX-INV2-1655
+- **LEX-ID:** `LEX-INV2-1655`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3548
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...не мелъ от кого иного зъ стороны переказы в томъ праве, яко се то прыдавати звыкло от околичныхъ суседов...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1656
+- **LEX-ID:** `LEX-INV2-1656`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3548
+- **SOURCE-FORM:** `право`
+- **EXACT-CONTEXT:**
+  > ...ми и межами прилеглыхъ ку тому кгрунту, о который право идет, для того сторона поводовая або жалобная мае...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28276,7 +28276,7 @@
 - **LOCATOR:** рядок 3548
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
-  > ...ми и межами прилеглыхъ ку тому кгрунту, о который право идет, для того сторона поводовая або жалобная мае...
+  > ...жоный у оныхъ кгрунтовъ и границъ пенъныхъ, о што право идетъ, не становилися и своихъ границъ, межъ и кг...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28288,23 +28288,6 @@
 
 ### LEX-INV2-1658
 - **LEX-ID:** `LEX-INV2-1658`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3548
-- **SOURCE-FORM:** `право`
-- **EXACT-CONTEXT:**
-  > ...жоный у оныхъ кгрунтовъ и границъ пенъныхъ, о што право идетъ, не становилися и своихъ границъ, межъ и кг...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1659
-- **LEX-ID:** `LEX-INV2-1659`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3548
@@ -28320,8 +28303,8 @@
 
 ---
 
-### LEX-INV2-1660
-- **LEX-ID:** `LEX-INV2-1660`
+### LEX-INV2-1659
+- **LEX-ID:** `LEX-INV2-1659`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3548
@@ -28337,8 +28320,8 @@
 
 ---
 
-### LEX-INV2-1661
-- **LEX-ID:** `LEX-INV2-1661`
+### LEX-INV2-1660
+- **LEX-ID:** `LEX-INV2-1660`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3548
@@ -28354,8 +28337,8 @@
 
 ---
 
-### LEX-INV2-1662
-- **LEX-ID:** `LEX-INV2-1662`
+### LEX-INV2-1661
+- **LEX-ID:** `LEX-INV2-1661`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3548
@@ -28371,8 +28354,8 @@
 
 ---
 
-### LEX-INV2-1663
-- **LEX-ID:** `LEX-INV2-1663`
+### LEX-INV2-1662
+- **LEX-ID:** `LEX-INV2-1662`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3552
@@ -28388,8 +28371,8 @@
 
 ---
 
-### LEX-INV2-1664
-- **LEX-ID:** `LEX-INV2-1664`
+### LEX-INV2-1663
+- **LEX-ID:** `LEX-INV2-1663`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3556
@@ -28405,8 +28388,8 @@
 
 ---
 
-### LEX-INV2-1665
-- **LEX-ID:** `LEX-INV2-1665`
+### LEX-INV2-1664
+- **LEX-ID:** `LEX-INV2-1664`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3556
@@ -28422,8 +28405,8 @@
 
 ---
 
-### LEX-INV2-1666
-- **LEX-ID:** `LEX-INV2-1666`
+### LEX-INV2-1665
+- **LEX-ID:** `LEX-INV2-1665`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3556
@@ -28439,8 +28422,8 @@
 
 ---
 
-### LEX-INV2-1667
-- **LEX-ID:** `LEX-INV2-1667`
+### LEX-INV2-1666
+- **LEX-ID:** `LEX-INV2-1666`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3568
@@ -28456,8 +28439,8 @@
 
 ---
 
-### LEX-INV2-1668
-- **LEX-ID:** `LEX-INV2-1668`
+### LEX-INV2-1667
+- **LEX-ID:** `LEX-INV2-1667`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3576
@@ -28473,8 +28456,8 @@
 
 ---
 
-### LEX-INV2-1669
-- **LEX-ID:** `LEX-INV2-1669`
+### LEX-INV2-1668
+- **LEX-ID:** `LEX-INV2-1668`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3580
@@ -28490,8 +28473,8 @@
 
 ---
 
-### LEX-INV2-1670
-- **LEX-ID:** `LEX-INV2-1670`
+### LEX-INV2-1669
+- **LEX-ID:** `LEX-INV2-1669`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3580
@@ -28507,8 +28490,8 @@
 
 ---
 
-### LEX-INV2-1671
-- **LEX-ID:** `LEX-INV2-1671`
+### LEX-INV2-1670
+- **LEX-ID:** `LEX-INV2-1670`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3580
@@ -28524,8 +28507,8 @@
 
 ---
 
-### LEX-INV2-1672
-- **LEX-ID:** `LEX-INV2-1672`
+### LEX-INV2-1671
+- **LEX-ID:** `LEX-INV2-1671`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3584
@@ -28541,6 +28524,23 @@
 
 ---
 
+### LEX-INV2-1672
+- **LEX-ID:** `LEX-INV2-1672`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3584
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...не самъ, тогды черезъ умоцованого своего, предъсе права пилен быти и передъ подъкоморым на кгрунъте стано...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1673
 - **LEX-ID:** `LEX-INV2-1673`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -28548,7 +28548,7 @@
 - **LOCATOR:** рядок 3584
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...не самъ, тогды черезъ умоцованого своего, предъсе права пилен быти и передъ подъкоморым на кгрунъте стано...
+  > ...оморым на кгрунъте становитисе и росправу водлугъ права прыймовати виненъ будеть. А если с права присега...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28565,7 +28565,7 @@
 - **LOCATOR:** рядок 3584
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...оморым на кгрунъте становитисе и росправу водлугъ права прыймовати виненъ будеть. А если с права присега...
+  > ...водлугъ права прыймовати виненъ будеть. А если с права присега тому, хто хоръ, сказана будет, тогды свет...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28577,23 +28577,6 @@
 
 ### LEX-INV2-1675
 - **LEX-ID:** `LEX-INV2-1675`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3584
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...водлугъ права прыймовати виненъ будеть. А если с права присега тому, хто хоръ, сказана будет, тогды свет...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1676
-- **LEX-ID:** `LEX-INV2-1676`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3584
@@ -28609,8 +28592,8 @@
 
 ---
 
-### LEX-INV2-1677
-- **LEX-ID:** `LEX-INV2-1677`
+### LEX-INV2-1676
+- **LEX-ID:** `LEX-INV2-1676`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3584
@@ -28626,8 +28609,8 @@
 
 ---
 
-### LEX-INV2-1678
-- **LEX-ID:** `LEX-INV2-1678`
+### LEX-INV2-1677
+- **LEX-ID:** `LEX-INV2-1677`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3600
@@ -28643,8 +28626,8 @@
 
 ---
 
-### LEX-INV2-1679
-- **LEX-ID:** `LEX-INV2-1679`
+### LEX-INV2-1678
+- **LEX-ID:** `LEX-INV2-1678`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3600
@@ -28660,8 +28643,8 @@
 
 ---
 
-### LEX-INV2-1680
-- **LEX-ID:** `LEX-INV2-1680`
+### LEX-INV2-1679
+- **LEX-ID:** `LEX-INV2-1679`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3612
@@ -28677,8 +28660,8 @@
 
 ---
 
-### LEX-INV2-1681
-- **LEX-ID:** `LEX-INV2-1681`
+### LEX-INV2-1680
+- **LEX-ID:** `LEX-INV2-1680`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3612
@@ -28694,8 +28677,8 @@
 
 ---
 
-### LEX-INV2-1682
-- **LEX-ID:** `LEX-INV2-1682`
+### LEX-INV2-1681
+- **LEX-ID:** `LEX-INV2-1681`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3612
@@ -28711,8 +28694,8 @@
 
 ---
 
-### LEX-INV2-1683
-- **LEX-ID:** `LEX-INV2-1683`
+### LEX-INV2-1682
+- **LEX-ID:** `LEX-INV2-1682`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3624
@@ -28728,8 +28711,8 @@
 
 ---
 
-### LEX-INV2-1684
-- **LEX-ID:** `LEX-INV2-1684`
+### LEX-INV2-1683
+- **LEX-ID:** `LEX-INV2-1683`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3624
@@ -28745,8 +28728,8 @@
 
 ---
 
-### LEX-INV2-1685
-- **LEX-ID:** `LEX-INV2-1685`
+### LEX-INV2-1684
+- **LEX-ID:** `LEX-INV2-1684`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3628
@@ -28762,8 +28745,8 @@
 
 ---
 
-### LEX-INV2-1686
-- **LEX-ID:** `LEX-INV2-1686`
+### LEX-INV2-1685
+- **LEX-ID:** `LEX-INV2-1685`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3640
@@ -28779,14 +28762,31 @@
 
 ---
 
-### LEX-INV2-1687
-- **LEX-ID:** `LEX-INV2-1687`
+### LEX-INV2-1686
+- **LEX-ID:** `LEX-INV2-1686`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3652
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...ъ, у повете оселых, людей годъныхъ, статочныхъ, в праве умеетныхъ и писати умеючыхъ, которые на рокохъ су...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1687
+- **LEX-ID:** `LEX-INV2-1687`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3664
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...нтъ пенный выехати и то промежъку сторонъ водлугъ права розъсудъкомъ своимъ сконъчыти. А рокъ такому выез...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28803,7 +28803,7 @@
 - **LOCATOR:** рядок 3664
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...нтъ пенный выехати и то промежъку сторонъ водлугъ права розъсудъкомъ своимъ сконъчыти. А рокъ такому выез...
+  > ...своего комисаромъ справу дати, а комисары водлугъ права то конъчыти будуть. А за проездъ и працу тымъ вря...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28817,10 +28817,10 @@
 - **LEX-ID:** `LEX-INV2-1689`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3664
-- **SOURCE-FORM:** `права`
+- **LOCATOR:** рядок 3676
+- **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...своего комисаромъ справу дати, а комисары водлугъ права то конъчыти будуть. А за проездъ и працу тымъ вря...
+  > ...маетъ з обудву сторонъ по девети светковъ передъ правомъ поставити на томъ кгрунте пенъномъ. И кого зъ них...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28834,10 +28834,10 @@
 - **LEX-ID:** `LEX-INV2-1690`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3676
-- **SOURCE-FORM:** `правомъ`
+- **LOCATOR:** рядок 3680
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...маетъ з обудву сторонъ по девети светковъ передъ правомъ поставити на томъ кгрунте пенъномъ. И кого зъ них...
+  > ...о который споръ шолъ, одержати маетъ. А где бы у права то показалосе, ижъбы хто, отнявшы або отнимаючы к...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28854,7 +28854,7 @@
 - **LOCATOR:** рядок 3680
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...о который споръ шолъ, одержати маетъ. А где бы у права то показалосе, ижъбы хто, отнявшы або отнимаючы к...
+  > ...ы кому кгрунтъ або входы, пожытки якие, а о то до права былъ позванъ и на оный кгрунтъ у суду жадного пра...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28871,7 +28871,7 @@
 - **LOCATOR:** рядок 3680
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ы кому кгрунтъ або входы, пожытки якие, а о то до права былъ позванъ и на оный кгрунтъ у суду жадного пра...
+  > ...ава былъ позванъ и на оный кгрунтъ у суду жадного права яко листовного, такъ ани знаковъ слушныхъ и явных...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -28883,23 +28883,6 @@
 
 ### LEX-INV2-1693
 - **LEX-ID:** `LEX-INV2-1693`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3680
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ава былъ позванъ и на оный кгрунтъ у суду жадного права яко листовного, такъ ани знаковъ слушныхъ и явных...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1694
-- **LEX-ID:** `LEX-INV2-1694`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3680
@@ -28915,8 +28898,8 @@
 
 ---
 
-### LEX-INV2-1695
-- **LEX-ID:** `LEX-INV2-1695`
+### LEX-INV2-1694
+- **LEX-ID:** `LEX-INV2-1694`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3680
@@ -28932,8 +28915,8 @@
 
 ---
 
-### LEX-INV2-1696
-- **LEX-ID:** `LEX-INV2-1696`
+### LEX-INV2-1695
+- **LEX-ID:** `LEX-INV2-1695`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3680
@@ -28949,8 +28932,8 @@
 
 ---
 
-### LEX-INV2-1697
-- **LEX-ID:** `LEX-INV2-1697`
+### LEX-INV2-1696
+- **LEX-ID:** `LEX-INV2-1696`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3688
@@ -28966,8 +28949,8 @@
 
 ---
 
-### LEX-INV2-1698
-- **LEX-ID:** `LEX-INV2-1698`
+### LEX-INV2-1697
+- **LEX-ID:** `LEX-INV2-1697`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3692
@@ -28983,14 +28966,31 @@
 
 ---
 
-### LEX-INV2-1699
-- **LEX-ID:** `LEX-INV2-1699`
+### LEX-INV2-1698
+- **LEX-ID:** `LEX-INV2-1698`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3692
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...ку пилновати будеть, тую речъ, о што промежку них право идеть и што на позве описано, вжо без присеги жад...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1699
+- **LEX-ID:** `LEX-INV2-1699`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3692
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ное сказанье выйдеть, менила собе в томъ переводе права кривду за утвореньемъ черезъ сторону ее року непр...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29007,7 +29007,7 @@
 - **LOCATOR:** рядок 3692
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ное сказанье выйдеть, менила собе в томъ переводе права кривду за утвореньемъ черезъ сторону ее року непр...
+  > ...огды в такой речи волно будеть ей о злый переводъ права передъ тот же судъ подъкоморъский противную сторо...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29024,7 +29024,7 @@
 - **LOCATOR:** рядок 3692
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...огды в такой речи волно будеть ей о злый переводъ права передъ тот же судъ подъкоморъский противную сторо...
+  > ...лу того, который естъ постановенъ о злый переводъ права в розъделе четвертомъ.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29036,23 +29036,6 @@
 
 ### LEX-INV2-1702
 - **LEX-ID:** `LEX-INV2-1702`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3692
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...лу того, который естъ постановенъ о злый переводъ права в розъделе четвертомъ.
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1703
-- **LEX-ID:** `LEX-INV2-1703`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3704
@@ -29068,8 +29051,8 @@
 
 ---
 
-### LEX-INV2-1704
-- **LEX-ID:** `LEX-INV2-1704`
+### LEX-INV2-1703
+- **LEX-ID:** `LEX-INV2-1703`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3704
@@ -29085,8 +29068,8 @@
 
 ---
 
-### LEX-INV2-1705
-- **LEX-ID:** `LEX-INV2-1705`
+### LEX-INV2-1704
+- **LEX-ID:** `LEX-INV2-1704`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3704
@@ -29102,8 +29085,8 @@
 
 ---
 
-### LEX-INV2-1706
-- **LEX-ID:** `LEX-INV2-1706`
+### LEX-INV2-1705
+- **LEX-ID:** `LEX-INV2-1705`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3716
@@ -29119,14 +29102,31 @@
 
 ---
 
-### LEX-INV2-1707
-- **LEX-ID:** `LEX-INV2-1707`
+### LEX-INV2-1706
+- **LEX-ID:** `LEX-INV2-1706`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3716
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...х веры годныхъ, а отставлялъ ихъ, хотечы имъ тымъ права сконъченъя переказити, а тотъ, яко поводовая стор...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1707
+- **LEX-ID:** `LEX-INV2-1707`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3728
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ой стороне о землю обрубъную ограничоную поводъ с права былъ сказан, тотъ светковъ своихъ маеть подле обы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29143,7 +29143,7 @@
 - **LOCATOR:** рядок 3728
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ой стороне о землю обрубъную ограничоную поводъ с права былъ сказан, тотъ светковъ своихъ маеть подле обы...
+  > ...ъ сказан, тотъ светковъ своихъ маеть подле обычаю права девети передъ правомъ поставити, и якъ тотъ панъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29155,23 +29155,6 @@
 
 ### LEX-INV2-1709
 - **LEX-ID:** `LEX-INV2-1709`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3728
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ъ сказан, тотъ светковъ своихъ маеть подле обычаю права девети передъ правомъ поставити, и якъ тотъ панъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1710
-- **LEX-ID:** `LEX-INV2-1710`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3728
@@ -29187,8 +29170,8 @@
 
 ---
 
-### LEX-INV2-1711
-- **LEX-ID:** `LEX-INV2-1711`
+### LEX-INV2-1710
+- **LEX-ID:** `LEX-INV2-1710`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3728
@@ -29204,8 +29187,8 @@
 
 ---
 
-### LEX-INV2-1712
-- **LEX-ID:** `LEX-INV2-1712`
+### LEX-INV2-1711
+- **LEX-ID:** `LEX-INV2-1711`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3728
@@ -29221,8 +29204,8 @@
 
 ---
 
-### LEX-INV2-1713
-- **LEX-ID:** `LEX-INV2-1713`
+### LEX-INV2-1712
+- **LEX-ID:** `LEX-INV2-1712`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3728
@@ -29238,8 +29221,8 @@
 
 ---
 
-### LEX-INV2-1714
-- **LEX-ID:** `LEX-INV2-1714`
+### LEX-INV2-1713
+- **LEX-ID:** `LEX-INV2-1713`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3728
@@ -29255,8 +29238,8 @@
 
 ---
 
-### LEX-INV2-1715
-- **LEX-ID:** `LEX-INV2-1715`
+### LEX-INV2-1714
+- **LEX-ID:** `LEX-INV2-1714`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3728
@@ -29272,8 +29255,8 @@
 
 ---
 
-### LEX-INV2-1716
-- **LEX-ID:** `LEX-INV2-1716`
+### LEX-INV2-1715
+- **LEX-ID:** `LEX-INV2-1715`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3736
@@ -29289,8 +29272,8 @@
 
 ---
 
-### LEX-INV2-1717
-- **LEX-ID:** `LEX-INV2-1717`
+### LEX-INV2-1716
+- **LEX-ID:** `LEX-INV2-1716`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3740
@@ -29306,8 +29289,8 @@
 
 ---
 
-### LEX-INV2-1718
-- **LEX-ID:** `LEX-INV2-1718`
+### LEX-INV2-1717
+- **LEX-ID:** `LEX-INV2-1717`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3752
@@ -29323,14 +29306,31 @@
 
 ---
 
-### LEX-INV2-1719
-- **LEX-ID:** `LEX-INV2-1719`
+### LEX-INV2-1718
+- **LEX-ID:** `LEX-INV2-1718`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3752
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...ривда в границы або межы видела, ино о то мают се правомъ спирати, а не кгвалтомъ. Вед же свою старую грани...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1719
+- **LEX-ID:** `LEX-INV2-1719`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3764
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ти и лепшого кгрунту проробилъ, а былъ бы о то до права позванъ, тогды з розсудку врядового виненъ будетъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29347,7 +29347,7 @@
 - **LOCATOR:** рядок 3764
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ти и лепшого кгрунту проробилъ, а былъ бы о то до права позванъ, тогды з розсудку врядового виненъ будетъ...
+  > ...суду земъского на рокъ завитый позвати. А тамъ с права маеть быти имъ делъ съказанъ на ровный [так!] час...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29364,7 +29364,7 @@
 - **LOCATOR:** рядок 3764
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...суду земъского на рокъ завитый позвати. А тамъ с права маеть быти имъ делъ съказанъ на ровный [так!] час...
+  > ...ти имъ делъ съказанъ на ровный [так!] части водле права кождого з нихъ. А тотъ делъ маеть бытъ чыненъ тым...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29376,23 +29376,6 @@
 
 ### LEX-INV2-1722
 - **LEX-ID:** `LEX-INV2-1722`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3764
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ти имъ делъ съказанъ на ровный [так!] части водле права кождого з нихъ. А тотъ делъ маеть бытъ чыненъ тым...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1723
-- **LEX-ID:** `LEX-INV2-1723`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3776
@@ -29408,8 +29391,8 @@
 
 ---
 
-### LEX-INV2-1724
-- **LEX-ID:** `LEX-INV2-1724`
+### LEX-INV2-1723
+- **LEX-ID:** `LEX-INV2-1723`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3776
@@ -29425,8 +29408,8 @@
 
 ---
 
-### LEX-INV2-1725
-- **LEX-ID:** `LEX-INV2-1725`
+### LEX-INV2-1724
+- **LEX-ID:** `LEX-INV2-1724`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3776
@@ -29442,8 +29425,8 @@
 
 ---
 
-### LEX-INV2-1726
-- **LEX-ID:** `LEX-INV2-1726`
+### LEX-INV2-1725
+- **LEX-ID:** `LEX-INV2-1725`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3776
@@ -29459,8 +29442,8 @@
 
 ---
 
-### LEX-INV2-1727
-- **LEX-ID:** `LEX-INV2-1727`
+### LEX-INV2-1726
+- **LEX-ID:** `LEX-INV2-1726`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3788
@@ -29476,8 +29459,8 @@
 
 ---
 
-### LEX-INV2-1728
-- **LEX-ID:** `LEX-INV2-1728`
+### LEX-INV2-1727
+- **LEX-ID:** `LEX-INV2-1727`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3788
@@ -29493,8 +29476,8 @@
 
 ---
 
-### LEX-INV2-1729
-- **LEX-ID:** `LEX-INV2-1729`
+### LEX-INV2-1728
+- **LEX-ID:** `LEX-INV2-1728`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3796
@@ -29510,8 +29493,8 @@
 
 ---
 
-### LEX-INV2-1730
-- **LEX-ID:** `LEX-INV2-1730`
+### LEX-INV2-1729
+- **LEX-ID:** `LEX-INV2-1729`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29527,8 +29510,8 @@
 
 ---
 
-### LEX-INV2-1731
-- **LEX-ID:** `LEX-INV2-1731`
+### LEX-INV2-1730
+- **LEX-ID:** `LEX-INV2-1730`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29544,8 +29527,8 @@
 
 ---
 
-### LEX-INV2-1732
-- **LEX-ID:** `LEX-INV2-1732`
+### LEX-INV2-1731
+- **LEX-ID:** `LEX-INV2-1731`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29561,8 +29544,8 @@
 
 ---
 
-### LEX-INV2-1733
-- **LEX-ID:** `LEX-INV2-1733`
+### LEX-INV2-1732
+- **LEX-ID:** `LEX-INV2-1732`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29578,8 +29561,8 @@
 
 ---
 
-### LEX-INV2-1734
-- **LEX-ID:** `LEX-INV2-1734`
+### LEX-INV2-1733
+- **LEX-ID:** `LEX-INV2-1733`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29595,8 +29578,8 @@
 
 ---
 
-### LEX-INV2-1735
-- **LEX-ID:** `LEX-INV2-1735`
+### LEX-INV2-1734
+- **LEX-ID:** `LEX-INV2-1734`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29612,8 +29595,8 @@
 
 ---
 
-### LEX-INV2-1736
-- **LEX-ID:** `LEX-INV2-1736`
+### LEX-INV2-1735
+- **LEX-ID:** `LEX-INV2-1735`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29629,8 +29612,8 @@
 
 ---
 
-### LEX-INV2-1737
-- **LEX-ID:** `LEX-INV2-1737`
+### LEX-INV2-1736
+- **LEX-ID:** `LEX-INV2-1736`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29646,8 +29629,8 @@
 
 ---
 
-### LEX-INV2-1738
-- **LEX-ID:** `LEX-INV2-1738`
+### LEX-INV2-1737
+- **LEX-ID:** `LEX-INV2-1737`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3800
@@ -29663,8 +29646,8 @@
 
 ---
 
-### LEX-INV2-1739
-- **LEX-ID:** `LEX-INV2-1739`
+### LEX-INV2-1738
+- **LEX-ID:** `LEX-INV2-1738`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3808
@@ -29680,8 +29663,8 @@
 
 ---
 
-### LEX-INV2-1740
-- **LEX-ID:** `LEX-INV2-1740`
+### LEX-INV2-1739
+- **LEX-ID:** `LEX-INV2-1739`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3812
@@ -29697,8 +29680,8 @@
 
 ---
 
-### LEX-INV2-1741
-- **LEX-ID:** `LEX-INV2-1741`
+### LEX-INV2-1740
+- **LEX-ID:** `LEX-INV2-1740`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3812
@@ -29714,14 +29697,31 @@
 
 ---
 
-### LEX-INV2-1742
-- **LEX-ID:** `LEX-INV2-1742`
+### LEX-INV2-1741
+- **LEX-ID:** `LEX-INV2-1741`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3812
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...того боронил и в держанье не дал, тому мает быти право у суду належного. И хто в земли будет винен, тот...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1742
+- **LEX-ID:** `LEX-INV2-1742`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3848
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...и моцы зоставати маеть, который межы незгодными с права сказанъ и врадовне постановенъ будеть. А если бы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29738,7 +29738,7 @@
 - **LOCATOR:** рядок 3848
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...и моцы зоставати маеть, который межы незгодными с права сказанъ и врадовне постановенъ будеть. А если бы...
+  > ...ову рушыти и о то бы братью свою або близскихъ до права позвалъ, тогды такому предъсе делъ знову маеть бы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29750,23 +29750,6 @@
 
 ### LEX-INV2-1744
 - **LEX-ID:** `LEX-INV2-1744`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3848
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ову рушыти и о то бы братью свою або близскихъ до права позвалъ, тогды такому предъсе делъ знову маеть бы...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1745
-- **LEX-ID:** `LEX-INV2-1745`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3852
@@ -29782,8 +29765,8 @@
 
 ---
 
-### LEX-INV2-1746
-- **LEX-ID:** `LEX-INV2-1746`
+### LEX-INV2-1745
+- **LEX-ID:** `LEX-INV2-1745`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3852
@@ -29799,6 +29782,23 @@
 
 ---
 
+### LEX-INV2-1746
+- **LEX-ID:** `LEX-INV2-1746`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3852
+- **SOURCE-FORM:** `привилья`
+- **EXACT-CONTEXT:**
+  > ...приступити. А при кождомъ розделе вечыстом листы, привилья при томъ зоставати мають, при комъ и именье тое з...
+- **ROOT-FAMILY:** `PRIVILEG`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1747
 - **LEX-ID:** `LEX-INV2-1747`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -29806,7 +29806,7 @@
 - **LOCATOR:** рядок 3852
 - **SOURCE-FORM:** `привилья`
 - **EXACT-CONTEXT:**
-  > ...приступити. А при кождомъ розделе вечыстом листы, привилья при томъ зоставати мають, при комъ и именье тое з...
+  > ...одно именье на ровные части поделено або бы одны привилья на колко именъ, розно поделеныхъ, служыли, тогды...
 - **ROOT-FAMILY:** `PRIVILEG`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29823,7 +29823,7 @@
 - **LOCATOR:** рядок 3852
 - **SOURCE-FORM:** `привилья`
 - **EXACT-CONTEXT:**
-  > ...одно именье на ровные части поделено або бы одны привилья на колко именъ, розно поделеныхъ, служыли, тогды...
+  > ...нъ, розно поделеныхъ, служыли, тогды такие листы, привилья, для ведомости списавъшы на рейстра, тые рейстра...
 - **ROOT-FAMILY:** `PRIVILEG`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29835,23 +29835,6 @@
 
 ### LEX-INV2-1749
 - **LEX-ID:** `LEX-INV2-1749`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3852
-- **SOURCE-FORM:** `привилья`
-- **EXACT-CONTEXT:**
-  > ...нъ, розно поделеныхъ, служыли, тогды такие листы, привилья, для ведомости списавъшы на рейстра, тые рейстра...
-- **ROOT-FAMILY:** `PRIVILEG`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1750
-- **LEX-ID:** `LEX-INV2-1750`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3888
@@ -29867,8 +29850,8 @@
 
 ---
 
-### LEX-INV2-1751
-- **LEX-ID:** `LEX-INV2-1751`
+### LEX-INV2-1750
+- **LEX-ID:** `LEX-INV2-1750`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3924
@@ -29884,14 +29867,31 @@
 
 ---
 
-### LEX-INV2-1752
-- **LEX-ID:** `LEX-INV2-1752`
+### LEX-INV2-1751
+- **LEX-ID:** `LEX-INV2-1751`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3956
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...оторого тотъ стрелецъ в пущу чужую ходилъ, и рокъ праву складаючы водлугъ далекости дороги надалей до дву...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1752
+- **LEX-ID:** `LEX-INV2-1752`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 3956
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...надалей до двухъ недель, абы ку прыслуханью того права до вряду нашого прыбылъ. А кгды с права за доводо...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29908,7 +29908,7 @@
 - **LOCATOR:** рядок 3956
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...надалей до двухъ недель, абы ку прыслуханью того права до вряду нашого прыбылъ. А кгды с права за доводо...
+  > ...анью того права до вряду нашого прыбылъ. А кгды с права за доводомъ слушным тотъ стрелецъ в томъ виннымъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -29920,23 +29920,6 @@
 
 ### LEX-INV2-1754
 - **LEX-ID:** `LEX-INV2-1754`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 3956
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...анью того права до вряду нашого прыбылъ. А кгды с права за доводомъ слушным тотъ стрелецъ в томъ виннымъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1755
-- **LEX-ID:** `LEX-INV2-1755`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3980
@@ -29952,8 +29935,8 @@
 
 ---
 
-### LEX-INV2-1756
-- **LEX-ID:** `LEX-INV2-1756`
+### LEX-INV2-1755
+- **LEX-ID:** `LEX-INV2-1755`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3980
@@ -29969,8 +29952,8 @@
 
 ---
 
-### LEX-INV2-1757
-- **LEX-ID:** `LEX-INV2-1757`
+### LEX-INV2-1756
+- **LEX-ID:** `LEX-INV2-1756`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 3980
@@ -29986,8 +29969,8 @@
 
 ---
 
-### LEX-INV2-1758
-- **LEX-ID:** `LEX-INV2-1758`
+### LEX-INV2-1757
+- **LEX-ID:** `LEX-INV2-1757`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4000
@@ -30003,8 +29986,8 @@
 
 ---
 
-### LEX-INV2-1759
-- **LEX-ID:** `LEX-INV2-1759`
+### LEX-INV2-1758
+- **LEX-ID:** `LEX-INV2-1758`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4012
@@ -30020,8 +30003,8 @@
 
 ---
 
-### LEX-INV2-1760
-- **LEX-ID:** `LEX-INV2-1760`
+### LEX-INV2-1759
+- **LEX-ID:** `LEX-INV2-1759`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4012
@@ -30037,8 +30020,8 @@
 
 ---
 
-### LEX-INV2-1761
-- **LEX-ID:** `LEX-INV2-1761`
+### LEX-INV2-1760
+- **LEX-ID:** `LEX-INV2-1760`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4012
@@ -30054,8 +30037,8 @@
 
 ---
 
-### LEX-INV2-1762
-- **LEX-ID:** `LEX-INV2-1762`
+### LEX-INV2-1761
+- **LEX-ID:** `LEX-INV2-1761`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4012
@@ -30071,8 +30054,8 @@
 
 ---
 
-### LEX-INV2-1763
-- **LEX-ID:** `LEX-INV2-1763`
+### LEX-INV2-1762
+- **LEX-ID:** `LEX-INV2-1762`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4024
@@ -30088,8 +30071,8 @@
 
 ---
 
-### LEX-INV2-1764
-- **LEX-ID:** `LEX-INV2-1764`
+### LEX-INV2-1763
+- **LEX-ID:** `LEX-INV2-1763`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4048
@@ -30105,8 +30088,8 @@
 
 ---
 
-### LEX-INV2-1765
-- **LEX-ID:** `LEX-INV2-1765`
+### LEX-INV2-1764
+- **LEX-ID:** `LEX-INV2-1764`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4048
@@ -30122,8 +30105,8 @@
 
 ---
 
-### LEX-INV2-1766
-- **LEX-ID:** `LEX-INV2-1766`
+### LEX-INV2-1765
+- **LEX-ID:** `LEX-INV2-1765`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4060
@@ -30139,8 +30122,8 @@
 
 ---
 
-### LEX-INV2-1767
-- **LEX-ID:** `LEX-INV2-1767`
+### LEX-INV2-1766
+- **LEX-ID:** `LEX-INV2-1766`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4084
@@ -30156,8 +30139,8 @@
 
 ---
 
-### LEX-INV2-1768
-- **LEX-ID:** `LEX-INV2-1768`
+### LEX-INV2-1767
+- **LEX-ID:** `LEX-INV2-1767`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4092
@@ -30173,8 +30156,8 @@
 
 ---
 
-### LEX-INV2-1769
-- **LEX-ID:** `LEX-INV2-1769`
+### LEX-INV2-1768
+- **LEX-ID:** `LEX-INV2-1768`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4096
@@ -30190,8 +30173,8 @@
 
 ---
 
-### LEX-INV2-1770
-- **LEX-ID:** `LEX-INV2-1770`
+### LEX-INV2-1769
+- **LEX-ID:** `LEX-INV2-1769`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4096
@@ -30207,8 +30190,8 @@
 
 ---
 
-### LEX-INV2-1771
-- **LEX-ID:** `LEX-INV2-1771`
+### LEX-INV2-1770
+- **LEX-ID:** `LEX-INV2-1770`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4096
@@ -30224,8 +30207,8 @@
 
 ---
 
-### LEX-INV2-1772
-- **LEX-ID:** `LEX-INV2-1772`
+### LEX-INV2-1771
+- **LEX-ID:** `LEX-INV2-1771`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4108
@@ -30241,8 +30224,8 @@
 
 ---
 
-### LEX-INV2-1773
-- **LEX-ID:** `LEX-INV2-1773`
+### LEX-INV2-1772
+- **LEX-ID:** `LEX-INV2-1772`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4132
@@ -30258,8 +30241,8 @@
 
 ---
 
-### LEX-INV2-1774
-- **LEX-ID:** `LEX-INV2-1774`
+### LEX-INV2-1773
+- **LEX-ID:** `LEX-INV2-1773`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4144
@@ -30275,8 +30258,8 @@
 
 ---
 
-### LEX-INV2-1775
-- **LEX-ID:** `LEX-INV2-1775`
+### LEX-INV2-1774
+- **LEX-ID:** `LEX-INV2-1774`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4156
@@ -30292,8 +30275,8 @@
 
 ---
 
-### LEX-INV2-1776
-- **LEX-ID:** `LEX-INV2-1776`
+### LEX-INV2-1775
+- **LEX-ID:** `LEX-INV2-1775`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4200
@@ -30309,8 +30292,8 @@
 
 ---
 
-### LEX-INV2-1777
-- **LEX-ID:** `LEX-INV2-1777`
+### LEX-INV2-1776
+- **LEX-ID:** `LEX-INV2-1776`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4200
@@ -30326,8 +30309,8 @@
 
 ---
 
-### LEX-INV2-1778
-- **LEX-ID:** `LEX-INV2-1778`
+### LEX-INV2-1777
+- **LEX-ID:** `LEX-INV2-1777`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4200
@@ -30343,6 +30326,23 @@
 
 ---
 
+### LEX-INV2-1778
+- **LEX-ID:** `LEX-INV2-1778`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4212
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...оказанью вряду вжо тотъ трупъ, не ждучы конъченья права, яко то передъ тым чынено, можетъ быти похованъ....
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1779
 - **LEX-ID:** `LEX-INV2-1779`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -30350,7 +30350,7 @@
 - **LOCATOR:** рядок 4212
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...оказанью вряду вжо тотъ трупъ, не ждучы конъченья права, яко то передъ тым чынено, можетъ быти похованъ....
+  > ...и каранью, о нем описаному, шкодити не маеть, и у права, если бы ся ку оному кгвалту и забитому обжалован...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30367,7 +30367,7 @@
 - **LOCATOR:** рядок 4212
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...и каранью, о нем описаному, шкодити не маеть, и у права, если бы ся ку оному кгвалту и забитому обжалован...
+  > ...й будеть суседы околичными, ставечи их очевисте у права, и теж выписомъ сознанья возного на него доводити...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30384,7 +30384,7 @@
 - **LOCATOR:** рядок 4212
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...й будеть суседы околичными, ставечи их очевисте у права, и теж выписомъ сознанья возного на него доводити...
+  > ...светъчонъ, яко вышей описано, а при томъ доводе у права на кгвалтовника маеть тымъ обычаемъ на кгвалте и...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30396,23 +30396,6 @@
 
 ### LEX-INV2-1782
 - **LEX-ID:** `LEX-INV2-1782`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4212
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...светъчонъ, яко вышей описано, а при томъ доводе у права на кгвалтовника маеть тымъ обычаемъ на кгвалте и...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1783
-- **LEX-ID:** `LEX-INV2-1783`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4212
@@ -30428,8 +30411,8 @@
 
 ---
 
-### LEX-INV2-1784
-- **LEX-ID:** `LEX-INV2-1784`
+### LEX-INV2-1783
+- **LEX-ID:** `LEX-INV2-1783`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4212
@@ -30445,8 +30428,8 @@
 
 ---
 
-### LEX-INV2-1785
-- **LEX-ID:** `LEX-INV2-1785`
+### LEX-INV2-1784
+- **LEX-ID:** `LEX-INV2-1784`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4212
@@ -30462,8 +30445,8 @@
 
 ---
 
-### LEX-INV2-1786
-- **LEX-ID:** `LEX-INV2-1786`
+### LEX-INV2-1785
+- **LEX-ID:** `LEX-INV2-1785`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4236
@@ -30479,8 +30462,8 @@
 
 ---
 
-### LEX-INV2-1787
-- **LEX-ID:** `LEX-INV2-1787`
+### LEX-INV2-1786
+- **LEX-ID:** `LEX-INV2-1786`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4236
@@ -30496,8 +30479,8 @@
 
 ---
 
-### LEX-INV2-1788
-- **LEX-ID:** `LEX-INV2-1788`
+### LEX-INV2-1787
+- **LEX-ID:** `LEX-INV2-1787`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4236
@@ -30513,14 +30496,31 @@
 
 ---
 
-### LEX-INV2-1789
-- **LEX-ID:** `LEX-INV2-1789`
+### LEX-INV2-1788
+- **LEX-ID:** `LEX-INV2-1788`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4236
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...гъ артыкулу трыдцатого в розделе четвертомъ. И на праве естли бы се с того обвиненья выправилъ, тогды жал...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1789
+- **LEX-ID:** `LEX-INV2-1789`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4236
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ому в ыменью его сталися, и за омешканье роботы с права за слушнымъ доводомъ тотъ, хто обжаловалъ былъ, п...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30537,7 +30537,7 @@
 - **LOCATOR:** рядок 4236
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ому в ыменью его сталися, и за омешканье роботы с права за слушнымъ доводомъ тотъ, хто обжаловалъ былъ, п...
+  > ...о отводъ врядъ чынити вскажеть кгрунтовне водлугъ права наконецъ, всякими поступками правными доводъ албо...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30549,23 +30549,6 @@
 
 ### LEX-INV2-1791
 - **LEX-ID:** `LEX-INV2-1791`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4236
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...о отводъ врядъ чынити вскажеть кгрунтовне водлугъ права наконецъ, всякими поступками правными доводъ албо...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1792
-- **LEX-ID:** `LEX-INV2-1792`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4236
@@ -30581,8 +30564,8 @@
 
 ---
 
-### LEX-INV2-1793
-- **LEX-ID:** `LEX-INV2-1793`
+### LEX-INV2-1792
+- **LEX-ID:** `LEX-INV2-1792`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4248
@@ -30598,14 +30581,31 @@
 
 ---
 
-### LEX-INV2-1794
-- **LEX-ID:** `LEX-INV2-1794`
+### LEX-INV2-1793
+- **LEX-ID:** `LEX-INV2-1793`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4248
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...тивко пану богу, зверхности г[о]с[по]д[а]ръской и праву посполитому, а будучы позваный, не становилъся, з...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1794
+- **LEX-ID:** `LEX-INV2-1794`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4248
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...зверъхности его королевъское м[и]л[о]сти, вряду и права послушонъ быти не хотелъ, ани се становилъ на рок...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30622,7 +30622,7 @@
 - **LOCATOR:** рядок 4248
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...зверъхности его королевъское м[и]л[о]сти, вряду и права послушонъ быти не хотелъ, ани се становилъ на рок...
+  > ...ани его в дому своемъ переховывати не маеть, и с права того, с которого ся вси подъданые его королевское...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30639,7 +30639,7 @@
 - **LOCATOR:** рядок 4248
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ани его в дому своемъ переховывати не маеть, и с права того, с которого ся вси подъданые его королевское...
+  > ...не маеть, ани его уживати до того часу, ажъ водле права посполитого, з ласки его королевское м[и]л[о]сти...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30656,7 +30656,7 @@
 - **LOCATOR:** рядок 4248
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...не маеть, ани его уживати до того часу, ажъ водле права посполитого, з ласки его королевское м[и]л[о]сти...
+  > ...ства подъданыхъ его королевъское м[и]л[о]сти и до права посполитого приверненъ будеть. А в томъ часе, пок...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30673,7 +30673,7 @@
 - **LOCATOR:** рядок 4248
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ства подъданыхъ его королевъское м[и]л[о]сти и до права посполитого приверненъ будеть. А в томъ часе, пок...
+  > ...вряду судового кгродъского обовезуемъ, звлаща где права майдебуръского нетъ, ижъ мають и повинни будуть н...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -30685,23 +30685,6 @@
 
 ### LEX-INV2-1799
 - **LEX-ID:** `LEX-INV2-1799`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4248
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...вряду судового кгродъского обовезуемъ, звлаща где права майдебуръского нетъ, ижъ мають и повинни будуть н...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1800
-- **LEX-ID:** `LEX-INV2-1800`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4248
@@ -30717,8 +30700,8 @@
 
 ---
 
-### LEX-INV2-1801
-- **LEX-ID:** `LEX-INV2-1801`
+### LEX-INV2-1800
+- **LEX-ID:** `LEX-INV2-1800`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4248
@@ -30734,8 +30717,8 @@
 
 ---
 
-### LEX-INV2-1802
-- **LEX-ID:** `LEX-INV2-1802`
+### LEX-INV2-1801
+- **LEX-ID:** `LEX-INV2-1801`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4260
@@ -30751,8 +30734,8 @@
 
 ---
 
-### LEX-INV2-1803
-- **LEX-ID:** `LEX-INV2-1803`
+### LEX-INV2-1802
+- **LEX-ID:** `LEX-INV2-1802`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4272
@@ -30768,8 +30751,8 @@
 
 ---
 
-### LEX-INV2-1804
-- **LEX-ID:** `LEX-INV2-1804`
+### LEX-INV2-1803
+- **LEX-ID:** `LEX-INV2-1803`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4272
@@ -30785,8 +30768,8 @@
 
 ---
 
-### LEX-INV2-1805
-- **LEX-ID:** `LEX-INV2-1805`
+### LEX-INV2-1804
+- **LEX-ID:** `LEX-INV2-1804`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4272
@@ -30802,8 +30785,8 @@
 
 ---
 
-### LEX-INV2-1806
-- **LEX-ID:** `LEX-INV2-1806`
+### LEX-INV2-1805
+- **LEX-ID:** `LEX-INV2-1805`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4284
@@ -30819,8 +30802,8 @@
 
 ---
 
-### LEX-INV2-1807
-- **LEX-ID:** `LEX-INV2-1807`
+### LEX-INV2-1806
+- **LEX-ID:** `LEX-INV2-1806`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4284
@@ -30836,8 +30819,8 @@
 
 ---
 
-### LEX-INV2-1808
-- **LEX-ID:** `LEX-INV2-1808`
+### LEX-INV2-1807
+- **LEX-ID:** `LEX-INV2-1807`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4308
@@ -30853,8 +30836,8 @@
 
 ---
 
-### LEX-INV2-1809
-- **LEX-ID:** `LEX-INV2-1809`
+### LEX-INV2-1808
+- **LEX-ID:** `LEX-INV2-1808`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4308
@@ -30870,8 +30853,8 @@
 
 ---
 
-### LEX-INV2-1810
-- **LEX-ID:** `LEX-INV2-1810`
+### LEX-INV2-1809
+- **LEX-ID:** `LEX-INV2-1809`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4308
@@ -30887,8 +30870,8 @@
 
 ---
 
-### LEX-INV2-1811
-- **LEX-ID:** `LEX-INV2-1811`
+### LEX-INV2-1810
+- **LEX-ID:** `LEX-INV2-1810`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4308
@@ -30904,8 +30887,8 @@
 
 ---
 
-### LEX-INV2-1812
-- **LEX-ID:** `LEX-INV2-1812`
+### LEX-INV2-1811
+- **LEX-ID:** `LEX-INV2-1811`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4308
@@ -30921,8 +30904,8 @@
 
 ---
 
-### LEX-INV2-1813
-- **LEX-ID:** `LEX-INV2-1813`
+### LEX-INV2-1812
+- **LEX-ID:** `LEX-INV2-1812`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4320
@@ -30938,8 +30921,8 @@
 
 ---
 
-### LEX-INV2-1814
-- **LEX-ID:** `LEX-INV2-1814`
+### LEX-INV2-1813
+- **LEX-ID:** `LEX-INV2-1813`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4332
@@ -30955,8 +30938,8 @@
 
 ---
 
-### LEX-INV2-1815
-- **LEX-ID:** `LEX-INV2-1815`
+### LEX-INV2-1814
+- **LEX-ID:** `LEX-INV2-1814`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4332
@@ -30972,8 +30955,8 @@
 
 ---
 
-### LEX-INV2-1816
-- **LEX-ID:** `LEX-INV2-1816`
+### LEX-INV2-1815
+- **LEX-ID:** `LEX-INV2-1815`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4332
@@ -30989,8 +30972,8 @@
 
 ---
 
-### LEX-INV2-1817
-- **LEX-ID:** `LEX-INV2-1817`
+### LEX-INV2-1816
+- **LEX-ID:** `LEX-INV2-1816`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4332
@@ -31006,8 +30989,8 @@
 
 ---
 
-### LEX-INV2-1818
-- **LEX-ID:** `LEX-INV2-1818`
+### LEX-INV2-1817
+- **LEX-ID:** `LEX-INV2-1817`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4344
@@ -31023,8 +31006,8 @@
 
 ---
 
-### LEX-INV2-1819
-- **LEX-ID:** `LEX-INV2-1819`
+### LEX-INV2-1818
+- **LEX-ID:** `LEX-INV2-1818`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4344
@@ -31040,14 +31023,31 @@
 
 ---
 
-### LEX-INV2-1820
-- **LEX-ID:** `LEX-INV2-1820`
+### LEX-INV2-1819
+- **LEX-ID:** `LEX-INV2-1819`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4344
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...у и з нею тую маетность взялъ, тамъ же заразомъ у права мовити.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1820
+- **LEX-ID:** `LEX-INV2-1820`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4356
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ..., теръпливости пристойное в собе не заховываючи и правомъ посполитымъ не обходячисе и овшемъ имъ яко бы въз...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -31064,7 +31064,7 @@
 - **LOCATOR:** рядок 4356
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ..., теръпливости пристойное в собе не заховываючи и правомъ посполитымъ не обходячисе и овшемъ имъ яко бы въз...
+  > ...въды свои, бы тежъ и о набольшые и наголовнейшые, правомъ посполитымъ водле сего статуту каждый одинъ з дру...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -31076,23 +31076,6 @@
 
 ### LEX-INV2-1822
 - **LEX-ID:** `LEX-INV2-1822`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4356
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...въды свои, бы тежъ и о набольшые и наголовнейшые, правомъ посполитымъ водле сего статуту каждый одинъ з дру...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1823
-- **LEX-ID:** `LEX-INV2-1823`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4356
@@ -31108,8 +31091,8 @@
 
 ---
 
-### LEX-INV2-1824
-- **LEX-ID:** `LEX-INV2-1824`
+### LEX-INV2-1823
+- **LEX-ID:** `LEX-INV2-1823`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4356
@@ -31125,8 +31108,8 @@
 
 ---
 
-### LEX-INV2-1825
-- **LEX-ID:** `LEX-INV2-1825`
+### LEX-INV2-1824
+- **LEX-ID:** `LEX-INV2-1824`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4356
@@ -31142,8 +31125,8 @@
 
 ---
 
-### LEX-INV2-1826
-- **LEX-ID:** `LEX-INV2-1826`
+### LEX-INV2-1825
+- **LEX-ID:** `LEX-INV2-1825`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4360
@@ -31159,8 +31142,8 @@
 
 ---
 
-### LEX-INV2-1827
-- **LEX-ID:** `LEX-INV2-1827`
+### LEX-INV2-1826
+- **LEX-ID:** `LEX-INV2-1826`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4360
@@ -31176,8 +31159,8 @@
 
 ---
 
-### LEX-INV2-1828
-- **LEX-ID:** `LEX-INV2-1828`
+### LEX-INV2-1827
+- **LEX-ID:** `LEX-INV2-1827`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4360
@@ -31193,8 +31176,8 @@
 
 ---
 
-### LEX-INV2-1829
-- **LEX-ID:** `LEX-INV2-1829`
+### LEX-INV2-1828
+- **LEX-ID:** `LEX-INV2-1828`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4360
@@ -31210,8 +31193,8 @@
 
 ---
 
-### LEX-INV2-1830
-- **LEX-ID:** `LEX-INV2-1830`
+### LEX-INV2-1829
+- **LEX-ID:** `LEX-INV2-1829`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4360
@@ -31227,8 +31210,8 @@
 
 ---
 
-### LEX-INV2-1831
-- **LEX-ID:** `LEX-INV2-1831`
+### LEX-INV2-1830
+- **LEX-ID:** `LEX-INV2-1830`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4360
@@ -31244,8 +31227,8 @@
 
 ---
 
-### LEX-INV2-1832
-- **LEX-ID:** `LEX-INV2-1832`
+### LEX-INV2-1831
+- **LEX-ID:** `LEX-INV2-1831`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4360
@@ -31261,8 +31244,8 @@
 
 ---
 
-### LEX-INV2-1833
-- **LEX-ID:** `LEX-INV2-1833`
+### LEX-INV2-1832
+- **LEX-ID:** `LEX-INV2-1832`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4392
@@ -31278,8 +31261,8 @@
 
 ---
 
-### LEX-INV2-1834
-- **LEX-ID:** `LEX-INV2-1834`
+### LEX-INV2-1833
+- **LEX-ID:** `LEX-INV2-1833`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4396
@@ -31295,8 +31278,8 @@
 
 ---
 
-### LEX-INV2-1835
-- **LEX-ID:** `LEX-INV2-1835`
+### LEX-INV2-1834
+- **LEX-ID:** `LEX-INV2-1834`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4408
@@ -31312,14 +31295,31 @@
 
 ---
 
-### LEX-INV2-1836
-- **LEX-ID:** `LEX-INV2-1836`
+### LEX-INV2-1835
+- **LEX-ID:** `LEX-INV2-1835`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4432
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...кгвалтовнику або на именью и маетности его всякой правомъ доходити.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1836
+- **LEX-ID:** `LEX-INV2-1836`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4444
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...орозе поткаетъ, оповедати. А потом, кгды се то до права приточит, а жона, дети або близкие забитого менил...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -31336,7 +31336,7 @@
 - **LOCATOR:** рядок 4444
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...орозе поткаетъ, оповедати. А потом, кгды се то до права приточит, а жона, дети або близкие забитого менил...
+  > ...кой бы речи з обу сторон за собою доводы мели и у права ставили, тогды врядъ для лепшое певности и дознан...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -31348,23 +31348,6 @@
 
 ### LEX-INV2-1838
 - **LEX-ID:** `LEX-INV2-1838`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4444
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...кой бы речи з обу сторон за собою доводы мели и у права ставили, тогды врядъ для лепшое певности и дознан...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1839
-- **LEX-ID:** `LEX-INV2-1839`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4444
@@ -31380,8 +31363,8 @@
 
 ---
 
-### LEX-INV2-1840
-- **LEX-ID:** `LEX-INV2-1840`
+### LEX-INV2-1839
+- **LEX-ID:** `LEX-INV2-1839`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4444
@@ -31397,8 +31380,8 @@
 
 ---
 
-### LEX-INV2-1841
-- **LEX-ID:** `LEX-INV2-1841`
+### LEX-INV2-1840
+- **LEX-ID:** `LEX-INV2-1840`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4456
@@ -31414,8 +31397,8 @@
 
 ---
 
-### LEX-INV2-1842
-- **LEX-ID:** `LEX-INV2-1842`
+### LEX-INV2-1841
+- **LEX-ID:** `LEX-INV2-1841`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4456
@@ -31431,8 +31414,8 @@
 
 ---
 
-### LEX-INV2-1843
-- **LEX-ID:** `LEX-INV2-1843`
+### LEX-INV2-1842
+- **LEX-ID:** `LEX-INV2-1842`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4468
@@ -31448,8 +31431,8 @@
 
 ---
 
-### LEX-INV2-1844
-- **LEX-ID:** `LEX-INV2-1844`
+### LEX-INV2-1843
+- **LEX-ID:** `LEX-INV2-1843`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4492
@@ -31465,8 +31448,8 @@
 
 ---
 
-### LEX-INV2-1845
-- **LEX-ID:** `LEX-INV2-1845`
+### LEX-INV2-1844
+- **LEX-ID:** `LEX-INV2-1844`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4492
@@ -31482,8 +31465,8 @@
 
 ---
 
-### LEX-INV2-1846
-- **LEX-ID:** `LEX-INV2-1846`
+### LEX-INV2-1845
+- **LEX-ID:** `LEX-INV2-1845`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4504
@@ -31499,8 +31482,8 @@
 
 ---
 
-### LEX-INV2-1847
-- **LEX-ID:** `LEX-INV2-1847`
+### LEX-INV2-1846
+- **LEX-ID:** `LEX-INV2-1846`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4504
@@ -31516,8 +31499,8 @@
 
 ---
 
-### LEX-INV2-1848
-- **LEX-ID:** `LEX-INV2-1848`
+### LEX-INV2-1847
+- **LEX-ID:** `LEX-INV2-1847`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4516
@@ -31533,8 +31516,8 @@
 
 ---
 
-### LEX-INV2-1849
-- **LEX-ID:** `LEX-INV2-1849`
+### LEX-INV2-1848
+- **LEX-ID:** `LEX-INV2-1848`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4516
@@ -31550,14 +31533,31 @@
 
 ---
 
-### LEX-INV2-1850
-- **LEX-ID:** `LEX-INV2-1850`
+### LEX-INV2-1849
+- **LEX-ID:** `LEX-INV2-1849`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4516
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...огу, носъ, ухо, губы утялъ або урезалъ такъ, жебы праве прочъ который с тыхъ члонковъ отпалъ, або бы око,...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1850
+- **LEX-ID:** `LEX-INV2-1850`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4516
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...албо выбилъ, албо на око ослепилъ, а в томъ бы с права виненъ зосталъ, тогды, наследуючы в томъ права бо...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -31574,7 +31574,7 @@
 - **LOCATOR:** рядок 4516
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...албо выбилъ, албо на око ослепилъ, а в томъ бы с права виненъ зосталъ, тогды, наследуючы в томъ права бо...
+  > ...с права виненъ зосталъ, тогды, наследуючы в томъ права божого, уставуемъ, ижъ за таковый кождый члонокъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -31586,23 +31586,6 @@
 
 ### LEX-INV2-1852
 - **LEX-ID:** `LEX-INV2-1852`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4516
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...с права виненъ зосталъ, тогды, наследуючы в томъ права божого, уставуемъ, ижъ за таковый кождый члонокъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1853
-- **LEX-ID:** `LEX-INV2-1853`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4516
@@ -31618,8 +31601,8 @@
 
 ---
 
-### LEX-INV2-1854
-- **LEX-ID:** `LEX-INV2-1854`
+### LEX-INV2-1853
+- **LEX-ID:** `LEX-INV2-1853`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4516
@@ -31635,8 +31618,8 @@
 
 ---
 
-### LEX-INV2-1855
-- **LEX-ID:** `LEX-INV2-1855`
+### LEX-INV2-1854
+- **LEX-ID:** `LEX-INV2-1854`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4516
@@ -31652,8 +31635,8 @@
 
 ---
 
-### LEX-INV2-1856
-- **LEX-ID:** `LEX-INV2-1856`
+### LEX-INV2-1855
+- **LEX-ID:** `LEX-INV2-1855`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4516
@@ -31669,8 +31652,8 @@
 
 ---
 
-### LEX-INV2-1857
-- **LEX-ID:** `LEX-INV2-1857`
+### LEX-INV2-1856
+- **LEX-ID:** `LEX-INV2-1856`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4516
@@ -31686,8 +31669,8 @@
 
 ---
 
-### LEX-INV2-1858
-- **LEX-ID:** `LEX-INV2-1858`
+### LEX-INV2-1857
+- **LEX-ID:** `LEX-INV2-1857`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4524
@@ -31703,8 +31686,8 @@
 
 ---
 
-### LEX-INV2-1859
-- **LEX-ID:** `LEX-INV2-1859`
+### LEX-INV2-1858
+- **LEX-ID:** `LEX-INV2-1858`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4524
@@ -31720,8 +31703,8 @@
 
 ---
 
-### LEX-INV2-1860
-- **LEX-ID:** `LEX-INV2-1860`
+### LEX-INV2-1859
+- **LEX-ID:** `LEX-INV2-1859`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4524
@@ -31737,8 +31720,8 @@
 
 ---
 
-### LEX-INV2-1861
-- **LEX-ID:** `LEX-INV2-1861`
+### LEX-INV2-1860
+- **LEX-ID:** `LEX-INV2-1860`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4524
@@ -31754,8 +31737,8 @@
 
 ---
 
-### LEX-INV2-1862
-- **LEX-ID:** `LEX-INV2-1862`
+### LEX-INV2-1861
+- **LEX-ID:** `LEX-INV2-1861`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4524
@@ -31771,8 +31754,8 @@
 
 ---
 
-### LEX-INV2-1863
-- **LEX-ID:** `LEX-INV2-1863`
+### LEX-INV2-1862
+- **LEX-ID:** `LEX-INV2-1862`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4536
@@ -31788,8 +31771,8 @@
 
 ---
 
-### LEX-INV2-1864
-- **LEX-ID:** `LEX-INV2-1864`
+### LEX-INV2-1863
+- **LEX-ID:** `LEX-INV2-1863`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4536
@@ -31805,14 +31788,31 @@
 
 ---
 
-### LEX-INV2-1865
-- **LEX-ID:** `LEX-INV2-1865`
+### LEX-INV2-1864
+- **LEX-ID:** `LEX-INV2-1864`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4536
 - **SOURCE-FORM:** `праве`
 - **EXACT-CONTEXT:**
   > ...заплатити вины сорокъ копъ грошей, што на немъ по праве врядъ кгродъский справити и до скаръбу нашого отд...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1865
+- **LEX-ID:** `LEX-INV2-1865`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4536
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...аръбу нашого отдати виненъ будеть. А надъ то часу права вжо такому противнику в той речы на выводъ не мае...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -31829,7 +31829,7 @@
 - **LOCATOR:** рядок 4536
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...аръбу нашого отдати виненъ будеть. А надъ то часу права вжо такому противнику в той речы на выводъ не мае...
+  > ...о книгъ записати далъ, также припозвавъшы о то до права, а того якими слушными знаки поперъшы на томъ сам...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -31841,23 +31841,6 @@
 
 ### LEX-INV2-1867
 - **LEX-ID:** `LEX-INV2-1867`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4536
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...о книгъ записати далъ, также припозвавъшы о то до права, а того якими слушными знаки поперъшы на томъ сам...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1868
-- **LEX-ID:** `LEX-INV2-1868`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4536
@@ -31873,8 +31856,8 @@
 
 ---
 
-### LEX-INV2-1869
-- **LEX-ID:** `LEX-INV2-1869`
+### LEX-INV2-1868
+- **LEX-ID:** `LEX-INV2-1868`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4536
@@ -31890,8 +31873,8 @@
 
 ---
 
-### LEX-INV2-1870
-- **LEX-ID:** `LEX-INV2-1870`
+### LEX-INV2-1869
+- **LEX-ID:** `LEX-INV2-1869`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4536
@@ -31907,8 +31890,8 @@
 
 ---
 
-### LEX-INV2-1871
-- **LEX-ID:** `LEX-INV2-1871`
+### LEX-INV2-1870
+- **LEX-ID:** `LEX-INV2-1870`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4536
@@ -31924,8 +31907,8 @@
 
 ---
 
-### LEX-INV2-1872
-- **LEX-ID:** `LEX-INV2-1872`
+### LEX-INV2-1871
+- **LEX-ID:** `LEX-INV2-1871`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4536
@@ -31941,8 +31924,8 @@
 
 ---
 
-### LEX-INV2-1873
-- **LEX-ID:** `LEX-INV2-1873`
+### LEX-INV2-1872
+- **LEX-ID:** `LEX-INV2-1872`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4540
@@ -31958,8 +31941,8 @@
 
 ---
 
-### LEX-INV2-1874
-- **LEX-ID:** `LEX-INV2-1874`
+### LEX-INV2-1873
+- **LEX-ID:** `LEX-INV2-1873`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4540
@@ -31975,8 +31958,8 @@
 
 ---
 
-### LEX-INV2-1875
-- **LEX-ID:** `LEX-INV2-1875`
+### LEX-INV2-1874
+- **LEX-ID:** `LEX-INV2-1874`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4540
@@ -31992,8 +31975,8 @@
 
 ---
 
-### LEX-INV2-1876
-- **LEX-ID:** `LEX-INV2-1876`
+### LEX-INV2-1875
+- **LEX-ID:** `LEX-INV2-1875`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4540
@@ -32009,8 +31992,8 @@
 
 ---
 
-### LEX-INV2-1877
-- **LEX-ID:** `LEX-INV2-1877`
+### LEX-INV2-1876
+- **LEX-ID:** `LEX-INV2-1876`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4568
@@ -32026,8 +32009,8 @@
 
 ---
 
-### LEX-INV2-1878
-- **LEX-ID:** `LEX-INV2-1878`
+### LEX-INV2-1877
+- **LEX-ID:** `LEX-INV2-1877`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4568
@@ -32043,8 +32026,8 @@
 
 ---
 
-### LEX-INV2-1879
-- **LEX-ID:** `LEX-INV2-1879`
+### LEX-INV2-1878
+- **LEX-ID:** `LEX-INV2-1878`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4584
@@ -32060,8 +32043,8 @@
 
 ---
 
-### LEX-INV2-1880
-- **LEX-ID:** `LEX-INV2-1880`
+### LEX-INV2-1879
+- **LEX-ID:** `LEX-INV2-1879`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4584
@@ -32077,14 +32060,31 @@
 
 ---
 
-### LEX-INV2-1881
-- **LEX-ID:** `LEX-INV2-1881`
+### LEX-INV2-1880
+- **LEX-ID:** `LEX-INV2-1880`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4584
 - **SOURCE-FORM:** `присягнути`
 - **EXACT-CONTEXT:**
   > ...тану, людми сторонъными, добрыми, неподойзреными, присягнути. А по присязе тотъ розбойникъ горъломъ каранъ быт...
+- **ROOT-FAMILY:** `PRISYAGA`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1881
+- **LEX-ID:** `LEX-INV2-1881`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4584
+- **SOURCE-FORM:** `присяги`
+- **EXACT-CONTEXT:**
+  > ...нити. А не будет ли жалобникъ такъ много людей до присяги мети, ино тотъ шляхтичъ еще самъсемъ виненъ будет...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32101,7 +32101,7 @@
 - **LOCATOR:** рядок 4584
 - **SOURCE-FORM:** `присяги`
 - **EXACT-CONTEXT:**
-  > ...нити. А не будет ли жалобникъ такъ много людей до присяги мети, ино тотъ шляхтичъ еще самъсемъ виненъ будет...
+  > ...вышей написано, то есть самотреть, можеть быти до присяги припущонъ. Альбо теж шляхтичь, маючи о собе и о п...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32113,23 +32113,6 @@
 
 ### LEX-INV2-1883
 - **LEX-ID:** `LEX-INV2-1883`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4584
-- **SOURCE-FORM:** `присяги`
-- **EXACT-CONTEXT:**
-  > ...вышей написано, то есть самотреть, можеть быти до присяги припущонъ. Альбо теж шляхтичь, маючи о собе и о п...
-- **ROOT-FAMILY:** `PRISYAGA`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1884
-- **LEX-ID:** `LEX-INV2-1884`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4584
@@ -32145,14 +32128,31 @@
 
 ---
 
-### LEX-INV2-1885
-- **LEX-ID:** `LEX-INV2-1885`
+### LEX-INV2-1884
+- **LEX-ID:** `LEX-INV2-1884`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4596
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...ядника его, чыи люде будуть, и зложивши рокъ тому праву такъ, яко бы тотъ панъ або его врядникъ зъехати м...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1885
+- **LEX-ID:** `LEX-INV2-1885`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4596
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...таковыхъ укривжоный [в оригинале: «укривжоныхъ»] права просити и справедливости з ними собе доводити мае...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32169,7 +32169,7 @@
 - **LOCATOR:** рядок 4596
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...таковыхъ укривжоный [в оригинале: «укривжоныхъ»] права просити и справедливости з ними собе доводити мае...
+  > ...жалобная сторона близшая будеть доводити водлугъ права такъ о голову и розбой, и шкоды, а меновите при о...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32181,23 +32181,6 @@
 
 ### LEX-INV2-1887
 - **LEX-ID:** `LEX-INV2-1887`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4596
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...жалобная сторона близшая будеть доводити водлугъ права такъ о голову и розбой, и шкоды, а меновите при о...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1888
-- **LEX-ID:** `LEX-INV2-1888`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4596
@@ -32213,8 +32196,8 @@
 
 ---
 
-### LEX-INV2-1889
-- **LEX-ID:** `LEX-INV2-1889`
+### LEX-INV2-1888
+- **LEX-ID:** `LEX-INV2-1888`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4608
@@ -32230,8 +32213,8 @@
 
 ---
 
-### LEX-INV2-1890
-- **LEX-ID:** `LEX-INV2-1890`
+### LEX-INV2-1889
+- **LEX-ID:** `LEX-INV2-1889`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4620
@@ -32247,8 +32230,8 @@
 
 ---
 
-### LEX-INV2-1891
-- **LEX-ID:** `LEX-INV2-1891`
+### LEX-INV2-1890
+- **LEX-ID:** `LEX-INV2-1890`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4632
@@ -32264,8 +32247,8 @@
 
 ---
 
-### LEX-INV2-1892
-- **LEX-ID:** `LEX-INV2-1892`
+### LEX-INV2-1891
+- **LEX-ID:** `LEX-INV2-1891`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4632
@@ -32281,8 +32264,8 @@
 
 ---
 
-### LEX-INV2-1893
-- **LEX-ID:** `LEX-INV2-1893`
+### LEX-INV2-1892
+- **LEX-ID:** `LEX-INV2-1892`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4644
@@ -32298,8 +32281,8 @@
 
 ---
 
-### LEX-INV2-1894
-- **LEX-ID:** `LEX-INV2-1894`
+### LEX-INV2-1893
+- **LEX-ID:** `LEX-INV2-1893`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4644
@@ -32315,8 +32298,8 @@
 
 ---
 
-### LEX-INV2-1895
-- **LEX-ID:** `LEX-INV2-1895`
+### LEX-INV2-1894
+- **LEX-ID:** `LEX-INV2-1894`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4644
@@ -32332,8 +32315,8 @@
 
 ---
 
-### LEX-INV2-1896
-- **LEX-ID:** `LEX-INV2-1896`
+### LEX-INV2-1895
+- **LEX-ID:** `LEX-INV2-1895`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4644
@@ -32349,8 +32332,8 @@
 
 ---
 
-### LEX-INV2-1897
-- **LEX-ID:** `LEX-INV2-1897`
+### LEX-INV2-1896
+- **LEX-ID:** `LEX-INV2-1896`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4644
@@ -32366,8 +32349,8 @@
 
 ---
 
-### LEX-INV2-1898
-- **LEX-ID:** `LEX-INV2-1898`
+### LEX-INV2-1897
+- **LEX-ID:** `LEX-INV2-1897`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4656
@@ -32383,8 +32366,8 @@
 
 ---
 
-### LEX-INV2-1899
-- **LEX-ID:** `LEX-INV2-1899`
+### LEX-INV2-1898
+- **LEX-ID:** `LEX-INV2-1898`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4680
@@ -32400,8 +32383,8 @@
 
 ---
 
-### LEX-INV2-1900
-- **LEX-ID:** `LEX-INV2-1900`
+### LEX-INV2-1899
+- **LEX-ID:** `LEX-INV2-1899`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4680
@@ -32417,8 +32400,8 @@
 
 ---
 
-### LEX-INV2-1901
-- **LEX-ID:** `LEX-INV2-1901`
+### LEX-INV2-1900
+- **LEX-ID:** `LEX-INV2-1900`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4692
@@ -32434,8 +32417,8 @@
 
 ---
 
-### LEX-INV2-1902
-- **LEX-ID:** `LEX-INV2-1902`
+### LEX-INV2-1901
+- **LEX-ID:** `LEX-INV2-1901`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4692
@@ -32451,8 +32434,8 @@
 
 ---
 
-### LEX-INV2-1903
-- **LEX-ID:** `LEX-INV2-1903`
+### LEX-INV2-1902
+- **LEX-ID:** `LEX-INV2-1902`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4692
@@ -32468,14 +32451,31 @@
 
 ---
 
-### LEX-INV2-1904
-- **LEX-ID:** `LEX-INV2-1904`
+### LEX-INV2-1903
+- **LEX-ID:** `LEX-INV2-1903`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4692
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...противъ шляхтича и шъляхтичъ противъ нешляхтича у права захованы быти мають. А хто бы тежъ на кого учынил...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1904
+- **LEX-ID:** `LEX-INV2-1904`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4692
+- **SOURCE-FORM:** `праву`
+- **EXACT-CONTEXT:**
+  > ...ядомъ оповедати и дати записати и, притягнувшы ку праву, естли ся похвалка станеть подъ часомъ роковъ зем...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32492,7 +32492,7 @@
 - **LOCATOR:** рядок 4692
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
-  > ...ядомъ оповедати и дати записати и, притягнувшы ку праву, естли ся похвалка станеть подъ часомъ роковъ зем...
+  > ...лый — за позвы, а неоселый — за постановеньемъ ку праву, и тую бы похвалъку водлугъ права слушне довелъ,...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32507,9 +32507,9 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4692
-- **SOURCE-FORM:** `праву`
+- **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...лый — за позвы, а неоселый — за постановеньемъ ку праву, и тую бы похвалъку водлугъ права слушне довелъ,...
+  > ...становеньемъ ку праву, и тую бы похвалъку водлугъ права слушне довелъ, тогды такъ оселый, яко и неоселый,...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32526,7 +32526,7 @@
 - **LOCATOR:** рядок 4692
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...становеньемъ ку праву, и тую бы похвалъку водлугъ права слушне довелъ, тогды такъ оселый, яко и неоселый,...
+  > ...ся пофалка стала, тогды паручники, будучы о то до права позваны, мають того, по комъ ручыли, передъ врядо...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32538,23 +32538,6 @@
 
 ### LEX-INV2-1908
 - **LEX-ID:** `LEX-INV2-1908`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4692
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ся пофалка стала, тогды паручники, будучы о то до права позваны, мають того, по комъ ручыли, передъ врядо...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1909
-- **LEX-ID:** `LEX-INV2-1909`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4692
@@ -32570,8 +32553,8 @@
 
 ---
 
-### LEX-INV2-1910
-- **LEX-ID:** `LEX-INV2-1910`
+### LEX-INV2-1909
+- **LEX-ID:** `LEX-INV2-1909`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4692
@@ -32587,8 +32570,8 @@
 
 ---
 
-### LEX-INV2-1911
-- **LEX-ID:** `LEX-INV2-1911`
+### LEX-INV2-1910
+- **LEX-ID:** `LEX-INV2-1910`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4696
@@ -32604,8 +32587,8 @@
 
 ---
 
-### LEX-INV2-1912
-- **LEX-ID:** `LEX-INV2-1912`
+### LEX-INV2-1911
+- **LEX-ID:** `LEX-INV2-1911`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4696
@@ -32621,8 +32604,8 @@
 
 ---
 
-### LEX-INV2-1913
-- **LEX-ID:** `LEX-INV2-1913`
+### LEX-INV2-1912
+- **LEX-ID:** `LEX-INV2-1912`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4708
@@ -32638,6 +32621,23 @@
 
 ---
 
+### LEX-INV2-1913
+- **LEX-ID:** `LEX-INV2-1913`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4720
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...илъ або зранилъ, а тотъ бы гость, позвавши его до права, то на него слушнымъ доводомъ перевел, таковый об...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1914
 - **LEX-ID:** `LEX-INV2-1914`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -32645,7 +32645,7 @@
 - **LOCATOR:** рядок 4720
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...илъ або зранилъ, а тотъ бы гость, позвавши его до права, то на него слушнымъ доводомъ перевел, таковый об...
+  > ...ымъ доводомъ перевел, таковый ображоную сторону с права маеть навезати водле стану его и шкоду платити, н...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32662,7 +32662,7 @@
 - **LOCATOR:** рядок 4720
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ымъ доводомъ перевел, таковый ображоную сторону с права маеть навезати водле стану его и шкоду платити, н...
+  > ...ды и на такового гостя также слушънымъ доводомъ у права то мает довести. А кгды бы доводу не мелъ, тогды...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32674,23 +32674,6 @@
 
 ### LEX-INV2-1916
 - **LEX-ID:** `LEX-INV2-1916`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4720
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...ды и на такового гостя также слушънымъ доводомъ у права то мает довести. А кгды бы доводу не мелъ, тогды...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1917
-- **LEX-ID:** `LEX-INV2-1917`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4720
@@ -32706,8 +32689,8 @@
 
 ---
 
-### LEX-INV2-1918
-- **LEX-ID:** `LEX-INV2-1918`
+### LEX-INV2-1917
+- **LEX-ID:** `LEX-INV2-1917`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4720
@@ -32723,6 +32706,23 @@
 
 ---
 
+### LEX-INV2-1918
+- **LEX-ID:** `LEX-INV2-1918`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4720
+- **SOURCE-FORM:** `присягнеть`
+- **EXACT-CONTEXT:**
+  > ...навезати водле стану его и шкоду платити, на чомъ присягнеть, и за таковый выступъ маеть седети на вряде нашом...
+- **ROOT-FAMILY:** `PRISYAGA`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
 ### LEX-INV2-1919
 - **LEX-ID:** `LEX-INV2-1919`
 - **SOURCE-ID:** `SRC-LS-1588`
@@ -32730,7 +32730,7 @@
 - **LOCATOR:** рядок 4720
 - **SOURCE-FORM:** `присягнеть`
 - **EXACT-CONTEXT:**
-  > ...навезати водле стану его и шкоду платити, на чомъ присягнеть, и за таковый выступъ маеть седети на вряде нашом...
+  > ...исягнути такъ на ранахъ, яко и на шкодахъ. А кгды присягнеть таковый гость домовому г[о]с[по]д[а]ру або жоне и...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32747,7 +32747,7 @@
 - **LOCATOR:** рядок 4720
 - **SOURCE-FORM:** `присягнеть`
 - **EXACT-CONTEXT:**
-  > ...исягнути такъ на ранахъ, яко и на шкодахъ. А кгды присягнеть таковый гость домовому г[о]с[по]д[а]ру або жоне и...
+  > ...ой стороне маеть за раны навезати и шкоды, на чом присягнеть, платити и на замку также седети дванадцать недел...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32759,23 +32759,6 @@
 
 ### LEX-INV2-1921
 - **LEX-ID:** `LEX-INV2-1921`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4720
-- **SOURCE-FORM:** `присягнеть`
-- **EXACT-CONTEXT:**
-  > ...ой стороне маеть за раны навезати и шкоды, на чом присягнеть, платити и на замку также седети дванадцать недел...
-- **ROOT-FAMILY:** `PRISYAGA`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1922
-- **LEX-ID:** `LEX-INV2-1922`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4720
@@ -32791,8 +32774,8 @@
 
 ---
 
-### LEX-INV2-1923
-- **LEX-ID:** `LEX-INV2-1923`
+### LEX-INV2-1922
+- **LEX-ID:** `LEX-INV2-1922`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4744
@@ -32808,14 +32791,31 @@
 
 ---
 
-### LEX-INV2-1924
-- **LEX-ID:** `LEX-INV2-1924`
+### LEX-INV2-1923
+- **LEX-ID:** `LEX-INV2-1923`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4744
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...въ здешнемъ панстве нашомъ, с нимъ весполокъ того права попирати и доходити не хотели, тогды тотъ, которы...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1924
+- **LEX-ID:** `LEX-INV2-1924`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4744
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...огды тотъ, который дома мешкаеть, маетъ самъ о то правомъ чынити, а дошедшы головщизны, с тою братьею своею...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32832,7 +32832,7 @@
 - **LOCATOR:** рядок 4744
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...огды тотъ, который дома мешкаеть, маетъ самъ о то правомъ чынити, а дошедшы головщизны, с тою братьею своею...
+  > ...о вдову безплодную забито, тогды о то отецъ маеть правомъ чынити, и головъщизна ему жъ належати будеть.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32844,23 +32844,6 @@
 
 ### LEX-INV2-1926
 - **LEX-ID:** `LEX-INV2-1926`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4744
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...о вдову безплодную забито, тогды о то отецъ маеть правомъ чынити, и головъщизна ему жъ належати будеть.
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1927
-- **LEX-ID:** `LEX-INV2-1927`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4748
@@ -32876,8 +32859,8 @@
 
 ---
 
-### LEX-INV2-1928
-- **LEX-ID:** `LEX-INV2-1928`
+### LEX-INV2-1927
+- **LEX-ID:** `LEX-INV2-1927`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4748
@@ -32893,14 +32876,31 @@
 
 ---
 
-### LEX-INV2-1929
-- **LEX-ID:** `LEX-INV2-1929`
+### LEX-INV2-1928
+- **LEX-ID:** `LEX-INV2-1928`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4760
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...тья сами, мимо сестръ, мают о голову и головщизну правомъ чинити и головщизну собе брати. А то ся маеть роз...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1929
+- **LEX-ID:** `LEX-INV2-1929`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4760
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...кревные албо тежъ опекуны тыхъ детей недорослыхъ права того попирати и доводити мають. Але кгды потомъ д...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32917,7 +32917,7 @@
 - **LOCATOR:** рядок 4760
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...кревные албо тежъ опекуны тыхъ детей недорослыхъ права того попирати и доводити мають. Але кгды потомъ д...
+  > ...вытрученью накладу, што бы близкие, доходечи того права, наложили. А где бы кревные албо опекуны того не...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -32929,23 +32929,6 @@
 
 ### LEX-INV2-1931
 - **LEX-ID:** `LEX-INV2-1931`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4760
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...вытрученью накладу, што бы близкие, доходечи того права, наложили. А где бы кревные албо опекуны того не...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1932
-- **LEX-ID:** `LEX-INV2-1932`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4760
@@ -32961,8 +32944,8 @@
 
 ---
 
-### LEX-INV2-1933
-- **LEX-ID:** `LEX-INV2-1933`
+### LEX-INV2-1932
+- **LEX-ID:** `LEX-INV2-1932`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4760
@@ -32978,14 +32961,31 @@
 
 ---
 
-### LEX-INV2-1934
-- **LEX-ID:** `LEX-INV2-1934`
+### LEX-INV2-1933
+- **LEX-ID:** `LEX-INV2-1933`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4768
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > О мужатце забитой хто правомъ чынити маеть.
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1934
+- **LEX-ID:** `LEX-INV2-1934`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4772
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...е зеставила, тогды мужъ воленъ будеть о голову ее правомъ чынити и кгды правомъ забийцу переконаеть, то и г...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -33002,7 +33002,7 @@
 - **LOCATOR:** рядок 4772
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...е зеставила, тогды мужъ воленъ будеть о голову ее правомъ чынити и кгды правомъ забийцу переконаеть, то и г...
+  > ...ъ воленъ будеть о голову ее правомъ чынити и кгды правомъ забийцу переконаеть, то и головщызна ему плачона...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -33014,23 +33014,6 @@
 
 ### LEX-INV2-1936
 - **LEX-ID:** `LEX-INV2-1936`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4772
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...ъ воленъ будеть о голову ее правомъ чынити и кгды правомъ забийцу переконаеть, то и головщызна ему плачона...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1937
-- **LEX-ID:** `LEX-INV2-1937`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4772
@@ -33046,8 +33029,8 @@
 
 ---
 
-### LEX-INV2-1938
-- **LEX-ID:** `LEX-INV2-1938`
+### LEX-INV2-1937
+- **LEX-ID:** `LEX-INV2-1937`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4772
@@ -33063,8 +33046,8 @@
 
 ---
 
-### LEX-INV2-1939
-- **LEX-ID:** `LEX-INV2-1939`
+### LEX-INV2-1938
+- **LEX-ID:** `LEX-INV2-1938`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4772
@@ -33080,8 +33063,8 @@
 
 ---
 
-### LEX-INV2-1940
-- **LEX-ID:** `LEX-INV2-1940`
+### LEX-INV2-1939
+- **LEX-ID:** `LEX-INV2-1939`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4772
@@ -33097,14 +33080,31 @@
 
 ---
 
-### LEX-INV2-1941
-- **LEX-ID:** `LEX-INV2-1941`
+### LEX-INV2-1940
+- **LEX-ID:** `LEX-INV2-1940`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4772
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...такое жоны, што по собе дети зоставить, забийство права доводити не хотелъ, тогды в недорослости летъ дет...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1941
+- **LEX-ID:** `LEX-INV2-1941`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4784
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ъ з близских позвалъ бы о то оного, хто збилъ, до права, а онъ бы ся ку тому бою не зналъ, а былъ бы бой...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -33121,7 +33121,7 @@
 - **LOCATOR:** рядок 4784
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ъ з близских позвалъ бы о то оного, хто збилъ, до права, а онъ бы ся ку тому бою не зналъ, а былъ бы бой...
+  > ...лъ, а былъ бы бой або раны значные, возному водле права оказаные, ино, естли се тотъ такий бой сталъ буде...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -33133,23 +33133,6 @@
 
 ### LEX-INV2-1943
 - **LEX-ID:** `LEX-INV2-1943`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4784
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...лъ, а былъ бы бой або раны значные, возному водле права оказаные, ино, естли се тотъ такий бой сталъ буде...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1944
-- **LEX-ID:** `LEX-INV2-1944`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4784
@@ -33165,8 +33148,8 @@
 
 ---
 
-### LEX-INV2-1945
-- **LEX-ID:** `LEX-INV2-1945`
+### LEX-INV2-1944
+- **LEX-ID:** `LEX-INV2-1944`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4796
@@ -33182,8 +33165,8 @@
 
 ---
 
-### LEX-INV2-1946
-- **LEX-ID:** `LEX-INV2-1946`
+### LEX-INV2-1945
+- **LEX-ID:** `LEX-INV2-1945`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4800
@@ -33199,8 +33182,8 @@
 
 ---
 
-### LEX-INV2-1947
-- **LEX-ID:** `LEX-INV2-1947`
+### LEX-INV2-1946
+- **LEX-ID:** `LEX-INV2-1946`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4800
@@ -33216,8 +33199,8 @@
 
 ---
 
-### LEX-INV2-1948
-- **LEX-ID:** `LEX-INV2-1948`
+### LEX-INV2-1947
+- **LEX-ID:** `LEX-INV2-1947`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4800
@@ -33233,8 +33216,8 @@
 
 ---
 
-### LEX-INV2-1949
-- **LEX-ID:** `LEX-INV2-1949`
+### LEX-INV2-1948
+- **LEX-ID:** `LEX-INV2-1948`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4824
@@ -33250,8 +33233,8 @@
 
 ---
 
-### LEX-INV2-1950
-- **LEX-ID:** `LEX-INV2-1950`
+### LEX-INV2-1949
+- **LEX-ID:** `LEX-INV2-1949`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4836
@@ -33267,8 +33250,8 @@
 
 ---
 
-### LEX-INV2-1951
-- **LEX-ID:** `LEX-INV2-1951`
+### LEX-INV2-1950
+- **LEX-ID:** `LEX-INV2-1950`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4848
@@ -33284,8 +33267,8 @@
 
 ---
 
-### LEX-INV2-1952
-- **LEX-ID:** `LEX-INV2-1952`
+### LEX-INV2-1951
+- **LEX-ID:** `LEX-INV2-1951`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4848
@@ -33301,8 +33284,8 @@
 
 ---
 
-### LEX-INV2-1953
-- **LEX-ID:** `LEX-INV2-1953`
+### LEX-INV2-1952
+- **LEX-ID:** `LEX-INV2-1952`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4848
@@ -33318,8 +33301,8 @@
 
 ---
 
-### LEX-INV2-1954
-- **LEX-ID:** `LEX-INV2-1954`
+### LEX-INV2-1953
+- **LEX-ID:** `LEX-INV2-1953`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4884
@@ -33335,8 +33318,8 @@
 
 ---
 
-### LEX-INV2-1955
-- **LEX-ID:** `LEX-INV2-1955`
+### LEX-INV2-1954
+- **LEX-ID:** `LEX-INV2-1954`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4896
@@ -33352,8 +33335,8 @@
 
 ---
 
-### LEX-INV2-1956
-- **LEX-ID:** `LEX-INV2-1956`
+### LEX-INV2-1955
+- **LEX-ID:** `LEX-INV2-1955`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4908
@@ -33369,8 +33352,8 @@
 
 ---
 
-### LEX-INV2-1957
-- **LEX-ID:** `LEX-INV2-1957`
+### LEX-INV2-1956
+- **LEX-ID:** `LEX-INV2-1956`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4920
@@ -33386,8 +33369,8 @@
 
 ---
 
-### LEX-INV2-1958
-- **LEX-ID:** `LEX-INV2-1958`
+### LEX-INV2-1957
+- **LEX-ID:** `LEX-INV2-1957`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4924
@@ -33403,8 +33386,8 @@
 
 ---
 
-### LEX-INV2-1959
-- **LEX-ID:** `LEX-INV2-1959`
+### LEX-INV2-1958
+- **LEX-ID:** `LEX-INV2-1958`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4924
@@ -33420,8 +33403,8 @@
 
 ---
 
-### LEX-INV2-1960
-- **LEX-ID:** `LEX-INV2-1960`
+### LEX-INV2-1959
+- **LEX-ID:** `LEX-INV2-1959`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4924
@@ -33437,8 +33420,8 @@
 
 ---
 
-### LEX-INV2-1961
-- **LEX-ID:** `LEX-INV2-1961`
+### LEX-INV2-1960
+- **LEX-ID:** `LEX-INV2-1960`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4924
@@ -33454,8 +33437,8 @@
 
 ---
 
-### LEX-INV2-1962
-- **LEX-ID:** `LEX-INV2-1962`
+### LEX-INV2-1961
+- **LEX-ID:** `LEX-INV2-1961`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4936
@@ -33471,8 +33454,8 @@
 
 ---
 
-### LEX-INV2-1963
-- **LEX-ID:** `LEX-INV2-1963`
+### LEX-INV2-1962
+- **LEX-ID:** `LEX-INV2-1962`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4936
@@ -33488,8 +33471,8 @@
 
 ---
 
-### LEX-INV2-1964
-- **LEX-ID:** `LEX-INV2-1964`
+### LEX-INV2-1963
+- **LEX-ID:** `LEX-INV2-1963`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4936
@@ -33505,8 +33488,8 @@
 
 ---
 
-### LEX-INV2-1965
-- **LEX-ID:** `LEX-INV2-1965`
+### LEX-INV2-1964
+- **LEX-ID:** `LEX-INV2-1964`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4936
@@ -33522,8 +33505,8 @@
 
 ---
 
-### LEX-INV2-1966
-- **LEX-ID:** `LEX-INV2-1966`
+### LEX-INV2-1965
+- **LEX-ID:** `LEX-INV2-1965`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4936
@@ -33539,8 +33522,8 @@
 
 ---
 
-### LEX-INV2-1967
-- **LEX-ID:** `LEX-INV2-1967`
+### LEX-INV2-1966
+- **LEX-ID:** `LEX-INV2-1966`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4936
@@ -33556,8 +33539,8 @@
 
 ---
 
-### LEX-INV2-1968
-- **LEX-ID:** `LEX-INV2-1968`
+### LEX-INV2-1967
+- **LEX-ID:** `LEX-INV2-1967`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4948
@@ -33573,8 +33556,8 @@
 
 ---
 
-### LEX-INV2-1969
-- **LEX-ID:** `LEX-INV2-1969`
+### LEX-INV2-1968
+- **LEX-ID:** `LEX-INV2-1968`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4960
@@ -33590,8 +33573,8 @@
 
 ---
 
-### LEX-INV2-1970
-- **LEX-ID:** `LEX-INV2-1970`
+### LEX-INV2-1969
+- **LEX-ID:** `LEX-INV2-1969`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4960
@@ -33607,8 +33590,8 @@
 
 ---
 
-### LEX-INV2-1971
-- **LEX-ID:** `LEX-INV2-1971`
+### LEX-INV2-1970
+- **LEX-ID:** `LEX-INV2-1970`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4960
@@ -33624,8 +33607,8 @@
 
 ---
 
-### LEX-INV2-1972
-- **LEX-ID:** `LEX-INV2-1972`
+### LEX-INV2-1971
+- **LEX-ID:** `LEX-INV2-1971`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4972
@@ -33641,8 +33624,8 @@
 
 ---
 
-### LEX-INV2-1973
-- **LEX-ID:** `LEX-INV2-1973`
+### LEX-INV2-1972
+- **LEX-ID:** `LEX-INV2-1972`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4980
@@ -33658,8 +33641,8 @@
 
 ---
 
-### LEX-INV2-1974
-- **LEX-ID:** `LEX-INV2-1974`
+### LEX-INV2-1973
+- **LEX-ID:** `LEX-INV2-1973`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4984
@@ -33675,8 +33658,8 @@
 
 ---
 
-### LEX-INV2-1975
-- **LEX-ID:** `LEX-INV2-1975`
+### LEX-INV2-1974
+- **LEX-ID:** `LEX-INV2-1974`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4984
@@ -33692,8 +33675,8 @@
 
 ---
 
-### LEX-INV2-1976
-- **LEX-ID:** `LEX-INV2-1976`
+### LEX-INV2-1975
+- **LEX-ID:** `LEX-INV2-1975`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4984
@@ -33709,8 +33692,8 @@
 
 ---
 
-### LEX-INV2-1977
-- **LEX-ID:** `LEX-INV2-1977`
+### LEX-INV2-1976
+- **LEX-ID:** `LEX-INV2-1976`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4984
@@ -33726,8 +33709,8 @@
 
 ---
 
-### LEX-INV2-1978
-- **LEX-ID:** `LEX-INV2-1978`
+### LEX-INV2-1977
+- **LEX-ID:** `LEX-INV2-1977`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4984
@@ -33743,14 +33726,31 @@
 
 ---
 
-### LEX-INV2-1979
-- **LEX-ID:** `LEX-INV2-1979`
+### LEX-INV2-1978
+- **LEX-ID:** `LEX-INV2-1978`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 4984
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...ванью а поступкохъ и обыстью тыхъ обудвухъ особъ, право з собою ведучих. А стороны часу такого опыту и вы...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-1979
+- **LEX-ID:** `LEX-INV2-1979`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 4996
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...я, яко отпорная, кромъ позванья ку доконанью того права и прислуханью выроку врядового, на том же вряде с...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -33767,7 +33767,7 @@
 - **LOCATOR:** рядок 4996
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...я, яко отпорная, кромъ позванья ку доконанью того права и прислуханью выроку врядового, на том же вряде с...
+  > ...оки кончити маеть, то естъ прийдеть ли до того, с права винъного, на горло, такъже головщизну, шкоды на и...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -33779,23 +33779,6 @@
 
 ### LEX-INV2-1981
 - **LEX-ID:** `LEX-INV2-1981`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 4996
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...оки кончити маеть, то естъ прийдеть ли до того, с права винъного, на горло, такъже головщизну, шкоды на и...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-1982
-- **LEX-ID:** `LEX-INV2-1982`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5020
@@ -33811,8 +33794,8 @@
 
 ---
 
-### LEX-INV2-1983
-- **LEX-ID:** `LEX-INV2-1983`
+### LEX-INV2-1982
+- **LEX-ID:** `LEX-INV2-1982`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5032
@@ -33828,8 +33811,8 @@
 
 ---
 
-### LEX-INV2-1984
-- **LEX-ID:** `LEX-INV2-1984`
+### LEX-INV2-1983
+- **LEX-ID:** `LEX-INV2-1983`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5032
@@ -33845,8 +33828,8 @@
 
 ---
 
-### LEX-INV2-1985
-- **LEX-ID:** `LEX-INV2-1985`
+### LEX-INV2-1984
+- **LEX-ID:** `LEX-INV2-1984`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5036
@@ -33862,8 +33845,8 @@
 
 ---
 
-### LEX-INV2-1986
-- **LEX-ID:** `LEX-INV2-1986`
+### LEX-INV2-1985
+- **LEX-ID:** `LEX-INV2-1985`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5036
@@ -33879,8 +33862,8 @@
 
 ---
 
-### LEX-INV2-1987
-- **LEX-ID:** `LEX-INV2-1987`
+### LEX-INV2-1986
+- **LEX-ID:** `LEX-INV2-1986`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5036
@@ -33896,8 +33879,8 @@
 
 ---
 
-### LEX-INV2-1988
-- **LEX-ID:** `LEX-INV2-1988`
+### LEX-INV2-1987
+- **LEX-ID:** `LEX-INV2-1987`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5036
@@ -33913,8 +33896,8 @@
 
 ---
 
-### LEX-INV2-1989
-- **LEX-ID:** `LEX-INV2-1989`
+### LEX-INV2-1988
+- **LEX-ID:** `LEX-INV2-1988`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5036
@@ -33930,8 +33913,8 @@
 
 ---
 
-### LEX-INV2-1990
-- **LEX-ID:** `LEX-INV2-1990`
+### LEX-INV2-1989
+- **LEX-ID:** `LEX-INV2-1989`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5080
@@ -33947,8 +33930,8 @@
 
 ---
 
-### LEX-INV2-1991
-- **LEX-ID:** `LEX-INV2-1991`
+### LEX-INV2-1990
+- **LEX-ID:** `LEX-INV2-1990`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5080
@@ -33964,8 +33947,8 @@
 
 ---
 
-### LEX-INV2-1992
-- **LEX-ID:** `LEX-INV2-1992`
+### LEX-INV2-1991
+- **LEX-ID:** `LEX-INV2-1991`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5080
@@ -33981,8 +33964,8 @@
 
 ---
 
-### LEX-INV2-1993
-- **LEX-ID:** `LEX-INV2-1993`
+### LEX-INV2-1992
+- **LEX-ID:** `LEX-INV2-1992`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5080
@@ -33998,8 +33981,8 @@
 
 ---
 
-### LEX-INV2-1994
-- **LEX-ID:** `LEX-INV2-1994`
+### LEX-INV2-1993
+- **LEX-ID:** `LEX-INV2-1993`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5080
@@ -34015,8 +33998,8 @@
 
 ---
 
-### LEX-INV2-1995
-- **LEX-ID:** `LEX-INV2-1995`
+### LEX-INV2-1994
+- **LEX-ID:** `LEX-INV2-1994`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5080
@@ -34032,8 +34015,8 @@
 
 ---
 
-### LEX-INV2-1996
-- **LEX-ID:** `LEX-INV2-1996`
+### LEX-INV2-1995
+- **LEX-ID:** `LEX-INV2-1995`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5092
@@ -34049,8 +34032,8 @@
 
 ---
 
-### LEX-INV2-1997
-- **LEX-ID:** `LEX-INV2-1997`
+### LEX-INV2-1996
+- **LEX-ID:** `LEX-INV2-1996`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5092
@@ -34066,8 +34049,8 @@
 
 ---
 
-### LEX-INV2-1998
-- **LEX-ID:** `LEX-INV2-1998`
+### LEX-INV2-1997
+- **LEX-ID:** `LEX-INV2-1997`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5152
@@ -34083,8 +34066,8 @@
 
 ---
 
-### LEX-INV2-1999
-- **LEX-ID:** `LEX-INV2-1999`
+### LEX-INV2-1998
+- **LEX-ID:** `LEX-INV2-1998`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5152
@@ -34100,8 +34083,8 @@
 
 ---
 
-### LEX-INV2-2000
-- **LEX-ID:** `LEX-INV2-2000`
+### LEX-INV2-1999
+- **LEX-ID:** `LEX-INV2-1999`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5152
@@ -34117,8 +34100,8 @@
 
 ---
 
-### LEX-INV2-2001
-- **LEX-ID:** `LEX-INV2-2001`
+### LEX-INV2-2000
+- **LEX-ID:** `LEX-INV2-2000`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5152
@@ -34134,8 +34117,8 @@
 
 ---
 
-### LEX-INV2-2002
-- **LEX-ID:** `LEX-INV2-2002`
+### LEX-INV2-2001
+- **LEX-ID:** `LEX-INV2-2001`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5156
@@ -34151,8 +34134,8 @@
 
 ---
 
-### LEX-INV2-2003
-- **LEX-ID:** `LEX-INV2-2003`
+### LEX-INV2-2002
+- **LEX-ID:** `LEX-INV2-2002`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5168
@@ -34168,8 +34151,8 @@
 
 ---
 
-### LEX-INV2-2004
-- **LEX-ID:** `LEX-INV2-2004`
+### LEX-INV2-2003
+- **LEX-ID:** `LEX-INV2-2003`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5168
@@ -34185,8 +34168,8 @@
 
 ---
 
-### LEX-INV2-2005
-- **LEX-ID:** `LEX-INV2-2005`
+### LEX-INV2-2004
+- **LEX-ID:** `LEX-INV2-2004`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34202,8 +34185,8 @@
 
 ---
 
-### LEX-INV2-2006
-- **LEX-ID:** `LEX-INV2-2006`
+### LEX-INV2-2005
+- **LEX-ID:** `LEX-INV2-2005`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34219,8 +34202,8 @@
 
 ---
 
-### LEX-INV2-2007
-- **LEX-ID:** `LEX-INV2-2007`
+### LEX-INV2-2006
+- **LEX-ID:** `LEX-INV2-2006`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34236,8 +34219,8 @@
 
 ---
 
-### LEX-INV2-2008
-- **LEX-ID:** `LEX-INV2-2008`
+### LEX-INV2-2007
+- **LEX-ID:** `LEX-INV2-2007`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34253,8 +34236,8 @@
 
 ---
 
-### LEX-INV2-2009
-- **LEX-ID:** `LEX-INV2-2009`
+### LEX-INV2-2008
+- **LEX-ID:** `LEX-INV2-2008`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34270,8 +34253,8 @@
 
 ---
 
-### LEX-INV2-2010
-- **LEX-ID:** `LEX-INV2-2010`
+### LEX-INV2-2009
+- **LEX-ID:** `LEX-INV2-2009`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34287,8 +34270,8 @@
 
 ---
 
-### LEX-INV2-2011
-- **LEX-ID:** `LEX-INV2-2011`
+### LEX-INV2-2010
+- **LEX-ID:** `LEX-INV2-2010`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34304,8 +34287,8 @@
 
 ---
 
-### LEX-INV2-2012
-- **LEX-ID:** `LEX-INV2-2012`
+### LEX-INV2-2011
+- **LEX-ID:** `LEX-INV2-2011`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34321,8 +34304,8 @@
 
 ---
 
-### LEX-INV2-2013
-- **LEX-ID:** `LEX-INV2-2013`
+### LEX-INV2-2012
+- **LEX-ID:** `LEX-INV2-2012`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5172
@@ -34338,8 +34321,8 @@
 
 ---
 
-### LEX-INV2-2014
-- **LEX-ID:** `LEX-INV2-2014`
+### LEX-INV2-2013
+- **LEX-ID:** `LEX-INV2-2013`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5200
@@ -34355,8 +34338,8 @@
 
 ---
 
-### LEX-INV2-2015
-- **LEX-ID:** `LEX-INV2-2015`
+### LEX-INV2-2014
+- **LEX-ID:** `LEX-INV2-2014`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5224
@@ -34372,8 +34355,8 @@
 
 ---
 
-### LEX-INV2-2016
-- **LEX-ID:** `LEX-INV2-2016`
+### LEX-INV2-2015
+- **LEX-ID:** `LEX-INV2-2015`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5240
@@ -34389,14 +34372,31 @@
 
 ---
 
-### LEX-INV2-2017
-- **LEX-ID:** `LEX-INV2-2017`
+### LEX-INV2-2016
+- **LEX-ID:** `LEX-INV2-2016`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5240
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
   > ...ость местъца, ани давность помененая ку отисканью правомъ слушнымъ вадити и перекажати не маеть противъ сам...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-2017
+- **LEX-ID:** `LEX-INV2-2017`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 5264
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ов не выдалъ и справедливости з ними водлугъ сего права посполитого не учынилъ, ино позваный повиненъ буд...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34413,7 +34413,7 @@
 - **LOCATOR:** рядок 5264
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ов не выдалъ и справедливости з ними водлугъ сего права посполитого не учынилъ, ино позваный повиненъ буд...
+  > ...виненъ будет самъ або черезъ умоцованого своего у права яко на року завитомъ стати и того або тыхъ збегов...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34430,7 +34430,7 @@
 - **LOCATOR:** рядок 5264
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...виненъ будет самъ або черезъ умоцованого своего у права яко на року завитомъ стати и того або тыхъ збегов...
+  > ...тати и того або тыхъ збеговъ, колко ихъ будеть, у права поставити. А жалобникъ за станьемъ стороны пазван...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34442,23 +34442,6 @@
 
 ### LEX-INV2-2020
 - **LEX-ID:** `LEX-INV2-2020`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 5264
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...тати и того або тыхъ збеговъ, колко ихъ будеть, у права поставити. А жалобникъ за станьемъ стороны пазван...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-2021
-- **LEX-ID:** `LEX-INV2-2021`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5264
@@ -34474,8 +34457,8 @@
 
 ---
 
-### LEX-INV2-2022
-- **LEX-ID:** `LEX-INV2-2022`
+### LEX-INV2-2021
+- **LEX-ID:** `LEX-INV2-2021`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5264
@@ -34491,8 +34474,8 @@
 
 ---
 
-### LEX-INV2-2023
-- **LEX-ID:** `LEX-INV2-2023`
+### LEX-INV2-2022
+- **LEX-ID:** `LEX-INV2-2022`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5268
@@ -34508,14 +34491,31 @@
 
 ---
 
-### LEX-INV2-2024
-- **LEX-ID:** `LEX-INV2-2024`
+### LEX-INV2-2023
+- **LEX-ID:** `LEX-INV2-2023`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5268
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...о челядь дворная водлугъ сего статуту, якое на то право мети будеть, доводити. А по такомъ доводе виненъ...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-2024
+- **LEX-ID:** `LEX-INV2-2024`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 5268
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...бе ихъ яко своихъ властныхъ пойскивати, а дошедшы правомъ, маеть ихъ мети за свои подданые. Вед же естли бы...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34532,7 +34532,7 @@
 - **LOCATOR:** рядок 5268
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...бе ихъ яко своихъ властныхъ пойскивати, а дошедшы правомъ, маеть ихъ мети за свои подданые. Вед же естли бы...
+  > ...ные. Вед же естли бы тотъ пан, который ихъ первей правомъ доходилъ и заплату за них взялъ, хотел зась назад...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34547,10 +34547,10 @@
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5268
-- **SOURCE-FORM:** `правомъ`
+- **SOURCE-FORM:** `присягнути`
 - **EXACT-CONTEXT:**
-  > ...ные. Вед же естли бы тотъ пан, который ихъ первей правомъ доходилъ и заплату за них взялъ, хотел зась назад...
-- **ROOT-FAMILY:** `PRAVO`
+  > ...лбо лавникъ, кого с тыхъ жалобникъ обереть, маеть присягнути на томъ, ижъ при положенью позву не былъ и тепер...
+- **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
 - **DECISION-LAYER:** `AUDIT`
@@ -34566,7 +34566,7 @@
 - **LOCATOR:** рядок 5268
 - **SOURCE-FORM:** `присягнути`
 - **EXACT-CONTEXT:**
-  > ...лбо лавникъ, кого с тыхъ жалобникъ обереть, маеть присягнути на томъ, ижъ при положенью позву не былъ и тепер...
+  > ...исегнути, тогды такий шляхтичъ самъ маеть на томъ присягнути, а предся кожды станъ будеть виненъ позволити на...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34583,7 +34583,7 @@
 - **LOCATOR:** рядок 5268
 - **SOURCE-FORM:** `присягнути`
 - **EXACT-CONTEXT:**
-  > ...исегнути, тогды такий шляхтичъ самъ маеть на томъ присягнути, а предся кожды станъ будеть виненъ позволити на...
+  > ...я справедливости на именью позваное стороны были, присягнути, также и того, же то суть его властъные люди або...
 - **ROOT-FAMILY:** `PRISYAGA`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34595,23 +34595,6 @@
 
 ### LEX-INV2-2029
 - **LEX-ID:** `LEX-INV2-2029`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 5268
-- **SOURCE-FORM:** `присягнути`
-- **EXACT-CONTEXT:**
-  > ...я справедливости на именью позваное стороны были, присягнути, также и того, же то суть его властъные люди або...
-- **ROOT-FAMILY:** `PRISYAGA`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-2030
-- **LEX-ID:** `LEX-INV2-2030`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5272
@@ -34627,8 +34610,8 @@
 
 ---
 
-### LEX-INV2-2031
-- **LEX-ID:** `LEX-INV2-2031`
+### LEX-INV2-2030
+- **LEX-ID:** `LEX-INV2-2030`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5272
@@ -34644,8 +34627,8 @@
 
 ---
 
-### LEX-INV2-2032
-- **LEX-ID:** `LEX-INV2-2032`
+### LEX-INV2-2031
+- **LEX-ID:** `LEX-INV2-2031`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5272
@@ -34661,8 +34644,8 @@
 
 ---
 
-### LEX-INV2-2033
-- **LEX-ID:** `LEX-INV2-2033`
+### LEX-INV2-2032
+- **LEX-ID:** `LEX-INV2-2032`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5272
@@ -34678,8 +34661,8 @@
 
 ---
 
-### LEX-INV2-2034
-- **LEX-ID:** `LEX-INV2-2034`
+### LEX-INV2-2033
+- **LEX-ID:** `LEX-INV2-2033`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5272
@@ -34695,8 +34678,8 @@
 
 ---
 
-### LEX-INV2-2035
-- **LEX-ID:** `LEX-INV2-2035`
+### LEX-INV2-2034
+- **LEX-ID:** `LEX-INV2-2034`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5272
@@ -34712,8 +34695,8 @@
 
 ---
 
-### LEX-INV2-2036
-- **LEX-ID:** `LEX-INV2-2036`
+### LEX-INV2-2035
+- **LEX-ID:** `LEX-INV2-2035`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5272
@@ -34729,14 +34712,31 @@
 
 ---
 
-### LEX-INV2-2037
-- **LEX-ID:** `LEX-INV2-2037`
+### LEX-INV2-2036
+- **LEX-ID:** `LEX-INV2-2036`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5272
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > .... А довод на збеги, люди отчизные и иные, вечному праву подлеглые, таки[й] мает быти: напервей листы або...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-2037
+- **LEX-ID:** `LEX-INV2-2037`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 5284
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...ъ поймаеть, маеть на него доводъ слушъный водлугъ права присегу учинити, ижъ онъ ее вывелъ, а онъ мае [та...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34753,7 +34753,7 @@
 - **LOCATOR:** рядок 5284
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...ъ поймаеть, маеть на него доводъ слушъный водлугъ права присегу учинити, ижъ онъ ее вывелъ, а онъ мае [та...
+  > ...тотъ укривжоный маеть собе справедливости водлугъ права доводити, и с права найдет ли се то, ижъ ее выдат...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34770,7 +34770,7 @@
 - **LOCATOR:** рядок 5284
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...тотъ укривжоный маеть собе справедливости водлугъ права доводити, и с права найдет ли се то, ижъ ее выдат...
+  > ...ь собе справедливости водлугъ права доводити, и с права найдет ли се то, ижъ ее выдати не хотелъ, тогды о...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34784,10 +34784,10 @@
 - **LEX-ID:** `LEX-INV2-2040`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 5284
-- **SOURCE-FORM:** `права`
+- **LOCATOR:** рядок 5296
+- **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...ь собе справедливости водлугъ права доводити, и с права найдет ли се то, ижъ ее выдати не хотелъ, тогды о...
+  > Кгды бы хто збега своего ч[о]л[о]в[е]ка, вечнымъ правомъ собе належачого, давностью не промолчаного, потра...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34804,7 +34804,7 @@
 - **LOCATOR:** рядок 5296
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > Кгды бы хто збега своего ч[о]л[о]в[е]ка, вечнымъ правомъ собе належачого, давностью не промолчаного, потра...
+  > ...озе, а не почал будеть первей о того збега своего правомъ чынити, такового збега волно будеть кождому шляхт...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34816,23 +34816,6 @@
 
 ### LEX-INV2-2042
 - **LEX-ID:** `LEX-INV2-2042`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 5296
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...озе, а не почал будеть первей о того збега своего правомъ чынити, такового збега волно будеть кождому шляхт...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-2043
-- **LEX-ID:** `LEX-INV2-2043`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5296
@@ -34848,8 +34831,8 @@
 
 ---
 
-### LEX-INV2-2044
-- **LEX-ID:** `LEX-INV2-2044`
+### LEX-INV2-2043
+- **LEX-ID:** `LEX-INV2-2043`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5296
@@ -34865,14 +34848,31 @@
 
 ---
 
-### LEX-INV2-2045
-- **LEX-ID:** `LEX-INV2-2045`
+### LEX-INV2-2044
+- **LEX-ID:** `LEX-INV2-2044`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5296
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...ет ли за обосланьемъ панъ або врядникъ на рокъ ку праву, тогды тотъ збегъ або за признаньемъ своимъ, або...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-2045
+- **LEX-ID:** `LEX-INV2-2045`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 5296
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...еть. Лечъ если бы хто почалъ збега своего на комъ правомъ позыскивати, таковый, хотя бы того ч[о]л[о]в[е]ка...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34889,7 +34889,7 @@
 - **LOCATOR:** рядок 5296
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...еть. Лечъ если бы хто почалъ збега своего на комъ правомъ позыскивати, таковый, хотя бы того ч[о]л[о]в[е]ка...
+  > ...ъ где, не маеть его безправне брати, але до конца правомъ его позыскивати маеть. Естли жъ бы хто збега свое...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34906,7 +34906,7 @@
 - **LOCATOR:** рядок 5296
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...ъ где, не маеть его безправне брати, але до конца правомъ его позыскивати маеть. Естли жъ бы хто збега свое...
+  > ...воего потрафилъ на дорозе, который бы ему вечнымъ правомъ не належалъ, толко бы шкоду якую учынилъ або вине...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -34918,23 +34918,6 @@
 
 ### LEX-INV2-2048
 - **LEX-ID:** `LEX-INV2-2048`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 5296
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...воего потрафилъ на дорозе, который бы ему вечнымъ правомъ не належалъ, толко бы шкоду якую учынилъ або вине...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-2049
-- **LEX-ID:** `LEX-INV2-2049`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5308
@@ -34950,8 +34933,8 @@
 
 ---
 
-### LEX-INV2-2050
-- **LEX-ID:** `LEX-INV2-2050`
+### LEX-INV2-2049
+- **LEX-ID:** `LEX-INV2-2049`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5320
@@ -34967,8 +34950,8 @@
 
 ---
 
-### LEX-INV2-2051
-- **LEX-ID:** `LEX-INV2-2051`
+### LEX-INV2-2050
+- **LEX-ID:** `LEX-INV2-2050`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5320
@@ -34984,8 +34967,8 @@
 
 ---
 
-### LEX-INV2-2052
-- **LEX-ID:** `LEX-INV2-2052`
+### LEX-INV2-2051
+- **LEX-ID:** `LEX-INV2-2051`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5320
@@ -35001,8 +34984,8 @@
 
 ---
 
-### LEX-INV2-2053
-- **LEX-ID:** `LEX-INV2-2053`
+### LEX-INV2-2052
+- **LEX-ID:** `LEX-INV2-2052`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5344
@@ -35018,8 +35001,8 @@
 
 ---
 
-### LEX-INV2-2054
-- **LEX-ID:** `LEX-INV2-2054`
+### LEX-INV2-2053
+- **LEX-ID:** `LEX-INV2-2053`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5368
@@ -35035,8 +35018,8 @@
 
 ---
 
-### LEX-INV2-2055
-- **LEX-ID:** `LEX-INV2-2055`
+### LEX-INV2-2054
+- **LEX-ID:** `LEX-INV2-2054`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5368
@@ -35052,8 +35035,8 @@
 
 ---
 
-### LEX-INV2-2056
-- **LEX-ID:** `LEX-INV2-2056`
+### LEX-INV2-2055
+- **LEX-ID:** `LEX-INV2-2055`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5368
@@ -35069,8 +35052,8 @@
 
 ---
 
-### LEX-INV2-2057
-- **LEX-ID:** `LEX-INV2-2057`
+### LEX-INV2-2056
+- **LEX-ID:** `LEX-INV2-2056`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5368
@@ -35086,14 +35069,31 @@
 
 ---
 
-### LEX-INV2-2058
-- **LEX-ID:** `LEX-INV2-2058`
+### LEX-INV2-2057
+- **LEX-ID:** `LEX-INV2-2057`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5368
 - **SOURCE-FORM:** `праву`
 - **EXACT-CONTEXT:**
   > ...в чомъ будеть от пана обвиненъ, придавши ку тому праву возного и двухъ шляхтичовъ. А то естли въ шкоде я...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-2058
+- **LEX-ID:** `LEX-INV2-2058`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 5368
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...е якой будеть обвиненъ и зостанет ли тотъ слуга с права въ шкодахъ якихъ виненъ, тогды то будеть повиненъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35110,7 +35110,7 @@
 - **LOCATOR:** рядок 5368
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...е якой будеть обвиненъ и зостанет ли тотъ слуга с права въ шкодахъ якихъ виненъ, тогды то будеть повиненъ...
+  > ...бы такий слуга въ шкодахъ не былъ обвиненъ албо с права [в оригинале вместо «с права» — «трава»] виненъ в...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35127,7 +35127,7 @@
 - **LOCATOR:** рядок 5368
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...бы такий слуга въ шкодахъ не былъ обвиненъ албо с права [в оригинале вместо «с права» — «трава»] виненъ в...
+  > ...былъ обвиненъ албо с права [в оригинале вместо «с права» — «трава»] виненъ в нихъ не зостанет, толко о то...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35139,23 +35139,6 @@
 
 ### LEX-INV2-2061
 - **LEX-ID:** `LEX-INV2-2061`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 5368
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...былъ обвиненъ албо с права [в оригинале вместо «с права» — «трава»] виненъ в нихъ не зостанет, толко о то...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-2062
-- **LEX-ID:** `LEX-INV2-2062`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5392
@@ -35171,8 +35154,8 @@
 
 ---
 
-### LEX-INV2-2063
-- **LEX-ID:** `LEX-INV2-2063`
+### LEX-INV2-2062
+- **LEX-ID:** `LEX-INV2-2062`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5392
@@ -35188,8 +35171,8 @@
 
 ---
 
-### LEX-INV2-2064
-- **LEX-ID:** `LEX-INV2-2064`
+### LEX-INV2-2063
+- **LEX-ID:** `LEX-INV2-2063`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5432
@@ -35205,8 +35188,8 @@
 
 ---
 
-### LEX-INV2-2065
-- **LEX-ID:** `LEX-INV2-2065`
+### LEX-INV2-2064
+- **LEX-ID:** `LEX-INV2-2064`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5436
@@ -35222,8 +35205,8 @@
 
 ---
 
-### LEX-INV2-2066
-- **LEX-ID:** `LEX-INV2-2066`
+### LEX-INV2-2065
+- **LEX-ID:** `LEX-INV2-2065`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5440
@@ -35239,8 +35222,8 @@
 
 ---
 
-### LEX-INV2-2067
-- **LEX-ID:** `LEX-INV2-2067`
+### LEX-INV2-2066
+- **LEX-ID:** `LEX-INV2-2066`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5452
@@ -35256,8 +35239,8 @@
 
 ---
 
-### LEX-INV2-2068
-- **LEX-ID:** `LEX-INV2-2068`
+### LEX-INV2-2067
+- **LEX-ID:** `LEX-INV2-2067`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5824
@@ -35273,8 +35256,8 @@
 
 ---
 
-### LEX-INV2-2069
-- **LEX-ID:** `LEX-INV2-2069`
+### LEX-INV2-2068
+- **LEX-ID:** `LEX-INV2-2068`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5824
@@ -35290,8 +35273,8 @@
 
 ---
 
-### LEX-INV2-2070
-- **LEX-ID:** `LEX-INV2-2070`
+### LEX-INV2-2069
+- **LEX-ID:** `LEX-INV2-2069`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5824
@@ -35307,8 +35290,8 @@
 
 ---
 
-### LEX-INV2-2071
-- **LEX-ID:** `LEX-INV2-2071`
+### LEX-INV2-2070
+- **LEX-ID:** `LEX-INV2-2070`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5824
@@ -35324,8 +35307,8 @@
 
 ---
 
-### LEX-INV2-2072
-- **LEX-ID:** `LEX-INV2-2072`
+### LEX-INV2-2071
+- **LEX-ID:** `LEX-INV2-2071`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5824
@@ -35341,8 +35324,8 @@
 
 ---
 
-### LEX-INV2-2073
-- **LEX-ID:** `LEX-INV2-2073`
+### LEX-INV2-2072
+- **LEX-ID:** `LEX-INV2-2072`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5824
@@ -35358,8 +35341,8 @@
 
 ---
 
-### LEX-INV2-2074
-- **LEX-ID:** `LEX-INV2-2074`
+### LEX-INV2-2073
+- **LEX-ID:** `LEX-INV2-2073`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5828
@@ -35375,8 +35358,8 @@
 
 ---
 
-### LEX-INV2-2075
-- **LEX-ID:** `LEX-INV2-2075`
+### LEX-INV2-2074
+- **LEX-ID:** `LEX-INV2-2074`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5828
@@ -35392,8 +35375,8 @@
 
 ---
 
-### LEX-INV2-2076
-- **LEX-ID:** `LEX-INV2-2076`
+### LEX-INV2-2075
+- **LEX-ID:** `LEX-INV2-2075`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5840
@@ -35409,14 +35392,31 @@
 
 ---
 
-### LEX-INV2-2077
-- **LEX-ID:** `LEX-INV2-2077`
+### LEX-INV2-2076
+- **LEX-ID:** `LEX-INV2-2076`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5840
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...бное шкоду ему платити виненъ будеть. Такое жъ ся право в той мере и о селахъ нашихъ, г[о]с[по]д[а]рьских...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-2077
+- **LEX-ID:** `LEX-INV2-2077`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 5852
+- **SOURCE-FORM:** `права`
+- **EXACT-CONTEXT:**
+  > ...одъ которымъ пойманъ будеть, а чоловекъ местъский права ма[й]деборъского пойманый, в томъ же месте мешкаю...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35433,7 +35433,7 @@
 - **LOCATOR:** рядок 5852
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...одъ которымъ пойманъ будеть, а чоловекъ местъский права ма[й]деборъского пойманый, в томъ же месте мешкаю...
+  > ...четверътомъ, и рокъ тому пану ку прислуханью того права ознаймити, и прибудет ли панъ самъ або кого на св...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35450,7 +35450,7 @@
 - **LOCATOR:** рядок 5852
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...четверътомъ, и рокъ тому пану ку прислуханью того права ознаймити, и прибудет ли панъ самъ або кого на св...
+  > ...а врядъ при бытности его такого обвиненого водле права судити и сказывати будеть. А естли самъ панъ не п...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35467,7 +35467,7 @@
 - **LOCATOR:** рядок 5852
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
-  > ...а врядъ при бытности его такого обвиненого водле права судити и сказывати будеть. А естли самъ панъ не п...
+  > ...тотъ рокъ зложоный судити и коньчити маеть водле права.
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35479,23 +35479,6 @@
 
 ### LEX-INV2-2081
 - **LEX-ID:** `LEX-INV2-2081`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 5852
-- **SOURCE-FORM:** `права`
-- **EXACT-CONTEXT:**
-  > ...тотъ рокъ зложоный судити и коньчити маеть водле права.
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-2082
-- **LEX-ID:** `LEX-INV2-2082`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5856
@@ -35511,8 +35494,8 @@
 
 ---
 
-### LEX-INV2-2083
-- **LEX-ID:** `LEX-INV2-2083`
+### LEX-INV2-2082
+- **LEX-ID:** `LEX-INV2-2082`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5856
@@ -35528,8 +35511,8 @@
 
 ---
 
-### LEX-INV2-2084
-- **LEX-ID:** `LEX-INV2-2084`
+### LEX-INV2-2083
+- **LEX-ID:** `LEX-INV2-2083`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5856
@@ -35545,8 +35528,8 @@
 
 ---
 
-### LEX-INV2-2085
-- **LEX-ID:** `LEX-INV2-2085`
+### LEX-INV2-2084
+- **LEX-ID:** `LEX-INV2-2084`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5856
@@ -35562,8 +35545,8 @@
 
 ---
 
-### LEX-INV2-2086
-- **LEX-ID:** `LEX-INV2-2086`
+### LEX-INV2-2085
+- **LEX-ID:** `LEX-INV2-2085`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5868
@@ -35579,8 +35562,8 @@
 
 ---
 
-### LEX-INV2-2087
-- **LEX-ID:** `LEX-INV2-2087`
+### LEX-INV2-2086
+- **LEX-ID:** `LEX-INV2-2086`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5868
@@ -35596,8 +35579,8 @@
 
 ---
 
-### LEX-INV2-2088
-- **LEX-ID:** `LEX-INV2-2088`
+### LEX-INV2-2087
+- **LEX-ID:** `LEX-INV2-2087`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5868
@@ -35613,8 +35596,8 @@
 
 ---
 
-### LEX-INV2-2089
-- **LEX-ID:** `LEX-INV2-2089`
+### LEX-INV2-2088
+- **LEX-ID:** `LEX-INV2-2088`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5868
@@ -35630,8 +35613,8 @@
 
 ---
 
-### LEX-INV2-2090
-- **LEX-ID:** `LEX-INV2-2090`
+### LEX-INV2-2089
+- **LEX-ID:** `LEX-INV2-2089`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5880
@@ -35647,8 +35630,8 @@
 
 ---
 
-### LEX-INV2-2091
-- **LEX-ID:** `LEX-INV2-2091`
+### LEX-INV2-2090
+- **LEX-ID:** `LEX-INV2-2090`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5892
@@ -35664,8 +35647,8 @@
 
 ---
 
-### LEX-INV2-2092
-- **LEX-ID:** `LEX-INV2-2092`
+### LEX-INV2-2091
+- **LEX-ID:** `LEX-INV2-2091`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5904
@@ -35681,8 +35664,8 @@
 
 ---
 
-### LEX-INV2-2093
-- **LEX-ID:** `LEX-INV2-2093`
+### LEX-INV2-2092
+- **LEX-ID:** `LEX-INV2-2092`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5904
@@ -35698,8 +35681,8 @@
 
 ---
 
-### LEX-INV2-2094
-- **LEX-ID:** `LEX-INV2-2094`
+### LEX-INV2-2093
+- **LEX-ID:** `LEX-INV2-2093`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5916
@@ -35715,8 +35698,8 @@
 
 ---
 
-### LEX-INV2-2095
-- **LEX-ID:** `LEX-INV2-2095`
+### LEX-INV2-2094
+- **LEX-ID:** `LEX-INV2-2094`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5932
@@ -35732,8 +35715,8 @@
 
 ---
 
-### LEX-INV2-2096
-- **LEX-ID:** `LEX-INV2-2096`
+### LEX-INV2-2095
+- **LEX-ID:** `LEX-INV2-2095`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5932
@@ -35749,8 +35732,8 @@
 
 ---
 
-### LEX-INV2-2097
-- **LEX-ID:** `LEX-INV2-2097`
+### LEX-INV2-2096
+- **LEX-ID:** `LEX-INV2-2096`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5932
@@ -35766,8 +35749,8 @@
 
 ---
 
-### LEX-INV2-2098
-- **LEX-ID:** `LEX-INV2-2098`
+### LEX-INV2-2097
+- **LEX-ID:** `LEX-INV2-2097`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5932
@@ -35783,8 +35766,8 @@
 
 ---
 
-### LEX-INV2-2099
-- **LEX-ID:** `LEX-INV2-2099`
+### LEX-INV2-2098
+- **LEX-ID:** `LEX-INV2-2098`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5944
@@ -35800,8 +35783,8 @@
 
 ---
 
-### LEX-INV2-2100
-- **LEX-ID:** `LEX-INV2-2100`
+### LEX-INV2-2099
+- **LEX-ID:** `LEX-INV2-2099`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5948
@@ -35817,8 +35800,8 @@
 
 ---
 
-### LEX-INV2-2101
-- **LEX-ID:** `LEX-INV2-2101`
+### LEX-INV2-2100
+- **LEX-ID:** `LEX-INV2-2100`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5948
@@ -35834,8 +35817,8 @@
 
 ---
 
-### LEX-INV2-2102
-- **LEX-ID:** `LEX-INV2-2102`
+### LEX-INV2-2101
+- **LEX-ID:** `LEX-INV2-2101`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5948
@@ -35851,8 +35834,8 @@
 
 ---
 
-### LEX-INV2-2103
-- **LEX-ID:** `LEX-INV2-2103`
+### LEX-INV2-2102
+- **LEX-ID:** `LEX-INV2-2102`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5960
@@ -35868,8 +35851,8 @@
 
 ---
 
-### LEX-INV2-2104
-- **LEX-ID:** `LEX-INV2-2104`
+### LEX-INV2-2103
+- **LEX-ID:** `LEX-INV2-2103`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5972
@@ -35885,14 +35868,31 @@
 
 ---
 
-### LEX-INV2-2105
-- **LEX-ID:** `LEX-INV2-2105`
+### LEX-INV2-2104
+- **LEX-ID:** `LEX-INV2-2104`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5972
 - **SOURCE-FORM:** `права`
 - **EXACT-CONTEXT:**
   > ...оведанье и поволанье, врядовне записаное, маеть у права везде м[ест]ъце мети и приймовано быти и кгниги т...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-2105
+- **LEX-ID:** `LEX-INV2-2105`
+- **SOURCE-ID:** `SRC-LS-1588`
+- **WITNESS-ID:** `WIT-LS-1588`
+- **LOCATOR:** рядок 5984
+- **SOURCE-FORM:** `правомъ`
+- **EXACT-CONTEXT:**
+  > ...огды таковый кождый, естли бы то на него слушнымъ правомъ переведено было, всю шкоду, котороя [так!] бы ся...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35909,7 +35909,7 @@
 - **LOCATOR:** рядок 5984
 - **SOURCE-FORM:** `правомъ`
 - **EXACT-CONTEXT:**
-  > ...огды таковый кождый, естли бы то на него слушнымъ правомъ переведено было, всю шкоду, котороя [так!] бы ся...
+  > ...правовати. Тым же обычаемъ, естли бы кому злодея, правомъ поконаного, на смерть выдано, а онъ бы не скаралъ...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -35921,23 +35921,6 @@
 
 ### LEX-INV2-2107
 - **LEX-ID:** `LEX-INV2-2107`
-- **SOURCE-ID:** `SRC-LS-1588`
-- **WITNESS-ID:** `WIT-LS-1588`
-- **LOCATOR:** рядок 5984
-- **SOURCE-FORM:** `правомъ`
-- **EXACT-CONTEXT:**
-  > ...правовати. Тым же обычаемъ, естли бы кому злодея, правомъ поконаного, на смерть выдано, а онъ бы не скаралъ...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-2108
-- **LEX-ID:** `LEX-INV2-2108`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5984
@@ -35953,8 +35936,8 @@
 
 ---
 
-### LEX-INV2-2109
-- **LEX-ID:** `LEX-INV2-2109`
+### LEX-INV2-2108
+- **LEX-ID:** `LEX-INV2-2108`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5996
@@ -35970,8 +35953,8 @@
 
 ---
 
-### LEX-INV2-2110
-- **LEX-ID:** `LEX-INV2-2110`
+### LEX-INV2-2109
+- **LEX-ID:** `LEX-INV2-2109`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 5996
@@ -35987,8 +35970,8 @@
 
 ---
 
-### LEX-INV2-2111
-- **LEX-ID:** `LEX-INV2-2111`
+### LEX-INV2-2110
+- **LEX-ID:** `LEX-INV2-2110`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6012
@@ -36004,8 +35987,8 @@
 
 ---
 
-### LEX-INV2-2112
-- **LEX-ID:** `LEX-INV2-2112`
+### LEX-INV2-2111
+- **LEX-ID:** `LEX-INV2-2111`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6012
@@ -36021,8 +36004,8 @@
 
 ---
 
-### LEX-INV2-2113
-- **LEX-ID:** `LEX-INV2-2113`
+### LEX-INV2-2112
+- **LEX-ID:** `LEX-INV2-2112`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6052
@@ -36038,8 +36021,8 @@
 
 ---
 
-### LEX-INV2-2114
-- **LEX-ID:** `LEX-INV2-2114`
+### LEX-INV2-2113
+- **LEX-ID:** `LEX-INV2-2113`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6064
@@ -36055,8 +36038,8 @@
 
 ---
 
-### LEX-INV2-2115
-- **LEX-ID:** `LEX-INV2-2115`
+### LEX-INV2-2114
+- **LEX-ID:** `LEX-INV2-2114`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6068
@@ -36072,8 +36055,8 @@
 
 ---
 
-### LEX-INV2-2116
-- **LEX-ID:** `LEX-INV2-2116`
+### LEX-INV2-2115
+- **LEX-ID:** `LEX-INV2-2115`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6068
@@ -36089,8 +36072,8 @@
 
 ---
 
-### LEX-INV2-2117
-- **LEX-ID:** `LEX-INV2-2117`
+### LEX-INV2-2116
+- **LEX-ID:** `LEX-INV2-2116`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6080
@@ -36106,8 +36089,8 @@
 
 ---
 
-### LEX-INV2-2118
-- **LEX-ID:** `LEX-INV2-2118`
+### LEX-INV2-2117
+- **LEX-ID:** `LEX-INV2-2117`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6092
@@ -36123,8 +36106,8 @@
 
 ---
 
-### LEX-INV2-2119
-- **LEX-ID:** `LEX-INV2-2119`
+### LEX-INV2-2118
+- **LEX-ID:** `LEX-INV2-2118`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6092
@@ -36140,8 +36123,8 @@
 
 ---
 
-### LEX-INV2-2120
-- **LEX-ID:** `LEX-INV2-2120`
+### LEX-INV2-2119
+- **LEX-ID:** `LEX-INV2-2119`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6092
@@ -36157,8 +36140,8 @@
 
 ---
 
-### LEX-INV2-2121
-- **LEX-ID:** `LEX-INV2-2121`
+### LEX-INV2-2120
+- **LEX-ID:** `LEX-INV2-2120`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6092
@@ -36174,8 +36157,8 @@
 
 ---
 
-### LEX-INV2-2122
-- **LEX-ID:** `LEX-INV2-2122`
+### LEX-INV2-2121
+- **LEX-ID:** `LEX-INV2-2121`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6104
@@ -36191,8 +36174,8 @@
 
 ---
 
-### LEX-INV2-2123
-- **LEX-ID:** `LEX-INV2-2123`
+### LEX-INV2-2122
+- **LEX-ID:** `LEX-INV2-2122`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6104
@@ -36208,8 +36191,8 @@
 
 ---
 
-### LEX-INV2-2124
-- **LEX-ID:** `LEX-INV2-2124`
+### LEX-INV2-2123
+- **LEX-ID:** `LEX-INV2-2123`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6140
@@ -36225,8 +36208,8 @@
 
 ---
 
-### LEX-INV2-2125
-- **LEX-ID:** `LEX-INV2-2125`
+### LEX-INV2-2124
+- **LEX-ID:** `LEX-INV2-2124`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6152
@@ -36242,8 +36225,8 @@
 
 ---
 
-### LEX-INV2-2126
-- **LEX-ID:** `LEX-INV2-2126`
+### LEX-INV2-2125
+- **LEX-ID:** `LEX-INV2-2125`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6152
@@ -36259,8 +36242,8 @@
 
 ---
 
-### LEX-INV2-2127
-- **LEX-ID:** `LEX-INV2-2127`
+### LEX-INV2-2126
+- **LEX-ID:** `LEX-INV2-2126`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6152
@@ -36276,8 +36259,8 @@
 
 ---
 
-### LEX-INV2-2128
-- **LEX-ID:** `LEX-INV2-2128`
+### LEX-INV2-2127
+- **LEX-ID:** `LEX-INV2-2127`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6152
@@ -36293,8 +36276,8 @@
 
 ---
 
-### LEX-INV2-2129
-- **LEX-ID:** `LEX-INV2-2129`
+### LEX-INV2-2128
+- **LEX-ID:** `LEX-INV2-2128`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6176
@@ -36310,8 +36293,8 @@
 
 ---
 
-### LEX-INV2-2130
-- **LEX-ID:** `LEX-INV2-2130`
+### LEX-INV2-2129
+- **LEX-ID:** `LEX-INV2-2129`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6188
@@ -36327,8 +36310,8 @@
 
 ---
 
-### LEX-INV2-2131
-- **LEX-ID:** `LEX-INV2-2131`
+### LEX-INV2-2130
+- **LEX-ID:** `LEX-INV2-2130`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6200
@@ -36344,8 +36327,8 @@
 
 ---
 
-### LEX-INV2-2132
-- **LEX-ID:** `LEX-INV2-2132`
+### LEX-INV2-2131
+- **LEX-ID:** `LEX-INV2-2131`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6252
@@ -36361,8 +36344,8 @@
 
 ---
 
-### LEX-INV2-2133
-- **LEX-ID:** `LEX-INV2-2133`
+### LEX-INV2-2132
+- **LEX-ID:** `LEX-INV2-2132`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6252
@@ -36378,8 +36361,8 @@
 
 ---
 
-### LEX-INV2-2134
-- **LEX-ID:** `LEX-INV2-2134`
+### LEX-INV2-2133
+- **LEX-ID:** `LEX-INV2-2133`
 - **SOURCE-ID:** `SRC-LS-1588`
 - **WITNESS-ID:** `WIT-LS-1588`
 - **LOCATOR:** рядок 6276
@@ -36395,8 +36378,8 @@
 
 ---
 
-### LEX-INV2-2135
-- **LEX-ID:** `LEX-INV2-2135`
+### LEX-INV2-2134
+- **LEX-ID:** `LEX-INV2-2134`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 3
@@ -36412,8 +36395,8 @@
 
 ---
 
-### LEX-INV2-2136
-- **LEX-ID:** `LEX-INV2-2136`
+### LEX-INV2-2135
+- **LEX-ID:** `LEX-INV2-2135`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 5
@@ -36429,8 +36412,8 @@
 
 ---
 
-### LEX-INV2-2137
-- **LEX-ID:** `LEX-INV2-2137`
+### LEX-INV2-2136
+- **LEX-ID:** `LEX-INV2-2136`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 17
@@ -36446,8 +36429,8 @@
 
 ---
 
-### LEX-INV2-2138
-- **LEX-ID:** `LEX-INV2-2138`
+### LEX-INV2-2137
+- **LEX-ID:** `LEX-INV2-2137`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 24
@@ -36463,8 +36446,8 @@
 
 ---
 
-### LEX-INV2-2139
-- **LEX-ID:** `LEX-INV2-2139`
+### LEX-INV2-2138
+- **LEX-ID:** `LEX-INV2-2138`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 26
@@ -36480,8 +36463,8 @@
 
 ---
 
-### LEX-INV2-2140
-- **LEX-ID:** `LEX-INV2-2140`
+### LEX-INV2-2139
+- **LEX-ID:** `LEX-INV2-2139`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 26
@@ -36497,8 +36480,8 @@
 
 ---
 
-### LEX-INV2-2141
-- **LEX-ID:** `LEX-INV2-2141`
+### LEX-INV2-2140
+- **LEX-ID:** `LEX-INV2-2140`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 27
@@ -36514,8 +36497,8 @@
 
 ---
 
-### LEX-INV2-2142
-- **LEX-ID:** `LEX-INV2-2142`
+### LEX-INV2-2141
+- **LEX-ID:** `LEX-INV2-2141`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 28
@@ -36531,8 +36514,8 @@
 
 ---
 
-### LEX-INV2-2143
-- **LEX-ID:** `LEX-INV2-2143`
+### LEX-INV2-2142
+- **LEX-ID:** `LEX-INV2-2142`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 29
@@ -36548,8 +36531,8 @@
 
 ---
 
-### LEX-INV2-2144
-- **LEX-ID:** `LEX-INV2-2144`
+### LEX-INV2-2143
+- **LEX-ID:** `LEX-INV2-2143`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 31
@@ -36565,8 +36548,8 @@
 
 ---
 
-### LEX-INV2-2145
-- **LEX-ID:** `LEX-INV2-2145`
+### LEX-INV2-2144
+- **LEX-ID:** `LEX-INV2-2144`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 34
@@ -36582,8 +36565,8 @@
 
 ---
 
-### LEX-INV2-2146
-- **LEX-ID:** `LEX-INV2-2146`
+### LEX-INV2-2145
+- **LEX-ID:** `LEX-INV2-2145`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 35
@@ -36599,8 +36582,8 @@
 
 ---
 
-### LEX-INV2-2147
-- **LEX-ID:** `LEX-INV2-2147`
+### LEX-INV2-2146
+- **LEX-ID:** `LEX-INV2-2146`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 36
@@ -36616,8 +36599,8 @@
 
 ---
 
-### LEX-INV2-2148
-- **LEX-ID:** `LEX-INV2-2148`
+### LEX-INV2-2147
+- **LEX-ID:** `LEX-INV2-2147`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 36
@@ -36633,8 +36616,8 @@
 
 ---
 
-### LEX-INV2-2149
-- **LEX-ID:** `LEX-INV2-2149`
+### LEX-INV2-2148
+- **LEX-ID:** `LEX-INV2-2148`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 37
@@ -36650,8 +36633,8 @@
 
 ---
 
-### LEX-INV2-2150
-- **LEX-ID:** `LEX-INV2-2150`
+### LEX-INV2-2149
+- **LEX-ID:** `LEX-INV2-2149`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 37
@@ -36667,8 +36650,8 @@
 
 ---
 
-### LEX-INV2-2151
-- **LEX-ID:** `LEX-INV2-2151`
+### LEX-INV2-2150
+- **LEX-ID:** `LEX-INV2-2150`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 39
@@ -36684,8 +36667,8 @@
 
 ---
 
-### LEX-INV2-2152
-- **LEX-ID:** `LEX-INV2-2152`
+### LEX-INV2-2151
+- **LEX-ID:** `LEX-INV2-2151`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 40
@@ -36701,8 +36684,8 @@
 
 ---
 
-### LEX-INV2-2153
-- **LEX-ID:** `LEX-INV2-2153`
+### LEX-INV2-2152
+- **LEX-ID:** `LEX-INV2-2152`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 40
@@ -36718,8 +36701,8 @@
 
 ---
 
-### LEX-INV2-2154
-- **LEX-ID:** `LEX-INV2-2154`
+### LEX-INV2-2153
+- **LEX-ID:** `LEX-INV2-2153`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 41
@@ -36735,8 +36718,8 @@
 
 ---
 
-### LEX-INV2-2155
-- **LEX-ID:** `LEX-INV2-2155`
+### LEX-INV2-2154
+- **LEX-ID:** `LEX-INV2-2154`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 42
@@ -36752,8 +36735,8 @@
 
 ---
 
-### LEX-INV2-2156
-- **LEX-ID:** `LEX-INV2-2156`
+### LEX-INV2-2155
+- **LEX-ID:** `LEX-INV2-2155`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 42
@@ -36769,8 +36752,8 @@
 
 ---
 
-### LEX-INV2-2157
-- **LEX-ID:** `LEX-INV2-2157`
+### LEX-INV2-2156
+- **LEX-ID:** `LEX-INV2-2156`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 42
@@ -36786,8 +36769,8 @@
 
 ---
 
-### LEX-INV2-2158
-- **LEX-ID:** `LEX-INV2-2158`
+### LEX-INV2-2157
+- **LEX-ID:** `LEX-INV2-2157`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 42
@@ -36803,8 +36786,8 @@
 
 ---
 
-### LEX-INV2-2159
-- **LEX-ID:** `LEX-INV2-2159`
+### LEX-INV2-2158
+- **LEX-ID:** `LEX-INV2-2158`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 42
@@ -36820,8 +36803,8 @@
 
 ---
 
-### LEX-INV2-2160
-- **LEX-ID:** `LEX-INV2-2160`
+### LEX-INV2-2159
+- **LEX-ID:** `LEX-INV2-2159`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 42
@@ -36837,8 +36820,8 @@
 
 ---
 
-### LEX-INV2-2161
-- **LEX-ID:** `LEX-INV2-2161`
+### LEX-INV2-2160
+- **LEX-ID:** `LEX-INV2-2160`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 42
@@ -36854,8 +36837,8 @@
 
 ---
 
-### LEX-INV2-2162
-- **LEX-ID:** `LEX-INV2-2162`
+### LEX-INV2-2161
+- **LEX-ID:** `LEX-INV2-2161`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 42
@@ -36871,8 +36854,8 @@
 
 ---
 
-### LEX-INV2-2163
-- **LEX-ID:** `LEX-INV2-2163`
+### LEX-INV2-2162
+- **LEX-ID:** `LEX-INV2-2162`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 46
@@ -36888,8 +36871,8 @@
 
 ---
 
-### LEX-INV2-2164
-- **LEX-ID:** `LEX-INV2-2164`
+### LEX-INV2-2163
+- **LEX-ID:** `LEX-INV2-2163`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 46
@@ -36905,8 +36888,8 @@
 
 ---
 
-### LEX-INV2-2165
-- **LEX-ID:** `LEX-INV2-2165`
+### LEX-INV2-2164
+- **LEX-ID:** `LEX-INV2-2164`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 46
@@ -36922,8 +36905,8 @@
 
 ---
 
-### LEX-INV2-2166
-- **LEX-ID:** `LEX-INV2-2166`
+### LEX-INV2-2165
+- **LEX-ID:** `LEX-INV2-2165`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 46
@@ -36939,8 +36922,8 @@
 
 ---
 
-### LEX-INV2-2167
-- **LEX-ID:** `LEX-INV2-2167`
+### LEX-INV2-2166
+- **LEX-ID:** `LEX-INV2-2166`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 46
@@ -36956,8 +36939,8 @@
 
 ---
 
-### LEX-INV2-2168
-- **LEX-ID:** `LEX-INV2-2168`
+### LEX-INV2-2167
+- **LEX-ID:** `LEX-INV2-2167`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 46
@@ -36973,8 +36956,8 @@
 
 ---
 
-### LEX-INV2-2169
-- **LEX-ID:** `LEX-INV2-2169`
+### LEX-INV2-2168
+- **LEX-ID:** `LEX-INV2-2168`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 47
@@ -36990,8 +36973,8 @@
 
 ---
 
-### LEX-INV2-2170
-- **LEX-ID:** `LEX-INV2-2170`
+### LEX-INV2-2169
+- **LEX-ID:** `LEX-INV2-2169`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 50
@@ -37007,8 +36990,8 @@
 
 ---
 
-### LEX-INV2-2171
-- **LEX-ID:** `LEX-INV2-2171`
+### LEX-INV2-2170
+- **LEX-ID:** `LEX-INV2-2170`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 50
@@ -37024,8 +37007,8 @@
 
 ---
 
-### LEX-INV2-2172
-- **LEX-ID:** `LEX-INV2-2172`
+### LEX-INV2-2171
+- **LEX-ID:** `LEX-INV2-2171`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 52
@@ -37041,8 +37024,8 @@
 
 ---
 
-### LEX-INV2-2173
-- **LEX-ID:** `LEX-INV2-2173`
+### LEX-INV2-2172
+- **LEX-ID:** `LEX-INV2-2172`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 64
@@ -37058,8 +37041,8 @@
 
 ---
 
-### LEX-INV2-2174
-- **LEX-ID:** `LEX-INV2-2174`
+### LEX-INV2-2173
+- **LEX-ID:** `LEX-INV2-2173`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 68
@@ -37075,8 +37058,8 @@
 
 ---
 
-### LEX-INV2-2175
-- **LEX-ID:** `LEX-INV2-2175`
+### LEX-INV2-2174
+- **LEX-ID:** `LEX-INV2-2174`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 71
@@ -37092,8 +37075,8 @@
 
 ---
 
-### LEX-INV2-2176
-- **LEX-ID:** `LEX-INV2-2176`
+### LEX-INV2-2175
+- **LEX-ID:** `LEX-INV2-2175`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 72
@@ -37109,8 +37092,8 @@
 
 ---
 
-### LEX-INV2-2177
-- **LEX-ID:** `LEX-INV2-2177`
+### LEX-INV2-2176
+- **LEX-ID:** `LEX-INV2-2176`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 73
@@ -37126,8 +37109,8 @@
 
 ---
 
-### LEX-INV2-2178
-- **LEX-ID:** `LEX-INV2-2178`
+### LEX-INV2-2177
+- **LEX-ID:** `LEX-INV2-2177`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 73
@@ -37143,8 +37126,8 @@
 
 ---
 
-### LEX-INV2-2179
-- **LEX-ID:** `LEX-INV2-2179`
+### LEX-INV2-2178
+- **LEX-ID:** `LEX-INV2-2178`
 - **SOURCE-ID:** `SRC-HADIACH-1658`
 - **WITNESS-ID:** `WIT-HADIACH-COMMISSION-1658`
 - **LOCATOR:** рядок 75
@@ -37160,8 +37143,8 @@
 
 ---
 
-### LEX-INV2-2180
-- **LEX-ID:** `LEX-INV2-2180`
+### LEX-INV2-2179
+- **LEX-ID:** `LEX-INV2-2179`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 5
@@ -37177,8 +37160,8 @@
 
 ---
 
-### LEX-INV2-2181
-- **LEX-ID:** `LEX-INV2-2181`
+### LEX-INV2-2180
+- **LEX-ID:** `LEX-INV2-2180`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 66
@@ -37194,8 +37177,8 @@
 
 ---
 
-### LEX-INV2-2182
-- **LEX-ID:** `LEX-INV2-2182`
+### LEX-INV2-2181
+- **LEX-ID:** `LEX-INV2-2181`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 85
@@ -37211,8 +37194,8 @@
 
 ---
 
-### LEX-INV2-2183
-- **LEX-ID:** `LEX-INV2-2183`
+### LEX-INV2-2182
+- **LEX-ID:** `LEX-INV2-2182`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 150
@@ -37228,8 +37211,8 @@
 
 ---
 
-### LEX-INV2-2184
-- **LEX-ID:** `LEX-INV2-2184`
+### LEX-INV2-2183
+- **LEX-ID:** `LEX-INV2-2183`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 193
@@ -37245,8 +37228,8 @@
 
 ---
 
-### LEX-INV2-2185
-- **LEX-ID:** `LEX-INV2-2185`
+### LEX-INV2-2184
+- **LEX-ID:** `LEX-INV2-2184`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 199
@@ -37262,8 +37245,8 @@
 
 ---
 
-### LEX-INV2-2186
-- **LEX-ID:** `LEX-INV2-2186`
+### LEX-INV2-2185
+- **LEX-ID:** `LEX-INV2-2185`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 213
@@ -37279,8 +37262,8 @@
 
 ---
 
-### LEX-INV2-2187
-- **LEX-ID:** `LEX-INV2-2187`
+### LEX-INV2-2186
+- **LEX-ID:** `LEX-INV2-2186`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 213
@@ -37296,8 +37279,8 @@
 
 ---
 
-### LEX-INV2-2188
-- **LEX-ID:** `LEX-INV2-2188`
+### LEX-INV2-2187
+- **LEX-ID:** `LEX-INV2-2187`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 234
@@ -37313,8 +37296,8 @@
 
 ---
 
-### LEX-INV2-2189
-- **LEX-ID:** `LEX-INV2-2189`
+### LEX-INV2-2188
+- **LEX-ID:** `LEX-INV2-2188`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 247
@@ -37330,8 +37313,8 @@
 
 ---
 
-### LEX-INV2-2190
-- **LEX-ID:** `LEX-INV2-2190`
+### LEX-INV2-2189
+- **LEX-ID:** `LEX-INV2-2189`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 253
@@ -37347,8 +37330,8 @@
 
 ---
 
-### LEX-INV2-2191
-- **LEX-ID:** `LEX-INV2-2191`
+### LEX-INV2-2190
+- **LEX-ID:** `LEX-INV2-2190`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 276
@@ -37364,8 +37347,8 @@
 
 ---
 
-### LEX-INV2-2192
-- **LEX-ID:** `LEX-INV2-2192`
+### LEX-INV2-2191
+- **LEX-ID:** `LEX-INV2-2191`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 277
@@ -37381,8 +37364,8 @@
 
 ---
 
-### LEX-INV2-2193
-- **LEX-ID:** `LEX-INV2-2193`
+### LEX-INV2-2192
+- **LEX-ID:** `LEX-INV2-2192`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 278
@@ -37398,8 +37381,8 @@
 
 ---
 
-### LEX-INV2-2194
-- **LEX-ID:** `LEX-INV2-2194`
+### LEX-INV2-2193
+- **LEX-ID:** `LEX-INV2-2193`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 281
@@ -37415,8 +37398,8 @@
 
 ---
 
-### LEX-INV2-2195
-- **LEX-ID:** `LEX-INV2-2195`
+### LEX-INV2-2194
+- **LEX-ID:** `LEX-INV2-2194`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 283
@@ -37432,8 +37415,8 @@
 
 ---
 
-### LEX-INV2-2196
-- **LEX-ID:** `LEX-INV2-2196`
+### LEX-INV2-2195
+- **LEX-ID:** `LEX-INV2-2195`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 289
@@ -37449,8 +37432,8 @@
 
 ---
 
-### LEX-INV2-2197
-- **LEX-ID:** `LEX-INV2-2197`
+### LEX-INV2-2196
+- **LEX-ID:** `LEX-INV2-2196`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 289
@@ -37466,8 +37449,8 @@
 
 ---
 
-### LEX-INV2-2198
-- **LEX-ID:** `LEX-INV2-2198`
+### LEX-INV2-2197
+- **LEX-ID:** `LEX-INV2-2197`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 291
@@ -37483,8 +37466,8 @@
 
 ---
 
-### LEX-INV2-2199
-- **LEX-ID:** `LEX-INV2-2199`
+### LEX-INV2-2198
+- **LEX-ID:** `LEX-INV2-2198`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 310
@@ -37500,8 +37483,8 @@
 
 ---
 
-### LEX-INV2-2200
-- **LEX-ID:** `LEX-INV2-2200`
+### LEX-INV2-2199
+- **LEX-ID:** `LEX-INV2-2199`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 312
@@ -37517,8 +37500,8 @@
 
 ---
 
-### LEX-INV2-2201
-- **LEX-ID:** `LEX-INV2-2201`
+### LEX-INV2-2200
+- **LEX-ID:** `LEX-INV2-2200`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 321
@@ -37534,8 +37517,8 @@
 
 ---
 
-### LEX-INV2-2202
-- **LEX-ID:** `LEX-INV2-2202`
+### LEX-INV2-2201
+- **LEX-ID:** `LEX-INV2-2201`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 326
@@ -37551,8 +37534,8 @@
 
 ---
 
-### LEX-INV2-2203
-- **LEX-ID:** `LEX-INV2-2203`
+### LEX-INV2-2202
+- **LEX-ID:** `LEX-INV2-2202`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 330
@@ -37568,8 +37551,8 @@
 
 ---
 
-### LEX-INV2-2204
-- **LEX-ID:** `LEX-INV2-2204`
+### LEX-INV2-2203
+- **LEX-ID:** `LEX-INV2-2203`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 337
@@ -37585,8 +37568,8 @@
 
 ---
 
-### LEX-INV2-2205
-- **LEX-ID:** `LEX-INV2-2205`
+### LEX-INV2-2204
+- **LEX-ID:** `LEX-INV2-2204`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 362
@@ -37602,8 +37585,8 @@
 
 ---
 
-### LEX-INV2-2206
-- **LEX-ID:** `LEX-INV2-2206`
+### LEX-INV2-2205
+- **LEX-ID:** `LEX-INV2-2205`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 367
@@ -37619,8 +37602,8 @@
 
 ---
 
-### LEX-INV2-2207
-- **LEX-ID:** `LEX-INV2-2207`
+### LEX-INV2-2206
+- **LEX-ID:** `LEX-INV2-2206`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 383
@@ -37636,8 +37619,8 @@
 
 ---
 
-### LEX-INV2-2208
-- **LEX-ID:** `LEX-INV2-2208`
+### LEX-INV2-2207
+- **LEX-ID:** `LEX-INV2-2207`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 462
@@ -37653,8 +37636,8 @@
 
 ---
 
-### LEX-INV2-2209
-- **LEX-ID:** `LEX-INV2-2209`
+### LEX-INV2-2208
+- **LEX-ID:** `LEX-INV2-2208`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 462
@@ -37670,8 +37653,8 @@
 
 ---
 
-### LEX-INV2-2210
-- **LEX-ID:** `LEX-INV2-2210`
+### LEX-INV2-2209
+- **LEX-ID:** `LEX-INV2-2209`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 511
@@ -37687,8 +37670,8 @@
 
 ---
 
-### LEX-INV2-2211
-- **LEX-ID:** `LEX-INV2-2211`
+### LEX-INV2-2210
+- **LEX-ID:** `LEX-INV2-2210`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 533
@@ -37704,8 +37687,8 @@
 
 ---
 
-### LEX-INV2-2212
-- **LEX-ID:** `LEX-INV2-2212`
+### LEX-INV2-2211
+- **LEX-ID:** `LEX-INV2-2211`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 539
@@ -37721,8 +37704,8 @@
 
 ---
 
-### LEX-INV2-2213
-- **LEX-ID:** `LEX-INV2-2213`
+### LEX-INV2-2212
+- **LEX-ID:** `LEX-INV2-2212`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 547
@@ -37738,8 +37721,8 @@
 
 ---
 
-### LEX-INV2-2214
-- **LEX-ID:** `LEX-INV2-2214`
+### LEX-INV2-2213
+- **LEX-ID:** `LEX-INV2-2213`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 549
@@ -37755,8 +37738,8 @@
 
 ---
 
-### LEX-INV2-2215
-- **LEX-ID:** `LEX-INV2-2215`
+### LEX-INV2-2214
+- **LEX-ID:** `LEX-INV2-2214`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 616
@@ -37772,8 +37755,8 @@
 
 ---
 
-### LEX-INV2-2216
-- **LEX-ID:** `LEX-INV2-2216`
+### LEX-INV2-2215
+- **LEX-ID:** `LEX-INV2-2215`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 619
@@ -37789,8 +37772,8 @@
 
 ---
 
-### LEX-INV2-2217
-- **LEX-ID:** `LEX-INV2-2217`
+### LEX-INV2-2216
+- **LEX-ID:** `LEX-INV2-2216`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 622
@@ -37806,8 +37789,8 @@
 
 ---
 
-### LEX-INV2-2218
-- **LEX-ID:** `LEX-INV2-2218`
+### LEX-INV2-2217
+- **LEX-ID:** `LEX-INV2-2217`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 623
@@ -37823,8 +37806,8 @@
 
 ---
 
-### LEX-INV2-2219
-- **LEX-ID:** `LEX-INV2-2219`
+### LEX-INV2-2218
+- **LEX-ID:** `LEX-INV2-2218`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 757
@@ -37840,8 +37823,8 @@
 
 ---
 
-### LEX-INV2-2220
-- **LEX-ID:** `LEX-INV2-2220`
+### LEX-INV2-2219
+- **LEX-ID:** `LEX-INV2-2219`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 836
@@ -37857,8 +37840,8 @@
 
 ---
 
-### LEX-INV2-2221
-- **LEX-ID:** `LEX-INV2-2221`
+### LEX-INV2-2220
+- **LEX-ID:** `LEX-INV2-2220`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 843
@@ -37874,8 +37857,8 @@
 
 ---
 
-### LEX-INV2-2222
-- **LEX-ID:** `LEX-INV2-2222`
+### LEX-INV2-2221
+- **LEX-ID:** `LEX-INV2-2221`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 871
@@ -37891,8 +37874,8 @@
 
 ---
 
-### LEX-INV2-2223
-- **LEX-ID:** `LEX-INV2-2223`
+### LEX-INV2-2222
+- **LEX-ID:** `LEX-INV2-2222`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 904
@@ -37908,8 +37891,8 @@
 
 ---
 
-### LEX-INV2-2224
-- **LEX-ID:** `LEX-INV2-2224`
+### LEX-INV2-2223
+- **LEX-ID:** `LEX-INV2-2223`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 943
@@ -37925,8 +37908,8 @@
 
 ---
 
-### LEX-INV2-2225
-- **LEX-ID:** `LEX-INV2-2225`
+### LEX-INV2-2224
+- **LEX-ID:** `LEX-INV2-2224`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 956
@@ -37942,8 +37925,8 @@
 
 ---
 
-### LEX-INV2-2226
-- **LEX-ID:** `LEX-INV2-2226`
+### LEX-INV2-2225
+- **LEX-ID:** `LEX-INV2-2225`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 969
@@ -37959,8 +37942,8 @@
 
 ---
 
-### LEX-INV2-2227
-- **LEX-ID:** `LEX-INV2-2227`
+### LEX-INV2-2226
+- **LEX-ID:** `LEX-INV2-2226`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1004
@@ -37976,8 +37959,8 @@
 
 ---
 
-### LEX-INV2-2228
-- **LEX-ID:** `LEX-INV2-2228`
+### LEX-INV2-2227
+- **LEX-ID:** `LEX-INV2-2227`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1024
@@ -37993,8 +37976,8 @@
 
 ---
 
-### LEX-INV2-2229
-- **LEX-ID:** `LEX-INV2-2229`
+### LEX-INV2-2228
+- **LEX-ID:** `LEX-INV2-2228`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1155
@@ -38010,8 +37993,8 @@
 
 ---
 
-### LEX-INV2-2230
-- **LEX-ID:** `LEX-INV2-2230`
+### LEX-INV2-2229
+- **LEX-ID:** `LEX-INV2-2229`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1217
@@ -38027,8 +38010,8 @@
 
 ---
 
-### LEX-INV2-2231
-- **LEX-ID:** `LEX-INV2-2231`
+### LEX-INV2-2230
+- **LEX-ID:** `LEX-INV2-2230`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1272
@@ -38044,8 +38027,8 @@
 
 ---
 
-### LEX-INV2-2232
-- **LEX-ID:** `LEX-INV2-2232`
+### LEX-INV2-2231
+- **LEX-ID:** `LEX-INV2-2231`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1310
@@ -38061,8 +38044,8 @@
 
 ---
 
-### LEX-INV2-2233
-- **LEX-ID:** `LEX-INV2-2233`
+### LEX-INV2-2232
+- **LEX-ID:** `LEX-INV2-2232`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1356
@@ -38078,8 +38061,8 @@
 
 ---
 
-### LEX-INV2-2234
-- **LEX-ID:** `LEX-INV2-2234`
+### LEX-INV2-2233
+- **LEX-ID:** `LEX-INV2-2233`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1357
@@ -38095,8 +38078,8 @@
 
 ---
 
-### LEX-INV2-2235
-- **LEX-ID:** `LEX-INV2-2235`
+### LEX-INV2-2234
+- **LEX-ID:** `LEX-INV2-2234`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1371
@@ -38112,8 +38095,8 @@
 
 ---
 
-### LEX-INV2-2236
-- **LEX-ID:** `LEX-INV2-2236`
+### LEX-INV2-2235
+- **LEX-ID:** `LEX-INV2-2235`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1372
@@ -38129,8 +38112,8 @@
 
 ---
 
-### LEX-INV2-2237
-- **LEX-ID:** `LEX-INV2-2237`
+### LEX-INV2-2236
+- **LEX-ID:** `LEX-INV2-2236`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1377
@@ -38146,8 +38129,8 @@
 
 ---
 
-### LEX-INV2-2238
-- **LEX-ID:** `LEX-INV2-2238`
+### LEX-INV2-2237
+- **LEX-ID:** `LEX-INV2-2237`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1382
@@ -38163,8 +38146,8 @@
 
 ---
 
-### LEX-INV2-2239
-- **LEX-ID:** `LEX-INV2-2239`
+### LEX-INV2-2238
+- **LEX-ID:** `LEX-INV2-2238`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1387
@@ -38180,8 +38163,8 @@
 
 ---
 
-### LEX-INV2-2240
-- **LEX-ID:** `LEX-INV2-2240`
+### LEX-INV2-2239
+- **LEX-ID:** `LEX-INV2-2239`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1408
@@ -38197,8 +38180,8 @@
 
 ---
 
-### LEX-INV2-2241
-- **LEX-ID:** `LEX-INV2-2241`
+### LEX-INV2-2240
+- **LEX-ID:** `LEX-INV2-2240`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1453
@@ -38214,8 +38197,8 @@
 
 ---
 
-### LEX-INV2-2242
-- **LEX-ID:** `LEX-INV2-2242`
+### LEX-INV2-2241
+- **LEX-ID:** `LEX-INV2-2241`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1460
@@ -38231,8 +38214,8 @@
 
 ---
 
-### LEX-INV2-2243
-- **LEX-ID:** `LEX-INV2-2243`
+### LEX-INV2-2242
+- **LEX-ID:** `LEX-INV2-2242`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1472
@@ -38248,8 +38231,8 @@
 
 ---
 
-### LEX-INV2-2244
-- **LEX-ID:** `LEX-INV2-2244`
+### LEX-INV2-2243
+- **LEX-ID:** `LEX-INV2-2243`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1478
@@ -38265,8 +38248,8 @@
 
 ---
 
-### LEX-INV2-2245
-- **LEX-ID:** `LEX-INV2-2245`
+### LEX-INV2-2244
+- **LEX-ID:** `LEX-INV2-2244`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1500
@@ -38282,8 +38265,8 @@
 
 ---
 
-### LEX-INV2-2246
-- **LEX-ID:** `LEX-INV2-2246`
+### LEX-INV2-2245
+- **LEX-ID:** `LEX-INV2-2245`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1505
@@ -38299,8 +38282,8 @@
 
 ---
 
-### LEX-INV2-2247
-- **LEX-ID:** `LEX-INV2-2247`
+### LEX-INV2-2246
+- **LEX-ID:** `LEX-INV2-2246`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1527
@@ -38316,8 +38299,8 @@
 
 ---
 
-### LEX-INV2-2248
-- **LEX-ID:** `LEX-INV2-2248`
+### LEX-INV2-2247
+- **LEX-ID:** `LEX-INV2-2247`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1530
@@ -38333,8 +38316,8 @@
 
 ---
 
-### LEX-INV2-2249
-- **LEX-ID:** `LEX-INV2-2249`
+### LEX-INV2-2248
+- **LEX-ID:** `LEX-INV2-2248`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1553
@@ -38350,8 +38333,8 @@
 
 ---
 
-### LEX-INV2-2250
-- **LEX-ID:** `LEX-INV2-2250`
+### LEX-INV2-2249
+- **LEX-ID:** `LEX-INV2-2249`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1612
@@ -38367,8 +38350,8 @@
 
 ---
 
-### LEX-INV2-2251
-- **LEX-ID:** `LEX-INV2-2251`
+### LEX-INV2-2250
+- **LEX-ID:** `LEX-INV2-2250`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1612
@@ -38384,8 +38367,8 @@
 
 ---
 
-### LEX-INV2-2252
-- **LEX-ID:** `LEX-INV2-2252`
+### LEX-INV2-2251
+- **LEX-ID:** `LEX-INV2-2251`
 - **SOURCE-ID:** `SRC-HADIACH-1659`
 - **WITNESS-ID:** `WIT-HADIACH-SEJM-1659`
 - **LOCATOR:** рядок 1615
@@ -38401,8 +38384,8 @@
 
 ---
 
-### LEX-INV2-2253
-- **LEX-ID:** `LEX-INV2-2253`
+### LEX-INV2-2252
+- **LEX-ID:** `LEX-INV2-2252`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 7
@@ -38418,8 +38401,8 @@
 
 ---
 
-### LEX-INV2-2254
-- **LEX-ID:** `LEX-INV2-2254`
+### LEX-INV2-2253
+- **LEX-ID:** `LEX-INV2-2253`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 7
@@ -38435,8 +38418,8 @@
 
 ---
 
-### LEX-INV2-2255
-- **LEX-ID:** `LEX-INV2-2255`
+### LEX-INV2-2254
+- **LEX-ID:** `LEX-INV2-2254`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 9
@@ -38452,8 +38435,8 @@
 
 ---
 
-### LEX-INV2-2256
-- **LEX-ID:** `LEX-INV2-2256`
+### LEX-INV2-2255
+- **LEX-ID:** `LEX-INV2-2255`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 22
@@ -38469,8 +38452,8 @@
 
 ---
 
-### LEX-INV2-2257
-- **LEX-ID:** `LEX-INV2-2257`
+### LEX-INV2-2256
+- **LEX-ID:** `LEX-INV2-2256`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 22
@@ -38486,8 +38469,8 @@
 
 ---
 
-### LEX-INV2-2258
-- **LEX-ID:** `LEX-INV2-2258`
+### LEX-INV2-2257
+- **LEX-ID:** `LEX-INV2-2257`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 24
@@ -38503,8 +38486,8 @@
 
 ---
 
-### LEX-INV2-2259
-- **LEX-ID:** `LEX-INV2-2259`
+### LEX-INV2-2258
+- **LEX-ID:** `LEX-INV2-2258`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 46
@@ -38520,8 +38503,8 @@
 
 ---
 
-### LEX-INV2-2260
-- **LEX-ID:** `LEX-INV2-2260`
+### LEX-INV2-2259
+- **LEX-ID:** `LEX-INV2-2259`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 70
@@ -38537,8 +38520,8 @@
 
 ---
 
-### LEX-INV2-2261
-- **LEX-ID:** `LEX-INV2-2261`
+### LEX-INV2-2260
+- **LEX-ID:** `LEX-INV2-2260`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 72
@@ -38554,8 +38537,8 @@
 
 ---
 
-### LEX-INV2-2262
-- **LEX-ID:** `LEX-INV2-2262`
+### LEX-INV2-2261
+- **LEX-ID:** `LEX-INV2-2261`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 72
@@ -38571,8 +38554,8 @@
 
 ---
 
-### LEX-INV2-2263
-- **LEX-ID:** `LEX-INV2-2263`
+### LEX-INV2-2262
+- **LEX-ID:** `LEX-INV2-2262`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 72
@@ -38588,8 +38571,8 @@
 
 ---
 
-### LEX-INV2-2264
-- **LEX-ID:** `LEX-INV2-2264`
+### LEX-INV2-2263
+- **LEX-ID:** `LEX-INV2-2263`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 72
@@ -38605,8 +38588,8 @@
 
 ---
 
-### LEX-INV2-2265
-- **LEX-ID:** `LEX-INV2-2265`
+### LEX-INV2-2264
+- **LEX-ID:** `LEX-INV2-2264`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 74
@@ -38622,8 +38605,8 @@
 
 ---
 
-### LEX-INV2-2266
-- **LEX-ID:** `LEX-INV2-2266`
+### LEX-INV2-2265
+- **LEX-ID:** `LEX-INV2-2265`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 74
@@ -38639,8 +38622,8 @@
 
 ---
 
-### LEX-INV2-2267
-- **LEX-ID:** `LEX-INV2-2267`
+### LEX-INV2-2266
+- **LEX-ID:** `LEX-INV2-2266`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 74
@@ -38656,8 +38639,8 @@
 
 ---
 
-### LEX-INV2-2268
-- **LEX-ID:** `LEX-INV2-2268`
+### LEX-INV2-2267
+- **LEX-ID:** `LEX-INV2-2267`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 88
@@ -38673,8 +38656,8 @@
 
 ---
 
-### LEX-INV2-2269
-- **LEX-ID:** `LEX-INV2-2269`
+### LEX-INV2-2268
+- **LEX-ID:** `LEX-INV2-2268`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 95
@@ -38690,8 +38673,8 @@
 
 ---
 
-### LEX-INV2-2270
-- **LEX-ID:** `LEX-INV2-2270`
+### LEX-INV2-2269
+- **LEX-ID:** `LEX-INV2-2269`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 95
@@ -38707,8 +38690,8 @@
 
 ---
 
-### LEX-INV2-2271
-- **LEX-ID:** `LEX-INV2-2271`
+### LEX-INV2-2270
+- **LEX-ID:** `LEX-INV2-2270`
 - **SOURCE-ID:** `SRC-MARCH-1654`
 - **WITNESS-ID:** `WIT-MARCH-1654`
 - **LOCATOR:** рядок 95
@@ -38724,8 +38707,8 @@
 
 ---
 
-### LEX-INV2-2272
-- **LEX-ID:** `LEX-INV2-2272`
+### LEX-INV2-2271
+- **LEX-ID:** `LEX-INV2-2271`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 13
@@ -38741,8 +38724,8 @@
 
 ---
 
-### LEX-INV2-2273
-- **LEX-ID:** `LEX-INV2-2273`
+### LEX-INV2-2272
+- **LEX-ID:** `LEX-INV2-2272`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 13
@@ -38758,8 +38741,8 @@
 
 ---
 
-### LEX-INV2-2274
-- **LEX-ID:** `LEX-INV2-2274`
+### LEX-INV2-2273
+- **LEX-ID:** `LEX-INV2-2273`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 19
@@ -38775,8 +38758,8 @@
 
 ---
 
-### LEX-INV2-2275
-- **LEX-ID:** `LEX-INV2-2275`
+### LEX-INV2-2274
+- **LEX-ID:** `LEX-INV2-2274`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 19
@@ -38792,8 +38775,8 @@
 
 ---
 
-### LEX-INV2-2276
-- **LEX-ID:** `LEX-INV2-2276`
+### LEX-INV2-2275
+- **LEX-ID:** `LEX-INV2-2275`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 19
@@ -38809,8 +38792,8 @@
 
 ---
 
-### LEX-INV2-2277
-- **LEX-ID:** `LEX-INV2-2277`
+### LEX-INV2-2276
+- **LEX-ID:** `LEX-INV2-2276`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 22
@@ -38826,8 +38809,8 @@
 
 ---
 
-### LEX-INV2-2278
-- **LEX-ID:** `LEX-INV2-2278`
+### LEX-INV2-2277
+- **LEX-ID:** `LEX-INV2-2277`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 22
@@ -38843,8 +38826,8 @@
 
 ---
 
-### LEX-INV2-2279
-- **LEX-ID:** `LEX-INV2-2279`
+### LEX-INV2-2278
+- **LEX-ID:** `LEX-INV2-2278`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 25
@@ -38860,8 +38843,8 @@
 
 ---
 
-### LEX-INV2-2280
-- **LEX-ID:** `LEX-INV2-2280`
+### LEX-INV2-2279
+- **LEX-ID:** `LEX-INV2-2279`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 25
@@ -38877,8 +38860,8 @@
 
 ---
 
-### LEX-INV2-2281
-- **LEX-ID:** `LEX-INV2-2281`
+### LEX-INV2-2280
+- **LEX-ID:** `LEX-INV2-2280`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 25
@@ -38894,8 +38877,8 @@
 
 ---
 
-### LEX-INV2-2282
-- **LEX-ID:** `LEX-INV2-2282`
+### LEX-INV2-2281
+- **LEX-ID:** `LEX-INV2-2281`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 71
@@ -38911,8 +38894,8 @@
 
 ---
 
-### LEX-INV2-2283
-- **LEX-ID:** `LEX-INV2-2283`
+### LEX-INV2-2282
+- **LEX-ID:** `LEX-INV2-2282`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 75
@@ -38928,8 +38911,8 @@
 
 ---
 
-### LEX-INV2-2284
-- **LEX-ID:** `LEX-INV2-2284`
+### LEX-INV2-2283
+- **LEX-ID:** `LEX-INV2-2283`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 79
@@ -38945,8 +38928,8 @@
 
 ---
 
-### LEX-INV2-2285
-- **LEX-ID:** `LEX-INV2-2285`
+### LEX-INV2-2284
+- **LEX-ID:** `LEX-INV2-2284`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 79
@@ -38962,8 +38945,8 @@
 
 ---
 
-### LEX-INV2-2286
-- **LEX-ID:** `LEX-INV2-2286`
+### LEX-INV2-2285
+- **LEX-ID:** `LEX-INV2-2285`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 81
@@ -38979,8 +38962,8 @@
 
 ---
 
-### LEX-INV2-2287
-- **LEX-ID:** `LEX-INV2-2287`
+### LEX-INV2-2286
+- **LEX-ID:** `LEX-INV2-2286`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 81
@@ -38996,8 +38979,8 @@
 
 ---
 
-### LEX-INV2-2288
-- **LEX-ID:** `LEX-INV2-2288`
+### LEX-INV2-2287
+- **LEX-ID:** `LEX-INV2-2287`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 81
@@ -39013,8 +38996,8 @@
 
 ---
 
-### LEX-INV2-2289
-- **LEX-ID:** `LEX-INV2-2289`
+### LEX-INV2-2288
+- **LEX-ID:** `LEX-INV2-2288`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 81
@@ -39030,8 +39013,8 @@
 
 ---
 
-### LEX-INV2-2290
-- **LEX-ID:** `LEX-INV2-2290`
+### LEX-INV2-2289
+- **LEX-ID:** `LEX-INV2-2289`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 101
@@ -39047,8 +39030,8 @@
 
 ---
 
-### LEX-INV2-2291
-- **LEX-ID:** `LEX-INV2-2291`
+### LEX-INV2-2290
+- **LEX-ID:** `LEX-INV2-2290`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 101
@@ -39064,8 +39047,8 @@
 
 ---
 
-### LEX-INV2-2292
-- **LEX-ID:** `LEX-INV2-2292`
+### LEX-INV2-2291
+- **LEX-ID:** `LEX-INV2-2291`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 111
@@ -39081,8 +39064,8 @@
 
 ---
 
-### LEX-INV2-2293
-- **LEX-ID:** `LEX-INV2-2293`
+### LEX-INV2-2292
+- **LEX-ID:** `LEX-INV2-2292`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 111
@@ -39098,8 +39081,8 @@
 
 ---
 
-### LEX-INV2-2294
-- **LEX-ID:** `LEX-INV2-2294`
+### LEX-INV2-2293
+- **LEX-ID:** `LEX-INV2-2293`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 111
@@ -39115,8 +39098,8 @@
 
 ---
 
-### LEX-INV2-2295
-- **LEX-ID:** `LEX-INV2-2295`
+### LEX-INV2-2294
+- **LEX-ID:** `LEX-INV2-2294`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 111
@@ -39132,8 +39115,8 @@
 
 ---
 
-### LEX-INV2-2296
-- **LEX-ID:** `LEX-INV2-2296`
+### LEX-INV2-2295
+- **LEX-ID:** `LEX-INV2-2295`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 111
@@ -39149,8 +39132,8 @@
 
 ---
 
-### LEX-INV2-2297
-- **LEX-ID:** `LEX-INV2-2297`
+### LEX-INV2-2296
+- **LEX-ID:** `LEX-INV2-2296`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 111
@@ -39166,8 +39149,8 @@
 
 ---
 
-### LEX-INV2-2298
-- **LEX-ID:** `LEX-INV2-2298`
+### LEX-INV2-2297
+- **LEX-ID:** `LEX-INV2-2297`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 111
@@ -39183,8 +39166,8 @@
 
 ---
 
-### LEX-INV2-2299
-- **LEX-ID:** `LEX-INV2-2299`
+### LEX-INV2-2298
+- **LEX-ID:** `LEX-INV2-2298`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 111
@@ -39200,8 +39183,8 @@
 
 ---
 
-### LEX-INV2-2300
-- **LEX-ID:** `LEX-INV2-2300`
+### LEX-INV2-2299
+- **LEX-ID:** `LEX-INV2-2299`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39217,8 +39200,8 @@
 
 ---
 
-### LEX-INV2-2301
-- **LEX-ID:** `LEX-INV2-2301`
+### LEX-INV2-2300
+- **LEX-ID:** `LEX-INV2-2300`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39234,8 +39217,8 @@
 
 ---
 
-### LEX-INV2-2302
-- **LEX-ID:** `LEX-INV2-2302`
+### LEX-INV2-2301
+- **LEX-ID:** `LEX-INV2-2301`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39251,8 +39234,8 @@
 
 ---
 
-### LEX-INV2-2303
-- **LEX-ID:** `LEX-INV2-2303`
+### LEX-INV2-2302
+- **LEX-ID:** `LEX-INV2-2302`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39268,8 +39251,8 @@
 
 ---
 
-### LEX-INV2-2304
-- **LEX-ID:** `LEX-INV2-2304`
+### LEX-INV2-2303
+- **LEX-ID:** `LEX-INV2-2303`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39285,8 +39268,8 @@
 
 ---
 
-### LEX-INV2-2305
-- **LEX-ID:** `LEX-INV2-2305`
+### LEX-INV2-2304
+- **LEX-ID:** `LEX-INV2-2304`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39302,8 +39285,8 @@
 
 ---
 
-### LEX-INV2-2306
-- **LEX-ID:** `LEX-INV2-2306`
+### LEX-INV2-2305
+- **LEX-ID:** `LEX-INV2-2305`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39319,8 +39302,8 @@
 
 ---
 
-### LEX-INV2-2307
-- **LEX-ID:** `LEX-INV2-2307`
+### LEX-INV2-2306
+- **LEX-ID:** `LEX-INV2-2306`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39336,8 +39319,8 @@
 
 ---
 
-### LEX-INV2-2308
-- **LEX-ID:** `LEX-INV2-2308`
+### LEX-INV2-2307
+- **LEX-ID:** `LEX-INV2-2307`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39353,8 +39336,8 @@
 
 ---
 
-### LEX-INV2-2309
-- **LEX-ID:** `LEX-INV2-2309`
+### LEX-INV2-2308
+- **LEX-ID:** `LEX-INV2-2308`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39370,8 +39353,8 @@
 
 ---
 
-### LEX-INV2-2310
-- **LEX-ID:** `LEX-INV2-2310`
+### LEX-INV2-2309
+- **LEX-ID:** `LEX-INV2-2309`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 113
@@ -39387,8 +39370,8 @@
 
 ---
 
-### LEX-INV2-2311
-- **LEX-ID:** `LEX-INV2-2311`
+### LEX-INV2-2310
+- **LEX-ID:** `LEX-INV2-2310`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 117
@@ -39404,8 +39387,8 @@
 
 ---
 
-### LEX-INV2-2312
-- **LEX-ID:** `LEX-INV2-2312`
+### LEX-INV2-2311
+- **LEX-ID:** `LEX-INV2-2311`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 117
@@ -39421,8 +39404,8 @@
 
 ---
 
-### LEX-INV2-2313
-- **LEX-ID:** `LEX-INV2-2313`
+### LEX-INV2-2312
+- **LEX-ID:** `LEX-INV2-2312`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 117
@@ -39438,8 +39421,8 @@
 
 ---
 
-### LEX-INV2-2314
-- **LEX-ID:** `LEX-INV2-2314`
+### LEX-INV2-2313
+- **LEX-ID:** `LEX-INV2-2313`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 119
@@ -39455,8 +39438,8 @@
 
 ---
 
-### LEX-INV2-2315
-- **LEX-ID:** `LEX-INV2-2315`
+### LEX-INV2-2314
+- **LEX-ID:** `LEX-INV2-2314`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 119
@@ -39472,8 +39455,8 @@
 
 ---
 
-### LEX-INV2-2316
-- **LEX-ID:** `LEX-INV2-2316`
+### LEX-INV2-2315
+- **LEX-ID:** `LEX-INV2-2315`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 119
@@ -39489,8 +39472,8 @@
 
 ---
 
-### LEX-INV2-2317
-- **LEX-ID:** `LEX-INV2-2317`
+### LEX-INV2-2316
+- **LEX-ID:** `LEX-INV2-2316`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 119
@@ -39506,8 +39489,8 @@
 
 ---
 
-### LEX-INV2-2318
-- **LEX-ID:** `LEX-INV2-2318`
+### LEX-INV2-2317
+- **LEX-ID:** `LEX-INV2-2317`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 119
@@ -39523,8 +39506,8 @@
 
 ---
 
-### LEX-INV2-2319
-- **LEX-ID:** `LEX-INV2-2319`
+### LEX-INV2-2318
+- **LEX-ID:** `LEX-INV2-2318`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 119
@@ -39540,8 +39523,8 @@
 
 ---
 
-### LEX-INV2-2320
-- **LEX-ID:** `LEX-INV2-2320`
+### LEX-INV2-2319
+- **LEX-ID:** `LEX-INV2-2319`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 123
@@ -39557,8 +39540,8 @@
 
 ---
 
-### LEX-INV2-2321
-- **LEX-ID:** `LEX-INV2-2321`
+### LEX-INV2-2320
+- **LEX-ID:** `LEX-INV2-2320`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 123
@@ -39574,8 +39557,8 @@
 
 ---
 
-### LEX-INV2-2322
-- **LEX-ID:** `LEX-INV2-2322`
+### LEX-INV2-2321
+- **LEX-ID:** `LEX-INV2-2321`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 125
@@ -39591,8 +39574,8 @@
 
 ---
 
-### LEX-INV2-2323
-- **LEX-ID:** `LEX-INV2-2323`
+### LEX-INV2-2322
+- **LEX-ID:** `LEX-INV2-2322`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 125
@@ -39608,8 +39591,8 @@
 
 ---
 
-### LEX-INV2-2324
-- **LEX-ID:** `LEX-INV2-2324`
+### LEX-INV2-2323
+- **LEX-ID:** `LEX-INV2-2323`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 125
@@ -39625,8 +39608,8 @@
 
 ---
 
-### LEX-INV2-2325
-- **LEX-ID:** `LEX-INV2-2325`
+### LEX-INV2-2324
+- **LEX-ID:** `LEX-INV2-2324`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 129
@@ -39642,8 +39625,8 @@
 
 ---
 
-### LEX-INV2-2326
-- **LEX-ID:** `LEX-INV2-2326`
+### LEX-INV2-2325
+- **LEX-ID:** `LEX-INV2-2325`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 129
@@ -39659,8 +39642,8 @@
 
 ---
 
-### LEX-INV2-2327
-- **LEX-ID:** `LEX-INV2-2327`
+### LEX-INV2-2326
+- **LEX-ID:** `LEX-INV2-2326`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 129
@@ -39676,8 +39659,8 @@
 
 ---
 
-### LEX-INV2-2328
-- **LEX-ID:** `LEX-INV2-2328`
+### LEX-INV2-2327
+- **LEX-ID:** `LEX-INV2-2327`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 129
@@ -39693,8 +39676,8 @@
 
 ---
 
-### LEX-INV2-2329
-- **LEX-ID:** `LEX-INV2-2329`
+### LEX-INV2-2328
+- **LEX-ID:** `LEX-INV2-2328`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 129
@@ -39710,8 +39693,8 @@
 
 ---
 
-### LEX-INV2-2330
-- **LEX-ID:** `LEX-INV2-2330`
+### LEX-INV2-2329
+- **LEX-ID:** `LEX-INV2-2329`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 131
@@ -39727,8 +39710,8 @@
 
 ---
 
-### LEX-INV2-2331
-- **LEX-ID:** `LEX-INV2-2331`
+### LEX-INV2-2330
+- **LEX-ID:** `LEX-INV2-2330`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 131
@@ -39744,8 +39727,8 @@
 
 ---
 
-### LEX-INV2-2332
-- **LEX-ID:** `LEX-INV2-2332`
+### LEX-INV2-2331
+- **LEX-ID:** `LEX-INV2-2331`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 131
@@ -39761,8 +39744,8 @@
 
 ---
 
-### LEX-INV2-2333
-- **LEX-ID:** `LEX-INV2-2333`
+### LEX-INV2-2332
+- **LEX-ID:** `LEX-INV2-2332`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 131
@@ -39778,8 +39761,8 @@
 
 ---
 
-### LEX-INV2-2334
-- **LEX-ID:** `LEX-INV2-2334`
+### LEX-INV2-2333
+- **LEX-ID:** `LEX-INV2-2333`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 131
@@ -39795,8 +39778,8 @@
 
 ---
 
-### LEX-INV2-2335
-- **LEX-ID:** `LEX-INV2-2335`
+### LEX-INV2-2334
+- **LEX-ID:** `LEX-INV2-2334`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 131
@@ -39812,8 +39795,8 @@
 
 ---
 
-### LEX-INV2-2336
-- **LEX-ID:** `LEX-INV2-2336`
+### LEX-INV2-2335
+- **LEX-ID:** `LEX-INV2-2335`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 139
@@ -39829,8 +39812,8 @@
 
 ---
 
-### LEX-INV2-2337
-- **LEX-ID:** `LEX-INV2-2337`
+### LEX-INV2-2336
+- **LEX-ID:** `LEX-INV2-2336`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 139
@@ -39846,8 +39829,8 @@
 
 ---
 
-### LEX-INV2-2338
-- **LEX-ID:** `LEX-INV2-2338`
+### LEX-INV2-2337
+- **LEX-ID:** `LEX-INV2-2337`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 139
@@ -39863,8 +39846,8 @@
 
 ---
 
-### LEX-INV2-2339
-- **LEX-ID:** `LEX-INV2-2339`
+### LEX-INV2-2338
+- **LEX-ID:** `LEX-INV2-2338`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 139
@@ -39880,8 +39863,8 @@
 
 ---
 
-### LEX-INV2-2340
-- **LEX-ID:** `LEX-INV2-2340`
+### LEX-INV2-2339
+- **LEX-ID:** `LEX-INV2-2339`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 139
@@ -39897,8 +39880,8 @@
 
 ---
 
-### LEX-INV2-2341
-- **LEX-ID:** `LEX-INV2-2341`
+### LEX-INV2-2340
+- **LEX-ID:** `LEX-INV2-2340`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 139
@@ -39914,8 +39897,8 @@
 
 ---
 
-### LEX-INV2-2342
-- **LEX-ID:** `LEX-INV2-2342`
+### LEX-INV2-2341
+- **LEX-ID:** `LEX-INV2-2341`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 143
@@ -39931,8 +39914,8 @@
 
 ---
 
-### LEX-INV2-2343
-- **LEX-ID:** `LEX-INV2-2343`
+### LEX-INV2-2342
+- **LEX-ID:** `LEX-INV2-2342`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 143
@@ -39948,8 +39931,8 @@
 
 ---
 
-### LEX-INV2-2344
-- **LEX-ID:** `LEX-INV2-2344`
+### LEX-INV2-2343
+- **LEX-ID:** `LEX-INV2-2343`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 143
@@ -39965,8 +39948,8 @@
 
 ---
 
-### LEX-INV2-2345
-- **LEX-ID:** `LEX-INV2-2345`
+### LEX-INV2-2344
+- **LEX-ID:** `LEX-INV2-2344`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 143
@@ -39982,8 +39965,8 @@
 
 ---
 
-### LEX-INV2-2346
-- **LEX-ID:** `LEX-INV2-2346`
+### LEX-INV2-2345
+- **LEX-ID:** `LEX-INV2-2345`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 143
@@ -39999,8 +39982,8 @@
 
 ---
 
-### LEX-INV2-2347
-- **LEX-ID:** `LEX-INV2-2347`
+### LEX-INV2-2346
+- **LEX-ID:** `LEX-INV2-2346`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 143
@@ -40016,8 +39999,8 @@
 
 ---
 
-### LEX-INV2-2348
-- **LEX-ID:** `LEX-INV2-2348`
+### LEX-INV2-2347
+- **LEX-ID:** `LEX-INV2-2347`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 143
@@ -40033,8 +40016,8 @@
 
 ---
 
-### LEX-INV2-2349
-- **LEX-ID:** `LEX-INV2-2349`
+### LEX-INV2-2348
+- **LEX-ID:** `LEX-INV2-2348`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 152
@@ -40050,8 +40033,8 @@
 
 ---
 
-### LEX-INV2-2350
-- **LEX-ID:** `LEX-INV2-2350`
+### LEX-INV2-2349
+- **LEX-ID:** `LEX-INV2-2349`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 152
@@ -40067,8 +40050,8 @@
 
 ---
 
-### LEX-INV2-2351
-- **LEX-ID:** `LEX-INV2-2351`
+### LEX-INV2-2350
+- **LEX-ID:** `LEX-INV2-2350`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 152
@@ -40084,8 +40067,8 @@
 
 ---
 
-### LEX-INV2-2352
-- **LEX-ID:** `LEX-INV2-2352`
+### LEX-INV2-2351
+- **LEX-ID:** `LEX-INV2-2351`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 152
@@ -40101,8 +40084,8 @@
 
 ---
 
-### LEX-INV2-2353
-- **LEX-ID:** `LEX-INV2-2353`
+### LEX-INV2-2352
+- **LEX-ID:** `LEX-INV2-2352`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 152
@@ -40118,8 +40101,8 @@
 
 ---
 
-### LEX-INV2-2354
-- **LEX-ID:** `LEX-INV2-2354`
+### LEX-INV2-2353
+- **LEX-ID:** `LEX-INV2-2353`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 152
@@ -40135,8 +40118,8 @@
 
 ---
 
-### LEX-INV2-2355
-- **LEX-ID:** `LEX-INV2-2355`
+### LEX-INV2-2354
+- **LEX-ID:** `LEX-INV2-2354`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 152
@@ -40152,8 +40135,8 @@
 
 ---
 
-### LEX-INV2-2356
-- **LEX-ID:** `LEX-INV2-2356`
+### LEX-INV2-2355
+- **LEX-ID:** `LEX-INV2-2355`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 152
@@ -40169,8 +40152,8 @@
 
 ---
 
-### LEX-INV2-2357
-- **LEX-ID:** `LEX-INV2-2357`
+### LEX-INV2-2356
+- **LEX-ID:** `LEX-INV2-2356`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 155
@@ -40186,8 +40169,8 @@
 
 ---
 
-### LEX-INV2-2358
-- **LEX-ID:** `LEX-INV2-2358`
+### LEX-INV2-2357
+- **LEX-ID:** `LEX-INV2-2357`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 155
@@ -40203,8 +40186,8 @@
 
 ---
 
-### LEX-INV2-2359
-- **LEX-ID:** `LEX-INV2-2359`
+### LEX-INV2-2358
+- **LEX-ID:** `LEX-INV2-2358`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 155
@@ -40220,8 +40203,8 @@
 
 ---
 
-### LEX-INV2-2360
-- **LEX-ID:** `LEX-INV2-2360`
+### LEX-INV2-2359
+- **LEX-ID:** `LEX-INV2-2359`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 155
@@ -40237,8 +40220,8 @@
 
 ---
 
-### LEX-INV2-2361
-- **LEX-ID:** `LEX-INV2-2361`
+### LEX-INV2-2360
+- **LEX-ID:** `LEX-INV2-2360`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 155
@@ -40254,8 +40237,8 @@
 
 ---
 
-### LEX-INV2-2362
-- **LEX-ID:** `LEX-INV2-2362`
+### LEX-INV2-2361
+- **LEX-ID:** `LEX-INV2-2361`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 155
@@ -40271,8 +40254,8 @@
 
 ---
 
-### LEX-INV2-2363
-- **LEX-ID:** `LEX-INV2-2363`
+### LEX-INV2-2362
+- **LEX-ID:** `LEX-INV2-2362`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 155
@@ -40288,8 +40271,8 @@
 
 ---
 
-### LEX-INV2-2364
-- **LEX-ID:** `LEX-INV2-2364`
+### LEX-INV2-2363
+- **LEX-ID:** `LEX-INV2-2363`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 155
@@ -40305,8 +40288,8 @@
 
 ---
 
-### LEX-INV2-2365
-- **LEX-ID:** `LEX-INV2-2365`
+### LEX-INV2-2364
+- **LEX-ID:** `LEX-INV2-2364`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 174
@@ -40322,8 +40305,8 @@
 
 ---
 
-### LEX-INV2-2366
-- **LEX-ID:** `LEX-INV2-2366`
+### LEX-INV2-2365
+- **LEX-ID:** `LEX-INV2-2365`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 177
@@ -40339,8 +40322,8 @@
 
 ---
 
-### LEX-INV2-2367
-- **LEX-ID:** `LEX-INV2-2367`
+### LEX-INV2-2366
+- **LEX-ID:** `LEX-INV2-2366`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 185
@@ -40356,8 +40339,8 @@
 
 ---
 
-### LEX-INV2-2368
-- **LEX-ID:** `LEX-INV2-2368`
+### LEX-INV2-2367
+- **LEX-ID:** `LEX-INV2-2367`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 188
@@ -40373,8 +40356,8 @@
 
 ---
 
-### LEX-INV2-2369
-- **LEX-ID:** `LEX-INV2-2369`
+### LEX-INV2-2368
+- **LEX-ID:** `LEX-INV2-2368`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 196
@@ -40390,8 +40373,8 @@
 
 ---
 
-### LEX-INV2-2370
-- **LEX-ID:** `LEX-INV2-2370`
+### LEX-INV2-2369
+- **LEX-ID:** `LEX-INV2-2369`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 196
@@ -40407,8 +40390,8 @@
 
 ---
 
-### LEX-INV2-2371
-- **LEX-ID:** `LEX-INV2-2371`
+### LEX-INV2-2370
+- **LEX-ID:** `LEX-INV2-2370`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 196
@@ -40424,8 +40407,8 @@
 
 ---
 
-### LEX-INV2-2372
-- **LEX-ID:** `LEX-INV2-2372`
+### LEX-INV2-2371
+- **LEX-ID:** `LEX-INV2-2371`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 197
@@ -40441,8 +40424,8 @@
 
 ---
 
-### LEX-INV2-2373
-- **LEX-ID:** `LEX-INV2-2373`
+### LEX-INV2-2372
+- **LEX-ID:** `LEX-INV2-2372`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 197
@@ -40458,8 +40441,8 @@
 
 ---
 
-### LEX-INV2-2374
-- **LEX-ID:** `LEX-INV2-2374`
+### LEX-INV2-2373
+- **LEX-ID:** `LEX-INV2-2373`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 198
@@ -40475,8 +40458,8 @@
 
 ---
 
-### LEX-INV2-2375
-- **LEX-ID:** `LEX-INV2-2375`
+### LEX-INV2-2374
+- **LEX-ID:** `LEX-INV2-2374`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 198
@@ -40492,8 +40475,8 @@
 
 ---
 
-### LEX-INV2-2376
-- **LEX-ID:** `LEX-INV2-2376`
+### LEX-INV2-2375
+- **LEX-ID:** `LEX-INV2-2375`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 198
@@ -40509,8 +40492,8 @@
 
 ---
 
-### LEX-INV2-2377
-- **LEX-ID:** `LEX-INV2-2377`
+### LEX-INV2-2376
+- **LEX-ID:** `LEX-INV2-2376`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 198
@@ -40526,8 +40509,8 @@
 
 ---
 
-### LEX-INV2-2378
-- **LEX-ID:** `LEX-INV2-2378`
+### LEX-INV2-2377
+- **LEX-ID:** `LEX-INV2-2377`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 203
@@ -40543,8 +40526,8 @@
 
 ---
 
-### LEX-INV2-2379
-- **LEX-ID:** `LEX-INV2-2379`
+### LEX-INV2-2378
+- **LEX-ID:** `LEX-INV2-2378`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 203
@@ -40560,8 +40543,8 @@
 
 ---
 
-### LEX-INV2-2380
-- **LEX-ID:** `LEX-INV2-2380`
+### LEX-INV2-2379
+- **LEX-ID:** `LEX-INV2-2379`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 203
@@ -40577,8 +40560,8 @@
 
 ---
 
-### LEX-INV2-2381
-- **LEX-ID:** `LEX-INV2-2381`
+### LEX-INV2-2380
+- **LEX-ID:** `LEX-INV2-2380`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 203
@@ -40594,8 +40577,8 @@
 
 ---
 
-### LEX-INV2-2382
-- **LEX-ID:** `LEX-INV2-2382`
+### LEX-INV2-2381
+- **LEX-ID:** `LEX-INV2-2381`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 203
@@ -40611,8 +40594,8 @@
 
 ---
 
-### LEX-INV2-2383
-- **LEX-ID:** `LEX-INV2-2383`
+### LEX-INV2-2382
+- **LEX-ID:** `LEX-INV2-2382`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 204
@@ -40628,8 +40611,8 @@
 
 ---
 
-### LEX-INV2-2384
-- **LEX-ID:** `LEX-INV2-2384`
+### LEX-INV2-2383
+- **LEX-ID:** `LEX-INV2-2383`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 205
@@ -40645,8 +40628,8 @@
 
 ---
 
-### LEX-INV2-2385
-- **LEX-ID:** `LEX-INV2-2385`
+### LEX-INV2-2384
+- **LEX-ID:** `LEX-INV2-2384`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 205
@@ -40662,8 +40645,8 @@
 
 ---
 
-### LEX-INV2-2386
-- **LEX-ID:** `LEX-INV2-2386`
+### LEX-INV2-2385
+- **LEX-ID:** `LEX-INV2-2385`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 205
@@ -40679,8 +40662,8 @@
 
 ---
 
-### LEX-INV2-2387
-- **LEX-ID:** `LEX-INV2-2387`
+### LEX-INV2-2386
+- **LEX-ID:** `LEX-INV2-2386`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 205
@@ -40696,8 +40679,8 @@
 
 ---
 
-### LEX-INV2-2388
-- **LEX-ID:** `LEX-INV2-2388`
+### LEX-INV2-2387
+- **LEX-ID:** `LEX-INV2-2387`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 205
@@ -40713,8 +40696,8 @@
 
 ---
 
-### LEX-INV2-2389
-- **LEX-ID:** `LEX-INV2-2389`
+### LEX-INV2-2388
+- **LEX-ID:** `LEX-INV2-2388`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 237
@@ -40730,8 +40713,8 @@
 
 ---
 
-### LEX-INV2-2390
-- **LEX-ID:** `LEX-INV2-2390`
+### LEX-INV2-2389
+- **LEX-ID:** `LEX-INV2-2389`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 241
@@ -40747,8 +40730,8 @@
 
 ---
 
-### LEX-INV2-2391
-- **LEX-ID:** `LEX-INV2-2391`
+### LEX-INV2-2390
+- **LEX-ID:** `LEX-INV2-2390`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 250
@@ -40764,14 +40747,31 @@
 
 ---
 
-### LEX-INV2-2392
-- **LEX-ID:** `LEX-INV2-2392`
+### LEX-INV2-2391
+- **LEX-ID:** `LEX-INV2-2391`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 251
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
   > ...бεз волѣ гεтманскои ωтправоватися повинны. Тоε жъ право должны будутъ и полковники zаховати и нε постанов...
+- **ROOT-FAMILY:** `PRAVO`
+- **POS-CANDIDATE:** `NOUN`
+- **LEMMA-CANDIDATE:** `UNKNOWN`
+- **DECISION-LAYER:** `AUDIT`
+- **SEMANTIC-GROUP:** `EMPTY`
+- **INTERPRETATION:** `EMPTY`
+
+---
+
+### LEX-INV2-2392
+- **LEX-ID:** `LEX-INV2-2392`
+- **SOURCE-ID:** `SRC-ORLYK-1710`
+- **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
+- **LOCATOR:** рядок 254
+- **SOURCE-FORM:** `право`
+- **EXACT-CONTEXT:**
+  > ...искуються без вільного обрання понад слушність та право чи на полковничі уряди, чи на інші посади — щодо...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -40788,7 +40788,7 @@
 - **LOCATOR:** рядок 254
 - **SOURCE-FORM:** `право`
 - **EXACT-CONTEXT:**
-  > ...искуються без вільного обрання понад слушність та право чи на полковничі уряди, чи на інші посади — щодо...
+  > ...відправлятися не без гетьманської волі. Те ж таки право мають і полковники зберігати й не постановляти бе...
 - **ROOT-FAMILY:** `PRAVO`
 - **POS-CANDIDATE:** `NOUN`
 - **LEMMA-CANDIDATE:** `UNKNOWN`
@@ -40800,23 +40800,6 @@
 
 ### LEX-INV2-2394
 - **LEX-ID:** `LEX-INV2-2394`
-- **SOURCE-ID:** `SRC-ORLYK-1710`
-- **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
-- **LOCATOR:** рядок 254
-- **SOURCE-FORM:** `право`
-- **EXACT-CONTEXT:**
-  > ...відправлятися не без гетьманської волі. Те ж таки право мають і полковники зберігати й не постановляти бе...
-- **ROOT-FAMILY:** `PRAVO`
-- **POS-CANDIDATE:** `NOUN`
-- **LEMMA-CANDIDATE:** `UNKNOWN`
-- **DECISION-LAYER:** `AUDIT`
-- **SEMANTIC-GROUP:** `EMPTY`
-- **INTERPRETATION:** `EMPTY`
-
----
-
-### LEX-INV2-2395
-- **LEX-ID:** `LEX-INV2-2395`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 286
@@ -40832,8 +40815,8 @@
 
 ---
 
-### LEX-INV2-2396
-- **LEX-ID:** `LEX-INV2-2396`
+### LEX-INV2-2395
+- **LEX-ID:** `LEX-INV2-2395`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 289
@@ -40849,8 +40832,8 @@
 
 ---
 
-### LEX-INV2-2397
-- **LEX-ID:** `LEX-INV2-2397`
+### LEX-INV2-2396
+- **LEX-ID:** `LEX-INV2-2396`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 301
@@ -40866,8 +40849,8 @@
 
 ---
 
-### LEX-INV2-2398
-- **LEX-ID:** `LEX-INV2-2398`
+### LEX-INV2-2397
+- **LEX-ID:** `LEX-INV2-2397`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 303
@@ -40883,8 +40866,8 @@
 
 ---
 
-### LEX-INV2-2399
-- **LEX-ID:** `LEX-INV2-2399`
+### LEX-INV2-2398
+- **LEX-ID:** `LEX-INV2-2398`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 303
@@ -40900,8 +40883,8 @@
 
 ---
 
-### LEX-INV2-2400
-- **LEX-ID:** `LEX-INV2-2400`
+### LEX-INV2-2399
+- **LEX-ID:** `LEX-INV2-2399`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 331
@@ -40917,8 +40900,8 @@
 
 ---
 
-### LEX-INV2-2401
-- **LEX-ID:** `LEX-INV2-2401`
+### LEX-INV2-2400
+- **LEX-ID:** `LEX-INV2-2400`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 331
@@ -40934,8 +40917,8 @@
 
 ---
 
-### LEX-INV2-2402
-- **LEX-ID:** `LEX-INV2-2402`
+### LEX-INV2-2401
+- **LEX-ID:** `LEX-INV2-2401`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 331
@@ -40951,8 +40934,8 @@
 
 ---
 
-### LEX-INV2-2403
-- **LEX-ID:** `LEX-INV2-2403`
+### LEX-INV2-2402
+- **LEX-ID:** `LEX-INV2-2402`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 332
@@ -40968,8 +40951,8 @@
 
 ---
 
-### LEX-INV2-2404
-- **LEX-ID:** `LEX-INV2-2404`
+### LEX-INV2-2403
+- **LEX-ID:** `LEX-INV2-2403`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 336
@@ -40985,8 +40968,8 @@
 
 ---
 
-### LEX-INV2-2405
-- **LEX-ID:** `LEX-INV2-2405`
+### LEX-INV2-2404
+- **LEX-ID:** `LEX-INV2-2404`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 336
@@ -41002,8 +40985,8 @@
 
 ---
 
-### LEX-INV2-2406
-- **LEX-ID:** `LEX-INV2-2406`
+### LEX-INV2-2405
+- **LEX-ID:** `LEX-INV2-2405`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 336
@@ -41019,8 +41002,8 @@
 
 ---
 
-### LEX-INV2-2407
-- **LEX-ID:** `LEX-INV2-2407`
+### LEX-INV2-2406
+- **LEX-ID:** `LEX-INV2-2406`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 336
@@ -41036,8 +41019,8 @@
 
 ---
 
-### LEX-INV2-2408
-- **LEX-ID:** `LEX-INV2-2408`
+### LEX-INV2-2407
+- **LEX-ID:** `LEX-INV2-2407`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 337
@@ -41053,8 +41036,8 @@
 
 ---
 
-### LEX-INV2-2409
-- **LEX-ID:** `LEX-INV2-2409`
+### LEX-INV2-2408
+- **LEX-ID:** `LEX-INV2-2408`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 342
@@ -41070,8 +41053,8 @@
 
 ---
 
-### LEX-INV2-2410
-- **LEX-ID:** `LEX-INV2-2410`
+### LEX-INV2-2409
+- **LEX-ID:** `LEX-INV2-2409`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 342
@@ -41087,8 +41070,8 @@
 
 ---
 
-### LEX-INV2-2411
-- **LEX-ID:** `LEX-INV2-2411`
+### LEX-INV2-2410
+- **LEX-ID:** `LEX-INV2-2410`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 342
@@ -41104,8 +41087,8 @@
 
 ---
 
-### LEX-INV2-2412
-- **LEX-ID:** `LEX-INV2-2412`
+### LEX-INV2-2411
+- **LEX-ID:** `LEX-INV2-2411`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 342
@@ -41121,8 +41104,8 @@
 
 ---
 
-### LEX-INV2-2413
-- **LEX-ID:** `LEX-INV2-2413`
+### LEX-INV2-2412
+- **LEX-ID:** `LEX-INV2-2412`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 342
@@ -41138,8 +41121,8 @@
 
 ---
 
-### LEX-INV2-2414
-- **LEX-ID:** `LEX-INV2-2414`
+### LEX-INV2-2413
+- **LEX-ID:** `LEX-INV2-2413`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 342
@@ -41155,8 +41138,8 @@
 
 ---
 
-### LEX-INV2-2415
-- **LEX-ID:** `LEX-INV2-2415`
+### LEX-INV2-2414
+- **LEX-ID:** `LEX-INV2-2414`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41172,8 +41155,8 @@
 
 ---
 
-### LEX-INV2-2416
-- **LEX-ID:** `LEX-INV2-2416`
+### LEX-INV2-2415
+- **LEX-ID:** `LEX-INV2-2415`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41189,8 +41172,8 @@
 
 ---
 
-### LEX-INV2-2417
-- **LEX-ID:** `LEX-INV2-2417`
+### LEX-INV2-2416
+- **LEX-ID:** `LEX-INV2-2416`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41206,8 +41189,8 @@
 
 ---
 
-### LEX-INV2-2418
-- **LEX-ID:** `LEX-INV2-2418`
+### LEX-INV2-2417
+- **LEX-ID:** `LEX-INV2-2417`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41223,8 +41206,8 @@
 
 ---
 
-### LEX-INV2-2419
-- **LEX-ID:** `LEX-INV2-2419`
+### LEX-INV2-2418
+- **LEX-ID:** `LEX-INV2-2418`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41240,8 +41223,8 @@
 
 ---
 
-### LEX-INV2-2420
-- **LEX-ID:** `LEX-INV2-2420`
+### LEX-INV2-2419
+- **LEX-ID:** `LEX-INV2-2419`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41257,8 +41240,8 @@
 
 ---
 
-### LEX-INV2-2421
-- **LEX-ID:** `LEX-INV2-2421`
+### LEX-INV2-2420
+- **LEX-ID:** `LEX-INV2-2420`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41274,8 +41257,8 @@
 
 ---
 
-### LEX-INV2-2422
-- **LEX-ID:** `LEX-INV2-2422`
+### LEX-INV2-2421
+- **LEX-ID:** `LEX-INV2-2421`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41291,8 +41274,8 @@
 
 ---
 
-### LEX-INV2-2423
-- **LEX-ID:** `LEX-INV2-2423`
+### LEX-INV2-2422
+- **LEX-ID:** `LEX-INV2-2422`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 345
@@ -41308,8 +41291,8 @@
 
 ---
 
-### LEX-INV2-2424
-- **LEX-ID:** `LEX-INV2-2424`
+### LEX-INV2-2423
+- **LEX-ID:** `LEX-INV2-2423`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 366
@@ -41325,8 +41308,8 @@
 
 ---
 
-### LEX-INV2-2425
-- **LEX-ID:** `LEX-INV2-2425`
+### LEX-INV2-2424
+- **LEX-ID:** `LEX-INV2-2424`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 387
@@ -41342,8 +41325,8 @@
 
 ---
 
-### LEX-INV2-2426
-- **LEX-ID:** `LEX-INV2-2426`
+### LEX-INV2-2425
+- **LEX-ID:** `LEX-INV2-2425`
 - **SOURCE-ID:** `SRC-ORLYK-1710`
 - **WITNESS-ID:** `WIT-ORLYK-1710-BENDERY`
 - **LOCATOR:** рядок 398

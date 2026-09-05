@@ -240,7 +240,7 @@ def run_extraction_and_audit():
                                         'locator': f"рядок {line_idx}"
                                     })
                                     continue
-                            if lower_w in ['ротахъ', 'ротах', 'роты'] and any(k in clean_line.lower() for k in ['службах', 'пенезей на роты', 'реестрах']):
+                            if lower_w in ['ротахъ', 'ротах', 'роты'] and any(k in clean_line.lower() for k in ['службах', 'пенезей на роты', 'реестрах', 'на роты давати']):
                                 audit_ledger.append({
                                     'source_id': src['source_id'],
                                     'family': fam_name,
