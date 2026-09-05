@@ -77,5 +77,6 @@ research/LICENCE-GENEALOGY/
 ├── 07-orlyk-1710.md               (Бендери 1710: республіканський договір і зв'язана влада)
 ├── 08-modern-software-license.md  (Сучасна копірайтна та копілефтна ліцензія як гібрид)
 ├── 08a-modern-decomposition.md    (Декомпозиція сучасних ліцензій на атомарні оператори з конкретними witnesses)
+├── 08b-ukrainian-conceptual-layer.md (Питомий український поняттєвий шар поверх open-source механізмів)
 └── 09-synthesis-matrix.md         (Матриця, H-COMPOSITE-1 та порівняння Моделі A і Моделі B)
 ```
